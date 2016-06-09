@@ -17,4 +17,10 @@ in bash :
 	mv mediawiki-1.26.3 /var/www/yourwebsite
 
 
-### download this project, and 
+### download wikifab-main
+
+download this project, and copy content into your website folder
+
+in bash :
+	wget https://github.com/Wikifab/wikifab-main/archive/master.zip
+	mv wikifab-main-master/* /var/www/yourwebsite/

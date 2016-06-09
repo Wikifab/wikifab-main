@@ -1,0 +1,70 @@
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/skin-wikifab-style.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/skin-chameleon-wikifab.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/extension-UserFollowList.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-wf-search.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-wf-explore.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-step-number.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-wikifab-style.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-wf-sample-display.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-wf-author-div.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-carousel.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/extension-UserFollowList.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-wfSocialProfil.git"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"mediawiki/semantic-media-wiki": "~2.3",
+		"wikifab/wikifabStyleModule": "dev-master",
+		"wikifab/wfSocialProfile": "dev-master",
+		"mediawiki/semantic-forms": "dev-wikifab",
+		"mediawiki/chameleon-skin": "dev-master",
+		"wikifab/carousel": "dev-master",
+		"wikifab/stepnumber": "dev-master",
+		"wikifab/author-div": "dev-master",
+		"wikifab/explore": "dev-master",
+		"wikifab/sample-display": "dev-master",
+		"wikifab/Wf-search": "dev-master",
+		"wikifab/wfext-style": "dev-master",
+		"mediawiki/user-functions": "~2.6",
+		"wikifab/extensions-user-followlist": "dev-master"
+	}
+}
