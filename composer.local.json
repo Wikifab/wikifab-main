@@ -47,6 +47,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:Wikifab/mediawiki-extensions-wfSocialProfil.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-SemanticForms.git"
 		}
 	],
 	"minimum-stability": "dev",
@@ -55,7 +59,7 @@
 		"mediawiki/semantic-media-wiki": "~2.3",
 		"wikifab/wikifabStyleModule": "dev-master",
 		"wikifab/wfSocialProfile": "dev-master",
-		"mediawiki/semantic-forms": "dev-wikifab",
+		"wikifab/semantic-forms": "dev-wikifab",
 		"mediawiki/chameleon-skin": "dev-master",
 		"wikifab/carousel": "dev-master",
 		"wikifab/stepnumber": "dev-master",
