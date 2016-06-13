@@ -60,7 +60,7 @@
 		"wikifab/wikifabStyleModule": "dev-master",
 		"wikifab/wfSocialProfile": "dev-master",
 		"wikifab/semantic-forms": "dev-wikifab",
-		"mediawiki/chameleon-skin": "dev-master",
+		"wikifab/chameleon-skin": "dev-master",
 		"wikifab/carousel": "dev-master",
 		"wikifab/stepnumber": "dev-master",
 		"wikifab/author-div": "dev-master",
