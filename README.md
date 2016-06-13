@@ -9,7 +9,7 @@ If you allready have a mediawiki website, simply start at step 3
 
 ### requirement
 
-You need a web server whith PHP>5.5 with acces to execute php scripts
+You need a web server with PHP>5.4 with acces to execute php scripts
 
 ### 1. download Mediawiki
 
@@ -42,7 +42,7 @@ in bash :
 
 	wget https://github.com/Wikifab/wikifab-main/archive/master.zip
 	unzip master.zip
-	mv wikifab-main-master/* /var/www/yourwebsite/
+	cp -R wikifab-main-master/* /var/www/yourwebsite/
 	
 ### 4. download and run composer
 
