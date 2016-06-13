@@ -1,0 +1,71 @@
+__NOTOC__
+<div class="main-contribute">
+<div class="container">
+<div>
+<h1 class="contribute-title">Contribuer<span id="role"></span></h1>
+<p  class="contribute-subtitle">Notre mission est d'apprendre au monde à tout fabriquer soi-même et nous avons besoin de votre aide !</p>
+</div>
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Formulaire:Tutoriel|<span class="contribute-block">
+<span class="glyphicon glyphicon-pencil icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Créer un tutoriel</span>
+<span>Créez un nouveau tutoriel et<br>partagez vos connaissances</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Bonnes_pratiques|<span class="contribute-block">
+<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Bonnes pratiques</span>
+<span>2 min de lecture pour apprendre<br>à réaliser le tutoriel parfait !</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Aide|<span class="contribute-block">
+<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Consulter l'aide</span>
+<span>Pour tout savoir sur wikifab<br>et son fonctionnement</span>
+</span>]]
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<h3 class="contribuer-subtitle">Ces tutoriels ont besoin de votre aide :</h3>
+<div class="row">
+<div class="tuto-listing">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Nouveaux tutoriels</h2>
+<p class="tofix-list-intro">Ils viennent tout juste d'être publié. Rien de tel qu'une relecture par la communauté.</p>
+* --
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Tuturiels incomplets</h2>
+<p class="tofix-list-intro">Ils leurs manques une ou plusieurs étapes, ou leur contenu n'est pas suffisamment documenté.</p>
+* [[Conception_M%C3%A9canique_Assist%C3%A9e_par_Ordinateur_(CMAO)|CMAO]]
+* [[Mod%C3%A9lisation_3D|Modélisation 3D]]
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Photos à améliorer</h2>
+<p class="tofix-list-intro">Saviez-vous que la qualité des photos ont un impact fort sur les personnes qui réalisent les tutos ?</p>
+* --
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Les plus attendus</h2>
+<p class="tofix-list-intro">Parce que l'on reçoit beaucoup de messages, on peut vous dire que ces tutoriels sont très attendus.</p>
+* Un drone
+* Une imprimante 3D
+* Une CNC
+* [http://preciousplastic.com/plan/ Precious Plastic]
+* [http://www.openrov.com/ OpenROV]
+* [https://www.openvehicles.com/ OSVehicule]
+* [http://mdl29.net/projets/open-street-view/ Open Path View]
+</div>
+</div>
+</div>
+</div>
+<div class="join-community-footer">
+<div class="container">
+<p>[http://feedback.wikifab.org <span class="glyphicon glyphicon-tent icon-community" aria-hidden="true"></span> Vous souhaitez rejoindre la communauté ?]</p>
+</div>
+</div>

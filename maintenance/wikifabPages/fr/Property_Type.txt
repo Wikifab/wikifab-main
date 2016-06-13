@@ -1,0 +1,5 @@
+Cette propriété est de type [[A le type::Texte]]. Elle pointe sur les pages utilisant le formulaire [[Utilise le formulaire::Tutoriel]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Valeur possible::Création]]
+* [[Valeur possible::Technique]]

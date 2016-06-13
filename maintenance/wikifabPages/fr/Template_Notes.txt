@@ -1,0 +1,2 @@
+<h2>Notes et références</h2>
+[[Notes::{{{Notes|}}}]]

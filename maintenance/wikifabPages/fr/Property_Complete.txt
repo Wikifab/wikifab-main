@@ -1,0 +1,3 @@
+Cette propriété est de type [[A le type::Page]].
+
+* [[Valeur possible::Cochez cette case si vous considérez ce tutoriel terminé]]

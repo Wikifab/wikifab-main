@@ -1,0 +1,8 @@
+Cette propriété est de type [[A le type::Texte]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Valeur possible::Très facile]]
+* [[Valeur possible::Facile]]
+* [[Valeur possible::Moyen]]
+* [[Valeur possible::Difficile]]
+* [[Valeur possible::Très difficile]]

@@ -1,0 +1,8 @@
+Cette propriété est de type [[A le type::Texte]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Valeur possible::Attribution (CC BY)]]
+* [[Valeur possible::Attribution - Partage dans les Mêmes Conditions (CC BY-SA)]]
+* [[Allows value::CERN Open Hardware Licence v1.2]]
+* [[Allows value::TAPR Open Hardware License v1.0]]
+* [[Allows value::GNU Free Hardware Designs]]

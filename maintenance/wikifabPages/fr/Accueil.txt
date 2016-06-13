@@ -1,0 +1,11 @@
+{{#ifanon:<div class="marketing-section-hp">
+<div class="container">
+<h1>Tutoriels pour tout fabriquer, écrits par tous</h1>
+<p class="marketing-section-hp-subtitle">Pas-à-pas gratuits et open-source que tout le monde peut créer et améliorer.</p>
+[[Special:UserLogin/signup|<span class="sign-up-button-hp">Créer un compte</span>]] <span class="sign-up-or">ou</span> [[Special:UserLogin|<span class="log-in-link">Se connecter</span>]]</div></div>|<div class="marketing-section-hp marketing-section-hp-logged">
+<div class="container">
+<h1>Tutoriels pour tout fabriquer, écrits par tous</h1>
+<p class="marketing-section-hp-subtitle">Pas-à-pas gratuits et open-source que tout le monde peut créer et améliorer.</p>[[Formulaire:Tutoriel|<span class="sign-up-button-hp">Créer un tutoriel</span>]] [[Special:UpdateProfile|<span class="edit-profile-btn-hp">Editer mon profil</span>]]</div></div>}}
+{{#displayExplore:  Tuto,completeonly}}
+
+<div class="container"><mailchimpforms prefix="wikifab" account="845f275eba189755c03252f6a" list="2875a20e26" type="subscribe" bordercss="none" closelink="no" /></div>

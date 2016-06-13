@@ -7,6 +7,10 @@ This project document the installation of a wikifab website (empty of tutorials)
 
 If you allready have a mediawiki website, simply start at step 3
 
+### requirement
+
+You need a web server whith PHP>5.5 with acces to execute php scripts
+
 ### 1. download Mediawiki
 
 Here is the latest : https://releases.wikimedia.org/mediawiki/1.26/mediawiki-1.26.3.tar.gz
@@ -86,5 +90,12 @@ in bash :
 ### 7. Install Wikifab pages and formatting
 
 You need to create all pages and forms to finish installation and have a wikifab like website.
-This part is not yet automatised, but will be soon.
+
+You can do id with this script (only available for french for now) :
+
+	php maintenance/initWikifab.php --setWikifabHomePage
+
+Warning : this will change the home page of your wiki, if you do not want this, simply execute the command without param "--setWikifabHomePage"
+
+Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
 	

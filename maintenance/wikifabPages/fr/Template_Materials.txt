@@ -1,0 +1,25 @@
+{{#if:{{{Tuto_Attachments|}}}{{{ExternalAttachmentsLinks|}}}|
+<div class="Input-tabs">
+<tabber>
+ Outils & Matériaux=
+{{#if:{{{Step_Picture_00|}}}| 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+ {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
+ }}
+|-|
+ Fichiers={{{ExternalAttachmentsLinks|}}}
+{{{Tuto_Attachments|}}}
+</tabber>
+</div>
+|
+<div class="Input-tabs">
+<tabber>
+ Outils & Matériaux=
+{{#if:{{{Step_Picture_00|}}}| 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+ {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
+ }}
+</tabber>
+</div>
+}}
+[[Catégorie:Tutoriels]]

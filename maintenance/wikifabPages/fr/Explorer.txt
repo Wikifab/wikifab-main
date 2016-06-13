@@ -1,0 +1,153 @@
+__NOTOC__
+<div class="main-explore">
+<div class="container">
+<div>
+<h1 class="project-ideas">Etape par étape, apprenez à tout fabriquer.</h1>
+</div>
+<div class="row">
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Arduino & Raspberry pi</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Art</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Artisanat & Fait main</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Technologie</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Énergie & Transport</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Mobilier</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Vétement & couture</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Nourriture & agriculture</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Sport & Extérieur</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Hacks</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Musique & Sons</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Robotique</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Science & Biologie</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Bien-être & Santé</span>]
+</div>
+<div class="col-md-2 col-md-2b col-sm-3 col-xs-6">
+[http://preprod2.wikifab.org/index.php/Spécial:WfExplore?wf-expl-area-Art=on <span class="project-category">Impression 3D</span>]
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div>
+<div id="carousel-example-generic" class="carousel slide carousel-project-slide-main" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+</ol>
+<div class="carousel-inner">
+<div class="item active carousel-project-slide">
+<div class="col-md-6 col-sm-6 col-xs-12 row">[[Fichier:firstpic.jpg|class=img-responsive|link=Catégorie:Jeu_de_données]]</div>
+<div class="col-md-6 col-sm-6 col-xs-12 featured-card-info">
+<div class="featured-card-2">
+<div class="PotD-box">Project of the day</div>
+<div class="featured-card-content">
+<h3 class="featured-title">Remplacer un écran d'iPhone</h3>
+<p class="featured-byline">Réparation</p>
+<p class="featured-blurb">Let's face it. You own a cat, know someone who owns a cat, or hate cats. Either way, this book is for you!</p>
+<div class="featured-card-footer">
+<div class="featured-location">
+<p><span class="glyphicon glyphicon-cog"></span>
+<span class="location-name">Very cheep</span>
+</p>
+</div>
+<div class="featured-location">
+<p><span class="glyphicon glyphicon-fire"></span>
+<span class="location-name">Phoenix, AZ</span>
+</p>
+</div>
+<div class="featured-location">
+<p><span class="glyphicon glyphicon-eye-open"></span>
+<span class="location-name">Phoenix, AZ</span>
+</p>
+</div>
+</div>
+</div>
+<div class="featured-author" style="float:left">
+<div class="featured-author-picture">
+<p>[[Fichier:firstpic.jpg]]</p>
+</div>
+<div class="featured-author-info">
+<div class="featured-author-name">Very cheep</div>
+<div class="featured-author-popularity">
+<p><span class="author-followers">1203 followers</span>
+<span class="author-viewers">100 makers</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="item carousel-project-slide">
+<div class="col-md-6 col-sm-6 col-xs-12 row">[[Fichier:firstpic.jpg|class=img-responsive|link=Catégorie:Jeu_de_données]]</div>
+<div class="col-md-6 col-sm-6 col-xs-12 featured-card-info">
+<div class="featured-card-2">
+<div class="PotD-box">Projet à l'affiche le 10 mai 2015</div>
+<div class="featured-card-content">
+<h3 class="featured-title">Remplacer un écran d'iPhone</h3>
+<p class="featured-byline">Réparation</p>
+<p class="featured-blurb">Let's face it. You own a cat, know someone who owns a cat, or hate cats. Either way, this book is for you!</p>
+<div class="featured-card-footer">
+<div class="featured-location">
+<p><span class="glyphicon glyphicon-cog"></span>
+<span class="location-name">Very cheep</span>
+</p>
+</div>
+<div class="featured-location">
+<p><span class="glyphicon glyphicon-fire"></span>
+<span class="location-name">Phoenix, AZ</span>
+</p>
+</div>
+<div class="featured-location">
+<p><span class="glyphicon glyphicon-eye-open"></span>
+<span class="location-name">Phoenix, AZ</span>
+</p>
+</div>
+</div>
+</div>
+<div class="featured-author" style="float:left">
+<div class="featured-author-picture">
+<p>[[Fichier:firstpic.jpg]]</p>
+</div>
+<div class="featured-author-info">
+<div class="featured-author-name">Very cheep</div>
+<div class="featured-author-popularity">
+<p><span class="author-followers">1203 followers</span>
+<span class="author-viewers">100 makers</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

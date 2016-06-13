@@ -1,0 +1,17 @@
+Cette propriété est de type [[A le type::Page]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Valeur possible::Alimentation & Agriculture]]
+* [[Valeur possible::Art]]
+* [[Valeur possible::Bien-être & Santé]]
+* [[Valeur possible::Décoration]]
+* [[Valeur possible::Électronique]]
+* [[Valeur possible::Énergie]]
+* [[Valeur possible::Maison]]
+* [[Valeur possible::Mobilier]]
+* [[Valeur possible::Musique & Sons]]
+* [[Valeur possible::Robotique]]
+* [[Valeur possible::Science & Biologie]]
+* [[Valeur possible::Sport & Extérieur]]
+* [[Valeur possible::Transport]]
+* [[Valeur possible::Vêtement & Accessoire]]

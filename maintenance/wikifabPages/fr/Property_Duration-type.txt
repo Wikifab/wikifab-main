@@ -1,0 +1,7 @@
+Cette propriété est de type [[A le type::Texte]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Valeur possible::minute(s)]]
+* [[Valeur possible::heure(s)]]
+* [[Valeur possible::jour(s)]]
+* [[Valeur possible::mois]]
