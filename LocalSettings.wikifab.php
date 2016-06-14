@@ -70,3 +70,5 @@ $wgCaptchaTriggers['badlogin']      = true;
 $wgGroupPermissions['user']['skipcaptcha'] = true;
 // */
 
+$wgGroupPermissions['*']['viewedittab'] = false;
+
