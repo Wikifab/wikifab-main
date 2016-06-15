@@ -1,5 +1,7 @@
 <?php
 
+$wgEnableUploads = true;
+
 $wgDefaultSkin = "chameleon";
 
 
