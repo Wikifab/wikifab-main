@@ -58,7 +58,7 @@
 	"require": {
 		"mediawiki/semantic-media-wiki": "2.3.1",
 		"wikifab/wikifabStyleModule": "dev-master",
-		"wikifab/wfSocialProfile": "dev-master",
+		"wikifab/SocialProfile": "dev-master",
 		"wikifab/semantic-forms": "dev-wikifab",
 		"wikifab/chameleon-skin": "dev-master",
 		"wikifab/carousel": "dev-master",
