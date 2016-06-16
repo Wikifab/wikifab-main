@@ -97,5 +97,9 @@ You can do id with this script (only available for french for now) :
 
 Warning : this will change the home page of your wiki, if you do not want this, simply execute the command without param "--setWikifabHomePage"
 
+### 8. Permissions
+
+Finaly, make sure that server has write permissions on directories "images/" and "images/avatars/".
+
 Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
 	
