@@ -4,7 +4,7 @@ The logo is expected to be 152 x 50 pixels, but this can be increased by modifyi
 
 	$wgLogo = $wgScriptPath . '/images/mylogo.png';
 
-## Update top menu
+## Change top menu links
 
 To update the links of your top menu go to: /MediaWiki:Sidebar
 
