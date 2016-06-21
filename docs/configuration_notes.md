@@ -1,6 +1,6 @@
-## Upload the No-image-yet.jpg
+## Upload your No-image-yet.jpg
 
-Go to the /Special:Upload of your website and upload the file No-image-yet.jpg (You can get it <a href="http://files.wikifab.org/8/89/No-image-yet.jpg">from here</a>)
+Go to the /Special:Upload of your website and upload the file No-image-yet.jpg (You can download it <a href="http://files.wikifab.org/8/89/No-image-yet.jpg">here</a>)
 
 ## Update your logo
 
