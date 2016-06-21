@@ -16,7 +16,7 @@ require_once "$IP/extensions/Carousel/Carousel.php";
 require_once "$IP/extensions/Cite/Cite.php";
 require_once "$IP/extensions/Tabber/Tabber.php";
 require_once "$IP/extensions/UserFunctions/UserFunctions.php";
-require_once "$IP/extensions/WfSocialProfile/SocialProfile.php";
+require_once "$IP/extensions/SocialProfile/SocialProfile.php";
 require_once "$IP/extensions/ExtensionsUserFollowlist/UserFollowList.php";
 require_once "$IP/extensions/WfextStyle/wikifabstyle.php";
 require_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
