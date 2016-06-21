@@ -1,3 +1,7 @@
+## Upload the No-image-yet.jpg
+
+Go to /Special:Upload and upload the file No-image-yet.jpg
+
 ## Update your logo
 
 The logo is expected to be 152 x 50 pixels, but this can be increased by modifying the site CSS. Upload your logo file onto your server. Let's say it ends up as /images/mylogo.png. Then you can use it as your site logo by adding this line to LocalSettings.php:
