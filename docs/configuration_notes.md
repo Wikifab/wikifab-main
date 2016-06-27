@@ -1,6 +1,13 @@
-## Upload your No-image-yet.jpg
+## Upload No-image-yet.jpg and help icons
 
-Go to the /Special:Upload page of your website and upload the file No-image-yet.jpg (You can download it <a href="http://files.wikifab.org/8/89/No-image-yet.jpg">here</a>)
+Go to the /Special:Upload page of your website and upload the files:
+
+* No-image-yet.jpg (You can download it <a href="http://files.wikifab.org/8/89/No-image-yet.jpg">here</a>)
+* Dont.jpg (You can download it <a href="http://files.wikifab.org/6/6b/Dont-icon.jpg">here</a>)
+* Idea.jpg (You can download it <a href="http://files.wikifab.org/3/37/Icon-idea.jpg">here</a>)
+* Info.jpg (You can download it <a href="http://files.wikifab.org/9/9e/Info-icon.jpg">here</a>)
+* Pin.jpg (You can download it <a href="http://files.wikifab.org/0/0c/Pin-icon.jpg">here</a>)
+* Caution.jpg (You can download it <a href="http://files.wikifab.org/5/53/Caution-icon.jpg">here</a>)
 
 ## Update your logo
 
@@ -24,6 +31,7 @@ Adding the following lines to LocalSettings.php:
  	   __DIR__ . '/skins/Custom/css/style.css' => $wgScriptPath . '/skins/Custom',
 	   );
 
+## Update your favicon
 
 ## Enable files upload
 
