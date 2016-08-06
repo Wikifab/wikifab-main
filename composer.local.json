@@ -42,7 +42,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:Wikifab/extension-UserFollowList.git"
+			"url": "git@github.com:Wikifab/UsersWatchlist.git"
 		},
 		{
 			"type": "vcs",
@@ -69,6 +69,6 @@
 		"wikifab/Wf-search": "dev-master",
 		"wikifab/wfext-style": "dev-master",
 		"mediawiki/user-functions": "~2.6",
-		"wikifab/extensions-user-followlist": "dev-master"
+		"wikifab/UsersWatchlist": "dev-master"
 	}
 }
