@@ -20,6 +20,13 @@ require_once "$IP/extensions/SocialProfile/SocialProfile.php";
 require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
 require_once "$IP/extensions/WfextStyle/wikifabstyle.php";
 require_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
+require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
+require_once "$IP/extensions/UsersWatchButton/UsersWatchButton.php";
+require_once "$IP/extensions/MmsUpload/MsUpload.php";
+require_once "$IP/extensions/Flow/Flow.php";
+
+$wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
+$wgNamespaceContentModels[NS_USER_TALK] = CONTENT_MODEL_FLOW_BOARD;
 
 $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab.xml';
 $egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result.html';
@@ -73,4 +80,6 @@ $wgGroupPermissions['user']['skipcaptcha'] = true;
 // */
 
 $wgGroupPermissions['*']['viewedittab'] = false;
+
+$wgUsersWatchListAllowAll = true;
 

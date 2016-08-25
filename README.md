@@ -3,7 +3,7 @@
 This project document the installation of a wikifab website (empty of tutorials)
 
 
-## Installation process on empty mediawiki
+## Installation process using composer
 
 If you allready have a mediawiki website, simply start at step 3
 
@@ -62,7 +62,6 @@ Some extension are required, but not available with composer for now (comming so
 
 Here is the list : 
  * Tabber https://github.com/HydraWiki/Tabber/
- * SocialProfile https://www.mediawiki.org/wiki/Extension:SocialProfile
 
 in bash :
 
@@ -71,6 +70,12 @@ in bash :
 	wget -O tabber.zip  https://github.com/HydraWiki/Tabber/archive/master.zip
 	unzip tabber.zip
 	mv Tabber-master Tabber
+	
+Moreover, the Flow extension installed by composer is not in the good directory, move it to 'extensions/' dir :
+	
+	cd /var/www/yourwebsite
+	mv vendor/mediawiki/flow extensions/Flow
+	
 
 ### 6. Install Wikifab extensions
 
@@ -102,4 +107,27 @@ Warning : this will change the home page of your wiki, if you do not want this, 
 Finaly, make sure that server has write permissions on directories "images/" and "images/avatars/".
 
 Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
+
+
+## Installation process using full package
+
+### 1. Download package and upload it to you website
+
+### 2. Set Up your wiki
+
+Go to your website url, and follow installation instructions.
+
+Note : wikifab is only available in english and french for now. If you select another language, you will have a lot of missing translations.
+
+At the end of the installation, it should give you a file "LocalSettings.php" to put in your website directory.
+
+At this point, your wiki is up, but it does not include the wikifab part.
+
+### 3. add wikifab extensions and configuration
+
+Edit the 'LocalSettings.php' file and add the following line at the end :
+	include('LocalSettings.wikifab.php');
 	
+Then execute those script to install wikifab extensions and pages :
+	php maintenance/update.php
+	php maintenance/initWikifab.php --setWikifabHomePage

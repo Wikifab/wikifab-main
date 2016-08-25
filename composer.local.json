@@ -51,12 +51,24 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:Wikifab/mediawiki-extensions-SemanticForms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Flow"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/UsersWatchButton.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-MsUpload.git"
 		}
 	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"mediawiki/semantic-media-wiki": "2.3.1",
+		"mediawiki/semantic-media-wiki": "2.4.1",
 		"wikifab/wikifabStyleModule": "dev-master",
 		"wikifab/SocialProfile": "dev-master",
 		"wikifab/semantic-forms": "dev-wikifab",
@@ -69,6 +81,9 @@
 		"wikifab/Wf-search": "dev-master",
 		"wikifab/wfext-style": "dev-master",
 		"mediawiki/user-functions": "~2.6",
-		"wikifab/UsersWatchlist": "dev-master"
+		"wikifab/MmsUpload": "dev-master",
+		"mediawiki/flow": "dev-master",
+		"wikifab/UsersWatchlist":"dev-master",
+		"wikifab/UsersWatchButton":"dev-master"
 	}
 }
