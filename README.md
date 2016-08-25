@@ -2,6 +2,12 @@
 
 This project document the installation of a wikifab website (empty of tutorials)
 
+This process present you two methods to install wikifab.
+
+The first is using composer, it enable you to get the latest version of wikifab. But It requires to have an ssh access to your server, with connectivity to download all packages. Some web providers doesn't allow it.
+
+The second method use a full package to upload to your server using FTP.
+
 
 ## Installation process using composer
 
@@ -109,9 +115,12 @@ Finaly, make sure that server has write permissions on directories "images/" and
 Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
 
 
-## Installation process using full package
+## Installation process using the full package
 
 ### 1. Download package and upload it to you website
+
+Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.0.zip
+Unzip and upload directory on your server.
 
 ### 2. Set Up your wiki
 
@@ -123,7 +132,7 @@ At the end of the installation, it should give you a file "LocalSettings.php" to
 
 At this point, your wiki is up, but it does not include the wikifab part.
 
-### 3. add wikifab extensions and configuration
+### 3. Add wikifab extensions and configuration
 
 Edit the 'LocalSettings.php' file and add the following line at the end :
 	include('LocalSettings.wikifab.php');
