@@ -135,8 +135,10 @@ At this point, your wiki is up, but it does not include the wikifab part.
 ### 3. Add wikifab extensions and configuration
 
 Edit the 'LocalSettings.php' file and add the following line at the end :
+
 	include('LocalSettings.wikifab.php');
 	
 Then execute those script to install wikifab extensions and pages :
+
 	php maintenance/update.php
 	php maintenance/initWikifab.php --setWikifabHomePage
