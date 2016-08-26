@@ -1,0 +1,8 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::Attribution (CC BY)]]
+* [[Allows value::Attribution-ShareAlike (CC BY-SA)]]
+* [[Allows value::CERN Open Hardware Licence v1.2]]
+* [[Allows value::TAPR Open Hardware License v1.0]]
+* [[Allows value::GNU Free Hardware Designs]]

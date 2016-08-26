@@ -1,0 +1,9 @@
+{{#ifanon:<div class="marketing-section-hp">
+<div class="container">
+<h1>Tutorials to make anything, written by everyone.</h1>
+<p class="marketing-section-hp-subtitle">Wikifab empowers individuals to share their creative skills with the rest of the world.</p>
+[[Special:UserLogin/signup|<span class="sign-up-button-hp">Sign up</span>]] <span class="sign-up-or">or</span> [[Special:UserLogin|<span class="log-in-link">Log in</span>]]</div></div>|<div class="marketing-section-hp marketing-section-hp-logged">
+<div class="container">
+<h1>Tutorials to make anything, written by everyone.</h1>
+<p class="marketing-section-hp-subtitle">Wikifab empowers individuals to share their creative skills with the rest of the world.</p>[[Form:Tutorial|<span class="sign-up-button-hp">Create a tutorial</span>]] [[Special:UpdateProfile|<span class="edit-profile-btn-hp">Edit your profile</span>]]</div></div>}}
+{{#displayExplore: Tuto,completeonly}}

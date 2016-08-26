@@ -1,0 +1,14 @@
+{{#if:{{{1}}}| <div class="row">
+<div class="col-md-6 step-instructions">
+<h3>Materials</h3>
+{{{1}}}
+</div>
+<div class="col-md-6 step-instructions">
+<h3>Tools</h3>
+{{{2}}}
+</div>
+</div>| {{#if:{{{2}}}|<div class="col-md-6 step-instructions">
+<h3>Tools</h3>
+{{{2}}}
+</div>
+</div>|  }} }}

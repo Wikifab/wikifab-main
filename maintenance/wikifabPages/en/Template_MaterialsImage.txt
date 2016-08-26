@@ -1,0 +1,14 @@
+<div class="row">
+<div class="col-md-6 step-instructions">
+<h3>Materials</h3>
+{{{1}}}
+<div class="hrContentMinor-2"></div>
+<h3>Tools</h3>
+{{{2}}}
+</div>
+<div class="col-md-6">
+<div class="tuto-step-image">
+{{{3}}}
+</div>
+</div>
+</div>

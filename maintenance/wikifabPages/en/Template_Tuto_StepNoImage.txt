@@ -1,0 +1,8 @@
+<div class="row">
+<div class="col-md-12 step-instructions">
+<h3>Step {{#stepNumber: step }} - {{{1}}}</h3>
+{{{2}}}
+</div>
+</div>
+<div class="hrContentMinor"></div>
+[[Category:Tutorials]]

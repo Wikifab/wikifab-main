@@ -1,0 +1,386 @@
+__NOTOC__<noinclude>
+<div class="tutorial-page">
+<div class="container">
+<div class="new-tutorial-page">
+{{#ifanon:<div class="alert alert-warning" role="alert"><strong>Oups!</strong> You do not have permission to create a tutorial because your are not log in. To create a tutorial, [[Special:UserLogin/signup|create an account]] or [[Special:UserLogin|log in]].</div>
+</div>
+</div>
+</div>|
+<h1>Create a tutorial</h1>
+{{#forminput:form=Tutorial|button text=Create or modify|placeholder=Enter the name of your tutorial}}
+<p data-toggle="modal" data-target="#ModalNom"><span class="glyphicon glyphicon-info-sign"></span> Learn how to pick the perfect name for your tutorial.</p>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Get_started|<span class="contribute-block">
+<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Getting started</span>
+<span>Read, in one page, what every<br>Wikifab project should have</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Under construction|<span class="contribute-block">
+<span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Taking pictures</span>
+<span>Our lesson on how to take<br>great pictures for your tutorial
+</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Help|<span class="contribute-block">
+<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Need help?</span>
+<span>Everything about Wikifab<br>and how it works</span>
+</span>]]
+</div>
+</div>
+</div>
+}}
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Tuto Details}}}
+<div class="row">
+<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Type</div>
+<div class="col-md-10 col-sm-10 col-xs-9 custom-tooltip">{{{field|Type|mandatory|class=form-dropdown}}} {{#info:<p>'''Creation''': your tutorial concerns an object to create (ie: a radio-controlled drone)</p><p>'''Technique''': your tutorial concerns a technique to learn (ie: to tile a floor)</p>}}
+</div>
+</div>
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Categories</div>
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox}}}</div>
+</div>
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Description</div>
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|rows=3|maxlength=4000|class=form-textarea|placeholder=Describe your tutorial in a few sentences.}}}
+</div>
+</div>
+<div class="row licence-section">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">Difficulty</div>
+<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Difficulty|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:<p>'''Very easy''': Accessible to everyone. An 8 year old child can follow the tutorial without difficulty</p><p>'''Easy''': Accessible to all. An adult can follow the tutorial without difficulty</p><p>'''Middle''': Only an informed adult can follow the tutorial. Requires no special skills</p><p>'''Difficult''': Requires mastery of technical skills. An amateur may, however, follow the tutorial</p><p>'''Very difficult''': Usually reserved for professionals. Requires the mastery of complex technical skills</p>}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">Cost</div>
+<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Cost|mandatory|class=form-duration}}} {{{field|Currency|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:Approx. cost of the materials supposing you need to buy them all (excluding tools).}}</div>
+</div>
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">Duration</div>
+<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form custom-tooltip licence-section">{{{field|Duration|mandatory|class=form-duration}}} {{{field|Duration-type|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:Total duration to complete the tutorial (resting, drying times etc. included).}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">License</div>
+<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form">{{{field|Licences|input type=dropdown|class=form-dropdown-3}}}<span class="style-instructions-text" data-toggle="modal" data-target="#ModalCreativeCommons"><span class="glyphicon glyphicon-question-sign tuto-question-icon"></span></span></div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail msuploadContainer">
+{{{field|Main_Picture|default=No-image-yet.jpg|uploadable|size=25|class=form-picture|image preview}}}
+{{{end template}}}
+</div>
+</div>
+<div class="hrContentMinor-2"></div>
+{{{for template|Introduction}}}
+<div class="edit-step-title">Introduction <span>(optional)</span></div>
+{{{field|Introduction|input type=textarea|rows=5|maxlength=10000|class=form-textarea|placeholder=Describe your project in detail in this area (context, trials, etc.)}}}
+{{{end template}}}
+{{{for template|Materials}}}
+<div class="Input-tabs">
+<tabber>
+ Tools & Materials=
+<div class="material-tool-list row">
+<div class="col-md-6 col-sm-6 col-xs-12"><div class="edit-step-title">Materials</div>
+{{{field|Material|input type=textarea|rows=8|placeholder=List the materials required to make your creation/product/object.
+If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence.
+Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.}}}
+<div class="hrContentMinor-2"></div>
+<div class="edit-step-title">Tools</div>
+{{{field|Tools|input type=textarea|rows=8|placeholder=List the tools required to make your creation/product/object.
+If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence.
+Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.}}}
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12  col-pic-step msuploadContainer">
+{{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
+<p class="upload-instructions">Your image will become visible after saving the page.</p>
+<div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Add pictures</div>
+<div class="collapse" id="collapseExample">
+<div class="well add-more-pics">
+<span>2nd photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable}}}
+
+<span>3rd photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable}}}
+
+<span>4th photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable}}}
+
+<span>5th photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable}}}
+
+<span>6th photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable}}}
+</div>
+</div>
+</div>
+</div>
+|-|
+ Files=
+<div class="alert alert-info" role="alert">Host your files on a dedicated file management platform (like Github or Bitbucket) and add the link below, or upload them on Wikifab.</div>
+<div class="file-subtitle">Add link(s) to external file management platform <span class="label label-info">Recommended</span> :</div>
+<div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div>
+<hr>
+<div class="file-subtitle">Upload files:</div>
+<div class="add-attachments add-attachments-upload">{{{field|Tuto_Attachments|holds template}}}</div>
+</tabber>
+</div>
+{{{end template}}}
+{{{for template|ExternalAttachmentsLinks|multiple|maximum instances=10|add button text=+ Add a link|embed in field=Materials[ExternalAttachmentsLinks]}}}{{{field|ExternalAttachmentsLinks|input type=text}}}{{{end template}}}
+{{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text=+ Add a file|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
+<div class="bg-halfsquare-separator-2"></div>
+{{{for template|Separator}}}<br>{{{end template}}}
+{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=100|add button text=+ Add a step}}}
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="row">
+<div class="col-md-3 col-sm-4 col-xs-12 edit-step-title">Step title:</div>
+<div class="col-md-9 col-sm-8 col-xs-12">{{{field|Step_Title|input type=text|class=form-text|placeholder=Title of the step|size=50}}}</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12"><p class="step-instruction-title">Instructions to follow:</p></div>
+<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder=Write here the instructions to be followed to complete this step.
+If it's appropriate, use bullet points. To active a bullet point, enter the star symbol (*) at the beginning of your sentence.
+Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.}}}</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Learn how to <span class="style-instructions-text" data-toggle="modal" data-target="#myModal">format text</span> and <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">insert links</span>.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12  col-pic-step msuploadContainer">
+{{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
+<p class="upload-instructions">Your image will become visible after saving the page.</p>
+<div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Add pictures</div>
+<div class="collapse" id="collapseExample">
+<div class="well add-more-pics">
+<span>2nd photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable}}}
+
+<span>3rd photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable}}}
+
+<span>4th photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable}}}
+
+<span>5th photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable}}}
+
+<span>6th photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable}}}
+</div>
+</div>
+<div>
+</div>
+</div>
+</div>
+<div class="hrContentMinor"></div>
+{{{end template}}}
+<div class="bg-halfsquare-separator-3"></div>
+<div class="notes-ref">
+<h2>Notes and references</h2>
+{{{for template|Notes}}}
+{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder=List the notes and references for this tutorial.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  Learn how to <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insert references</span>.</p>
+{{{end template}}}
+</div>
+<div class="saving-menu">
+<div class="container">
+{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
+</div>
+</div>
+</includeonly>
+
+<div class="modal fade wfform" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<p class="modal-subtitle">Text formatting markup<span class="close" data-dismiss="modal" aria-hidden="true">&times;</span></p>
+<table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>You type</th>
+          <th>You get</th>
+        </tr>
+        <tr>
+          <td>Bullet points</td>
+          <td><div style="width:36px; float:left; margin-right:10px"><pre>*</pre></div> at the start of a line</td>
+          <td><ul><li>This is a bullet point</li></ul></td>
+        </tr>
+        <tr>
+          <td>Bold text</td>
+          <td><pre>'''Bold'''</pre></td>
+          <td>'''Bold'''</td>
+        </tr>
+        <tr>
+          <td>Italic text</td>
+          <td><pre>''Italic''</pre></td>
+          <td>''Italic''</td>
+        </tr>
+        <tr>
+          <td>Strike text</td>
+          <td><pre><s>Strike text</s></pre></td>
+          <td><s>Strike text</s></td>
+        </tr>
+        <tr>
+          <td>Underline text</td>
+          <td><pre><u>Underline text</u></pre></td>
+          <td><u>Underline text</u></td>
+        </tr>
+    </table>
+<p class="modal-subtitle">Inserting help icons</p>
+<table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>You type</th>
+          <th>You get</th>
+        </tr>
+        <tr>
+          <td>Forbid user from taking action</td>
+          <td><pre>{{Dont|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_02.jpg]]</td>
+        </tr>
+        <tr>
+          <td>Warn user to take caution</td>
+          <td><pre>{{Caution|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_05.jpg]]</td>
+        </tr>
+        <tr>
+          <td>Invite user to memorize point</td>
+          <td><pre>{{Pin|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_01.jpg]]</td>
+        </tr>
+        <tr>
+          <td>Provide user with additional information</td>
+          <td><pre>{{Info|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_03.jpg]]</td>
+        </tr>
+        <tr>
+          <td>Suggest tip, hint, idea to user</td>
+          <td><pre>{{Idea|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_04.jpg]]</td>
+        </tr>
+    </table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform" id="ModalCreativeCommons" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><h4 class="modal-title">Description of allowed licenses on Wikifab</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+[[File:CC-BY.png]]<span class="cc-modal-subtitle">Attribution <span class="label label-success">Recommended</span></span>
+<p>This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.</p>
+<p>[http://creativecommons.org/licenses/by/4.0/ Voir le View License Deed] | [http://creativecommons.org/licenses/by/4.0/legalcode View Legal Code]</p>
+<br>
+[[File:CC-BY-SA.png]]<span class="cc-modal-subtitle">Attribution-ShareAlike</span>
+<p>This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.</p>
+<p>[http://creativecommons.org/licenses/by-sa/4.0/ Voir le View License Deed] | [http://creativecommons.org/licenses/by-sa/4.0/legalcode View Legal Code]</p>
+<hr>
+<p>Why those two licenses? What is my interest in publishing my tutorials under these licenses? Read our vision and share your thoughts on [http://discuter.wikifab.org/t/under-which-open-license-can-i-publish-my-tutorial-on-wikifab/30 this page].</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform" id="ModalLink" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><h4 class="modal-title">Insert internal and external links</h4></div>
+<div class="modal-body"><table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>You type</th>
+          <th>You get</th>
+        </tr>
+        <tr>
+          <td>Internal link</td>
+          <td><pre>[[Main Page]]</pre></td>
+          <td>[[Main Page]]</td>
+        </tr>
+        <tr>
+          <td>Internal link with different label</td>
+          <td><pre>[[Main Page|different text]]</pre></td>
+          <td>[[Main Page|different text]]</td>
+        </tr>
+<tr>
+<td>External link</td>
+<td><pre>http://wikipedia.org</pre></td>
+<td>http://wikipedia.org</td>
+</tr>
+<tr>
+<td>External link with different label</td>
+<td><pre>[http://wikipedia.org Link to Wikipedia]</pre></td>
+<td>[http://wikipedia.org Link to Wikipedia]</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform-2" id="ModalRef" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body"><table class="table table-bordered">
+<tr>
+<th>You type</th>
+<th>You get</th>
+</tr>
+<tr>
+<td><pre>* Je me suis inspiré du [[Mölkky|tutoriel Molky réalisé par Auguste&Claire]] que je trouve très bien fait</pre></td>
+<td>* Je me suis inspiré du [[Mölkky|tutoriel Molky réalisé par Auguste&Claire]] que je trouve très bien fait.</td>
+</tr>
+<tr>
+<td><pre>* Pour décaper un meuble vernis, je me suis inspiré de ce [https://www.youtube.com/watch?v=6034yubI7CI|tutoriel vidéo réalisé par Minute Déco].</pre></td>
+<td>* Pour décaper un meuble vernis, je me suis inspiré de ce [https://www.youtube.com/watch?v=6034yubI7CI|tutoriel vidéo réalisé par Minute Déco].</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform-2" id="ModalNom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">How to pick the perfect name for your tutorial</h4>
+</div>
+<div class="modal-body">
+For the sake of consistency and search optimization, take the time to think about the name of your tutorial:
+
+<h4>1. If your tutorial concerns the fabrication of an object:</h4>
+
+1.1 Enter the name of the object directly. Do not precede the name with an article (a, the).
+
+* Do: Wood table
+* Don't: A wood table
+
+1.2 Do not start the name of your tutorial with the verbs "Make", "Build", "Create", etc. The verb doesn't provide useful information to the user since they already know that they are looking to "make" or "build" something.
+
+* Do: Wood table
+* Don't: Make a wood table
+
+1.3 Specify the main material used, to clarify what your tutorial is about
+
+* Prefer: Table made from oak and metal
+* Rather than: Table in wood
+
+
+<h4>2. If your tutorial concerns a technique:</h4>
+
+2.1 Always start with an infinitive verb that describes the technique.
+
+2.2 Do not start the name of your tutorial by the verbs "Learn", "How to", etc. The verb doesn't provide useful information to the user, since they already know that they are looking to "Learn" something.
+ 
+* Prefer: Sand down a table
+* Rather than:  How to sand down a table
+
+{{Info|Text=If a tutorial with the name you have entered already exists, you will be sent to the form for editing that tutorial.}}
+</div>
+</div>
+</div>
+</div>

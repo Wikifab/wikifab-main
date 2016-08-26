@@ -1,0 +1,8 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::Very easy]]
+* [[Allows value::Easy]]
+* [[Allows value::Medium]]
+* [[Allows value::Hard]]
+* [[Allows value::Very hard]]

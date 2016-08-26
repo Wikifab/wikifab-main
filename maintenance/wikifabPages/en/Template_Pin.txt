@@ -1,0 +1,4 @@
+<p>
+<div class="icon-instructions-image">[[File:Pin-icon.jpg]]</div>
+<div class="icon-instructions-text">{{{Text}}}</div>
+</p>

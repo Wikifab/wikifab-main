@@ -1,0 +1,7 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::minute(s)]]
+* [[Allows value::hour(s)]]
+* [[Allows value::day(s)]]
+* [[Allows value::month(s)]]

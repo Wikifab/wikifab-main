@@ -1,0 +1,19 @@
+This is a property of type [[Has type::Page]].
+
+The allowed values for this property are:
+* [[Allows value::Art]]
+* [[Allows value::Clothing & Accessories]]
+* [[Allows value::Decoration]]
+* [[Allows value::Electronics]]
+* [[Allows value::Energy]]
+* [[Allows value::Food & Agriculture]]
+* [[Allows value::Furniture]]
+* [[Allows value::Health & Wellbeing]]
+* [[Allows value::House]]
+* [[Allows value::Machines & Tools]]
+* [[Allows value::Music & Sound]]
+* [[Allows value::Play & Outside]]
+* [[Allows value::Recycling & Upcycling]]
+* [[Allows value::Robotics]]
+* [[Allows value::Science & Biology]]
+* [[Allows value::Transport & Mobility]]

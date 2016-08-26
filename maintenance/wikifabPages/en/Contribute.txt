@@ -1,0 +1,75 @@
+__NOTOC__
+<div class="main-contribute">
+<div class="container">
+<div>
+<h1 class="contribute-title">Contribute<span id="role"></span></h1>
+<p  class="contribute-subtitle">Our mission is to teach the world how to make anything themselves. We need your help!</p>
+</div>
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Form:Tutorial|<span class="contribute-block">
+<span class="glyphicon glyphicon-pencil icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Create a tutorial</span>
+<span>Get started<br>and share your skills.</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Get_started|<span class="contribute-block">
+<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Getting started</span>
+<span>The basics for<br>a successful tutorial.</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Help|<span class="contribute-block">
+<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Need help?</span>
+<span>Everything about Wikifab<br>and how it works.</span>
+</span>]]
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<h3 class="contribuer-subtitle">These tutorials need your help:</h3>
+<div class="row">
+<div class="tuto-listing">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Latest tutorials</h2>
+<p class="tofix-list-intro">Newly published and waiting for community review.</p>
+* --
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Incomplete tutorials</h2>
+<p class="tofix-list-intro">One or more steps are missing or need more details.</p>
+* --
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>Needs better images</h2>
+<p class="tofix-list-intro">Help improve these tutorials with your pictures.</p>
+* --
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2>In demand</h2>
+<p class="tofix-list-intro">The world wants tutorials. These are some of our most wanted.</p>
+* OpenROV
+* Faircap
+* Exiii HACKBerry
+* OpenBCI
+* InMoov
+* Dronecode
+* OSVehicle
+* Wikihouse
+* Poppy project
+* CopSub
+* OpenReflex
+* OpenEnergyMonitor
+</div>
+</div>
+</div>
+</div>
+<div class="join-community-footer">
+<div class="container">
+<p>[[Wikifab:Community|<span class="glyphicon glyphicon-tent icon-community" aria-hidden="true"></span> Want to join the Wikifab community?]]</p>
+</div>
+</div>
