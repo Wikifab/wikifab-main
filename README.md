@@ -2,14 +2,14 @@
 
 This project document the installation of a wikifab website (empty of tutorials)
 
-This process present you two methods to install wikifab.
+There are 2 methods to install Wikifab:
 
-The first is using composer, it enable you to get the latest version of wikifab. But It requires to have an ssh access to your server, with connectivity to download all packages. Some web providers doesn't allow it.
+* The first method is using composer: it enable you to get the latest version of Wikifab. But It requires to have an ssh access to your server, with connectivity to download all the packages. Some web providers doesn't allow it.
 
-The second method use a full package to upload to your server using FTP.
+* The second method use a full package to upload to your server using FTP.
 
 
-## Installation process using composer
+## Installation process using composer (1st Method)
 
 If you allready have a mediawiki website, simply start at step 3
 
@@ -115,7 +115,7 @@ Finaly, make sure that server has write permissions on directories "images/" and
 Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
 
 
-## Installation process using the full package
+## Installation process using the full package (2nd Method)
 
 ### 1. Download package and upload it to you website
 
