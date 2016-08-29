@@ -19,7 +19,7 @@ The logo is expected to be 152 x 50 pixels, but this can be increased by modifyi
 
 To update the links of your top menu go to: /MediaWiki:Sidebar
 
-We recommand your to put:
+We recommend your to write:
 
 	* navigation
 	** Special:WfExplore|Explore
@@ -42,9 +42,13 @@ Adding the following lines to LocalSettings.php:
  	   __DIR__ . '/skins/Custom/css/style.css' => $wgScriptPath . '/skins/Custom',
 	   );
 
-## Update your favicon
-
 ## Enable files upload
+
+By default in Mediawiki, file upload is not enable. This can be change in LocalSettings.php if you set $wgEnableUploads as follow:
+
+	$wgEnableUploads = true; # Enable uploads
+
+## Update your favicon
 
 ## Changing the links of the footers
 
