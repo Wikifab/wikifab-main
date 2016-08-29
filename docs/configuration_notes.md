@@ -11,13 +11,24 @@ Go to the /Special:Upload page of your website and upload the files:
 
 ## Update your logo
 
-The logo is expected to be 152 x 50 pixels, but this can be increased by modifying the site CSS. Upload your logo file onto your server. Let's say it ends up as /images/mylogo.png. Then you can use it as your site logo by adding this line to LocalSettings.php:
+The logo is expected to be 152 x 50 pixels, but this can be increased by modifying the site CSS. Upload your logo file onto your server. Let say it ends up as /images/mylogo.png. Then you can use it as your site logo by adding this line to LocalSettings.php:
 
 	$wgLogo = $wgScriptPath . '/images/mylogo.png';
 
 ## Change top menu links
 
 To update the links of your top menu go to: /MediaWiki:Sidebar
+
+We recommand your to put:
+
+	* navigation
+	** Special:WfExplore|Explore
+	** Contribute|Contribute
+	** http://feedback.wikifab.org|Feedback
+	* SEARCH
+	* TOOLBOX
+	* LANGUAGES
+
 
 ## Add a custom CSS file
 
