@@ -37,7 +37,7 @@ class InitWikifab extends Maintenance {
 
 		$homePageFile = [
 				'fr' => 'Accueil.txt',
-				'en' => 'Main Page.txt'
+				'en' => 'Main_Page.txt'
 		];
 
 		$pagelist = $this->getPageListToCreate ($lang);
