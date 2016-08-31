@@ -34,19 +34,17 @@ We recommend your to write:
 Changing the categories isn't 100% customizable. In the future, we will make this easier. Today, here is what you should do:
 
 ###1. Change the categories in Wikifab
-
-####1a. Edit your /Property:Area page and modify the category
+* 1a. Edit your /Property:Area page and modify the category
 
 ###2. Edit the dropdown menu links of the Explore's sorting bar
-
-####2a. On your server, open the file /extensions/Explore/includes/WfExploreCore.php
-####2b. Search for the line '$categories = array(' and change 'wfexplore-category-name-something' to 'wfexplore-category-name-somethingelse'
-####2c. Open the YourLanguage.json file in the /extensions/Explore/i18n/ directory
-####2d. Add a new translation for your new 'wfexplore-category-name-somethingelse' 
+* 2a. On your server, open the file /extensions/Explore/includes/WfExploreCore.php
+* 2b. Search for the line '$categories = array(' and change 'wfexplore-category-name-something' to 'wfexplore-category-name-somethingelse'
+* 2c. Open the YourLanguage.json file in the /extensions/Explore/i18n/ directory
+* 2d. Add a new translation for your new 'wfexplore-category-name-somethingelse' 
 
 ###3. Edit the Footer
 
-
+* 3a. To do
 
 ## Add a custom CSS file
 
