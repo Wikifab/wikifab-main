@@ -38,13 +38,17 @@ Changing the categories isn't 100% customizable. In the future, we will make thi
 
 ###2. Edit the dropdown menu links of the Explore's sorting bar
 * 2a. On your server, open the file /extensions/Explore/includes/WfExploreCore.php
-* 2b. Search for the line '$categories = array(' and change 'wfexplore-category-name-something' to 'wfexplore-category-name-somethingelse'
-* 2c. Open the YourLanguage.json file in the /extensions/Explore/i18n/ directory
+* 2b. Search for the terms '$categories = array(' and change 'wfexplore-category-name-something' to 'wfexplore-category-name-somethingelse'
+* 2c. Open the file /extensions/Explore/i18n/YourLanguage.json
 * 2d. Add a new translation for your new 'wfexplore-category-name-somethingelse' 
 
 ###3. Edit the Footer
 
-* 3a. To do
+* 3a. On your server, open the file /skins/chameleon/src/Components/WikifabFooterLinks.php
+* 3b. Search for the terms 'wffooter-categoriename-something' and change it to 'wffooter-categoriename-somethingelse'
+* 3c. Search for the terms 'wffooterlinks-categoriename-something' and change it to 'wffooterlinks-categoriename-somethingelse'
+* 3d. Open the file /skins/chameleon/resources/i18n/YourLanguage.json
+* 3e. Add a new translation for your new 'wffooter-categoriename-somethingelse' and 'wffooterlinks-categoriename-somethingelse'. Be careful: the links are case sensitive (a space becomes %20, a & become %26, etc.)
 
 ## Add a custom CSS file
 
@@ -65,9 +69,6 @@ By default in Mediawiki, file upload is not enable. This can be change in LocalS
 	$wgEnableUploads = true; # Enable uploads
 
 ## Update your favicon
-
-## Changing the links of the footers
-
 
 
 ## Enable newsletter signup banner
