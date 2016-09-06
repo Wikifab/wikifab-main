@@ -19,15 +19,15 @@ You need a web server with PHP>5.4 with acces to execute php scripts
 
 ### 1. download Mediawiki
 
-Here is the latest : https://releases.wikimedia.org/mediawiki/1.27/mediawiki-1.27.0.tar.gz
+Here is the latest : https://releases.wikimedia.org/mediawiki/1.27/mediawiki-1.27.1.tar.gz
 
 download it and extract to your website
 
 in bash : 
 
-	wget https://releases.wikimedia.org/mediawiki/1.27/mediawiki-1.27.0.tar.gz
-	tar -xzf mediawiki-1.27.0.tar.gz
-	mv mediawiki-1.27.0 /var/www/yourwebsite
+	wget https://releases.wikimedia.org/mediawiki/1.27/mediawiki-1.27.1.tar.gz
+	tar -xzf mediawiki-1.27.1.tar.gz
+	mv mediawiki-1.27.1 /var/www/yourwebsite
 
 ### 2. install your wiki
 
