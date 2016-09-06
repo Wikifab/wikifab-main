@@ -11,13 +11,44 @@ Go to the /Special:Upload page of your website and upload the files:
 
 ## Update your logo
 
-The logo is expected to be 152 x 50 pixels, but this can be increased by modifying the site CSS. Upload your logo file onto your server. Let's say it ends up as /images/mylogo.png. Then you can use it as your site logo by adding this line to LocalSettings.php:
+The logo is expected to be 152 x 50 pixels, but this can be increased by modifying the site CSS. Upload your logo file onto your server. Let say it ends up as /images/mylogo.png. Then you can use it as your site logo by adding this line to LocalSettings.php:
 
 	$wgLogo = $wgScriptPath . '/images/mylogo.png';
 
 ## Change top menu links
 
 To update the links of your top menu go to: /MediaWiki:Sidebar
+
+We recommend your to write:
+
+	* navigation
+	** Special:WfExplore|Explore
+	** Contribute|Contribute
+	** http://feedback.wikifab.org|Feedback
+	* SEARCH
+	* TOOLBOX
+	* LANGUAGES
+
+## Updating the categories
+
+Changing the categories isn't 100% customizable. In the future, we will make this easier. Today, here is what you should do:
+
+###1. Change the categories in Wikifab
+* 1a. Edit your /Property:Area page and modify the category
+
+###2. Edit the dropdown menu links of the Explore's sorting bar
+* 2a. On your server, open the file /extensions/Explore/includes/WfExploreCore.php
+* 2b. Search for the terms '$categories = array(' and change 'wfexplore-category-name-something' to 'wfexplore-category-name-somethingelse'
+* 2c. Open the file /extensions/Explore/i18n/YourLanguage.json
+* 2d. Add a new translation for your new 'wfexplore-category-name-somethingelse' 
+
+###3. Edit the Footer
+
+* 3a. On your server, open the file /skins/chameleon/src/Components/WikifabFooterLinks.php
+* 3b. Search for the terms 'wffooter-categoriename-something' and change it to 'wffooter-categoriename-somethingelse'
+* 3c. Search for the terms 'wffooterlinks-categoriename-something' and change it to 'wffooterlinks-categoriename-somethingelse'
+* 3d. Open the file /skins/chameleon/resources/i18n/YourLanguage.json
+* 3e. Add a new translation for your new 'wffooter-categoriename-somethingelse' and 'wffooterlinks-categoriename-somethingelse'. Be careful: the links are case sensitive (a space becomes %20, a & become %26, etc.)
 
 ## Add a custom CSS file
 
@@ -31,12 +62,13 @@ Adding the following lines to LocalSettings.php:
  	   __DIR__ . '/skins/Custom/css/style.css' => $wgScriptPath . '/skins/Custom',
 	   );
 
-## Update your favicon
-
 ## Enable files upload
 
-## Changing the links of the footers
+By default in Mediawiki, file upload is not enable. This can be change in LocalSettings.php if you set $wgEnableUploads as follow:
 
-## Updating the categories
+	$wgEnableUploads = true; # Enable uploads
+
+## Update your favicon
+
 
 ## Enable newsletter signup banner
