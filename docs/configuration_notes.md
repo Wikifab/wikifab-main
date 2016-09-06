@@ -21,19 +21,19 @@ For esthetic reasons, some pages of Wikifab (like the homepage) are full-width.
 
 You might want to disable or enable the full-width layout to make your pages fit your own design. To do that, you need to over-write and edit the Wikifab Layout. Here is how to do this:
 
-**1. Download the file skins/wikifabStyleModule/layout-wikifab.xml and rename it (ie. layout-something.xml)**
+1. Download the file skins/wikifabStyleModule/layout-wikifab.xml and rename it (ie. layout-something.xml)
 
-**2. Upload it to the same folder (so you now have skins/wikifabStyleModule/layout-something.xml)**
+2. Upload it to the same folder (so you now have skins/wikifabStyleModule/layout-something.xml)
 
-**3. Add this line to your Localsetting.php:**
+3. Add this line to your Localsetting.php:
 
 	$egChameleonLayoutFile= __DIR__ . '/skins/lowtechlab-skin/layout-lowtechlab.xml';
 
-**4. Edit the file. You  will find 4 components. Each of them define if the `wiki-bar` and the `grid` (the `grid` will add a `container` to the page (so it disable the full-width)) will be enable for a list of pages and criterias:**
-* On line 38 `wiki-nav` is `HideFor` the pages `Main_Page, Accueil, etc.`
-* On line 50 `wiki-nav` is `ShowOnlyFor` the pages `Main_Page, Accueil, etc.` and for `group=admin,sysop`
-* On line 67 you decide for which pages the full-width (or `grid`) is disable
-* On line 83 you decide for which pages the full-width (or `grid`) is enable
+4. Edit the file. You  will find 4 components. Each of them define if the `wiki-bar` and the `grid` (the `grid` will add a `container` to the page (so it disable the full-width)) will be enable for a list of pages and criterias:
+  - On line 38 `wiki-nav` is `HideFor` the pages `Main_Page, Accueil, etc.`
+  - On line 50 `wiki-nav` is `ShowOnlyFor` the pages `Main_Page, Accueil, etc.` and for `group=admin,sysop`
+  - On line 67 you decide for which pages the full-width (or `grid`) is disable
+  - On line 83 you decide for which pages the full-width (or `grid`) is enable
 
 Simply add or remove the name of the pages you want to change the layout.
 
