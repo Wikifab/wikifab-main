@@ -27,13 +27,13 @@ You might want to disable or enable the full-width layout to make your pages fit
 
 ###3. Add this line to your Localsetting.php:
 
- $egChameleonLayoutFile= __DIR__ . '/skins/lowtechlab-skin/layout-lowtechlab.xml';
+	$egChameleonLayoutFile= __DIR__ . '/skins/lowtechlab-skin/layout-lowtechlab.xml';
 
 ###4. Edit the file. You  will find 4 components. Each of them define if the wiki-bar and grid have to be display for a list of pages:
-* On line 38 wiki-nav is 'HideFor' for the pages 'Main_Page, Accueil, etc.'
-* On line 50 wiki-nav is 'ShowOnlyFor' for the pages 'Main_Page, Accueil, etc.' and for 'group=admin,sysop'
-* On line 67 you decide for witch pages the grid (container) is disable
-* On line 83 you decide for witch pages the grid (container) is enable
+* On line 38 wiki-nav is `HideFor` for the pages `Main_Page, Accueil, etc.`
+* On line 50 wiki-nav is `ShowOnlyFor` for the pages `Main_Page, Accueil, etc.` and for `group=admin,sysop`
+* On line 67 you decide for witch pages the full-width (grid) is disable
+* On line 83 you decide for witch pages the full-width (grid) is enable
 
 ## Change top menu links
 
