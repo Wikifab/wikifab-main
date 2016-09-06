@@ -119,7 +119,7 @@ Now you should have a wikifab like wiki. Please contact us if you have any diffi
 
 ### 1. Download package and upload it to you website
 
-Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.0.zip
+Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.1.zip
 Unzip and upload directory on your server.
 
 ### 2. Set Up your wiki
