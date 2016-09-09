@@ -25,7 +25,7 @@ In some installations the permissions or the owner is not set correctly, you can
 
 	-R root:root /usr/share/mediawiki/ find /usr/share/mediawiki/ -type f -exec chmod 644 {} \; find /usr/share/mediawiki/ -type d -exec chmod 755 {} \;
 
-### 1. Download package and upload it to you website
+### 2. Download package and upload it to you website
 
 Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.1.zip
 Unzip and upload directory on your server.
@@ -34,7 +34,7 @@ Here the commands line by line (supposing your mediawiki install is located in /
 
 	mkdir ~/temp cd ~/temp wget http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.0.zip unzip wikifabFullPackage-0.1.0.zip cp -R wikifab/* /usr/share/mediawiki/
 
-### 2. Set Up your wiki
+### 3. Set Up your wiki
 
 Go to your website url, and follow installation instructions.
 
@@ -44,7 +44,7 @@ At the end of the installation, it should give you a file "LocalSettings.php" to
 
 At this point, your wiki is up, but it does not include the wikifab part.
 
-### 3. Add wikifab extensions and configuration
+### 4. Add wikifab extensions and configuration
 
 Edit the 'LocalSettings.php' file and add the following line at the end :
 
