@@ -25,7 +25,7 @@ In some installations the permissions or the owner is not set correctly, you can
 
 	-R root:root /usr/share/mediawiki/ find /usr/share/mediawiki/ -type f -exec chmod 644 {} \; find /usr/share/mediawiki/ -type d -exec chmod 755 {} \;
 
-### 2. Download package and upload it to you website
+### 2. Download package and upload it to your website
 
 Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.1.zip
 Unzip and upload directory on your server.
@@ -55,9 +55,10 @@ Then execute those scripts to install wikifab extensions and pages :
 	php maintenance/update.php
 	php maintenance/initWikifab.php --setWikifabHomePage
 
-The installation is now done and you will be able to access it correctly. If you see any issue or warning, please let us know on the forum : http://feedback.wikifab.org/
+Congratulation! Your installation is now complete and you should be able to access it correctly. If you see any issue or warning, please let us know on the forum : http://feedback.wikifab.org/
 
 Please, make your wiki famous by adding your URL on this page: http://beta.wikifab.org/index.php/D%C3%A9veloppeurs
+
 
 ## METHOD #2 : Installation process using composer
 
