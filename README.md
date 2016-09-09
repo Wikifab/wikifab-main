@@ -4,9 +4,9 @@ This project document the installation of a wikifab website (empty of tutorials)
 
 There are 2 methods to install Wikifab:
 
-* The first method use a full package to upload to your server using FTP.
+* The METHOD #1 use a full package to upload to your server using FTP.
 
-* The second method is using composer: it enable you to get the latest version of Wikifab. But It requires to have an ssh access to your server, with connectivity to download all the packages. Some web providers doesn't allow it.
+* The METHOD #2 use composer: it enable you to get the latest version of Wikifab. But It requires to have an ssh access to your server, with connectivity to download all the packages. Some web providers doesn't allow it.
 
 
 ## METHOD #1 : Installation process using the full package
