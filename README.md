@@ -11,10 +11,28 @@ There are 2 methods to install Wikifab:
 
 ## METHOD #1 : Installation process using the full package
 
+### 1. Set Up your Mediawiki
+
+If your Mediawiki is already installed and up to date, go to point 2. If you need to set up a new Mediawiki or update an existing one, follow the instructions here: https://www.mediawiki.org/wiki/Manual:Installing_MediaWiki
+
+Note : wikifab is only available in english and french for now. If you select another language, you will have a lot of missing translations. At the end of the installation, it will propose you to generate the file "LocalSettings.php", generate it and upload it to your website directory.
+
+At this point, your wiki is up, but it does not include the wikifab part.
+
+We will assume going forward that your mediawiki folder is located in /usr/share/mediawiki/
+
+In some installations the permissions or the owner is not set correctly, you can execute the following chown:
+
+	-R root:root /usr/share/mediawiki/ find /usr/share/mediawiki/ -type f -exec chmod 644 {} \; find /usr/share/mediawiki/ -type d -exec chmod 755 {} \;
+
 ### 1. Download package and upload it to you website
 
 Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.1.zip
 Unzip and upload directory on your server.
+
+Here the commands line by line (supposing your mediawiki install is located in /usr/share/mediawiki/)
+
+	mkdir ~/temp cd ~/temp wget http://releases.wikifab.org/wikifab/wikifabFullPackage-0.1.0.zip unzip wikifabFullPackage-0.1.0.zip cp -R wikifab/* /usr/share/mediawiki/
 
 ### 2. Set Up your wiki
 
@@ -37,6 +55,9 @@ Then execute those scripts to install wikifab extensions and pages :
 	php maintenance/update.php
 	php maintenance/initWikifab.php --setWikifabHomePage
 
+The installation is now done and you will be able to access it correctly. If you see any issue or warning, please let us know on the forum : http://feedback.wikifab.org/
+
+Please, make your wiki famous by adding your URL on this page: http://beta.wikifab.org/index.php/D%C3%A9veloppeurs
 
 ## METHOD #2 : Installation process using composer
 
