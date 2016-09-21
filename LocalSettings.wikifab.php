@@ -30,6 +30,7 @@ require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
 require_once "$IP/extensions/UsersWatchButton/UsersWatchButton.php";
 require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
+require_once "$IP/extensions/Echo/Echo.php";
 
 $wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
 $wgNamespaceContentModels[NS_USER_TALK] = CONTENT_MODEL_FLOW_BOARD;

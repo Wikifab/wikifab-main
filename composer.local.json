@@ -54,6 +54,18 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-MsUpload.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:wikimedia/mediawiki-extensions-UserFunctions.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/googleAnalytics.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:wikimedia/mediawiki-extensions-Flow.git"
 		},
 		{
@@ -62,7 +74,19 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:Wikifab/mediawiki-extensions-MsUpload.git"
+			"url": "git@github.com:Wikifab/Echo.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/UsersPagesLinks.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/GroupsPage.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-MultimediaViewer.git"
 		}
 	],
 	"minimum-stability": "dev",
@@ -82,8 +106,13 @@
 		"wikifab/wfext-style": "dev-master",
 		"mediawiki/user-functions": "~2.6",
 		"wikifab/MmsUpload": "dev-master",
+		"wikifab/googleAnalytics": "dev-master",
 		"mediawiki/flow": "dev-master",
 		"wikifab/UsersWatchlist":"dev-master",
-		"wikifab/UsersWatchButton":"dev-master"
+		"wikifab/UsersWatchButton":"dev-master",
+		"wikifab/Echo":"dev-master",
+		"wikifab/UsersPagesLinks":"dev-master",
+		"wikifab/GroupsPage":"dev-master",
+		"wikifab/MultimediaViewer":"dev-master"
 	}
 }
