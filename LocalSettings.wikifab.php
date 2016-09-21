@@ -5,6 +5,12 @@ $wgEnableUploads = true;
 $wgDefaultSkin = "chameleon";
 
 
+$wgWikifabUseTutorialNamespace = true;
+
+define("NS_TUTORIAL", 225);
+$wgExtraNamespaces[NS_TUTORIAL] = "Tutorial";
+
+
 require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
 enableSemantics( $wgServer );
 require_once "$IP/extensions/SemanticForms/SemanticForms.php";
@@ -82,4 +88,6 @@ $wgGroupPermissions['user']['skipcaptcha'] = true;
 $wgGroupPermissions['*']['viewedittab'] = false;
 
 $wgUsersWatchListAllowAll = true;
+
+
 
