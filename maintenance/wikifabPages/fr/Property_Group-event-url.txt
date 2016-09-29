@@ -1,0 +1,1 @@
+Cette propriété est de type [[A le type::Texte]].
