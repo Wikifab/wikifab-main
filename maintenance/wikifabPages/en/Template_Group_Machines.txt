@@ -13,4 +13,4 @@ __NOTOC__
 </div>
 </div>
 <hr>
-[[Catégorie:Group]]
+[[Category:Group]]

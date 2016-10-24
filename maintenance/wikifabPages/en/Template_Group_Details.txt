@@ -19,4 +19,4 @@ __NOTOC__
 </div>
 </div>
 </div>
-[[Catégorie:Group]]
+[[Category:Group]]

@@ -2,28 +2,28 @@ __NOTOC__<noinclude>
 <div class="group-form-page">
 <div class="container">
 <div class="new-group-page">
-{{#ifanon:<h1 id="create-a-group">Créer un groupe</h1>
+{{#ifanon:<h1 id="create-a-group">Create New Group</h1>
 <p class="group-form-subtitle">
-You are member of a fablab, an association, a scool, or some other community ? You can now create a Wikifab group to gather tutorials and member an a page with your color. <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+Create a group to stay in touch and share tutorials with friends from your community. <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
 <br>
-<div class="alert alert-warning" role="alert"><strong>Oups !</strong> You must be login to create a group[[Special:UserLogin/signup|sign up]] or [[Special:UserLogin|login]].</div>
+<div class="alert alert-warning" role="alert"><strong>Oups !</strong> You must be login to create a group [[Special:UserLogin/signup|sign up]] or [[Special:UserLogin|login]].</div>
 </div>
 </div>
 </div>|
-<h1 id="create-a-group">Créer un groupe</h1>
-<p class="group-form-subtitle">You are member of a fablab, an association, a scool, or some other community ? You can now create a Wikifab group to gather tutorials and member an a page with your color.  <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
-{{#forminput:form=Group|namespace=Group|button text=Create group|placeholder=Choose a name for your project}}
+<h1 id="create-a-group">Create New Group</h1>
+<p class="group-form-subtitle">Create a group to stay in touch and share tutorials with friends from your community. <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+{{#forminput:form=Group|namespace=Group|button text=Create group|placeholder=Pick a name for your group}}
 </div>
 </div>
 </div>
 }}<div class="container">
 <div class="group-section-0">
 <h2>Communities, Welcome home !</h2>
-<p>We have created groups to enable you to gather your tutorials and memebers on the same space.</p>
+<p>We have created groups to enable you to gather your tutorials and members on the same page.</p>
 </div>
 <div class="row group-section-1">
 <div class="col-sm-6 col-xs-12">
-<h3 class="title">All your tutorials on a single page</h3>
+<h3 class="title">All your tutorials on a personalized page</h3>
 <p>Customize your group with logo and banner. Anyone can join your group, by clicking "Join this group".</p>
 </div>
 <div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step1.jpg|link=]]</div>
@@ -31,26 +31,26 @@ You are member of a fablab, an association, a scool, or some other community ? Y
 <div class="row group-section-1">
 <div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step2.jpg|link=]]</div>
 <div class="col-sm-6 col-xs-12">
-<h3 class="title">Animate your community</h3>
-<p>Fill in your informations : machines, calendar and description. Your member will be notified to each new publish in your group.</p>
+<h3 class="title">Introduce yourself</h3>
+<p>Fill in your informations : machines, calendar and description. Members are notified when something is added or changed in the group.</p>
 </div>
 </div>
 <div class="group-section-2">
-<h3>For whom are groups destinated ?</h3>
+<h3>To whom groups have been created?</h3>
 <div class="row">
 <div class="col-sm-5 col-xs-12">
-<p>To everyone ! If you are a groupe or a single person, groups will enable you to gather on a single page all tutorials you want.</p>
+<p>To everyone ! If you are a group of people or a single person, groups will enable you to gather on a single page all your tutorials.</p>
 </div>
 <div class="col-sm-7 col-xs-12">
 <div class="row">
 <div class="col-sm-6 col-xs-12">
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Fablabs, makerspaces and others labs
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Associations, Organisations or community
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Fablabs, Makerspaces and others labs
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Non-Profit, Organisations or Community
 * <i class="fa fa-check-square-o" aria-hidden="true"></i> Others (groups are really open to all of you)
 </div>
 <div class="col-sm-6 col-xs-12">
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Workshop, seminars
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Events, contests
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Workshop, Seminars
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Events, Contests
 </div>
 </div>
 </div>
@@ -66,8 +66,8 @@ You are member of a fablab, an association, a scool, or some other community ? Y
  1. Join=
 <div class="container">
 [[File:group-screen-1.png|link=]]
-<h3>Join a groupe</h3>
-On the group's page, click on "Join" button. As it is an open wiki, everyone can join any group.
+<h3>Join a group</h3>
+On the group's page, click on "Join" button.
 </div>
 |-|
  2. add=
@@ -87,9 +87,9 @@ Anyone can add or remove a tutoriel to any group.
 <div class="container">
 <hr>
 <div class="group-bottom-links">
-<p class="group-ready">Create a group today !</p>
+<p class="group-ready">Create a group today!</p>
 [[#create-a-group|<span class="create-group-btn">Create group</span>]]
-<p class="download-subbutton">It's free !</p>
+<p class="download-subbutton">It's free!</p>
 </div>
 </div>
 </noinclude><includeonly>
@@ -107,11 +107,11 @@ Anyone can add or remove a tutoriel to any group.
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Type</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:Just choose what describe you the best.}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
-<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Give a short description   (less than 240 chars.}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">website</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Give a short description (less than 240 chars.}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Website</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-url|class=group-field|placeholder=wikifab.org}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">City</div>
-<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-address|class=group-field|placeholder=Paris}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Address</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-address|class=group-field|placeholder=1 Letterman Drive - San Francisco CA 94129}}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Email</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-email|class=group-field|placeholder=contact@wikifab.org}}}</div>
 </div>
