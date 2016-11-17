@@ -144,11 +144,25 @@ Finaly, make sure that server has write permissions on directories "images/" and
 Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
 
 
+## Recommendations
+
+### Recaptcha
+
+To avoid bots to spam your pages, we strongly recommand you to activate captcha.
+
+We recomend you recaptcha : to set it up : 
+* go to https://www.google.com/recaptcha/ and after login, click "getrecatpha", and add an entry with your url. This will give you a key and secret key
+* Edit LocalSettings.php, add the following lines, and replace with your key and secret key : 
+ wfLoadExtensions( array( 'ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha' ) );
+ $wgCaptchaClass = 'ReCaptchaNoCaptcha';
+ $wgReCaptchaSiteKey = 'YOUR-KEY';
+ $wgReCaptchaSecretKey = 'YOUR-SECRET-KEY';
+
 ## TroubleShooting
 
 ### you have a white page
 
-This can mean many differents errors.
+This can means many differents errors.
 
 To display errors messages, add the following lines on top of the LocalSettings.php file : 
 
