@@ -153,10 +153,10 @@ To avoid bots to spam your pages, we strongly recommand you to activate captcha.
 We recomend you recaptcha : to set it up : 
 * go to https://www.google.com/recaptcha/ and after login, click "getrecatpha", and add an entry with your url. This will give you a key and secret key
 * Edit LocalSettings.php, add the following lines, and replace with your key and secret key : 
- wfLoadExtensions( array( 'ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha' ) );
- $wgCaptchaClass = 'ReCaptchaNoCaptcha';
- $wgReCaptchaSiteKey = 'YOUR-KEY';
- $wgReCaptchaSecretKey = 'YOUR-SECRET-KEY';
+	wfLoadExtensions( array( 'ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha' ) );
+	$wgCaptchaClass = 'ReCaptchaNoCaptcha';
+	$wgReCaptchaSiteKey = 'YOUR-KEY';
+	$wgReCaptchaSecretKey = 'YOUR-SECRET-KEY';
 
 ## TroubleShooting
 
