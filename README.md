@@ -142,3 +142,16 @@ Warning : this will change the home page of your wiki, if you do not want this, 
 Finaly, make sure that server has write permissions on directories "images/" and "images/avatars/".
 
 Now you should have a wikifab like wiki. Please contact us if you have any difficulties.
+
+
+## TroubleShooting
+
+### you have a white page
+
+This can mean many differents errors.
+
+To display errors messages, add the following lines on top of the LocalSettings.php file : 
+
+ error_reporting( -1 );
+ ini_set( 'display_errors', 1 );
+ $wgShowExceptionDetails = true;

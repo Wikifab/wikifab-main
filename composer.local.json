@@ -82,7 +82,7 @@
 		"wikifab/wfext-style": "dev-master",
 		"mediawiki/user-functions": "~2.6",
 		"wikifab/MmsUpload": "dev-master",
-		"mediawiki/flow": "dev-master",
+		"mediawiki/flow": "dev-wmf/1.28.0-wmf.23",
 		"wikifab/UsersWatchlist":"dev-master",
 		"wikifab/UsersWatchButton":"dev-master"
 	}
