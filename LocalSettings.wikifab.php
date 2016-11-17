@@ -17,6 +17,7 @@ require_once "$IP/extensions/Cite/Cite.php";
 require_once "$IP/extensions/Tabber/Tabber.php";
 require_once "$IP/extensions/UserFunctions/UserFunctions.php";
 require_once "$IP/extensions/SocialProfile/SocialProfile.php";
+require_once "$IP/extensions/Echo/Echo.php";
 require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
 require_once "$IP/extensions/WfextStyle/wikifabstyle.php";
 require_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
