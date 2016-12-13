@@ -1,0 +1,37 @@
+__NOTOC__
+<div class="main-contribute">
+<div class="container">
+<div>
+<h1 class="contribute-title">{{int:wf-contribute-title}}<span id="role"></span></h1>
+<p  class="contribute-subtitle">{{int:wf-contribute-subtitle}}</p>
+</div>
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Form:Tutorial|<span class="contribute-block">
+<span class="glyphicon glyphicon-pencil icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">{{int:wf-contribute-box1-title}}</span>
+<span>{{int:wf-contribute-box1-subtitle1}}<br>{{int:wf-contribute-box1-subtitle2}}</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Get_started|<span class="contribute-block">
+<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">{{int:wf-contribute-box2-title}}</span>
+<span>{{int:wf-contribute-box2-subtitle1}}<br>{{int:wf-contribute-box2-subtitle2}}</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Help|<span class="contribute-block">
+<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">{{int:wf-contribute-box3-title}}</span>
+<span>{{int:wf-contribute-box3-subtitle1}}<br>{{int:wf-contribute-box3-subtitle2}}</span>
+</span>]]
+</div>
+</div>
+</div>
+</div>
+<div class="join-community-footer">
+<div class="container">
+<p>[[Wikifab:Community|<span class="glyphicon glyphicon-tent icon-community" aria-hidden="true"></span> {{int:wf-contribute-joincommunity}}]]</p>
+</div>
+</div>

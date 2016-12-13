@@ -1,0 +1,8 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::{{int:wfexplore-category-name-very-easy}}]]
+* [[Allows value::{{int:wfexplore-category-name-easy}}]]
+* [[Allows value::{{int:wfexplore-category-name-medium}}]]
+* [[Allows value::{{int:wfexplore-category-name-hard}}]]
+* [[Allows value::{{int:wfexplore-category-name-very-hard}}]]

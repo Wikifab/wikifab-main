@@ -1,0 +1,20 @@
+This is a property of type [[Has type::Page]].
+
+The allowed values for this property are:
+* [[Allows value::{{int:wfexplore-category-name-art}}]]
+* [[Allows value::{{int:wfexplore-category-name-clothing-accessories}}]]
+* [[Allows value::{{int:wfexplore-category-name-decoration}}]]
+* [[Allows value::{{int:wfexplore-category-name-energy}}]]
+* [[Allows value::{{int:wfexplore-category-name-electronics}}]]
+* [[Allows value::{{int:wfexplore-category-name-food-agriculture}}]]
+* [[Allows value::{{int:wfexplore-category-name-furniture}}]]
+* [[Allows value::{{int:wfexplore-category-name-health-wellbeing}}]]
+* [[Allows value::{{int:wfexplore-category-name-house}}]]
+* [[Allows value::{{int:wfexplore-category-name-game-hobbies}}]]
+* [[Allows value::{{int:wfexplore-category-name-machines-tools}}]]
+* [[Allows value::{{int:wfexplore-category-name-recycling-upcycling}}]]
+* [[Allows value::{{int:wfexplore-category-name-music-sound}}]]
+* [[Allows value::{{int:wfexplore-category-name-play-outside}}]]
+* [[Allows value::{{int:wfexplore-category-name-robotics}}]]
+* [[Allows value::{{int:wfexplore-category-name-science-biology}}]]
+* [[Allows value::{{int:wfexplore-category-name-transport-mobility}}]]

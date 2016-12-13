@@ -1,0 +1,5 @@
+<div class="row attach-link-table">
+<div class="col-xs-4 col-md-2"><i class="fa fa-file"></i> {{int:wf-attachmenttemplate-file}}</div>
+<div class="col-xs-8 col-md-10">[[File:{{{Attachment|}}}]]</div>
+</div>
+[[Category:Tutorials]]

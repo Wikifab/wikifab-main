@@ -1,0 +1,4 @@
+This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::{{int:wf-propertycomplete-check}}]]

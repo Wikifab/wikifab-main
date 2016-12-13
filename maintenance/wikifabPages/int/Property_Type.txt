@@ -1,0 +1,5 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::{{int:wfexplore-category-name-creation}}]]
+* [[Allows value::{{int:wfexplore-category-name-technique}}]]

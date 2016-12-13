@@ -1,0 +1,7 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::{{int:wfexplore-duration-type-minutes}}]]
+* [[Allows value::{{int:wfexplore-duration-type-hours}}]]
+* [[Allows value::{{int:wfexplore-duration-type-days}}]]
+* [[Allows value::{{int:wfexplore-duration-type-months}}]]

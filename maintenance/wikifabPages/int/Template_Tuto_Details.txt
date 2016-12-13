@@ -1,0 +1,23 @@
+__NOTOC__
+<div class="row">
+<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="tuto-details-box">
+<p class="tuto-details-about-title">[[Description::{{{Description|}}}]]</p>
+<div class="hrContentMinor-2"></div>
+{{int:wf-tutotemplate-a}} <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> {{int:wf-tutotemplate-by}} {{#displayAuthorDiv:toto}} {{int:wf-tutotemplate-in}}: {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}
+<ul>
+<li>{{int:wf-formtutorial-difficulty-field-title}}: [[Difficulty::{{{Difficulty|}}}]]</li>
+<li>{{int:wf-formtutorial-duration-field-title}}: [[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</li>
+<li>{{int:wf-formtutorial-cost-field-title}}: [[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</li>
+</ul>
+</div>
+<div class="licence-detail"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">{{int:wf-formtutorial-license-field-title}}:</span> [[Licences::{{{Licences|}}}]]</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="tuto-main-image">
+[[File:{{{Main_Picture}}}|border]]
+</div>
+</div>
+</div>
+[[Category:Tutorials]]
+{{#stepNumber: step| init}}

@@ -1,0 +1,2 @@
+<h2>{{int:wf-formtutorial-note-title"}}</h2>
+[[Notes::{{{Notes|}}}]]

@@ -1,0 +1,6 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::EUR (€)]]
+* [[Allows value::USD ($)]]
+* [[Allows value::GBP (£)]]

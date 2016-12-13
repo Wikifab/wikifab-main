@@ -2,8 +2,8 @@ __NOTOC__
 <div class="main-contribute">
 <div class="container">
 <div>
-<h1 class="contribute-title">Contribute<span id="role"></span></h1>
-<p  class="contribute-subtitle">Our mission is to teach the world how to make anything themselves. We need your help!</p>
+<h1 class="contribute-title">{{int:wf-contribute-title}}<span id="role"></span></h1>
+<p  class="contribute-subtitle">{{int:wf-contribute-subtitle}}</p>
 </div>
 <div class="row">
 <div class="col-md-4 col-sm-4 col-xs-12">

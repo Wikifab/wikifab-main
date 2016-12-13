@@ -1,0 +1,9 @@
+{{#ifanon:<div class="marketing-section-hp">
+<div class="container">
+<h1>{{int:wf-mainpage-title}}</h1>
+<p class="marketing-section-hp-subtitle">{{int:wf-mainpage-subtitle}}</p>
+[[Special:UserLogin/signup|<span class="sign-up-button-hp">{{int:wf-mainpage-signup}}</span>]] <span class="sign-up-or">{{int:wf-mainpage-or}}</span> [[Special:UserLogin|<span class="log-in-link">{{int:wf-mainpage-login}}</span>]]</div></div>|<div class="marketing-section-hp marketing-section-hp-logged">
+<div class="container">
+<h1>{{int:wf-mainpage-title}}</h1>
+<p class="marketing-section-hp-subtitle">{{int:wf-mainpage-subtitle}}</p>[[Form:Tutorial|<span class="sign-up-button-hp">{{int:wf-mainpage-createtutorial}}</span>]] [[Special:UpdateProfile|<span class="edit-profile-btn-hp">{{int:wf-mainpage-editprofile}}</span>]]</div></div>}}
+{{#displayExplore: Tuto,completeonly}}

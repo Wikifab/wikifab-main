@@ -1,0 +1,332 @@
+__NOTOC__<noinclude>
+<div class="tutorial-page">
+<div class="container">
+<div class="new-tutorial-page">
+{{#ifanon:<div class="alert alert-warning" role="alert"><strong>{{int:wf-formtutorial-alert1}}</strong> {{int:wf-formtutorial-alert2}} [[Special:UserLogin/signup|{{int:wf-formtutorial-alert3}}]] {{int:wf-formtutorial-alert4}} [[Special:UserLogin|{{int:wf-formtutorial-alert5}}]].</div>
+</div>
+</div>
+</div>|
+<h1>{{int:wf-formtutorial-main-title}}</h1>
+{{#forminput:form=Tutorial|button text={{int:wf-formtutorial-main-btn}}|placeholder={{int:wf-formtutorial-main-placeholder}}}}
+<p data-toggle="modal" data-target="#ModalNom"><span class="glyphicon glyphicon-info-sign"></span> {{int:wf-formtutorial-main-subtitle}}</p>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Get_started|<span class="contribute-block">
+<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">{{int:wf-formtutorial-main-box1-title}}</span>
+<span>{{int:wf-formtutorial-main-box1-subtitle1}}<br>{{int:wf-formtutorial-main-box1-subtitle2}}</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Under construction|<span class="contribute-block">
+<span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">{{int:wf-formtutorial-main-box2-title}}</span>
+<span>{{int:wf-formtutorial-main-box2-subtitle1}}<br>{{int:wf-formtutorial-main-box2-subtitle2}}</span>
+</span>]]
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+[[Wikifab:Help|<span class="contribute-block">
+<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">{{int:wf-formtutorial-main-box3-title}}</span>
+<span>{{int:wf-formtutorial-main-box3-subtitle1}}<br>{{int:wf-formtutorial-main-box3-subtitle2}}</span>
+</span>]]
+</div>
+</div>
+</div>
+}}
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Tuto Details}}}
+<div class="row">
+<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formtutorial-type-field-title}}</div>
+<div class="col-md-10 col-sm-10 col-xs-9 custom-tooltip">{{{field|Type|mandatory|class=form-dropdown}}} {{#info:<p>'''{{int:wf-formtutorial-type-popup-title1}}''' {{int:wf-formtutorial-type-popup-text1}}</p><p>'''{{int:wf-formtutorial-type-popup-title2}}''' {{int:wf-formtutorial-type-popup-text2}}</p>}}
+</div>
+</div>
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-area-field-title}}</div>
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox}}}</div>
+</div>
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-description-field-title}}</div>
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|rows=3|maxlength=4000|class=form-textarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}}}}
+</div>
+</div>
+<div class="row licence-section">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-difficulty-field-title}}</div>
+<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Difficulty|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-cost-field-title}}</div>
+<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Cost|mandatory|class=form-duration}}} {{{field|Currency|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:{{int:wf-formtutorial-cost-popup}}}}</div>
+</div>
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-duration-field-title}}</div>
+<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form custom-tooltip licence-section">{{{field|Duration|mandatory|class=form-duration}}} {{{field|Duration-type|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:{{int:wf-formtutorial-duration-popup}}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-license-field-title}}</div>
+<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form">{{{field|Licences|input type=dropdown|class=form-dropdown-3}}}<span class="style-instructions-text" data-toggle="modal" data-target="#ModalCreativeCommons"><span class="glyphicon glyphicon-question-sign tuto-question-icon"></span></span></div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail msuploadContainer">
+{{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
+{{{end template}}}
+</div>
+</div>
+<div class="hrContentMinor-2"></div>
+{{{for template|Introduction}}}
+<div class="edit-step-title">{{int:wf-formtutorial-introduction-field-title}} <span>{{int:wf-formtutorial-introduction-field-info}}</span></div>
+{{{field|Introduction|input type=textarea|rows=5|maxlength=10000|class=form-textarea|placeholder={{int:wf-formtutorial-introduction-field-placeholder}}}}}
+{{{end template}}}
+{{{for template|Materials}}}
+<div class="Input-tabs">
+<tabber>
+ {{int:wf-formtutorial-tools-materials-tabs-title}}=
+<div class="material-tool-list row">
+<div class="col-md-6 col-sm-6 col-xs-12"><div class="edit-step-title">{{int:wf-formtutorial-materials-tabs-title}}</div>
+{{{field|Material|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-materials-tabs-placeholder}}}}}
+<div class="hrContentMinor-2"></div>
+<div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
+{{{field|Tools|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}}}}
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12  col-pic-step msuploadContainer">
+{{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable}}}
+</div>
+|-|
+ {{int:wf-formtutorial-file-tabs-title}}=
+<div class="alert alert-info" role="alert">{{int:wf-formtutorial-file-tabs-subtitle}}</div>
+<div class="file-subtitle">{{int:wf-formtutorial-file-tabs-option1}}</div>
+<div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div>
+<hr>
+<div class="file-subtitle">{{int:wf-formtutorial-file-tabs-option2}}</div>
+<div class="add-attachments add-attachments-upload">{{{field|Tuto_Attachments|holds template}}}</div>
+</tabber>
+</div>
+{{{end template}}}
+{{{for template|ExternalAttachmentsLinks|multiple|maximum instances=10|add button text={{int:wf-formtutorial-file-tabs-btnlink}}|embed in field=Materials[ExternalAttachmentsLinks]}}}{{{field|ExternalAttachmentsLinks|input type=text}}}{{{end template}}}
+{{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text={{int:wf-formtutorial-file-tabs-btnfile}}|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
+<div class="bg-halfsquare-separator-2"></div>
+{{{for template|Separator}}}<br>{{{end template}}}
+{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=100|add button text={{int:wf-formtutorial-step-btnaddstep}}}}}
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="row">
+<div class="col-md-3 col-sm-4 col-xs-12 edit-step-title">{{int:wf-formtutorial-step-title}}</div>
+<div class="col-md-9 col-sm-8 col-xs-12">{{{field|Step_Title|input type=text|class=form-text|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12"><p class="step-instruction-title">{{int:wf-formtutorial-step-instructions}}</p></div>
+<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder={{int:wf-formtutorial-step-instructions-placeholder}}}}}</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#myModal">{{int:wf-formtutorial-step-help2}}</span> {{int:wf-formtutorial-step-help3}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12  col-pic-step msuploadContainer">
+{{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable}}}
+{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable}}}
+</div>
+</div>
+<div class="hrContentMinor"></div>
+{{{end template}}}
+<div class="bg-halfsquare-separator-3"></div>
+<div class="notes-ref">
+<h2>{{int:wf-formtutorial-note-title}}</h2>
+{{{for template|Notes}}}
+{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder={{int:wf-formtutorial-note-placeholder}}}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
+{{{end template}}}
+</div>
+<div class="saving-menu">
+{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
+</div>
+</includeonly>
+
+<div class="modal fade wfform" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<p class="modal-subtitle">{{int:wf-formtutorial-popupformat-title}}<span class="close" data-dismiss="modal" aria-hidden="true">&times;</span></p>
+<table class="table table-bordered">
+        <tr>
+          <th>{{int:wf-formtutorial-popupformat-description}}</th>
+          <th>{{int:wf-formtutorial-popupformat-type}}</th>
+          <th>{{int:wf-formtutorial-popupformat-get}}</th>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-bullet-points1}}</td>
+          <td><div style="width:36px; float:left; margin-right:10px"><pre>*</pre></div> {{int:wf-formtutorial-popupformat-bullet-points2}}</td>
+          <td><ul><li>{{int:wf-formtutorial-popupformat-bullet-points3}}</li></ul></td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-bold-text}}</td>
+          <td><pre>'''{{int:wf-formtutorial-popupformat-bold}}'''</pre></td>
+          <td>'''{{int:wf-formtutorial-popupformat-bold}}'''</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-italic-text}}</td>
+          <td><pre>''{{int:wf-formtutorial-popupformat-italic}}''</pre></td>
+          <td>''{{int:wf-formtutorial-popupformat-italic}}''</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-strike}}</td>
+          <td><pre><s>{{int:wf-formtutorial-popupformat-strike}}</s></pre></td>
+          <td><s>{{int:wf-formtutorial-popupformat-strike}}</s></td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-underline}}</td>
+          <td><pre><u>{{int:wf-formtutorial-popupformat-underline}}</u></pre></td>
+          <td><u>{{int:wf-formtutorial-popupformat-underline}}</u></td>
+        </tr>
+    </table>
+<p class="modal-subtitle">{{int:wf-formtutorial-popupformat-icon-help}}</p>
+<table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>You type</th>
+          <th>You get</th>
+        </tr>
+        <tr>
+          <td>F{{int:wf-formtutorial-popupformat-icon-forbid}}</td>
+          <td><pre>{{Dont|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_02.jpg]]</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-icon-warn}}</td>
+          <td><pre>{{Caution|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_05.jpg]]</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-icon-invite}}</td>
+          <td><pre>{{Pin|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_01.jpg]]</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-icon-info}}</td>
+          <td><pre>{{Info|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_03.jpg]]</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popupformat-icon-tips}}</td>
+          <td><pre>{{Idea|Text=This is an example}}</pre></td>
+          <td>[[File:icon-popup_EN_04.jpg]]</td>
+        </tr>
+    </table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform" id="ModalCreativeCommons" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><h4 class="modal-title">{{int:wf-formtutorial-popuplicense-title}}</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+[[File:CC-BY.png]]<span class="cc-modal-subtitle">{{int:wf-formtutorial-popuplicense-licence1-title}} <span class="label label-success">{{int:wf-formtutorial-popuplicense-licence-recommended}}</span></span>
+<p>{{int:wf-formtutorial-popuplicense-licence1-description}}</p>
+<p>[http://creativecommons.org/licenses/by/4.0/ {{int:wf-formtutorial-popuplicense-licence-link1}}] | [http://creativecommons.org/licenses/by/4.0/legalcode {{int:wf-formtutorial-popuplicense-licence-link2}}]</p>
+<br>
+[[File:CC-BY-SA.png]]<span class="cc-modal-subtitle">{{int:wf-formtutorial-popuplicense-licence2-title}}</span>
+<p>{{int:wf-formtutorial-popuplicense-licence2-description}}</p>
+<p>[http://creativecommons.org/licenses/by-sa/4.0/ {{int:wf-formtutorial-popuplicense-licence-link1}}] | [http://creativecommons.org/licenses/by-sa/4.0/legalcode {{int:wf-formtutorial-popuplicense-licence-link2}}]</p>
+<hr>
+<p>{{int:wf-formtutorial-popuplicense-question}} [http://discuter.wikifab.org/t/under-which-open-license-can-i-publish-my-tutorial-on-wikifab/30 {{int:wf-formtutorial-popuplicense-question-link}}].</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform" id="ModalLink" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><h4 class="modal-title">{{int:wf-formtutorial-popuplinks-title}}</h4></div>
+<div class="modal-body"><table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>You type</th>
+          <th>You get</th>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popuplinks-internal-link}}</td>
+          <td><pre>[[{{int:wf-formtutorial-popuplinks-main-page}}]]</pre></td>
+          <td>[[{{int:wf-formtutorial-popuplinks-main-page}}]]</td>
+        </tr>
+        <tr>
+          <td>{{int:wf-formtutorial-popuplinks-internal-link-label}}</td>
+          <td><pre>[[{{int:wf-formtutorial-popuplinks-main-page}}|{{int:wf-formtutorial-popuplinks-internal-label}}}}]]</pre></td>
+          <td>[[{{int:wf-formtutorial-popuplinks-main-page}}|{{int:wf-formtutorial-popuplinks-internal-label}}]]</td>
+        </tr>
+<tr>
+<td>{{int:wf-formtutorial-popuplinks-external-link}}</td>
+<td><pre>http://wikipedia.org</pre></td>
+<td>http://wikipedia.org</td>
+</tr>
+<tr>
+<td>{{int:wf-formtutorial-popuplinks-external-label}}</td>
+<td><pre>[http://wikipedia.org {{int:wf-formtutorial-popuplinks-link-wikipedia}}]</pre></td>
+<td>[http://wikipedia.org {{int:wf-formtutorial-popuplinks-link-wikipedia}}]</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform-2" id="ModalNom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">{{int:wf-formtutorial-popuptutoname-title}}</h4>
+</div>
+<div class="modal-body">
+{{int:wf-formtutorial-popuptutoname-subtitle}}
+
+<h4>1. {{int:wf-formtutorial-popuptutoname-option1}}</h4>
+
+1.1 {{int:wf-formtutorial-popuptutoname-option1a}}
+
+* {{int:wf-formtutorial-popuptutoname-option1b}}
+* {{int:wf-formtutorial-popuptutoname-option1c}}
+
+1.2 {{int:wf-formtutorial-popuptutoname-option1d}}
+
+* {{int:wf-formtutorial-popuptutoname-option1b}}
+* {{int:wf-formtutorial-popuptutoname-option1e}}
+
+1.3 {{int:wf-formtutorial-popuptutoname-option1f}}
+
+* {{int:wf-formtutorial-popuptutoname-option1g}}
+* {{int:wf-formtutorial-popuptutoname-option1h}}
+
+
+<h4>2. {{int:wf-formtutorial-popuptutoname-option2}}</h4>
+
+2.1 {{int:wf-formtutorial-popuptutoname-option2a}}
+
+2.2 {{int:wf-formtutorial-popuptutoname-option2b}}
+ 
+* {{int:wf-formtutorial-popuptutoname-option2c}}
+* {{int:wf-formtutorial-popuptutoname-option2d}}
+
+{{Info|Text={{int:wf-formtutorial-popuptutoname-last}}}}
+</div>
+</div>
+</div>
+</div>
