@@ -18,6 +18,7 @@ class InitWikifab extends Maintenance {
 		parent::__construct ();
 		$this->mDescription = "Init Wikifab pages";
 		$this->addOption ( 'setWikifabHomePage', "Set the wiki home page", false, false );
+		$this->addOption ( 'force', "force edit of existing pages", false, false );
 	}
 
 	protected function getUpdateKey() {
@@ -32,6 +33,7 @@ class InitWikifab extends Maintenance {
 		global $wgContLang;
 
 		$setWikifabHomePage = $this->getOption ( 'setWikifabHomePage' );
+		$force = $this->getOption ( 'force' ) ? true : false;
 
 		$lang = $wgContLang->getCode();
 
@@ -64,7 +66,7 @@ class InitWikifab extends Maintenance {
 			}
 			$title = $this->getPageName ( $page );
 			$content = $this->getPageContent ($page, $lang);
-			$this->createPage ( $title, $content );
+			$this->createPage ( $title, $content , $force);
 		}
 	}
 

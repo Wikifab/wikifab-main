@@ -166,6 +166,6 @@ This can means many differents errors.
 
 To display errors messages, add the following lines on top of the LocalSettings.php file : 
 
- error_reporting( -1 );
- ini_set( 'display_errors', 1 );
- $wgShowExceptionDetails = true;
+	error_reporting( -1 );
+	ini_set( 'display_errors', 1 );
+	$wgShowExceptionDetails = true;
