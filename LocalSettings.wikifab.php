@@ -7,7 +7,7 @@ $wgDefaultSkin = "chameleon";
 
 require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
 enableSemantics( $wgServer );
-require_once "$IP/extensions/SemanticForms/SemanticForms.php";
+require_once "$IP/extensions/PageForms/PageForms.php";
 require_once "$IP/extensions/Stepnumber/StepNumber.php";
 require_once "$IP/extensions/WfSearch/WfSearch.php";
 require_once "$IP/extensions/Explore/WfExplore.php";
@@ -25,6 +25,9 @@ require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
 require_once "$IP/extensions/UsersWatchButton/UsersWatchButton.php";
 require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
+require_once("$IP/extensions/GroupsPage/GroupsPage.php");
+require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
+wfLoadExtension( 'PageMediaGallery' );
 
 $wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
 $wgNamespaceContentModels[NS_USER_TALK] = CONTENT_MODEL_FLOW_BOARD;
@@ -81,6 +84,7 @@ $wgGroupPermissions['user']['skipcaptcha'] = true;
 // */
 
 $wgGroupPermissions['*']['viewedittab'] = false;
-
+$wgPageFormsRenameEditTabs = true;
 $wgUsersWatchListAllowAll = true;
 
+$wgExploreUseThumbs = true;

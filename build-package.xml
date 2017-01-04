@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="Wikifab buildPackage" default="build" >
+	
     <target name="prepare">
-	<delete dir="build"/>
+		<delete dir="build"/>
         <echo msg="Making directory ./build" />
         <mkdir dir="./build" />
     </target>
+	
     <target name="cleanPackage">
 	<delete includeemptydirs="true">
 	  <fileset dir="build/wikifab" defaultexcludes="false">
@@ -18,76 +20,86 @@
 	</delete>
     </target>
 
-    <target name="download"  >
+    <target name="download-mediawiki"  >
 
         <echo msg="Download Mediawiki..." />
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="wget https://releases.wikimedia.org/mediawiki/1.27/mediawiki-1.27.1.tar.gz"/>
-	</exec>
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="tar -xzf mediawiki-1.27.1.tar.gz"/>
-	</exec>
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="mv mediawiki-1.27.1 wikifab"/>
-	</exec>
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="wget https://releases.wikimedia.org/mediawiki/1.28/mediawiki-1.28.0.tar.gz"/>
+		</exec>
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="tar -xzf mediawiki-1.28.0.tar.gz"/>
+		</exec>
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="mv mediawiki-1.28.0 wikifab"/>
+		</exec>
+	
+	    <echo msg="Download wikifabmain..." />
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="wget https://github.com/Wikifab/wikifab-main/archive/master.zip"/>
+		</exec>
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="unzip master.zip"/>
+		</exec>
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="cp -R wikifab-main-master/* wikifab/"/>
+		</exec>
+    </target>
 
-        <echo msg="Download wikifabmain..." />
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="wget https://github.com/Wikifab/wikifab-main/archive/master.zip"/>
-	</exec>
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="unzip master.zip"/>
-	</exec>
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="cp -R wikifab-main-master/* wikifab/"/>
-	</exec>
+    <target name="composer"  depends="download-mediawiki">
 
-        <echo msg="Download and execute composer..." />
-	<exec executable="bash" dir="build/wikifab" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="curl http://getcomposer.org/installer | php"/>
-	</exec>
-	<exec executable="bash" dir="build/wikifab" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="php composer.phar config minimum-stability dev"/>
-	</exec>
-	<exec executable="bash" dir="build/wikifab" checkreturn="true" logoutput="true">
-		<arg value="-c"/>
-		<arg value="php composer.phar update"/>
-	</exec>
+        <echo msg="Download composer..." />
+		<exec executable="bash" dir="build/wikifab" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="curl http://getcomposer.org/installer | php"/>
+		</exec>
+        <echo msg="Execute composer..." />
+		<exec executable="bash" dir="build/wikifab" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="php composer.phar config minimum-stability dev"/>
+		</exec>
+		<exec executable="bash" dir="build/wikifab" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="php composer.phar update"/>
+		</exec>
+    </target>
+	
+    <target name="download-extensions"  depends="download-mediawiki">
 
         <echo msg="Download Tabber..." />
-	<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
-		<arg value="-c"/>
-		<arg value="wget -O tabber.zip  https://github.com/HydraWiki/Tabber/archive/master.zip"/>
-	</exec>
-	<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
-		<arg value="-c"/>
-		<arg value="unzip tabber.zip"/>
-	</exec>
-	<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
-		<arg value="-c"/>
-		<arg value="mv Tabber-master wikifab/extensions/Tabber"/>
-	</exec>
-        <echo msg="Move Flow..."/>
-	<exec executable="bash" dir="build/wikifab">
-		<arg value="-c"/>
-		<arg value="mv vendor/mediawiki/flow extensions/Flow"/>
-	</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="wget -O tabber.zip  https://github.com/HydraWiki/Tabber/archive/master.zip"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="unzip tabber.zip"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="mv Tabber-master wikifab/extensions/Tabber"/>
+		</exec>
+	    <echo msg="Move Flow..."/>
+		<exec executable="bash" dir="build/wikifab">
+			<arg value="-c"/>
+			<arg value="mv vendor/mediawiki/flow extensions/Flow"/>
+		</exec>
     </target>
-    <target name="tarPackage"  >
 
+    <target name="download"  depends="download-mediawiki,composer,download-extensions">
+    </target>
+	
+    <target name="tarPackage"  >
         <echo msg="Tar..." />
-	<exec executable="bash" dir="build/" checkreturn="true">
-		<arg value="-c"/>
-		<arg value="zip -r wikifab.zip wikifab"/>
-	</exec>
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="zip -r wikifab.zip wikifab"/>
+		</exec>
     </target>
 
 
