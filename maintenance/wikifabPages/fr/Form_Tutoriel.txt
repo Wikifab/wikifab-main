@@ -15,14 +15,14 @@ __NOTOC__<noinclude>
 <div class="container">
 <div class="row">
 <div class="col-md-4 col-sm-4 col-xs-12">
-[[Wikifab:Indispensable|<span class="contribute-block">
+[[Wikifab:Premiers_pas|<span class="contribute-block">
 <span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
 <span class="contribute-block-title">Premiers pas</span>
 <span>Quelques conseils en une page<br>pour bien commencer</span>
 </span>]]
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
-[[Page en construction|<span class="contribute-block">
+[[Réussir_vos_photos_de_tutoriels|<span class="contribute-block">
 <span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span>
 <span class="contribute-block-title">Prendre des photos</span>
 <span>Découvrez notre tutoriel pour<br>apprendre à prendre de belles photos</span>
@@ -51,6 +51,10 @@ __NOTOC__<noinclude>
 <div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Catégorie(s)</div>
 <div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox}}}</div>
+</div>
+<div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Mot(s)-clé(s)</div>
+<div class="col-md-10 col-sm-10 col-xs-12 custom-tooltip">{{{field|Tags|class=form-tokens|input type=tokens|size=}}} {{#info:Entrez 4 à 5 mots clés pour décrire votre tutoriel (séparez chaque mot clé par une virgule).}}</div>
 </div>
 <div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Description</div>
@@ -97,22 +101,11 @@ Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marq
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 col-pic-step msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
-<p class="upload-instructions">Votre image sera visible après l'enregistrement de la page.</p>
-<div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Ajouter des photos </div>
-<div class="collapse" id="collapseExample">
-<div class="well add-more-pics">
-<span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable}}}
-
-<span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable}}}
-
-<span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable}}}
-
-<span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable}}}
-
-<span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable}}}
-</div>
-</div>
-</div>
+{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
 </div>
 |-|
  Fichiers=
@@ -129,7 +122,7 @@ Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marq
 {{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text=+ Ajouter un fichier|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
 <div class="bg-halfsquare-separator-2"></div>
 {{{for template|Separator}}}<br>{{{end template}}}
-{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=100|add button text=+ Ajouter une étape}}}
+{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=400|add button text=+ Ajouter une étape}}}
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="row">
@@ -139,7 +132,7 @@ Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marq
 <div class="row">
 <div class="col-md-12 col-sm-12 col-xs-12"><p class="step-instruction-title">Instructions à suivre pour réaliser l'étape :</p></div>
 <div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder=Ecrivez ici les instructions à suivre pour réaliser l'étape. 
-Privilégiez les textes courts et les listes par puces (bullet points). Pour activer un bullet points, entrez le symbole étoile (*) au début de chaque ligne.
+Privilégiez les textes courts et les listes par puces (bullet points). Pour insérer un bullet point, mettre le symbole étoile (*) au début de chaque ligne.
 L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 <div class="col-md-12 col-sm-12 col-xs-12">
 <p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#myModal">mettre en forme</span> le texte et <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">insérer des liens</span>.</p>
@@ -152,15 +145,15 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 <div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Ajouter des photos </div>
 <div class="collapse" id="collapseExample">
 <div class="well add-more-pics">
-<span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable}}}
+<span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
 
-<span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable}}}
+<span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
 
-<span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable}}}
+<span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
 
-<span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable}}}
+<span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
 
-<span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable}}}
+<span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
 </div>
 </div>
 <div>
@@ -175,11 +168,10 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 {{{for template|Notes}}}
 {{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder=Entrez ici les notes et références du tutoriel.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insérer des références</span>.</p>
 {{{end template}}}
+[[Catégorie:Tutoriels]]
 </div>
 <div class="saving-menu">
-<div class="container">
 {{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
-</div>
 </div>
 </includeonly>
 
@@ -229,27 +221,27 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
         </tr>
         <tr>
           <td>Interdire une action</td>
-          <td>[[Fichier:Icon-popup-04.jpg]]</td>
+          <td>[[Fichier:Icon-popup-04.jpg|link=]]</td>
           <td><pre>{{Dont|Text=Voici un exemple}}</pre></td>
         </tr>
         <tr>
           <td>Prévenir d'un danger<br>Solliciter l'attention</td>
-          <td>[[Fichier:Icon-popup-01.jpg]]</td>
+          <td>[[Fichier:Icon-popup-01.jpg|link=]]</td>
           <td><pre>{{Caution|Text=Voici un exemple}}</pre></td>
         </tr>
         <tr>
           <td>Inviter à la mémorisation</td>
-          <td>[[Fichier:Icon-popup-05.jpg]]</td>
+          <td>[[Fichier:Icon-popup-05.jpg|link=]]</td>
           <td><pre>{{Pin|Text=Voici un exemple}}</pre></td>
         </tr>
         <tr>
           <td>Donner une information complémentaire</td>
-          <td>[[Fichier:Icon-popup-03.jpg]]</td>
+          <td>[[Fichier:Icon-popup-03.jpg|link=]]</td>
           <td><pre>{{Info|Text=Voici un exemple}}</pre></td>
         </tr>
         <tr>
           <td>Donner des idées</td>
-          <td>[[Fichier:Icon-popup-02.jpg]]</td>
+          <td>[[Fichier:Icon-popup-02.jpg|link=]]</td>
           <td><pre>{{Idea|Text=Voici un exemple}}</pre></td>
         </tr>
     </table>
@@ -306,13 +298,13 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
         </tr>
 <tr>
 <td>Lien externe</td>
-<td><pre>http://google.com</pre></td>
-<td>http://google.com</td>
+<td><pre>http://wikipedia.org</pre></td>
+<td>http://wikipedia.org</td>
 </tr>
 <tr>
 <td>Lien externe avec un intitulé différent</td>
-<td><pre>[http://google.com Lien vers Google]</pre></td>
-<td>[http://google.com Lien vers Google]</td>
+<td><pre>[http://wikipedia.org Lien vers Wikipedia]</pre></td>
+<td>[http://wikipedia.org Lien vers Wikipedia]</td>
 </tr>
 </table>
 </div>
@@ -383,21 +375,6 @@ Dans un souci d'homogénéité et d'optimisation de la recherche, nous vous dema
  
 * Préférez : Poncer une planche de chaîne
 * Plutôt que : Apprendre à poncer une planche de chaîne 
-
-
-<h4>3. Si votre tutoriel concerne une réparation :</h4>
-
-3.1 Démarrez toujours par le verbe qui décrit l'opération de la réparation (évitez le verbe "Réparer" car il est trop généraliste) et mettez le l'infinitif.
-
-* Préférez : Remplacer le tambourt de la machine à lavée
-* Plutôt que : Réparer le tambourt de la machine à lavée
-
-
-3.2 Indiquez toujours le modèle du produit que vous réparez.
-
-* Préférez : Remplacer le tambourt du lave linge Bosh WAB24211FF
-* Plutôt que : Remplacer le tambourt d'une machine à laver
-
 
 {{Info|Text=Si un tutoriel avec le nom que vous avez entré existe déjà, vous serez redirigé vers un formulaire pour l’éditer.}}
 </div>

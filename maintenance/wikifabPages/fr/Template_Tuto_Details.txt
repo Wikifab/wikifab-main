@@ -1,23 +1,23 @@
-__NOTOC__
+<p class="tuto-details-autor-revision">Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> de {{#displayAuthorDiv:toto}} dans les catégories {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}. [{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} par [http://beta.wikifab.org/index.php/utilisateur:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].</p>
 <div class="row">
-<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="col-md-5 col-sm-5 col-xs-12">
+<div class="tuto-main-image">{{#if:{{{Main_Picture|}}}|[[File:{{{Main_Picture}}}|frameless|border]]|[[File:No-image-yet.jpg|link=]]}}
+</div>
+</div>
+<div class="col-md-7 col-sm-7 col-xs-12">
 <div class="tuto-details-box">
 <p class="tuto-details-about-title">[[Description::{{{Description|}}}]]</p>
-<div class="hrContentMinor-2"></div>
-Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> de{{#displayAuthorDiv:toto}} dans la catégorie : {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}
-<ul>
-<li>Difficulté : [[Difficulty::{{{Difficulty|}}}]]</li>
-<li>Durée : [[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</li>
-<li>Coût : [[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]] </li>
-</ul>
+<div class="tuto-items-container"><div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i>
+ Difficulté</div><div class="tuto-items-details-container-right">[[Difficulty::{{{Difficulty|}}}]]</div></div>
+<div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-clock-o" aria-hidden="true"></i> Durée</div><div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</div></div>
+<div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
+ Coût</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>
+<div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-list-ol" aria-hidden="true"></i></div>__TOC__</div>
 </div>
 <div class="licence-detail"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">Licence :</span> [[Licences::{{{Licences|}}}]]</div>
 </div>
-<div class="col-md-4 col-sm-4 col-xs-12">
-<div class="tuto-main-image">
-[[Fichier:{{{Main_Picture}}}|border]]
 </div>
 </div>
-</div>
+<div class="display-none">Mot(s)-clé(s) : {{#arraymap:{{{Tags|}}}|,|x|[[Tags::x]]}}</div>
 [[Catégorie:Tutoriels]]
 {{#stepNumber: step| init}}
