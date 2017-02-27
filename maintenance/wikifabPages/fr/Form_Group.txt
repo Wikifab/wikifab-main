@@ -1,0 +1,149 @@
+__NOTOC__<noinclude>
+<div class="group-form-page">
+<div class="container">
+<div class="new-group-page">
+{{#ifanon:<h1 id="create-a-group">Créer un groupe</h1>
+<p class="group-form-subtitle">Vous appartenez à un Fablab, une association, une école ou à tout autre projet communautaire ? Vous pouvez maintenant créer un groupe pour rassembler vos tutoriels et vos membres sur une page à vos couleurs. Rien que ça ! <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+<br>
+<div class="alert alert-warning" role="alert"><strong>Oups !</strong> Vous n'avez pas la permission de créer un groupe car vous n'êtes pas connecté. [[Special:UserLogin/signup|Créer un compte]] ou [[Special:UserLogin|connectez-vous]].</div>
+</div>
+</div>
+</div>|
+<h1 id="create-a-group">Créer un groupe</h1>
+<p class="group-form-subtitle">Vous appartenez à un Fablab, une association, une école ou à tout autre projet communautaire ? Vous pouvez maintenant créer un groupe pour rassembler vos tutoriels et vos membres sur une page à vos couleurs. Rien que ça ! <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+{{#forminput:form=Group|namespace=Group|button text=Créer le groupe|placeholder=Choisissez un nom pour votre groupe}}
+</div>
+</div>
+</div>
+}}<div class="container">
+<div class="group-section-0">
+<h2>Communautés, bienvenue chez vous !</h2>
+<p>Nous avons créer les groupes pour vous permettre de rassembler vos tutoriels et vos membres sur un seul espace.</p>
+</div>
+<div class="row group-section-1">
+<div class="col-sm-6 col-xs-12">
+<h3 class="title">Tous vos tutoriels sur une seule page</h3>
+<p>Personnalisez votre groupe en ajoutant votre logo et votre bannière. Tous les utilisateurs peuvent rejoindre votre groupe en cliquant sur le bouton "Rejoindre ce groupe".</p>
+</div>
+<div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step1.jpg|link=]]</div>
+</div>
+<div class="row group-section-1">
+<div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step2.jpg|link=]]</div>
+<div class="col-sm-6 col-xs-12">
+<h3 class="title">Animez votre communauté</h3>
+<p>Renseignez vos informations: vos machines, votre agenda ou votre description. Vos utilisateurs recevront une notification à chaque nouvelle publication dans le groupe.</p>
+</div>
+</div>
+<div class="group-section-2">
+<h3>A qui les groupes sont-ils destinés ?</h3>
+<div class="row">
+<div class="col-sm-5 col-xs-12">
+<p>À tous ! Que vous soyez une communauté ou un individu, les groupes vous serviront à rassembler sur une seule page les tutoriels de votre choix.</p>
+</div>
+<div class="col-sm-7 col-xs-12">
+<div class="row">
+<div class="col-sm-6 col-xs-12">
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Fablabs, makerspaces et autres labs
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Associations, Collectifs et Organisations
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Autre (les groupes sont ouverts à tous)
+</div>
+<div class="col-sm-6 col-xs-12">
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Ateliers de fabrication et Séminaire
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Concours ou Évènements
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="group-main-tabs">
+<div class="group-main-tabs-title">
+<h2>Comment ajouter un tutoriel à un groupe ?</h2>
+<p>C'est très simple. Voici comment ajoutez un tutoriel à votre groupe en 2 clics.</p>
+</div>
+<tabber>
+ 1. Rejoindre=
+<div class="container">
+[[File:group-screen-1.png|link=]]
+<h3>Rejoindre un groupe</h3>
+Sur la page du groupe, cliquez sur le bouton "Rejoindre". Sur le principe du wiki, tout le monde peut rejoindre n'importe quel groupe.
+</div>
+|-|
+ 2. Ajouter=
+<div class="container">
+[[File:group-screen-1.png|link=]]
+<h3>Ajouter un tutoriel à un groupe</h3>
+Sur le tutoriel, cliquez sur le bouton "Ajouter à" puis choisissez le nom du groupe dans lequel vous souhaitez ajouter le tutoriel.
+</div>
+|-|
+ 3. C'est fait !=
+<div class="container">
+[[File:group-screen-1.png|link=]]
+<h3>Tada ! Votre tutoriel est ajouté au groupe</h3>
+Sur le principe du wiki, tout le monde peut rejoindre n'importe quel groupe et ajouter ou retirer un tutoriel d'un groupe.
+</div>
+</tabber></div>
+<div class="container">
+<hr>
+<div class="group-bottom-links">
+<p class="group-ready">Créez un groupe aujourd'hui</p>
+[[#create-a-group|<span class="create-group-btn">Créer un groupe</span>]]
+<p class="download-subbutton">C'est gratuit !</p>
+</div>
+</div>
+</noinclude><includeonly>
+<div class="container">
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+<div class="GroupFormHeader">
+<h1 id="firstHeading" class="firstHeading">{{FULLPAGENAME}}</h1>
+</div>
+{{{for template|Group Details}}}
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Logo</div>
+<div class="col-md-10 col-sm-10 col-xs-9 msuploadContainer">{{{field|group-logo|size=32|class=form-picture|default=|uploadable|image preview}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Bannière</div>
+<div class="col-md-10 col-sm-10 col-xs-9 msuploadContainer">{{{field|group-banner|size=32|class=form-picture|default=|uploadable|image preview}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Type</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:Rien de très engageant ici. Choisissez simplement le type qui vous décrit le mieux}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Décrivez votre groupe en moins de 240 caractères.}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Site web</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-url|class=group-field|placeholder=wikifab.org}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Ville</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-address|class=group-field|placeholder=Paris}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Email</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-email|class=group-field|placeholder=contact@wikifab.org}}}</div>
+</div>
+{{{end template}}}
+{{{for template|Group Tabs}}}
+<div class="Input-tabs group-tabs">
+<tabber>
+ Machines=
+<h2>Parc machines</h2>
+{{{field|Group_Machines|holds template}}}
+|-|
+ Évènements=
+<h2>Évènements</h2>
+{{{field|Group_Event|holds template}}}
+|-|
+ À propos=
+<h2>Informations sur le groupe</h2>
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-long-description|input type=textarea|rows=3|maxlength=3000|class=form-textarea|placeholder=Rédigez une description longue pour votre groupe.}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Téléphone</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-phone|class=group-field|placeholder=+33 1 22 33 44 55}}}</div>
+</div>
+</tabber>
+{{{end template}}}
+
+{{{for template|Group_Machines|multiple|maximum instances=100|add button text=+ Ajouter une machine|embed in field=Group Tabs[Group_Machines]}}}<div class="row"><div class="col-md-3 col-sm-4 col-xs-12>{{{field|group-machine-image|uploadable|size=25|class=group-logo|image preview}}}</div><div class="col-md-9 col-sm-8 col-xs-12"><div><p class="machines-form-first">Nom de la machine</p>{{{field|group-machine-name|input type=text}}}</div><div><p class="machines-form">Description</p>{{{field|group-machine-description|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder=Matériaux utilisables, surface de travail et applications possibles de cette machine}}}</div><div><p class="machines-form">Tarifs & conditions</p>{{{field|group-machine-conditions|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder=Ex: 20€/h. Utilisation encadrée par un responsable.}}}</div></div></div><hr>{{{end template}}}{{{for template|Group_Event|multiple|maximum instances=100|add button text=+ Ajouter un évènement|embed in field=Group Tabs[Group_Event]}}}<div class="row"><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Titre</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-title|input type=text}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Description</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-description|input type=text}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Adresse</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Date</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=text|placeholder=28 août 2016}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Lien</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text}}}</div></div><hr>{{{end template}}}</div></div>
+
+<div class="container">
+<div class="saving-menu">
+<div class="container">
+{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}}
+</div>
+</div>
+</div>
+</includeonly>

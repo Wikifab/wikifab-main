@@ -1,0 +1,9 @@
+Cette propriété est de type [[A le type::Texte]]. Elle pointe sur les pages utilisant le formulaire [[Utilise le formulaire::Group]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Valeur possible::Association]]
+* [[Valeur possible::Communauté]]
+* [[Valeur possible::Entreprise]]
+* [[Valeur possible::Fablab]]
+* [[Valeur possible::Hackerspace]]
+* [[Valeur possible::Makerspace]]

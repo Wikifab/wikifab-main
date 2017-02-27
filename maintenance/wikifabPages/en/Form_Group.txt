@@ -1,0 +1,150 @@
+__NOTOC__<noinclude>
+<div class="group-form-page">
+<div class="container">
+<div class="new-group-page">
+{{#ifanon:<h1 id="create-a-group">Create New Group</h1>
+<p class="group-form-subtitle">
+Create a group to stay in touch and share tutorials with friends from your community. <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+<br>
+<div class="alert alert-warning" role="alert"><strong>Oups !</strong> You must be login to create a group [[Special:UserLogin/signup|sign up]] or [[Special:UserLogin|login]].</div>
+</div>
+</div>
+</div>|
+<h1 id="create-a-group">Create New Group</h1>
+<p class="group-form-subtitle">Create a group to stay in touch and share tutorials with friends from your community. <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+{{#forminput:form=Group|namespace=Group|button text=Create group|placeholder=Pick a name for your group}}
+</div>
+</div>
+</div>
+}}<div class="container">
+<div class="group-section-0">
+<h2>Communities, Welcome home !</h2>
+<p>We have created groups to enable you to gather your tutorials and members on the same page.</p>
+</div>
+<div class="row group-section-1">
+<div class="col-sm-6 col-xs-12">
+<h3 class="title">All your tutorials on a personalized page</h3>
+<p>Customize your group with logo and banner. Anyone can join your group, by clicking "Join this group".</p>
+</div>
+<div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step1.jpg|link=]]</div>
+</div>
+<div class="row group-section-1">
+<div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step2.jpg|link=]]</div>
+<div class="col-sm-6 col-xs-12">
+<h3 class="title">Introduce yourself</h3>
+<p>Fill in your informations : machines, calendar and description. Members are notified when something is added or changed in the group.</p>
+</div>
+</div>
+<div class="group-section-2">
+<h3>To whom groups have been created?</h3>
+<div class="row">
+<div class="col-sm-5 col-xs-12">
+<p>To everyone ! If you are a group of people or a single person, groups will enable you to gather on a single page all your tutorials.</p>
+</div>
+<div class="col-sm-7 col-xs-12">
+<div class="row">
+<div class="col-sm-6 col-xs-12">
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Fablabs, Makerspaces and others labs
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Non-Profit, Organisations or Community
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Others (groups are really open to all of you)
+</div>
+<div class="col-sm-6 col-xs-12">
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Workshop, Seminars
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> Events, Contests
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="group-main-tabs">
+<div class="group-main-tabs-title">
+<h2>How to add a tutorial to a group ?</h2>
+<p>It's very simple, you can do it in 2 clicks.</p>
+</div>
+<tabber>
+ 1. Join=
+<div class="container">
+[[File:group-screen-1.png|link=]]
+<h3>Join a group</h3>
+On the group's page, click on "Join" button.
+</div>
+|-|
+ 2. add=
+<div class="container">
+[[File:group-screen-1.png|link=]]
+<h3>Add a tutorial to a group</h3>
+On the tutorial's page, click on "Add to group" bouton, and choose the group in witch you want to add it.
+</div>
+|-|
+ 3. It is done !=
+<div class="container">
+[[File:group-screen-1.png|link=]]
+<h3>Voila ! Your tutorial is added to the group</h3>
+Anyone can add or remove a tutoriel to any group.
+</div>
+</tabber></div>
+<div class="container">
+<hr>
+<div class="group-bottom-links">
+<p class="group-ready">Create a group today!</p>
+[[#create-a-group|<span class="create-group-btn">Create group</span>]]
+<p class="download-subbutton">It's free!</p>
+</div>
+</div>
+</noinclude><includeonly>
+<div class="container">
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+<div class="GroupFormHeader">
+<h1 id="firstHeading" class="firstHeading">{{FULLPAGENAME}}</h1>
+</div>
+{{{for template|Group Details}}}
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Logo</div>
+<div class="col-md-10 col-sm-10 col-xs-9 msuploadContainer">{{{field|group-logo|size=32|class=form-picture|default=|uploadable|image preview}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Banner</div>
+<div class="col-md-10 col-sm-10 col-xs-9 msuploadContainer">{{{field|group-banner|size=32|class=form-picture|default=|uploadable|image preview}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Type</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:Just choose what describe you the best.}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Give a short description (less than 240 chars.}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Website</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-url|class=group-field|placeholder=wikifab.org}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Address</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-address|class=group-field|placeholder=1 Letterman Drive - San Francisco CA 94129}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Email</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-email|class=group-field|placeholder=contact@wikifab.org}}}</div>
+</div>
+{{{end template}}}
+{{{for template|Group Tabs}}}
+<div class="Input-tabs group-tabs">
+<tabber>
+ Machines=
+<h2>Machines</h2>
+{{{field|Group_Machines|holds template}}}
+|-|
+ Events=
+<h2>Events</h2>
+{{{field|Group_Event|holds template}}}
+|-|
+ About=
+<h2>About the group</h2>
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-long-description|input type=textarea|rows=3|maxlength=3000|class=form-textarea|placeholder=give us all the details we need to know about your group}}}</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Phone</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-phone|class=group-field|placeholder=+33 1 22 33 44 55}}}</div>
+</div>
+</tabber>
+{{{end template}}}
+
+{{{for template|Group_Machines|multiple|maximum instances=100|add button text=+ Add machine|embed in field=Group Tabs[Group_Machines]}}}<div class="row"><div class="col-md-3 col-sm-4 col-xs-12>{{{field|group-machine-image|uploadable|size=25|class=group-logo|image preview}}}</div><div class="col-md-9 col-sm-8 col-xs-12"><div><p class="machines-form-first">machine's name</p>{{{field|group-machine-name|input type=text}}}</div><div><p class="machines-form">Description</p>{{{field|group-machine-description|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder=specs of this machine}}}</div><div><p class="machines-form">Charges & conditions</p>{{{field|group-machine-conditions|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder=Ex: 20€/h. Use under supervision.}}}</div></div></div><hr>{{{end template}}}{{{for template|Group_Event|multiple|maximum instances=100|add button text=+ Add an event|embed in field=Group Tabs[Group_Event]}}}<div class="row"><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Title</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-title|input type=text}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Description</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-description|input type=text}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Address</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Date</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=text|placeholder=10/05/2017}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Lien</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text}}}</div></div><hr>{{{end template}}}</div></div>
+
+<div class="container">
+<div class="saving-menu">
+<div class="container">
+{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}}
+</div>
+</div>
+</div>
+</includeonly>
