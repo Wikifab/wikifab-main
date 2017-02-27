@@ -53,6 +53,10 @@ __NOTOC__<noinclude>
 <div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox}}}</div>
 </div>
 <div class="row table-edit-form">
+<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Mot(s)-clé(s)</div>
+<div class="col-md-10 col-sm-10 col-xs-12 custom-tooltip">{{{field|Tags|class=form-tokens|input type=tokens|size=}}} {{#info:Entrez 4 à 5 mots clés pour décrire votre tutoriel (séparez chaque mot clé par une virgule).}}</div>
+</div>
+<div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">Description</div>
 <div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|rows=3|maxlength=4000|class=form-textarea|placeholder=Décrivez l'objet du tutoriel en quelques lignes}}}
 </div>
@@ -86,12 +90,12 @@ __NOTOC__<noinclude>
  Outils & Matériaux=
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12"><div class="edit-step-title">Liste des matériaux</div>
-{{{field|Material|input type=textarea|rows=8|placeholder=Listez les matériaux nécessaires à la réalisation de votre tutoriel. 
+{{{field|Material|input type=textarea|rows=8|class=form-textarea|placeholder=Listez les matériaux nécessaires à la réalisation de votre tutoriel. 
 Privilégiez les puces (bullet points). Pour activer une puce, entrez le symbole étoile (*) au début de chaque ligne.
 L'utilisation de noms commerciaux (marques) n'est autorisé que si la réalisation de votre tutoriel n'est possible qu'avec le produit de la marque en question.}}}
 <div class="hrContentMinor-2"></div>
 <div class="edit-step-title">Liste des outils</div>
-{{{field|Tools|input type=textarea|rows=8|placeholder=Listez les outils nécessaires à la réalisation de votre tutoriel. 
+{{{field|Tools|input type=textarea|rows=8|class=form-textarea|placeholder=Listez les outils nécessaires à la réalisation de votre tutoriel. 
 Privilégiez les puces (bullet points). Pour activer une puce, entrez le symbole étoile (*) au début de chaque ligne.
 Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marques).}}}
 </div>
@@ -173,7 +177,7 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 <div class="notes-ref">
 <h2>Notes et références</h2>
 {{{for template|Notes}}}
-{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder=Entrez ici les notes et références du tutoriel.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insérer des références</span>.</p>
+{{{field|Notes|input type=textarea|rows=5|class=form-textarea|maxlength=5000|placeholder=Entrez ici les notes et références du tutoriel.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insérer des références</span>.</p>
 {{{end template}}}
 </div>
 <div class="saving-menu">

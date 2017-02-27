@@ -87,12 +87,12 @@ __NOTOC__<noinclude>
  Tools & Materials=
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12"><div class="edit-step-title">Materials</div>
-{{{field|Material|input type=textarea|rows=8|placeholder=List the materials required to make your creation/product/object.
+{{{field|Material|input type=textarea|rows=8|class=form-textarea|placeholder=List the materials required to make your creation/product/object.
 If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence.
 Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.}}}
 <div class="hrContentMinor-2"></div>
 <div class="edit-step-title">Tools</div>
-{{{field|Tools|input type=textarea|rows=8|placeholder=List the tools required to make your creation/product/object.
+{{{field|Tools|input type=textarea|rows=8|class=form-textarea|placeholder=List the tools required to make your creation/product/object.
 If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence.
 Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.}}}
 </div>
@@ -174,7 +174,7 @@ Never mention commercial brands unless the object of your tutorial can't be made
 <div class="notes-ref">
 <h2>Notes and references</h2>
 {{{for template|Notes}}}
-{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder=List the notes and references for this tutorial.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  Learn how to <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insert references</span>.</p>
+{{{field|Notes|input type=textarea|rows=5|class=form-textarea|maxlength=5000|placeholder=List the notes and references for this tutorial.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  Learn how to <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insert references</span>.</p>
 {{{end template}}}
 </div>
 <div class="saving-menu">

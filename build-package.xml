@@ -69,7 +69,31 @@
 		</exec>
     </target>
 	
-    <target name="download-extensions"  depends="download-mediawiki">
+
+	 <target name="getVisualEditor">
+	    <if>
+	      <not>
+	 		<available file="build/VisualEditor.tar.gz" />
+	 	  </not>
+	      <then>
+	     	<exec executable="bash">
+	        	<arg value="-c"/>
+	        	<arg value="wget http://wikifab.s3.amazonaws.com/package/VisualEditor.tar.gz -O build/VisualEditor.tar.gz"/>
+	      	</exec>
+	      	<exec executable="bash">
+	        	<arg value="-c"/>
+	        	<arg value="tar -xzf build/VisualEditor.tar.gz -C build/"/>
+	      	</exec>
+	      </then>
+	 	</if>
+	    <copy todir="build/wikifab/extensions/VisualEditor" >
+		  <fileset dir="build/VisualEditor">
+		    <include name="**/*" />
+		  </fileset>
+		</copy>
+	 </target>
+	 	
+    <target name="download-extensions"  depends="download-mediawiki,getVisualEditor">
 
         <echo msg="Download Tabber..." />
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
@@ -89,6 +113,7 @@
 			<arg value="-c"/>
 			<arg value="mv vendor/mediawiki/flow extensions/Flow"/>
 		</exec>
+   	 
     </target>
 
     <target name="download"  depends="download-mediawiki,composer,download-extensions">

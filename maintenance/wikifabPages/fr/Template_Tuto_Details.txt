@@ -15,7 +15,7 @@ Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> de{{#displayAuthor
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
 <div class="tuto-main-image">
-[[Fichier:{{{Main_Picture}}}|border]]
+[[Fichier:{{{Main_Picture}}}|frameless|border]]
 </div>
 </div>
 </div>

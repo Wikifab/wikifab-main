@@ -10,6 +10,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/Echo.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/extension-UserFollowList.git"
 		},
 		{
@@ -42,47 +46,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:Wikifab/UsersWatchlist.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/mediawiki-extensions-wfSocialProfil.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/mediawiki-extensions-SemanticForms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/PageForms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/mediawiki-extensions-MsUpload.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:wikimedia/mediawiki-extensions-UserFunctions.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@github.com:Wikifab/googleAnalytics.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:wikimedia/mediawiki-extensions-Flow.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/UsersWatchButton.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/Echo.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/UsersPagesLinks.git"
 		},
 		{
 			"type": "vcs",
@@ -90,18 +54,66 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-CategoryTree.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/mediawiki-extensions-MultimediaViewer.git"
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-MsUpload.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-SemanticForms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-VisualEditor.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extension-VEForPageForm.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-wfSocialProfil.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/PageForms.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/PageMediaGallery.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:wikimedia/mediawiki-extensions-Flow.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:wikimedia/mediawiki-extensions-UserFunctions.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/UsersPagesLinks.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/UsersWatchlist.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/UsersWatchButton.git"
 		}
 	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"mediawiki/semantic-media-wiki": "^2.4.1",
-		"wikifab/wikifabStyleModule": "^0.2.0",
+		"mediawiki/CategoryTree": "*",
+		"wikifab/wikifabStyleModule": "^0.2.4",
 		"wikifab/SocialProfile": "^0.1.0",
 		"wikifab/page-forms": "^0.1.0",
 		"wikifab/chameleon-skin": "^0.2.0",
@@ -121,8 +133,9 @@
 		"wikifab/Echo":"^0.1.0",
 		"wikifab/UsersPagesLinks":"^0.1.0",
 		"wikifab/GroupsPage":"^0.1.0",
-		"wikifab/MultimediaViewer":"^0.1.0",
-		"wikifab/PageMediaGallery":"^0.2.0"
+		"wikifab/MultimediaViewer":"^0.2.0",
+		"wikifab/PageMediaGallery":"^0.2.0",
+		"wikifab/VEForPageForm":"^0.1.0"
 	},
 	"suggest": {
 		"ext-imagick": "*",

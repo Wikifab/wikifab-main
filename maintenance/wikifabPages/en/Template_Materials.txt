@@ -3,7 +3,7 @@
 <tabber>
  Tools & Materials=
 {{#if:{{{Step_Picture_00|}}}| 
-   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}|frameless]] | [[File:{{{Step_Picture_01}}}|frameless]] | [[File:{{{Step_Picture_02}}}|frameless]] | [[File:{{{Step_Picture_03}}}|frameless]] | [[File:{{{Step_Picture_04}}}|frameless]] | [[File:{{{Step_Picture_05}}}|frameless]] }} }} | 
  {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
  }}
 |-|
@@ -16,7 +16,7 @@
 <tabber>
  Tools & Materials=
 {{#if:{{{Step_Picture_00|}}}| 
-   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}|frameless]] | [[File:{{{Step_Picture_01}}}|frameless]] | [[File:{{{Step_Picture_02}}}|frameless]] | [[File:{{{Step_Picture_03}}}|frameless]] | [[File:{{{Step_Picture_04}}}|frameless]] | [[File:{{{Step_Picture_05}}}|frameless]] }} }} | 
  {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
  }}
 </tabber>
