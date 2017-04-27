@@ -3,7 +3,7 @@
 <project name="Wikifab buildPackage" default="build" >
 	
     <target name="prepare">
-		<delete dir="build"/>
+	<delete dir="build/wikifab"/>
         <echo msg="Making directory ./build" />
         <mkdir dir="./build" />
     </target>
@@ -20,38 +20,50 @@
 	</delete>
     </target>
 
-    <target name="download-mediawiki"  >
-
-        <echo msg="Download Mediawiki..." />
-		<exec executable="bash" dir="build/" checkreturn="true">
-			<arg value="-c"/>
-			<arg value="wget https://releases.wikimedia.org/mediawiki/1.28/mediawiki-1.28.0.tar.gz"/>
-		</exec>
-		<exec executable="bash" dir="build/" checkreturn="true">
-			<arg value="-c"/>
-			<arg value="tar -xzf mediawiki-1.28.0.tar.gz"/>
-		</exec>
-		<exec executable="bash" dir="build/" checkreturn="true">
-			<arg value="-c"/>
-			<arg value="mv mediawiki-1.28.0 wikifab"/>
-		</exec>
+	 <target name="getMediawiki" depends="getMediawiki-1-28" />
 	
-	    <echo msg="Download wikifabmain..." />
-		<exec executable="bash" dir="build/" checkreturn="true">
-			<arg value="-c"/>
-			<arg value="wget https://github.com/Wikifab/wikifab-main/archive/master.zip"/>
-		</exec>
-		<exec executable="bash" dir="build/" checkreturn="true">
-			<arg value="-c"/>
-			<arg value="unzip master.zip"/>
-		</exec>
-		<exec executable="bash" dir="build/" checkreturn="true">
-			<arg value="-c"/>
-			<arg value="cp -R wikifab-main-master/* wikifab/"/>
-		</exec>
+	 <target name="getMediawiki-1-28">
+	    <if>
+	      <not>
+	 		<available file="build/mediawiki-1.28.1" type="dir" />
+	 	  </not>
+	      <then>
+	     	<exec executable="bash">
+	        	<arg value="-c"/>
+	        	<arg value="wget https://releases.wikimedia.org/mediawiki/1.28/mediawiki-1.28.1.tar.gz -O build/mediawiki-1.28.1.tar.gz"/>
+	      	</exec>
+	     	<untar file="build/mediawiki-1.28.1.tar.gz" todir="build">
+			  <fileset dir=".">
+			    <include name="*.tar.gz"/>
+			    <include name="*.tar"/>
+			  </fileset>
+			</untar>
+	      </then>
+	 	</if>
+	    <copy todir="build/wikifab" >
+		  <fileset dir="build/mediawiki-1.28.1">
+		    <include name="**/*" />
+		  </fileset>
+		</copy>
+	 </target>
+	
+    <target name="setup-wikifab"  >
+	
+	    <echo msg="copy wikifab package" />
+	    <copy todir="build/wikifab" >
+		  <fileset dir="./">
+		    	<include name="**/*" />
+		  	<exclude name="**/build/**/*"/>
+		  	<exclude name="**/build"/>
+		  	<exclude name=".git"/>
+		  	<exclude name="**/.git"/>
+		  	<exclude name=".git*"/>
+		  	<exclude name=".*"/>
+		  </fileset>
+		</copy>
     </target>
 
-    <target name="composer"  depends="download-mediawiki">
+    <target name="composer"  depends="getMediawiki,setup-wikifab">
 
         <echo msg="Download composer..." />
 		<exec executable="bash" dir="build/wikifab" checkreturn="true">
@@ -92,8 +104,34 @@
 		  </fileset>
 		</copy>
 	 </target>
+	
+
+	 <target name="getSemanticMediaWiki">
+	    <if>
+	      <not>
+	 		<available file="build/wikifab/extensions/SemanticMediaWiki" />
+	 	  </not>
+	      <then>
+	     	<exec executable="bash">
+	        	<arg value="-c"/>
+	        	<arg value="wget https://github.com/SemanticMediaWiki/SemanticMediaWiki/releases/download/2.5.1/Semantic_MediaWiki_2.5.1_and_dependencies.tgz -O build/Semantic_MediaWiki_2.5.1_and_dependencies.tgz"/>
+	      	</exec>
+	      	<exec executable="bash">
+	        	<arg value="-c"/>
+	        	<arg value="tar -xzf build/Semantic_MediaWiki_2.5.1_and_dependencies.tgz -C build/"/>
+	      	</exec>
+	      </then>
+	 	</if>
+	    <copy todir="build/wikifab/extensions/SemanticMediaWiki" >
+		  <fileset dir="build/SemanticMediaWiki">
+		    <include name="**/*" />
+		  </fileset>
+		</copy>
+	 </target>
+	
+	
 	 	
-    <target name="download-extensions"  depends="download-mediawiki,getVisualEditor">
+    <target name="download-extensions"  depends="getMediawiki,setup-wikifab,getVisualEditor">
 
         <echo msg="Download Tabber..." />
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
@@ -116,7 +154,7 @@
    	 
     </target>
 
-    <target name="download"  depends="download-mediawiki,composer,download-extensions">
+    <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions">
     </target>
 	
     <target name="tarPackage"  >
