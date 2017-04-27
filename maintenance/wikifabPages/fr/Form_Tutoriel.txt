@@ -74,9 +74,12 @@ __NOTOC__<noinclude>
 <div class="col-md-4 col-sm-10 col-xs-9 table-edit-form">{{{field|Licences|input type=dropdown|class=form-dropdown-3}}}<span class="style-instructions-text" data-toggle="modal" data-target="#ModalCreativeCommons"><span class="glyphicon glyphicon-question-sign tuto-question-icon"></span></span></div>
 </div>
 </div>
-<div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail msuploadContainer">
+<div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail">
+<div class="msuploadContainer">
 {{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
+{{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
 {{{end template}}}
+</div>
 </div>
 </div>
 <div class="hrContentMinor-2"></div>
@@ -99,22 +102,45 @@ L'utilisation de noms commerciaux (marques) n'est autorisé que si la réalisati
 Privilégiez les puces (bullet points). Pour activer une puce, entrez le symbole étoile (*) au début de chaque ligne.
 Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marques).}}}
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 col-pic-step msuploadContainer">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="col-pic-step msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
-{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
-{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
-{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
-{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
-{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
+<p class="upload-instructions">Votre image sera visible après l'enregistrement de la page.</p>
+<div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Ajouter des photos </div>
+<div class="collapse" id="collapseExample">
+<div class="well add-more-pics">
+<span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_01_annotation|input type=editableImage|target=Step_Picture_01}}}
+
+<span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_02_annotation|input type=editableImage|target=Step_Picture_02}}}
+
+<span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_03_annotation|input type=editableImage|target=Step_Picture_03}}}
+
+<span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_04_annotation|input type=editableImage|target=Step_Picture_04}}}
+
+<span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_05_annotation|input type=editableImage|target=Step_Picture_05}}}
+</div>
+</div>
+</div>
+</div>
 </div>
 |-|
  Fichiers=
 <div class="alert alert-info" role="alert">Hébergez vos fichiers sur la plateforme de gestion de fichiers de votre choix (telles que Github ou Bitbucket) ou uploadez vos fichiers sur Wikifab.</div>
-<div class="file-subtitle">Ajoutez les liens vers les plateformes sur lesquelles vos fichiers sont hébergés <span class="label label-info">Recommandé</span> :</div>
-<div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div>
-<hr>
-<div class="file-subtitle">Uploadez vos fichiers :</div>
+<div class="row">
+<div class="col-md-5 col-sm-5 col-xs-12 box-file-form">
+<div class="file-subtitle">Ajoutez un lien vers le site sur lequel votre fichier est hébergé</div>
+<div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div></div>
+<div class="col-md-2 col-sm-2 col-xs-0 box-file-form"><span class="or-file"></span></div>
+<div class="col-md-5 col-sm-5 col-xs-12 box-file-form">
+<div class="file-subtitle">Uploadez vos fichiers sur Wikifab</div>
 <div class="add-attachments add-attachments-upload">{{{field|Tuto_Attachments|holds template}}}</div>
+</div>
 </tabber>
 </div>
 {{{end template}}}
@@ -126,52 +152,58 @@ Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marq
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="row">
-<div class="col-md-3 col-sm-4 col-xs-12 edit-step-title">Titre :</div>
-<div class="col-md-9 col-sm-8 col-xs-12">{{{field|Step_Title|input type=text|class=form-text|placeholder=Titre de l'étape|size=50}}}</div>
+<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Title|input type=text|class=form-text form-step-title|placeholder=Titre de l'étape|size=50}}}</div>
 </div>
 <div class="row">
-<div class="col-md-12 col-sm-12 col-xs-12"><p class="step-instruction-title">Instructions à suivre pour réaliser l'étape :</p></div>
 <div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder=Ecrivez ici les instructions à suivre pour réaliser l'étape. 
-Privilégiez les textes courts et les listes par puces (bullet points). Pour insérer un bullet point, mettre le symbole étoile (*) au début de chaque ligne.
+Privilégiez les textes courts et les listes par puces (bullet points). Pour activer un bullet points, entrez le symbole étoile (*) au début de chaque ligne.
 L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
-<div class="col-md-12 col-sm-12 col-xs-12">
-<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#myModal">mettre en forme</span> le texte et <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">insérer des liens</span>.</p>
 </div>
 </div>
-</div>
-<div class="col-md-6 col-sm-6 col-xs-12 col-pic-step msuploadContainer">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="col-pic-step msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
 <p class="upload-instructions">Votre image sera visible après l'enregistrement de la page.</p>
 <div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Ajouter des photos </div>
 <div class="collapse" id="collapseExample">
 <div class="well add-more-pics">
 <span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_01_annotation|input type=editableImage|target=Step_Picture_01}}}
 
 <span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_02_annotation|input type=editableImage|target=Step_Picture_02}}}
 
 <span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_03_annotation|input type=editableImage|target=Step_Picture_03}}}
 
 <span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_04_annotation|input type=editableImage|target=Step_Picture_04}}}
 
 <span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_05_annotation|input type=editableImage|target=Step_Picture_05}}}
 </div>
 </div>
-<div>
 </div>
 </div>
 </div>
-<div class="hrContentMinor"></div>
-{{{end template}}}
+<div class="hrContentMinor"></div>{{{end template}}}
 <div class="bg-halfsquare-separator-3"></div>
 <div class="notes-ref">
 <h2>Notes et références</h2>
 {{{for template|Notes}}}
+<<<<<<< Updated upstream
 {{{field|Notes|input type=textarea|rows=5|class=form-textarea|maxlength=5000|placeholder=Entrez ici les notes et références du tutoriel.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insérer des références</span>.</p>
+=======
+{{{field|Notes|input type=textarea|rows=5|maxlength=5000|class=form-textarea|placeholder=Entrez ici les notes et références du tutoriel.}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> Apprendre à <span class="style-instructions-text" data-toggle="modal" data-target="#ModalRef">insérer des références</span>.</p>
+>>>>>>> Stashed changes
 {{{end template}}}
 [[Catégorie:Tutoriels]]
 </div>
 <div class="saving-menu">
+<div class="container">
 {{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
+</div>
 </div>
 </includeonly>
 
@@ -375,6 +407,21 @@ Dans un souci d'homogénéité et d'optimisation de la recherche, nous vous dema
  
 * Préférez : Poncer une planche de chaîne
 * Plutôt que : Apprendre à poncer une planche de chaîne 
+
+
+<h4>3. Si votre tutoriel concerne une réparation :</h4>
+
+3.1 Démarrez toujours par le verbe qui décrit l'opération de la réparation (évitez le verbe "Réparer" car il est trop généraliste) et mettez le l'infinitif.
+
+* Préférez : Remplacer le tambourt de la machine à lavée
+* Plutôt que : Réparer le tambourt de la machine à lavée
+
+
+3.2 Indiquez toujours le modèle du produit que vous réparez.
+
+* Préférez : Remplacer le tambourt du lave linge Bosh WAB24211FF
+* Plutôt que : Remplacer le tambourt d'une machine à laver
+
 
 {{Info|Text=Si un tutoriel avec le nom que vous avez entré existe déjà, vous serez redirigé vers un formulaire pour l’éditer.}}
 </div>
