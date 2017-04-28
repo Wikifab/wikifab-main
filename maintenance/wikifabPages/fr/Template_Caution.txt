@@ -1,4 +1,4 @@
 <p>
-<div class="icon-instructions-image">[[File:Caution-icon.jpg|link=]]</div>
+<div class="icon-instructions-image"><span class="caution-icon"></span></div>
 <div class="icon-instructions-text">{{{Text}}}</div>
 </p>

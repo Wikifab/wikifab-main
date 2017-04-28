@@ -1,3 +1,5 @@
 {{#if:{{{Introduction|}}}| <div class="hrContentMinor-2"></div>
 <h3>Introduction</h3>
-[[Introduction::{{{Introduction|}}}]] | }}
+[[Introduction::{{{Introduction|}}}]] 
+<div class="hrContentMinor print-only"></div>| }}
+[[Catégorie:Tutoriels]]
