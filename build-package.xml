@@ -156,9 +156,17 @@
 
     <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions">
     </target>
-	
+
     <target name="tarPackage"  >
         <echo msg="Tar..." />
+		<exec executable="bash" dir="build/" checkreturn="true">
+			<arg value="-c"/>
+			<arg value="tar -czf wikifab.tar.gz wikifab"/>
+		</exec>
+    </target>
+
+    <target name="zipPackage"  >
+        <echo msg="Zip " />
 		<exec executable="bash" dir="build/" checkreturn="true">
 			<arg value="-c"/>
 			<arg value="zip -r wikifab.zip wikifab"/>
@@ -166,7 +174,7 @@
     </target>
 
 
-    <target name="build" depends="prepare,download,cleanPackage, tarPackage" >
+    <target name="build" depends="prepare,download,cleanPackage, tarPackage, zipPackage" >
     </target>
 </project>
     
