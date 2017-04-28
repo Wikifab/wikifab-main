@@ -1,5 +1,6 @@
 {{#if:{{{Step_Picture_00|}}}| 
-   {{Tuto StepImage|[[Step_Title::{{{Step_Title|}}}]]|[[Step_Content::{{{Step_Content|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+   {{Tuto StepImage|[[Step_Title::{{{Step_Title|}}}]]|[[Step_Content::{{{Step_Content|}}}]] |{{{Step_Picture_00|}}}|{{{Step_Picture_00_annotation|}}}|{{{Step_Picture_01|}}}|{{{Step_Picture_01_annotation|}}}|{{{Step_Picture_02|}}}|{{{Step_Picture_02_annotation|}}}|{{{Step_Picture_03|}}}|{{{Step_Picture_03_annotation|}}}|{{{Step_Picture_04|}}}|{{{Step_Picture_04_annotation|}}}|{{{Step_Picture_05|}}}|{{{Step_Picture_05_annotation|}}} }} |
 {{Tuto StepNoImage|[[Step_Title::{{{Step_Title|}}}]]|[[Step_Content::{{{Step_Content|}}}]]}}
  }}
+<div class="hrContentMinor"></div>
 [[Catégorie:Tutoriels]]

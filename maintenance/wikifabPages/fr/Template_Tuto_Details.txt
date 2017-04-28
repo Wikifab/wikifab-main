@@ -1,27 +1,43 @@
-<p class="tuto-details-autor-revision">Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> de {{#displayAuthorDiv:toto}} dans les catégories {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}. [{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} par [http://beta.wikifab.org/index.php/utilisateur:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].</p>
-<div class="row">
-<div class="col-md-5 col-sm-5 col-xs-12">
-<div class="tuto-main-image">{{#if:{{{Main_Picture|}}}|[[File:{{{Main_Picture}}}|frameless|border]]|[[File:No-image-yet.jpg|link=]]}}
+<p class="tuto-details-autor-revision noprint">Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> de {{#displayAuthorDiv:toto}} dans les catégories {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}. [{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].</p>
+<p class="tuto-details-autor-revision print-only">{{#displayAuthorDiv:toto}}</p>
+<div class="row firstPage">
+<div class="col-md-5 col-sm-5 col-xs-12 fullWidthPrint">
+<div class="tuto-main-image">{{#if:{{{Main_Picture|}}}|{{#annotatedImage:[[File:{{{Main_Picture}}}|frameless|border]]|{{{Main_Picture_annotation}}}}}|[[File:No-image-yet.jpg|link=]]}}
+<div class="print-only pageurl">{{fullurl:{{FULLPAGENAME}}}}</div>
+<div class="print-only lasteditdateinfo">Dernière modification le {{REVISIONDAY2}}/{{REVISIONMONTH}}/{{REVISIONYEAR}} </div>
 </div>
-</div>
-<div class="col-md-7 col-sm-7 col-xs-12">
-<div class="tuto-details-box">
-<p class="tuto-details-about-title">[[Description::{{{Description|}}}]]</p>
-<div class="tuto-items-container"><div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i>
- Difficulté</div><div class="tuto-items-details-container-right">[[Difficulty::{{{Difficulty|}}}]]</div></div>
+<div class="row tuto-details-box print-only">
+<br>
+<div class="col-md-5">
+<div class="tuto-items-container">
+<div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i> Difficulté</div><div class="tuto-items-details-container-right">[[Difficulty::{{{Difficulty|}}}]]</div></div>
 <div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-clock-o" aria-hidden="true"></i> Durée</div><div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</div></div>
 <div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
  Coût</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>
-<div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-list-ol" aria-hidden="true"></i></div>__TOC__</div>
 </div>
-<div class="licence-detail"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">Licence :</span> [[Licences::{{{Licences|}}}]]</div>
 </div>
-<div class="col-md-4 col-sm-4 col-xs-12">
-<div class="tuto-main-image">
-[[Fichier:{{{Main_Picture}}}|frameless|border]]
+<div class="col-md-7">
+<h2>Description</h2>
+<p>[[Description::{{{Description|}}}]]</p>
 </div>
 </div>
 </div>
-<div class="display-none">Mot(s)-clé(s) : {{#arraymap:{{{Tags|}}}|,|x|[[Tags::x]]}}</div>
-[[Catégorie:Tutoriels]]
+<div class="print-only printPageBreakBefore"></div>
+<div class="col-md-7 col-sm-7 col-xs-12 fullWidthPrint">
+<div class="tuto-details-box">
+<p class="tuto-details-about-title noprint">[[Description::{{{Description|}}}]]</p>
+<div class="tuto-items-container"><div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i> Difficulté</div><div class="tuto-items-details-container-right">[[Difficulty::{{{Difficulty|}}}]]</div></div>
+<div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-clock-o" aria-hidden="true"></i> Durée</div><div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</div></div>
+<div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
+ Coût</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>
+<h2 class="print-only">Sommaire</h2>
+<div class="tuto-items-details-container printTOC"><div class="tuto-items-details-container-left"><i class="fa fa-list-ol" aria-hidden="true"></i></div>__TOC__</div>
+</div>
+<div class="licence-detail noprint"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">Licence :</span> [[Licences::{{{Licences|}}}]]</div>
+</div>
+</div>
+</div>
+<div class="display-none noprint">Mot(s)-clé(s) : {{#arraymap:{{{Tags|}}}|,|x|[[Tags::x]]}}</div>
+<div class="noprint">[[Catégorie:Tutoriels]]</div>
 {{#stepNumber: step| init}}
+<hr class="print-only printPageBreakAfter"/>

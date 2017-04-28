@@ -1,0 +1,8 @@
+
+* navigation
+** Spécial:WfExplore|Explorer
+** Contribuer|Contribuer
+** Groupes|Groupes
+* SEARCH
+* TOOLBOX
+* LANGUAGES
