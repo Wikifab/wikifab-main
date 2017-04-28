@@ -1,4 +1,1 @@
-<p>
-<div class="icon-instructions-image"><span class="caution-icon"></span></div>
-<div class="icon-instructions-text">{{{Text}}}</div>
-</p>
+<div class="icon-instructions-image"><div class="caution-icon"></div></div><div class="icon-instructions-text">{{{Text}}}</div>
