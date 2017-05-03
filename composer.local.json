@@ -129,7 +129,7 @@
 		"mediawiki/flow": "dev-REL1_28",
 		"wikifab/author-div": "^0.1.0",
 		"wikifab/carousel": "^0.1.1",
-		"wikifab/chameleon-skin": "^0.2.2",
+		"wikifab/chameleon-skin": "^0.2.4",
 		"wikifab/Drafts": "dev-master",
 		"wikifab/Echo":"^0.1.0",
 		"wikifab/explore": "^0.2.3",
