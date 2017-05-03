@@ -150,7 +150,7 @@
 		"wikifab/VEForPageForm":"^0.1.0",
 		"wikifab/Wf-search": "^0.1.0",
 		"wikifab/wfext-style": "^0.2.0",
-		"wikifab/wikifabStyleModule": "^0.3.0"
+		"wikifab/wikifabStyleModule": "^0.4.0"
 	},
 	"suggest": {
 		"ext-imagick": "*",
