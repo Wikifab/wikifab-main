@@ -1,0 +1,7 @@
+<div class="group-explore-hp">
+<div class="container">
+<h1>Groupes</h1>
+<p class="marketing-section-hp-subtitle">Créez ou rejoignez une communauté de makers</p>
+[[Form:Group|<span class="sign-up-button-hp">Créer un groupe</span>]]</div></div>
+
+{{#displayExploreGroups:}}
