@@ -66,6 +66,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-extensions-InputBox.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/mediawiki-extensions-MultimediaViewer.git"
 		},
 		{
@@ -136,6 +140,7 @@
 		"wikifab/GroupsPage":"^0.1.2",
 		"wikifab/googleAnalytics": "^0.1.0",
 		"wikifab/ImageAnnotator": "^1.0.0",
+		"wikifab/InputBox": "^128.0.0",
 		"wikifab/MmsUpload": "^0.3.0",
 		"wikifab/UsersWatchlist":"^0.3.0",
 		"wikifab/UsersWatchButton":"^0.1.0",
