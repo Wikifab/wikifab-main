@@ -107,7 +107,7 @@ class InitWikifab extends Maintenance {
 
 		return $user;
 	}
-	private function createPage($pageName, $content, $force = false) {
+	private function createPage($pageName, $text, $force = false) {
 		$wikipage = $this->getPage ( $pageName );
 
 		if ($wikipage->exists () && ! $force) {
@@ -117,7 +117,8 @@ class InitWikifab extends Maintenance {
 
 		$user = $this->getAdminUser ();
 
-		$result = $wikipage->doEdit ( $content, $content, $flags = 0, $baseRevId = false, $user );
+		$content = ContentHandler::makeContent( $text, $wikipage->getTitle() );
+		$result = $wikipage->doEditContent( $content, 'init wikifab pages', $flags = 0, $baseRevId = false, $user );
 
 		if ($result->isOK ()) {
 			echo "page $pageName successfully created.\n";

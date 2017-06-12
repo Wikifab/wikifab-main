@@ -42,6 +42,7 @@ $egChameleonExternalStyleModules = array(
     __DIR__ . '/skins/wikifabStyleModule/font-awesome-4.4.0/less/font-awesome.less' => $wgScriptPath . '/skins/wikifabStyleModule/font-awesome-4.4.0/less/font-awesome.less',
 );
 
+$wgMessagesDirs['WikifabOrg'] = __DIR__ . "/i18n"; # Location of localisation files (Tell MediaWiki to load them)
 
 
 

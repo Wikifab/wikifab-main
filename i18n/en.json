@@ -32,7 +32,7 @@
 	"wf-formtutorial-main-box2-subtitle1": "Our lesson on how to take",
 	"wf-formtutorial-main-box2-subtitle2": "great pictures for your tutorial",
 	"wf-formtutorial-main-box3-title": "Need help?",
-	"wf-formtutorial-main-box2-subtitle1": "Everything about Wikifab",
+	"wf-formtutorial-main-box3-subtitle1": "Everything about Wikifab",
 	"wf-formtutorial-main-box3-subtitle2": "and how it works",
 	"wf-formtutorial-type-field-title": "Type",
 	"wf-formtutorial-type-popup-title1": "Creation:",
@@ -63,13 +63,9 @@
 	"wf-formtutorial-introduction-field-placeholder": "Describe your project in detail in this area (context, trials, etc.)",
 	"wf-formtutorial-tools-materials-tabs-title": "Tools & Materials",
 	"wf-formtutorial-materials-tabs-title": "Materials",
-	"wf-formtutorial-materials-tabs-placeholder": "List the materials required to make your creation/product/object.
-If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence.
-Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.",
+	"wf-formtutorial-materials-tabs-placeholder": "List the materials required to make your creation/product/object. If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence. Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.",
 	"wf-formtutorial-tools-tabs-title": "Tools",
-	"wf-formtutorial-tools-tabs-placeholder": "List the tools required to make your creation/product/object.
-If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence.
-Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.",
+	"wf-formtutorial-tools-tabs-placeholder": "List the tools required to make your creation/product/object. If it's appropriate, use bullet points. To create a bullet point, enter the star symbol (*) at the beginning of your sentence. Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.",
 	"wf-formtutorial-file-tabs-title": "Files",
 	"wf-formtutorial-file-tabs-subtitle": "Host your files on a dedicated file management platform (like Github or Bitbucket) and add the link below, or upload them on Wikifab.",
 	"wf-formtutorial-file-tabs-option1": "Add link(s) to external file management platform",
@@ -80,9 +76,7 @@ Never mention commercial brands unless the object of your tutorial can't be made
 	"wf-formtutorial-step-title": "Step title:",
 	"wf-formtutorial-step-title-placeholder": "Title of the step",
 	"wf-formtutorial-step-instructions": "Instructions to follow:",
-	"wf-formtutorial-step-instructions-placeholder": "Write here the instructions to be followed to complete this step.
-If it's appropriate, use bullet points. To active a bullet point, enter the star symbol (*) at the beginning of your sentence.
-Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.",
+	"wf-formtutorial-step-instructions-placeholder": "Write here the instructions to be followed to complete this step. If it's appropriate, use bullet points. To active a bullet point, enter the star symbol (*) at the beginning of your sentence. Never mention commercial brands unless the object of your tutorial can't be made without a product of that brand.",
 	"wf-formtutorial-step-help1": "Learn how to",
 	"wf-formtutorial-step-help2": "format text",
 	"wf-formtutorial-step-help3": "and",
@@ -156,5 +150,5 @@ Never mention commercial brands unless the object of your tutorial can't be made
 	"wf-formtutorial-popuptutoname-option2b":"Do not start the name of your tutorial by the verbs \"Learn\", \"How to\", etc. The verb doesn't provide useful information to the user, since they already know that they are looking to \"Learn\" something.",
 	"wf-formtutorial-popuptutoname-option2c":"Prefer: Sand down a table",
 	"wf-formtutorial-popuptutoname-option2d":"Rather than: How to sand down a table",
-	"wf-formtutorial-popuptutoname-last":"If a tutorial with the name you have entered already exists, you will be sent to the form for editing that tutorial.",
+	"wf-formtutorial-popuptutoname-last":"If a tutorial with the name you have entered already exists, you will be sent to the form for editing that tutorial."
 }
