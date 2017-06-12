@@ -2,12 +2,14 @@ __NOTOC__<noinclude>
 <div class="tutorial-page">
 <div class="container">
 <div class="new-tutorial-page">
-{{#ifanon:<div class="alert alert-warning" role="alert"><strong>{{int:wf-formtutorial-alert1}}</strong> {{int:wf-formtutorial-alert2}} [[Special:UserLogin/signup|{{int:wf-formtutorial-alert3}}]] {{int:wf-formtutorial-alert4}} [[Special:UserLogin|{{int:wf-formtutorial-alert5}}]].</div>
+{{#ifanon:<div class="alert alert-warning" role="alert">
+{{int:wf-formtutorial-alert|[[Special:UserLogin/signup|{{int:wf-formtutorial-alert-createaccount}}]]|[[Special:UserLogin|{{int:wf-formtutorial-alert-login}}]]}}
+</div>
 </div>
 </div>
 </div>|
 <h1>{{int:wf-formtutorial-main-title}}</h1>
-{{#forminput:form=Tutorial|button text={{int:wf-formtutorial-main-btn}}|placeholder={{int:wf-formtutorial-main-placeholder}}}}
+{{#forminput:form=Tutorial|button text={{int:wf-formtutorial-main-btn}}|placeholder={{int:wf-formtutorial-main-placeholder}}|}}
 <p data-toggle="modal" data-target="#ModalNom"><span class="glyphicon glyphicon-info-sign"></span> {{int:wf-formtutorial-main-subtitle}}</p>
 </div>
 </div>
@@ -17,22 +19,22 @@ __NOTOC__<noinclude>
 <div class="col-md-4 col-sm-4 col-xs-12">
 [[Wikifab:Get_started|<span class="contribute-block">
 <span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
-<span class="contribute-block-title">{{int:wf-formtutorial-main-box1-title}}</span>
-<span>{{int:wf-formtutorial-main-box1-subtitle1}}<br>{{int:wf-formtutorial-main-box1-subtitle2}}</span>
+<span class="contribute-block-title">{{int:wf-contribute-getstart-title}}</span>
+<span>{{int:wf-contribute-getstart-subtitle1}}</span>
 </span>]]
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
-[[Under construction|<span class="contribute-block">
+[[Wikifab:Taking_pictures|<span class="contribute-block">
 <span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span>
-<span class="contribute-block-title">{{int:wf-formtutorial-main-box2-title}}</span>
-<span>{{int:wf-formtutorial-main-box2-subtitle1}}<br>{{int:wf-formtutorial-main-box2-subtitle2}}</span>
+<span class="contribute-block-title">{{int:wf-contribute-takingpictures-title}}</span>
+<span>{{int:wf-contribute-takingpictures-subtitle1}}</span>
 </span>]]
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
 [[Wikifab:Help|<span class="contribute-block">
 <span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
-<span class="contribute-block-title">{{int:wf-formtutorial-main-box3-title}}</span>
-<span>{{int:wf-formtutorial-main-box3-subtitle1}}<br>{{int:wf-formtutorial-main-box3-subtitle2}}</span>
+<span class="contribute-block-title">{{int:wf-contribute-help-title}}</span>
+<span>{{int:wf-contribute-help-subtitle1}}</span>
 </span>]]
 </div>
 </div>
