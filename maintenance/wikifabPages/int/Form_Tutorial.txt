@@ -47,27 +47,29 @@ __NOTOC__<noinclude>
 <div class="col-md-8 col-sm-8 col-xs-12">
 <div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formtutorial-type-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9 custom-tooltip">{{{field|Type|mandatory|class=form-dropdown}}} {{#info:<p>'''{{int:wf-formtutorial-type-popup-title1}}''' {{int:wf-formtutorial-type-popup-text1}}</p><p>'''{{int:wf-formtutorial-type-popup-title2}}''' {{int:wf-formtutorial-type-popup-text2}}</p>}}
+<div class="col-md-10 col-sm-10 col-xs-9 custom-tooltip">{{{field|Type|mandatory|class=form-dropdown}}} 
+{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p>
+<p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}
 </div>
 </div>
 <div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-area-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox}}}</div>
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox|mapping using translate=wf-propertyvalue-area-}}}</div>
 </div>
 <div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-description-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|rows=3|maxlength=4000|class=form-textarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}}}}
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|rows=3|maxlength=4000|class=form-textarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
 </div>
 </div>
 <div class="row licence-section">
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-difficulty-field-title}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Difficulty|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</div>
+<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Difficulty|input type=dropdown|mandatory|class=form-dropdown|mapping using translate=wf-propertyvalue-difficulty-}}} {{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-cost-field-title}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Cost|mandatory|class=form-duration}}} {{{field|Currency|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:{{int:wf-formtutorial-cost-popup}}}}</div>
+<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Cost|mandatory|class=form-duration}}} {{{field|Currency|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:{{int:wf-formtutorial-cost-popup}}|}}</div>
 </div>
 <div class="row">
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-duration-field-title}}</div>
-<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form custom-tooltip licence-section">{{{field|Duration|mandatory|class=form-duration}}} {{{field|Duration-type|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:{{int:wf-formtutorial-duration-popup}}}}</div>
+<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form custom-tooltip licence-section">{{{field|Duration|mandatory|class=form-duration}}} {{{field|Duration-type|mandatory|input type=dropdown|class=form-dropdown-2|mapping using translate=wf-propertyvalue-durationtype-}}} {{#info:{{int:wf-formtutorial-duration-popup}}|}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-license-field-title}}</div>
 <div class="col-md-4 col-sm-10 col-xs-9 table-edit-form">{{{field|Licences|input type=dropdown|class=form-dropdown-3}}}<span class="style-instructions-text" data-toggle="modal" data-target="#ModalCreativeCommons"><span class="glyphicon glyphicon-question-sign tuto-question-icon"></span></span></div>
 </div>
@@ -80,7 +82,7 @@ __NOTOC__<noinclude>
 <div class="hrContentMinor-2"></div>
 {{{for template|Introduction}}}
 <div class="edit-step-title">{{int:wf-formtutorial-introduction-field-title}} <span>{{int:wf-formtutorial-introduction-field-info}}</span></div>
-{{{field|Introduction|input type=textarea|rows=5|maxlength=10000|class=form-textarea|placeholder={{int:wf-formtutorial-introduction-field-placeholder}}}}}
+{{{field|Introduction|input type=textarea|rows=5|maxlength=10000|class=form-textarea|placeholder={{int:wf-formtutorial-introduction-field-placeholder}}|}}}
 {{{end template}}}
 {{{for template|Materials}}}
 <div class="Input-tabs">
@@ -88,10 +90,10 @@ __NOTOC__<noinclude>
  {{int:wf-formtutorial-tools-materials-tabs-title}}=
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12"><div class="edit-step-title">{{int:wf-formtutorial-materials-tabs-title}}</div>
-{{{field|Material|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-materials-tabs-placeholder}}}}}
+{{{field|Material|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-materials-tabs-placeholder}}|}}}
 <div class="hrContentMinor-2"></div>
 <div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
-{{{field|Tools|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}}}}
+{{{field|Tools|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}|}}}
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  col-pic-step msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
@@ -116,7 +118,7 @@ __NOTOC__<noinclude>
 {{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text={{int:wf-formtutorial-file-tabs-btnfile}}|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
 <div class="bg-halfsquare-separator-2"></div>
 {{{for template|Separator}}}<br>{{{end template}}}
-{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=100|add button text={{int:wf-formtutorial-step-btnaddstep}}}}}
+{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=100|add button text={{int:wf-formtutorial-step-btnaddstep}}|}}}
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="row">
@@ -125,7 +127,7 @@ __NOTOC__<noinclude>
 </div>
 <div class="row">
 <div class="col-md-12 col-sm-12 col-xs-12"><p class="step-instruction-title">{{int:wf-formtutorial-step-instructions}}</p></div>
-<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder={{int:wf-formtutorial-step-instructions-placeholder}}}}}</div>
+<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder={{int:wf-formtutorial-step-instructions-placeholder}}|}}}</div>
 <div class="col-md-12 col-sm-12 col-xs-12">
 <p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#myModal">{{int:wf-formtutorial-step-help2}}</span> {{int:wf-formtutorial-step-help3}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
 </div>
@@ -146,7 +148,7 @@ __NOTOC__<noinclude>
 <div class="notes-ref">
 <h2>{{int:wf-formtutorial-note-title}}</h2>
 {{{for template|Notes}}}
-{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder={{int:wf-formtutorial-note-placeholder}}}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
+{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder={{int:wf-formtutorial-note-placeholder}}|}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
 {{{end template}}}
 </div>
 <div class="saving-menu">
@@ -272,7 +274,7 @@ __NOTOC__<noinclude>
         </tr>
         <tr>
           <td>{{int:wf-formtutorial-popuplinks-internal-link-label}}</td>
-          <td><pre>[[{{int:wf-formtutorial-popuplinks-main-page}}|{{int:wf-formtutorial-popuplinks-internal-label}}}}]]</pre></td>
+          <td><pre>[[{{int:wf-formtutorial-popuplinks-main-page}}|{{int:wf-formtutorial-popuplinks-internal-label}}|}}]]</pre></td>
           <td>[[{{int:wf-formtutorial-popuplinks-main-page}}|{{int:wf-formtutorial-popuplinks-internal-label}}]]</td>
         </tr>
 <tr>
@@ -327,7 +329,7 @@ __NOTOC__<noinclude>
 * {{int:wf-formtutorial-popuptutoname-option2c}}
 * {{int:wf-formtutorial-popuptutoname-option2d}}
 
-{{Info|Text={{int:wf-formtutorial-popuptutoname-last}}}}
+{{Info|Text={{int:wf-formtutorial-popuptutoname-last}}|}}
 </div>
 </div>
 </div>
