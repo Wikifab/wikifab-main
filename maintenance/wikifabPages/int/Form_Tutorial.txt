@@ -58,7 +58,7 @@ __NOTOC__<noinclude>
 </div>
 <div class="row table-edit-form">
 <div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-description-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|rows=3|maxlength=4000|class=form-textarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
+<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|translatable|rows=3|maxlength=4000|class=form-textarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
 </div>
 </div>
 <div class="row licence-section">
@@ -82,7 +82,7 @@ __NOTOC__<noinclude>
 <div class="hrContentMinor-2"></div>
 {{{for template|Introduction}}}
 <div class="edit-step-title">{{int:wf-formtutorial-introduction-field-title}} <span>{{int:wf-formtutorial-introduction-field-info}}</span></div>
-{{{field|Introduction|input type=textarea|rows=5|maxlength=10000|class=form-textarea|placeholder={{int:wf-formtutorial-introduction-field-placeholder}}|}}}
+{{{field|Introduction|input type=textarea|translatable|rows=5|maxlength=10000|class=form-textarea|placeholder={{int:wf-formtutorial-introduction-field-placeholder}}|}}}
 {{{end template}}}
 {{{for template|Materials}}}
 <div class="Input-tabs">
@@ -90,10 +90,10 @@ __NOTOC__<noinclude>
  {{int:wf-formtutorial-tools-materials-tabs-title}}=
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12"><div class="edit-step-title">{{int:wf-formtutorial-materials-tabs-title}}</div>
-{{{field|Material|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-materials-tabs-placeholder}}|}}}
+{{{field|Material|input type=textarea|translatable|rows=8|placeholder={{int:wf-formtutorial-materials-tabs-placeholder}}|}}}
 <div class="hrContentMinor-2"></div>
 <div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
-{{{field|Tools|input type=textarea|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}|}}}
+{{{field|Tools|input type=textarea|translatable|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}|}}}
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  col-pic-step msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
@@ -123,11 +123,11 @@ __NOTOC__<noinclude>
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="row">
 <div class="col-md-3 col-sm-4 col-xs-12 edit-step-title">{{int:wf-formtutorial-step-title}}</div>
-<div class="col-md-9 col-sm-8 col-xs-12">{{{field|Step_Title|input type=text|class=form-text|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
+<div class="col-md-9 col-sm-8 col-xs-12">{{{field|Step_Title|input type=text|translatable|class=form-text|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
 </div>
 <div class="row">
 <div class="col-md-12 col-sm-12 col-xs-12"><p class="step-instruction-title">{{int:wf-formtutorial-step-instructions}}</p></div>
-<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|rows=16|class=form-textarea|placeholder={{int:wf-formtutorial-step-instructions-placeholder}}|}}}</div>
+<div class="col-md-12 col-sm-12 col-xs-12">{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea|placeholder={{int:wf-formtutorial-step-instructions-placeholder}}|}}}</div>
 <div class="col-md-12 col-sm-12 col-xs-12">
 <p class="help-text"><span class="glyphicon glyphicon-question-sign"></span> {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#myModal">{{int:wf-formtutorial-step-help2}}</span> {{int:wf-formtutorial-step-help3}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
 </div>
@@ -148,7 +148,7 @@ __NOTOC__<noinclude>
 <div class="notes-ref">
 <h2>{{int:wf-formtutorial-note-title}}</h2>
 {{{for template|Notes}}}
-{{{field|Notes|input type=textarea|rows=5|maxlength=5000|placeholder={{int:wf-formtutorial-note-placeholder}}|}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
+{{{field|Notes|input type=textarea|translatable|rows=5|maxlength=5000|placeholder={{int:wf-formtutorial-note-placeholder}}|}}}<p class="help-text"><span class="glyphicon glyphicon-question-sign"></span>  {{int:wf-formtutorial-step-help1}} <span class="style-instructions-text" data-toggle="modal" data-target="#ModalLink">{{int:wf-formtutorial-step-help4}}</span>.</p>
 {{{end template}}}
 </div>
 <div class="saving-menu">

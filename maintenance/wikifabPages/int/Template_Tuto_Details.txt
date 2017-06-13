@@ -5,9 +5,9 @@ __NOTOC__
 <p class="tuto-details-about-title">[[Description::{{{Description|}}}]]</p>
 <div class="hrContentMinor-2"></div>{{int:wf-tutotemplate-info-header| <span class="type-lowercase">[[Type::{{{Type|}}}]]</span>|{{#displayAuthorDiv:toto}}|{{#arraymap:{{{Area|}}}|,|x|[[Area::x|{{int:wf-propertyvalue-area-x}}]]}} }}
 <ul>
-<li>{{int:wf-formtutorial-difficulty-field-title}}: {{int:wf-propertyvalue-difficulty-{{{Difficulty|}}}|}}</li>
-<li>{{int:wf-formtutorial-duration-field-title}}: [[Duration::{{{Duration|}}}]] {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}}</li>
-<li>{{int:wf-formtutorial-cost-field-title}}: [[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</li>
+<li>{{int:wf-formtutorial-difficulty-field-title}}: {{int:wf-propertyvalue-difficulty-{{{Difficulty|}}}|}} <!-- thoses comments are required in order that page Form recognise the property [[Difficulty::{{{Difficulty|}}}]] --></li>
+<li>{{int:wf-formtutorial-duration-field-title}}: [[Duration::{{{Duration|}}}]] {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}} <!-- [[Duration-type::{{{Duration-type|}}}]] --></li>
+<li>{{int:wf-formtutorial-cost-field-title}}: [[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]] </li>
 </ul>
 </div>
 <div class="licence-detail"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">{{int:wf-formtutorial-license-field-title}}:</span> [[Licences::{{{Licences|}}}]]</div>
