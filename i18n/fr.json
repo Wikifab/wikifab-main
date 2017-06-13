@@ -80,6 +80,8 @@
 	"wf-mainpage-or": "or",
 	"wf-mainpage-createtutorial": "Create a tutorial",
 	"wf-mainpage-editprofile": "Edit your profile",
+	"wf-propertyvalue-type-Creation": "Création",
+	"wf-propertyvalue-type-Technique": "Technique",
 	"wf-propertyvalue-area-Art": "Art",
 	"wf-propertyvalue-area-Decoration": "Décoration",
 	"wf-propertyvalue-area-Electronics": "Électronique",
