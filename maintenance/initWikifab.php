@@ -19,6 +19,7 @@ class InitWikifab extends Maintenance {
 		$this->mDescription = "Init Wikifab pages";
 		$this->addOption ( 'setWikifabHomePage', "Set the wiki home page", false, false );
 		$this->addOption ( 'force', "force edit of existing pages", false, false );
+		$this->addOption ( 'int', "use internationnalized pages", false, false );
 	}
 
 	protected function getUpdateKey() {
@@ -35,11 +36,12 @@ class InitWikifab extends Maintenance {
 		$setWikifabHomePage = $this->getOption ( 'setWikifabHomePage' );
 		$force = $this->getOption ( 'force' ) ? true : false;
 
-		$lang = $wgContLang->getCode();
+		$lang = $this->getOption ( 'int' ) ? 'int' : $wgContLang->getCode();
 
 		$homePageFile = [
 				'fr' => 'Accueil.txt',
-				'en' => 'Main_Page.txt'
+				'en' => 'Main_Page.txt',
+				'int' => 'Main_Page.txt'
 		];
 
 		$pagelist = $this->getPageListToCreate ($lang);

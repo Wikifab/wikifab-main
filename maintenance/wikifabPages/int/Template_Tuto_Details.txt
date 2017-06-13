@@ -3,11 +3,10 @@ __NOTOC__
 <div class="col-md-8 col-sm-8 col-xs-12">
 <div class="tuto-details-box">
 <p class="tuto-details-about-title">[[Description::{{{Description|}}}]]</p>
-<div class="hrContentMinor-2"></div>
-{{int:wf-tutotemplate-a}} <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> {{int:wf-tutotemplate-by}} {{#displayAuthorDiv:toto}} {{int:wf-tutotemplate-in}}: {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}
+<div class="hrContentMinor-2"></div>{{int:wf-tutotemplate-info-header| <span class="type-lowercase">[[Type::{{{Type|}}}]]</span>|{{#displayAuthorDiv:toto}}|{{#arraymap:{{{Area|}}}|,|x|[[Area::x|{{int:wf-propertyvalue-area-x}}]]}} }}
 <ul>
-<li>{{int:wf-formtutorial-difficulty-field-title}}: [[Difficulty::{{{Difficulty|}}}]]</li>
-<li>{{int:wf-formtutorial-duration-field-title}}: [[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</li>
+<li>{{int:wf-formtutorial-difficulty-field-title}}: {{int:wf-propertyvalue-difficulty-{{{Difficulty|}}}|}}</li>
+<li>{{int:wf-formtutorial-duration-field-title}}: [[Duration::{{{Duration|}}}]] {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}}</li>
 <li>{{int:wf-formtutorial-cost-field-title}}: [[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</li>
 </ul>
 </div>
