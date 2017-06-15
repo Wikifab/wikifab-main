@@ -19,5 +19,7 @@ __NOTOC__
 </div>
 </div>
 <span class="propertyKey" style="display:none">[[Language::{{{Language|}}}]]</span> 
+<span class="propertyKey" style="display:none">[[SourceLanguage::{{{SourceLanguage|}}}]]</span> 
+<span class="propertyKey" style="display:none">[[isTranslation::{{{IsTranslation|}}}]]</span> 
 [[Category:Tutorials]]
 {{#stepNumber: step| init}}
