@@ -43,6 +43,8 @@
 	"wf-formtutorial-difficulty-popup-text4": "Requires mastery of technical skills. An amateur may, however, follow the tutorial",
 	"wf-formtutorial-difficulty-popup-title5": "Very difficult:",
 	"wf-formtutorial-difficulty-popup-text5": "Usually reserved for professionals. Requires the mastery of complex technical skills",
+	"wf-formtutorial-tags-field-title": "Mots-clés",
+	"wf-formtutorial-tags-popup": "Entrez 4 à 5 mots clés pour décrire votre tutoriel (séparez chaque mot clé par une virgule).",
 	"wf-formtutorial-cost-field-title": "Coût",
 	"wf-formtutorial-cost-popup": "Approx. cost of the materials supposing you need to buy them all (excluding tools).",
 	"wf-formtutorial-duration-field-title": "Duration",
