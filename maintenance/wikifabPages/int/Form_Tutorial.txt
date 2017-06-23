@@ -119,7 +119,7 @@ __NOTOC__<noinclude>
 </tabber>
 </div>
 {{{end template}}}
-{{{for template|Prerequisites|multiple|maximum instances=20|add button text=+ Ajouter un tutoriel|embed in field=Materials[Prerequisites]}}}{{{field|Prerequisites|input type=combobox|existing values only|placeholder=Rechercher et ajoutez un tutoriel lié|values from category=Tutorials}}}{{{end template}}}
+{{{for template|Prerequisites|multiple|maximum instances=20|add button text={{int:wf-prerequisites-tabs-btnlink}}|embed in field=Materials[Prerequisites]}}}{{{field|Prerequisites|input type=combobox|existing values only|placeholder=Rechercher et ajoutez un tutoriel lié|values from category=Tutorials}}}{{{end template}}}
 {{{for template|ExternalAttachmentsLinks|multiple|maximum instances=10|add button text={{int:wf-formtutorial-file-tabs-btnlink}}|embed in field=Materials[ExternalAttachmentsLinks]}}}{{{field|ExternalAttachmentsLinks|input type=text}}}{{{end template}}}
 {{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text={{int:wf-formtutorial-file-tabs-btnfile}}|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
 <div class="bg-halfsquare-separator-2"></div>
@@ -157,7 +157,7 @@ __NOTOC__<noinclude>
 {{{end template}}}
 </div>
 <div class="saving-menu">
-{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
+{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete|translatable}}}{{{end template}}}</span>
 </div>
 </includeonly>
 
