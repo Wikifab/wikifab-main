@@ -94,7 +94,7 @@ __NOTOC__<noinclude>
 {{{for template|Materials}}}
 <div class="Input-tabs">
 <tabber>
- {{int:wf-formtutorial-tools-materials-tabs-title}}=
+ {{int:wf-formtutorial-tools-materials-tabs-title}} =
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="edit-step-title">{{int:wf-formtutorial-materials-tabs-title}}</div>
@@ -105,9 +105,9 @@ __NOTOC__<noinclude>
 {{{field|Tools|input type=textarea|class=form-textarea|translatable|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}|}}}
 </div>
 |-|
- Tutoriels liés=<h4>Ajoutez une liste d'équipements nécessaires :</h4><div class="prerequisites-selection">{{{field|Prerequisites|holds template}}}</div>
+ {{int:wf-prerequisites-tabs-title}} =<h4>{{int:wf-prerequisites-tabs-subtitle}}</h4><div class="prerequisites-selection">{{{field|Prerequisites|holds template}}}</div>
 |-|
- {{int:wf-formtutorial-file-tabs-title}}=
+ {{int:wf-formtutorial-file-tabs-title}} =
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 box-file-form">
 <div class="file-subtitle">{{int:wf-formtutorial-file-tabs-option1}}</div>
@@ -178,7 +178,7 @@ __NOTOC__<noinclude>
 <p>{{int:wf-formtutorial-popuplicense-licence2-description}}</p>
 <p>[http://creativecommons.org/licenses/by-sa/4.0/ {{int:wf-formtutorial-popuplicense-licence-link1}}] | [http://creativecommons.org/licenses/by-sa/4.0/legalcode {{int:wf-formtutorial-popuplicense-licence-link2}}]</p>
 <hr>
-<p>{{int:wf-formtutorial-popuplicense-question}} [http://discuter.wikifab.org/t/under-which-open-license-can-i-publish-my-tutorial-on-wikifab/30 {{int:wf-formtutorial-popuplicense-question-link}}].</p>
+<p>{{int:wf-formtutorial-popuplicense-question}} [http://feedback.wikifab.org/t/under-which-open-license-can-i-publish-my-tutorial-on-wikifab/30 {{int:wf-formtutorial-popuplicense-question-link}}].</p>
 </div>
 </div>
 </div>
