@@ -89,7 +89,7 @@ __NOTOC__<noinclude>
 <div class="hrContentMinor-2"></div>
 {{{for template|Introduction}}}
 <div class="edit-step-title">{{int:wf-formtutorial-introduction-field-title}} <span>{{int:wf-formtutorial-introduction-field-info}}</span></div>
-{{{field|Introduction|input type=textarea|translatable|rows=5|maxlength=10000|class=form-textarea|placeholder={{int:wf-formtutorial-introduction-field-placeholder}}|}}}
+{{{field|Introduction|input type=textarea|translatable|rows=5|maxlength=10000|class=form-textarea}}}
 {{{end template}}}
 {{{for template|Materials}}}
 <div class="Input-tabs">
@@ -98,11 +98,11 @@ __NOTOC__<noinclude>
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="edit-step-title">{{int:wf-formtutorial-materials-tabs-title}}</div>
-{{{field|Material|input type=textarea|class=form-textarea|translatable|rows=8|placeholder={{int:wf-formtutorial-materials-tabs-placeholder}}|}}}
+{{{field|Material|input type=textarea|class=form-textarea|translatable|rows=8}}}
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
-{{{field|Tools|input type=textarea|class=form-textarea|translatable|rows=8|placeholder={{int:wf-formtutorial-tools-tabs-placeholder}}|}}}
+{{{field|Tools|input type=textarea|class=form-textarea|translatable|rows=8}}}
 </div>
 |-|
  {{int:wf-prerequisites-tabs-title}} =<h4>{{int:wf-prerequisites-tabs-subtitle}}</h4><div class="prerequisites-selection">{{{field|Prerequisites|holds template}}}</div>
@@ -119,13 +119,13 @@ __NOTOC__<noinclude>
 </tabber>
 </div>
 {{{end template}}}
-{{{for template|Prerequisites|multiple|maximum instances=20|add button text={{int:wf-prerequisites-tabs-btnlink}}|embed in field=Materials[Prerequisites]}}}{{{field|Prerequisites|input type=combobox|existing values only|placeholder=Rechercher et ajoutez un tutoriel lié|values from category=Tutorials}}}{{{end template}}}
+{{{for template|Prerequisites|multiple|maximum instances=20|add button text={{int:wf-prerequisites-tabs-btnlink}}|embed in field=Materials[Prerequisites]}}}{{{field|Prerequisites|input type=combobox|existing values only|placeholder={{int:wf-prerequisites-tabs-placeholder}}|values from category=Tutorials}}}{{{end template}}}
 {{{for template|ExternalAttachmentsLinks|multiple|maximum instances=10|add button text={{int:wf-formtutorial-file-tabs-btnlink}}|embed in field=Materials[ExternalAttachmentsLinks]}}}{{{field|ExternalAttachmentsLinks|input type=text}}}{{{end template}}}
 {{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text={{int:wf-formtutorial-file-tabs-btnfile}}|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
 <div class="bg-halfsquare-separator-2"></div>
 {{{for template|Separator}}}<br>{{{end template}}}
-<h2>Étapes</h2>
-<div class="multipleTemplate-tutostep">{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=400|add button text=+ Ajouter une étape}}}
+<h2>{{int:wf-formtutorial-steps}}</h2>
+<div class="multipleTemplate-tutostep">{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=400|add button text={{int:wf-formtutorial-step-btnaddstep}} }}}
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="col-pic-step msuploadContainer">
@@ -145,7 +145,7 @@ __NOTOC__<noinclude>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div>{{{field|Step_Title|input type=text|translatable|class=form-text form-step-title|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
-<div>{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea|placeholder={{int:wf-formtutorial-step-instructions-placeholder}}|}}}</div>
+<div>{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea}}}</div>
 </div>
 </div>
 <div class="hrContentMinor"></div>{{{end template}}}</div>
@@ -153,7 +153,7 @@ __NOTOC__<noinclude>
 <div class="notes-ref">
 <h2>{{int:wf-formtutorial-note-title}}</h2>
 {{{for template|Notes}}}
-{{{field|Notes|input type=textarea|class=form-textarea|translatable|rows=5|maxlength=5000|placeholder={{int:wf-formtutorial-note-placeholder}}|}}}
+{{{field|Notes|input type=textarea|class=form-textarea|translatable|rows=5|maxlength=5000}}}
 {{{end template}}}
 </div>
 <div class="saving-menu">
