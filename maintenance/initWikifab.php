@@ -134,7 +134,9 @@ class InitWikifab extends Maintenance {
 	private function getPageName($page) {
 		$page = str_replace ( 'Form_', 'Form:', $page );
 		$page = str_replace ( 'Property_', 'Property:', $page );
-		$page = str_replace ( 'Template_', 'Template:', $page );
+		if (strpos($page,'Template_') == 0) {
+			$page = str_replace ( 'Template_', 'Template:', $page );
+		}
 		$page = str_replace ( 'Module_', 'Module:', $page );
 		$page = str_replace ( 'Category_', 'Catégorie:', $page );
 		$page = str_replace ( 'Mediawiki', 'Mediawiki:', $page );
