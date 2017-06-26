@@ -2,7 +2,7 @@ __NOTOC__<noinclude>
 <div class="tutorial-page">
 <div class="container">
 <div class="new-tutorial-page">
-{{#ifanon:<div class="alert alert-warning" role="alert"><strong>Oups !</strong> Vous n'avez pas la permission de créer un tutoriel car vous n'êtes pas connecté. [[Special:UserLogin/signup|Créer un compte]] ou [[Special:UserLogin|connectez-vous]].</div>
+{{#ifanon:<div class="alert alert-warning" role="alert"><strong>Oups !</strong> Vous n'avez pas la permission de créer un tutoriel car vous n'êtes pas connecté. [[Special:UserLogin/signup|Créez un compte]] ou [[Special:UserLogin|connectez-vous]].</div>
 </div>
 </div>
 </div>|
@@ -15,13 +15,25 @@ __NOTOC__<noinclude>
 <div class="container">
 <div class="row">
 <div class="col-md-4 col-sm-4 col-xs-12">
-[http://beta.wikifab.org/index.php/Wikifab:Premiers_pas <span class="contribute-block"><span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span><span class="contribute-block-title">Premiers pas</span><span>Quelques conseils en une page<br>pour bien démarrer</span></span>]
+[[Wikifab:Premiers_pas|<span class="contribute-block">
+<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Premiers pas</span>
+<span>Quelques conseils en une page<br>pour bien commencer</span>
+</span>]]
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
-[http://beta.wikifab.org/index.php/R%C3%A9ussir_vos_photos_de_tutoriels <span class="contribute-block"><span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span><span class="contribute-block-title">Prendre des photos</span><span>Découvrez notre tutoriel pour<br>apprendre à prendre de belles photos</span></span>]
+[[Réussir_vos_photos_de_tutoriels|<span class="contribute-block">
+<span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">Prendre des photos</span>
+<span>Découvrez notre tutoriel pour<br>apprendre à prendre de belles photos</span>
+</span>]]
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
-[http://beta.wikifab.org/index.php/Wikifab:Aide <span class="contribute-block"><span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span><span class="contribute-block-title">L'aide complète</span><span>Pour tout savoir sur la plateforme<br>et son fonctionnement</span></span>]
+[[Wikifab:Aide|<span class="contribute-block">
+<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
+<span class="contribute-block-title">L'aide complète</span>
+<span>Pour tout savoir sur wikifab<br>et son fonctionnement</span>
+</span>]]
 </div>
 </div>
 </div>
@@ -119,14 +131,14 @@ Utilisez le nom générique de l'outil et ne citez pas de noms commerciaux (marq
 </div>
 |-|
  Fichiers=
-<div class="alert alert-info" role="alert">Ajoutez un lien vers l'endroit ou vos fichiers sont hébergés ou stockez vos fichiers directement sur la plateforme.</div>
+<div class="alert alert-info" role="alert">Hébergez vos fichiers sur la plateforme de gestion de fichiers de votre choix (telles que Github ou Bitbucket) ou uploadez vos fichiers sur Wikifab.</div>
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 box-file-form">
-<div class="file-subtitle">Uploadez vos fichiers sur la plateforme</div>
-<div class="add-attachments add-attachments-upload">{{{field|Tuto_Attachments|holds template}}}</div></div>
-<div class="col-md-6 col-sm-6 col-xs-12 box-file-form">
 <div class="file-subtitle">Ajoutez un lien vers le site sur lequel votre fichier est hébergé</div>
-<div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div>
+<div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div></div>
+<div class="col-md-6 col-sm-6 col-xs-12 box-file-form">
+<div class="file-subtitle">Uploadez vos fichiers sur Wikifab</div>
+<div class="add-attachments add-attachments-upload">{{{field|Tuto_Attachments|holds template}}}</div>
 </div>
 </tabber>
 </div>
@@ -186,24 +198,160 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 <div class="saving-menu">{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span></div>
 </includeonly>
 
+<div class="modal fade wfform" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<p class="modal-subtitle">Mettre en forme le texte<span class="close" data-dismiss="modal" aria-hidden="true">&times;</span></p>
+<table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>Résultat</th>
+          <th>Saisie</th>
+        </tr>
+        <tr>
+          <td>Bullet points</td>
+          <td><ul><li>Ceci est un bullet point</li></ul></td>
+          <td><div style="width:36px; float:left; margin-right:10px"><pre>*</pre></div> à insérer en début de phrase</td>
+        </tr>
+        <tr>
+          <td>Texte en gras</td>
+          <td>'''Ceci est un texte en gras'''</td>
+          <td><pre>'''Ceci est un texte en gras'''</pre></td>
+        </tr>
+        <tr>
+          <td>Texte en italique</td>
+          <td>''Ceci est un texte en italic''</td>
+          <td><pre>''Ceci est un texte en italic''</pre></td>
+        </tr>
+        <tr>
+          <td>Texte barré</td>
+          <td><s>Texte barré</s></td>
+          <td><pre><s>Texte barré</s></pre></td>
+        </tr>
+        <tr>
+          <td>Souligner du texte</td>
+          <td><u>Texte souligné</u></td>
+          <td><pre><u>Texte souligné</u></pre></td>
+        </tr>
+    </table>
+<p class="modal-subtitle">Insérer des pastilles d'aide à la réalisation du tutoriel</p>
+<table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>Résultat</th>
+          <th>Saisie</th>
+        </tr>
+        <tr>
+          <td>Interdire une action</td>
+          <td>[[Fichier:Icon-popup-04.jpg|link=]]</td>
+          <td><pre>{{Dont|Text=Voici un exemple}}</pre></td>
+        </tr>
+        <tr>
+          <td>Prévenir d'un danger<br>Solliciter l'attention</td>
+          <td>[[Fichier:Icon-popup-01.jpg|link=]]</td>
+          <td><pre>{{Caution|Text=Voici un exemple}}</pre></td>
+        </tr>
+        <tr>
+          <td>Inviter à la mémorisation</td>
+          <td>[[Fichier:Icon-popup-05.jpg|link=]]</td>
+          <td><pre>{{Pin|Text=Voici un exemple}}</pre></td>
+        </tr>
+        <tr>
+          <td>Donner une information complémentaire</td>
+          <td>[[Fichier:Icon-popup-03.jpg|link=]]</td>
+          <td><pre>{{Info|Text=Voici un exemple}}</pre></td>
+        </tr>
+        <tr>
+          <td>Donner des idées</td>
+          <td>[[Fichier:Icon-popup-02.jpg|link=]]</td>
+          <td><pre>{{Idea|Text=Voici un exemple}}</pre></td>
+        </tr>
+    </table>
+</div>
+</div>
+</div>
+</div>
+
 <div class="modal fade wfform" id="ModalCreativeCommons" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><h4 class="modal-title">Description des licences proposées</h4>
+<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><h4 class="modal-title">Description des licences autorisées sur Wikifab</h4>
 </div>
 <div class="modal-body">
 <div class="row">
 <div class="col-md-12 col-sm-12 col-xs-12">
-<span class="cc-modal-subtitle">Attribution <span class="label label-success">Recommandé</span></span>
+[[Fichier:CC-BY.png]]<span class="cc-modal-subtitle">Attribution <span class="label label-success">Recommandé</span></span>
 <p>Cette licence permet aux autres de distribuer, remixer, arranger, et adapter votre œuvre, même à des fins commerciales, tant qu’on vous accorde le mérite de la création originale en citant votre nom. C’est le contrat le plus souple proposé. Recommandé pour la diffusion et l’utilisation maximales d’œuvres licenciées sous CC. </p>
 <p>[http://creativecommons.org/licenses/by/4.0/ Voir le Résumé Explicatif] | [http://creativecommons.org/licenses/by/4.0/legalcode Voir le Code Juridique]</p>
 <br>
-<span class="cc-modal-subtitle">Attribution - Partage dans les Mêmes Conditions</span>
+[[Fichier:CC-BY-SA.png]]<span class="cc-modal-subtitle">Attribution - Partage dans les Mêmes Conditions</span>
 <p>Cette licence permet aux autres de remixer, arranger, et adapter votre œuvre, même à des fins commerciales, tant qu’on vous accorde le mérite en citant votre nom et qu’on diffuse les nouvelles créations selon des conditions identiques. Cette licence est souvent comparée aux licences de logiciels libres, “open source” ou “copyleft”. Toutes les nouvelles œuvres basées sur les vôtres auront la même licence, et toute œuvre dérivée pourra être utilisée même à des fins commerciales. C’est la licence utilisée par Wikipédia.</p>
 <p>[http://creativecommons.org/licenses/by-sa/4.0/ Voir le Résumé Explicatif] | [http://creativecommons.org/licenses/by-sa/4.0/legalcode Voir le Code Juridique]</p>
+<hr>
+<p>Pourquoi ne proposer que ces deux licences ? Quel est mon intérêt à distribuer mon tutoriel sous une licence open-source ? Retrouvez notre vision et vos réactions concernant les licences sur [http://discuter.wikifab.org/t/sous-quelle-licence-mon-tutoriel-est-il-publie/13/1 cette page].</p>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform" id="ModalLink" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span><p class="modal-title">Insérez un lien dans votre tutoriel</p></div>
+<div class="modal-body"><table class="table table-bordered">
+        <tr>
+          <th>Description</th>
+          <th>Vous tapez</th>
+          <th>Vous obtenez</th>
+        </tr>
+        <tr>
+          <td>Lien interne</td>
+          <td><pre>[[Accueil]]</pre></td>
+          <td>[[Accueil]]</td>
+        </tr>
+        <tr>
+          <td>Lien interne avec un intitulé différent</td>
+          <td><pre>[[Accueil|Lien vers la page d'accueil]]</pre></td>
+          <td>[[Accueil|Lien vers la page d'accueil]]</td>
+        </tr>
+<tr>
+<td>Lien externe</td>
+<td><pre>http://wikipedia.org</pre></td>
+<td>http://wikipedia.org</td>
+</tr>
+<tr>
+<td>Lien externe avec un intitulé différent</td>
+<td><pre>[http://wikipedia.org Lien vers Wikipedia]</pre></td>
+<td>[http://wikipedia.org Lien vers Wikipedia]</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade wfform-2" id="ModalRef" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body"><table class="table table-bordered">
+<tr>
+<th>Vous tapez</th>
+<th>Vous obtenez</th>
+</tr>
+<tr>
+<td><pre>* Je me suis inspiré du [[Mölkky|tutoriel Molky réalisé par Auguste&Claire]] que je trouve très bien fait</pre></td>
+<td>* Je me suis inspiré du [[Mölkky|tutoriel Molky réalisé par Auguste&Claire]] que je trouve très bien fait.</td>
+</tr>
+<tr>
+<td><pre>* Pour décaper un meuble vernis, je me suis inspiré de ce [https://www.youtube.com/watch?v=6034yubI7CI|tutoriel vidéo réalisé par Minute Déco].</pre></td>
+<td>* Pour décaper un meuble vernis, je me suis inspiré de ce [https://www.youtube.com/watch?v=6034yubI7CI|tutoriel vidéo réalisé par Minute Déco].</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -213,8 +361,7 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-<h4 class="modal-title" id="myModalLabel">Comment choisir le nom de votre tutoriel ?</h4>
+<h4 class="modal-title" id="myModalLabel">Comment choisir le nom de votre tutoriel</h4>
 </div>
 <div class="modal-body">
 Dans un souci d'homogénéité et d'optimisation de la recherche, nous vous demandons de prendre le temps de réfléchir au nom de votre tutoriel. Voici nos recommandations :

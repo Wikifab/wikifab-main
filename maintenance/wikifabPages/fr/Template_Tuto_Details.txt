@@ -1,4 +1,9 @@
-<p class="tuto-details-autor-revision noprint">Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span> de {{#displayAuthorDiv:toto}} dans les catégories {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}. [{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].</p>
+<p class="tuto-details-autor-revision noprint">
+Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span
+> de {{#displayAuthorDiv:toto}} dans les catégories {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}.
+
+[{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].
+</p>
 <p class="tuto-details-autor-revision print-only">{{#displayAuthorDiv:toto}}</p>
 <div class="row firstPage">
 <div class="col-md-5 col-sm-5 col-xs-12 fullWidthPrint">
@@ -26,7 +31,8 @@
 <div class="col-md-7 col-sm-7 col-xs-12 fullWidthPrint">
 <div class="tuto-details-box">
 <p class="tuto-details-about-title noprint">[[Description::{{{Description|}}}]]</p>
-<div class="tuto-items-container"><div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i> Difficulté</div><div class="tuto-items-details-container-right">[[Difficulty::{{{Difficulty|}}}]]</div></div>
+<div class="tuto-items-container">
+<div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i> Difficulté</div><div class="tuto-items-details-container-right">[[Difficulty::{{{Difficulty|}}}]]</div></div>
 <div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-clock-o" aria-hidden="true"></i> Durée</div><div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] [[Duration-type::{{{Duration-type|}}}]]</div></div>
 <div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
  Coût</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>

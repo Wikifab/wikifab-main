@@ -1,20 +1,59 @@
 __NOTOC__
-<div class="row">
-<div class="col-md-8 col-sm-8 col-xs-12">
+<p class="tuto-details-autor-revision noprint">
+{{int:wf-tutotemplate-info-header| <span class="type-lowercase">[[Type::{{{Type|}}}]]</span>|{{#displayAuthorDiv:toto}}|{{#arraymap:{{{Area|}}}|,|x|[[Area::x|{{int:wf-propertyvalue-area-x}}]]}} }} 
+<!-- TODO : translate -->
+[{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} 
+par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].
+</p>
+<p class="tuto-details-autor-revision print-only">{{#displayAuthorDiv:toto}}</p>
+<div class="row firstPage">
+<div class="col-md-5 col-sm-5 col-xs-12 fullWidthPrint">
+<div class="tuto-main-image">{{#if:{{{Main_Picture|}}}|{{#annotatedImage:[[File:{{{Main_Picture}}}|frameless|border]]|{{{Main_Picture_annotation}}}}}|[[File:No-image-yet.jpg|link=]]}}
+<div class="print-only pageurl">{{fullurl:{{FULLPAGENAME}}}}</div>
+<div class="print-only lasteditdateinfo">Dernière modification le {{REVISIONDAY2}}/{{REVISIONMONTH}}/{{REVISIONYEAR}} </div>
+</div>
+<div class="row tuto-details-box print-only">
+<br>
+<div class="col-md-5">
+<div class="tuto-items-container">
+<div class="tuto-items-details-container">
+<div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i> {{int:wf-formtutorial-difficulty-field-title}}</div>
+<div class="tuto-items-details-container-right"><span class="propertyKey" style="display:none">[[Difficulty::{{{Difficulty|}}}]]</span> {{int:wf-propertyvalue-difficulty-{{{Difficulty|}}}|}}</div>
+</div>
+<div class="tuto-items-details-container">
+<div class="tuto-items-details-container-left"><i class="fa fa-clock-o" aria-hidden="true"></i> {{int:wf-formtutorial-duration-field-title}}</div>
+<div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] <span class="propertyKey" style="display:none">[[Duration-type::{{{Duration-type|}}}]]</span>  {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}}</div>
+</div>
+<div class="tuto-items-details-container"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
+ {{int:wf-formtutorial-cost-field-title}}</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]
+ </div></div>
+</div>
+</div>
+<div class="col-md-7">
+<h2>Description</h2>
+<p>[[Description::{{{Description|}}}]]</p>
+</div>
+</div>
+</div>
+<div class="print-only printPageBreakBefore"></div>
+<div class="col-md-7 col-sm-7 col-xs-12 fullWidthPrint">
 <div class="tuto-details-box">
-<p class="tuto-details-about-title">[[Description::{{{Description|}}}]]</p>
-<div class="hrContentMinor-2"></div>{{int:wf-tutotemplate-info-header| <span class="type-lowercase">[[Type::{{{Type|}}}]]</span>|{{#displayAuthorDiv:toto}}|{{#arraymap:{{{Area|}}}|,|x|[[Area::x|{{int:wf-propertyvalue-area-x}}]]}} }}
-<ul>
-<li>{{int:wf-formtutorial-difficulty-field-title}}: <span class="propertyKey" style="display:none">[[Difficulty::{{{Difficulty|}}}]]</span> {{int:wf-propertyvalue-difficulty-{{{Difficulty|}}}|}}</li>
-<li>{{int:wf-formtutorial-duration-field-title}}: [[Duration::{{{Duration|}}}]] <span class="propertyKey" style="display:none">[[Duration-type::{{{Duration-type|}}}]]</span>  {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}} </li>
-<li>{{int:wf-formtutorial-cost-field-title}}: [[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]] </li>
-</ul>
+<p class="tuto-details-about-title noprint">[[Description::{{{Description|}}}]]</p>
+<div class="tuto-items-container">
+<div class="tuto-items-details-container noprint">
+<div class="tuto-items-details-container-left"><i class="fa fa-tachometer" aria-hidden="true"></i> {{int:wf-formtutorial-difficulty-field-title}}</div>
+<div class="tuto-items-details-container-right"><span class="propertyKey" style="display:none">[[Difficulty::{{{Difficulty|}}}]]</span> {{int:wf-propertyvalue-difficulty-{{{Difficulty|}}}|}}</div>
 </div>
-<div class="licence-detail"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">{{int:wf-formtutorial-license-field-title}}:</span> [[Licences::{{{Licences|}}}]]</div>
+<div class="tuto-items-details-container noprint">
+<div class="tuto-items-details-container-left"><i class="fa fa-clock-o" aria-hidden="true"></i> {{int:wf-formtutorial-duration-field-title}}</div>
+<div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] <span class="propertyKey" style="display:none">[[Duration-type::{{{Duration-type|}}}]]</span>  {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}}</div>
 </div>
-<div class="col-md-4 col-sm-4 col-xs-12">
-<div class="tuto-main-image">
-[[File:{{{Main_Picture}}}|border]]
+<div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
+ Coût</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>
+<h2 class="print-only">Sommaire</h2>
+<div class="tuto-items-details-container printTOC"><div class="tuto-items-details-container-left"><i class="fa fa-list-ol" aria-hidden="true"></i></div>__TOC__</div>
+</div>
+<div class="licence-detail noprint"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">{{int:wf-formtutorial-license-field-title}} :</span> [[Licences::{{{Licences|}}}]]</div>
 </div>
 </div>
 </div>
@@ -22,5 +61,6 @@ __NOTOC__
 <span class="propertyKey" style="display:none">[[Language::{{{Language|}}}]]</span> 
 <span class="propertyKey" style="display:none">[[SourceLanguage::{{{SourceLanguage|}}}]]</span> 
 <span class="propertyKey" style="display:none">[[IsTranslation::{{{IsTranslation|}}}]]</span> 
-[[Category:Tutorials]]
+<div class="noprint">[[Category:Tutorials]]</div>
 {{#stepNumber: step| init}}
+<hr class="print-only printPageBreakAfter"/>
