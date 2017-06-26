@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Template translation{{{sandbox|}}}|getTranslatedTemplate|uselang={{{uselang|}}}|tntns={{{tntns|{{{namespace|}}}}}}|template={{#if:{{{noshift|}}}|{{{template}}}|{{{1}}}}}|noshift={{{noshift|}}}<!-- there are no other parameters here -->}}</includeonly><noinclude>{{documentation}}</noinclude>
