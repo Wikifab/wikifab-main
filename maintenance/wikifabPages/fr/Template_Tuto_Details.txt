@@ -1,7 +1,6 @@
 <p class="tuto-details-autor-revision noprint">
 Une <span class="type-lowercase">[[Type::{{{Type|}}}]]</span
 > de {{#displayAuthorDiv:toto}} dans les catégories {{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}.
-
 [{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].
 </p>
 <p class="tuto-details-autor-revision print-only">{{#displayAuthorDiv:toto}}</p>
