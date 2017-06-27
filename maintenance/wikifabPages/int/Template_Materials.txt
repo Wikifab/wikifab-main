@@ -1,4 +1,5 @@
 {{#if:{{{Tuto_Attachments|}}}{{{ExternalAttachmentsLinks|}}}|
+{{#if:{{{Prerequisites|}}}|
 <div class="Input-tabs">
 {{#tag:tabber|
  {{int:wf-formtutorial-tools-materials-tabs-title}} =
@@ -16,6 +17,21 @@
 |
 <div class="Input-tabs">
 {{#tag:tabber|
+ {{int:wf-formtutorial-tools-materials-tabs-title}} =
+{{#if:{{{Step_Picture_00|}}}| 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+ {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
+ }}
+{{!}}-{{!}}
+ {{int:wf-formtutorial-file-tabs-title}}={{{ExternalAttachmentsLinks|}}}
+{{{Tuto_Attachments|}}}
+}}
+</div>
+}}
+|
+{{#if:{{{Prerequisites|}}}|
+<div class="Input-tabs">
+{{#tag:tabber|
  {{int:wf-formtutorial-tools-materials-tabs-title}}=
 {{#if:{{{Step_Picture_00|}}}| 
    {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
@@ -25,5 +41,16 @@
  {{int:wf-prerequisites-tabs-title}}={{{Prerequisites|}}}
 }}
 </div>
+|
+<div class="Input-tabs">
+{{#tag:tabber|
+ {{int:wf-formtutorial-tools-materials-tabs-title}}=
+{{#if:{{{Step_Picture_00|}}}| 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+ {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
+ }}
+}}
+</div>
+}}
 }}
 [[Category:Tutorials]]
