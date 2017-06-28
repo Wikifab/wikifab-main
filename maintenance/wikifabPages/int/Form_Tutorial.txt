@@ -93,7 +93,7 @@ __NOTOC__<noinclude>
 {{{end template}}}
 {{{for template|Materials}}}
 <div class="Input-tabs">
-<tabber>
+{{#tag:tabber|
  {{int:wf-formtutorial-tools-materials-tabs-title}} =
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -104,9 +104,9 @@ __NOTOC__<noinclude>
 <div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
 {{{field|Tools|input type=textarea|class=form-textarea|translatable|rows=8}}}
 </div>
-|-|
+{{!}}-{{!}}
  {{int:wf-prerequisites-tabs-title}} =<h4>{{int:wf-prerequisites-tabs-subtitle}}</h4><div class="prerequisites-selection">{{{field|Prerequisites|holds template}}}</div>
-|-|
+{{!}}-{{!}}
  {{int:wf-formtutorial-file-tabs-title}} =
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 box-file-form">
@@ -116,7 +116,7 @@ __NOTOC__<noinclude>
 <div class="file-subtitle">{{int:wf-formtutorial-file-tabs-option2}}</div>
 <div class="add-attachments">{{{field|ExternalAttachmentsLinks|holds template}}}</div>
 </div>
-</tabber>
+}}
 </div>
 {{{end template}}}
 {{{for template|Prerequisites|multiple|maximum instances=20|add button text={{int:wf-prerequisites-tabs-btnlink}}|embed in field=Materials[Prerequisites]}}}{{{field|Prerequisites|input type=combobox|existing values only|placeholder={{int:wf-prerequisites-tabs-placeholder}}|values from category=Tutorials}}}{{{end template}}}
