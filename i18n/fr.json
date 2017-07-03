@@ -105,7 +105,7 @@
 	"wf-propertyvalue-durationtype-month(s)": "mois",
 	"wf-propertycomplete-check ": "Cochez cette case si vous considérez ce tutoriel terminé",
 	"wf-propertyexternallink-externallink":"Lien externe",
-	"wf-steptemplate-step":"Étape",
+	"wf-steptemplate-step":"Étape $1",
 	"wf-formtutorial-steps":"Étapes",
 	"wf-attachmenttemplate-file":"Fichier",
 	"wf-tutotemplate-info-header": "Une $1 de $2 dans les catégories $3",

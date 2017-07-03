@@ -105,7 +105,7 @@
 	"wf-propertyvalue-durationtype-month(s)": "month(s)",
 	"wf-propertycomplete-check ": "Check this box when the tutorial is complete",
 	"wf-propertyexternallink-externallink":"External link",
-	"wf-steptemplate-step":"Step",
+	"wf-steptemplate-step":"Step $1",
 	"wf-formtutorial-steps":"Steps",
 	"wf-attachmenttemplate-file":"File",
 	"wf-tutotemplate-info-header": " A $1 by $2 in categories $3",
