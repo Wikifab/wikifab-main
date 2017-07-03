@@ -1,0 +1,8 @@
+__NOTOC__
+<h4>[[group-event-title::{{{group-event-title|}}}]]</h4>
+<p>[[group-event-description::{{{group-event-description|}}}]]</p>
+<div class="group-event-icon"><i class="fa fa-map-marker"></i> [[group-event-address::{{{group-event-address|}}}]]</div>
+<div class="group-event-icon"><i class="fa fa-calendar-check-o"></i> [[group-event-date::{{{group-event-date|}}}]]</div>
+<div class="group-event-icon"><i class="fa fa-external-link"></i> [[group-event-url::{{{group-event-url|}}}]]</div>
+<hr>
+[[Catégorie:Group]]
