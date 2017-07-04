@@ -19,39 +19,39 @@ __NOTOC__<noinclude>
 </div>
 }}<div class="container">
 <div class="group-section-0">
-<h2>Communautés, bienvenue chez vous !</h2>
-<p>Nous avons créé les groupes pour vous permettre de rassembler vos tutoriels et vos membres sur un seul espace.</p>
+<h2>{{int:wf-formgroup-welcome-title}}</h2>
+<p>{{int:wf-formgroup-welcome-baseline}}</p>
 </div>
 <div class="row group-section-1">
 <div class="col-sm-6 col-xs-12">
-<h3 class="title">Tous vos tutoriels sur une seule page</h3>
-<p>Personnalisez votre groupe en ajoutant votre logo et votre bannière. Tous les utilisateurs peuvent rejoindre votre groupe en cliquant sur le bouton "Rejoindre ce groupe".</p>
+<h3 class="title">{{int:wf-formgroup-section-onepage-title}}</h3>
+<p>{{int:wf-formgroup-section-onepage-text}}</p>
 </div>
 <div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step1.jpg|link=]]</div>
 </div>
 <div class="row group-section-1">
 <div class="col-sm-6 col-xs-12 img-part">[[File:Group-Wikifab-Step2.jpg|link=]]</div>
 <div class="col-sm-6 col-xs-12">
-<h3 class="title">Animez votre communauté</h3>
-<p>Renseignez vos informations: vos machines, votre agenda et votre description. Vos utilisateurs recevront une notification à chaque nouvelle publication dans le groupe.</p>
+<h3 class="title">{{int:wf-formgroup-section-animate-title}}</h3>
+<p>{{int:wf-formgroup-section-animate-text}}</p>
 </div>
 </div>
 <div class="group-section-2">
-<h3>A qui les groupes sont-ils destinés ?</h3>
+<h3>{{int:wf-formgroup-section-forwho-title}}</h3>
 <div class="row">
 <div class="col-sm-5 col-xs-12">
-<p>À tous ! Que vous soyez une communauté ou un individu, les groupes vous serviront à rassembler sur une seule page les tutoriels de votre choix.</p>
+<p>{{int:wf-formgroup-section-forwho-text}}</p>
 </div>
 <div class="col-sm-7 col-xs-12">
 <div class="row">
 <div class="col-sm-6 col-xs-12">
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Fablabs, makerspaces et autres labs
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Associations, Collectifs et Organisations
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Autre (les groupes sont ouverts à tous)
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> {{int:wf-formgroup-section-forwho-fablabs}}
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> {{int:wf-formgroup-section-forwho-asso}}
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> {{int:wf-formgroup-section-forwho-workshop}}
 </div>
 <div class="col-sm-6 col-xs-12">
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Ateliers de fabrication et Séminaire
-* <i class="fa fa-check-square-o" aria-hidden="true"></i> Concours ou Évènements
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> {{int:wf-formgroup-section-forwho-events}}
+* <i class="fa fa-check-square-o" aria-hidden="true"></i> {{int:wf-formgroup-section-forwho-others}}
 </div>
 </div>
 </div>
@@ -60,37 +60,37 @@ __NOTOC__<noinclude>
 </div>
 <div class="group-main-tabs">
 <div class="group-main-tabs-title">
-<h2>Comment ajouter un tutoriel à un groupe ?</h2>
-<p>C'est très simple. Voici comment ajoutez un tutoriel à votre groupe en 2 clics.</p>
+<h2>{{int:wf-formgroup-section-howto-title}} </h2>
+<p>{{int:wf-formgroup-section-howto-text}} </p>
 </div>
-<tabber>
- 1. Rejoindre=
+{{#tag:tabber|
+ 1. {{int:wf-formgroup-section-howto-tabs-join-name}} =
 <div class="container">
 [[File:add-to-group-1.jpg|link=]]
-<h3>Rejoindre un groupe</h3>
-Sur la page du groupe, cliquez sur le bouton "Rejoindre".
+<h3>{{int:wf-formgroup-section-howto-tabs-join-title}} </h3>
+{{int:wf-formgroup-section-howto-tabs-join-text}}
 </div>
-|-|
- 2. Ajouter=
+{{!}}-{{!}}
+ 2. {{int:wf-formgroup-section-howto-tabs-add-name}} =
 <div class="container">
 [[File:add-to-group-2.gif|link=]]
-<h3>Ajouter un tutoriel à un groupe</h3>
-Sur le tutoriel, cliquez sur le bouton "Ajouter à" puis choisissez le nom du groupe dans lequel vous souhaitez ajouter le tutoriel.
+<h3>{{int:wf-formgroup-section-howto-tabs-add-title}} </h3>
+{{int:wf-formgroup-section-howto-tabs-add-text}} 
 </div>
-|-|
- 3. C'est fait !=
+{{!}}-{{!}}
+ 3. {{int:wf-formgroup-section-howto-tabs-done-name}} =
 <div class="container">
 [[File:add-to-group-3.jpg|link=]]
-<h3>Tada ! Votre tutoriel est ajouté au groupe</h3>
-Sur le principe du wiki, tout le monde peut rejoindre n'importe quel groupe et ajouter ou retirer un tutoriel d'un groupe.
+<h3>{{int:wf-formgroup-section-howto-tabs-done-title}}</h3>
+{{int:wf-formgroup-section-howto-tabs-done-text}}
 </div>
-</tabber></div>
+}}</div>
 <div class="container">
 <hr>
 <div class="group-bottom-links">
-<p class="group-ready">Créez un groupe aujourd'hui</p>
+<p class="group-ready">{{int:wf-formgroup-create-today}}</p>
 [[#create-a-group|<span class="create-group-btn">{{int:wf-formgroup-title}}</span>]]
-<p class="download-subbutton">C'est gratuit !</p>
+<p class="download-subbutton">{{int:wf-formgroup-its-free}}</p>
 </div>
 </div>
 </noinclude><includeonly>
