@@ -101,55 +101,75 @@ __NOTOC__<noinclude>
 </div>
 {{{for template|Group Details}}}
 <div class="row">
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Logo</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-logo}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9">
 <div class="group-logo-upload msuploadContainer">
 {{{field|group-logo|size=32|class=form-picture|default=|uploadable|image preview}}}
 </div>
 </div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Bannière</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-banner}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9">
 <div class="group-banner-upload msuploadContainer">
 {{{field|group-banner|size=32|class=form-picture|default=|uploadable|image preview}}}
 </div>
 </div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Type</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-type}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:Rien de très engageant ici. Choisissez simplement le type qui vous décrit le mieux}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-description}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Décrivez votre groupe en moins de 240 caractères.}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Site web</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-website}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-url|class=group-field|placeholder=wikifab.org}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Adresse</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-address}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-address|class=group-field|placeholder=42 Place de la Bastille, Paris}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Email</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-email}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-email|class=group-field|placeholder=contact@wikifab.org}}}</div>
 </div>
 {{{end template}}}
 {{{for template|Group Tabs}}}
+
+{{{for template|Group Tabs}}}
 <div class="Input-tabs group-tabs">
-<tabber>
- Machines=
-<h2>Parc machines</h2>
+{{#tag:tabber|
+ {{int:wf-formgroup-tab-machine-name}} =
+<h2>{{int:wf-formgroup-tab-machine-header}}</h2>
 {{{field|Group_Machines|holds template}}}
-|-|
- Évènements=
-<h2>Évènements</h2>
+{{!}}-{{!}}
+ {{int:wf-formgroup-tab-events-name}} =
+<h2>{{int:wf-formgroup-tab-events-header}}</h2>
 {{{field|Group_Event|holds template}}}
-|-|
- À propos=
-<h2>Informations sur le groupe</h2>
+{{!}}-{{!}}
+ {{int:wf-formgroup-tab-about-name}} =
+<h2>{{int:wf-formgroup-tab-about-header}}</h2>
 <div class="row">
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Description</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-description}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-long-description|input type=textarea|rows=3|maxlength=3000|class=form-textarea|placeholder=Rédigez une description longue pour votre groupe.}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">Téléphone</div>
+<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-phone}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-phone|class=group-field|placeholder=+33 1 22 33 44 55}}}</div>
 </div>
-</tabber>
+}}
 {{{end template}}}
 
-{{{for template|Group_Machines|multiple|maximum instances=100|add button text=+ Ajouter une machine|embed in field=Group Tabs[Group_Machines]}}}<div class="row"><div class="col-md-3 col-sm-4 col-xs-12 msuploadContainer">
+{{{for template|Group_Machines|multiple|maximum instances=100|add button text=+ {{int:wf-formgroup-button-addmachine}}|embed in field=Group Tabs[Group_Machines]}}}<div class="row"><div class="col-md-3 col-sm-4 col-xs-12 msuploadContainer">
 {{{field|group-machine-image|uploadable|size=25|class=group-logo|image preview}}}
-</div><div class="col-md-9 col-sm-8 col-xs-12"><div><p class="machines-form-first">Nom de la machine</p>{{{field|group-machine-name|input type=text}}}</div><div><p class="machines-form">Description</p>{{{field|group-machine-description|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder=Matériaux utilisables, surface de travail et applications possibles de cette machine}}}</div><div><p class="machines-form">Tarifs & conditions</p>{{{field|group-machine-conditions|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder=Ex: 20€/h. Utilisation encadrée par un responsable.}}}</div></div></div><hr>{{{end template}}}{{{for template|Group_Event|multiple|maximum instances=100|add button text=+ Ajouter un évènement|embed in field=Group Tabs[Group_Event]}}}<div class="row"><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Titre</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-title|input type=text}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Description</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-description|input type=text}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Adresse</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Date</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=text|placeholder=28 août 2016}}}</div><div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">Lien</div><div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text}}}</div></div><hr>{{{end template}}}</div></div>
+</div><div class="col-md-9 col-sm-8 col-xs-12">
+<div><p class="machines-form-first">{{int:wf-formgroup-fieldname-machinename}} </p>{{{field|group-machine-name|input type=text}}}</div>
+<div><p class="machines-form">{{int:wf-formgroup-fieldname-description}}</p>{{{field|group-machine-description|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder={{int:wf-formgroup-fieldplaceholder-machinedescription}} Matériaux utilisables, surface de travail et applications possibles de cette machine}}}</div>
+<div><p class="machines-form">{{int:wf-formgroup-fieldname-tarifsconditions}} </p>{{{field|group-machine-conditions|input type=textarea|rows=2|maxlength=3000|class=form-textarea|placeholder={{int:wf-formgroup-fieldplaceholder-machinetarif}}Ex: 20€/h. Utilisation encadrée par un responsable.}}}</div>
+</div></div><hr>{{{end template}}}
+{{{for template|Group_Event|multiple|maximum instances=100|add button text=+ {{int:wf-formgroup-button-addevent}}|embed in field=Group Tabs[Group_Event]}}}
+<div class="row">
+<div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-name}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-title|input type=text}}}</div>
+<div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-description}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-description|input type=text}}}</div>
+<div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-address}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris}}}</div>
+<div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-date}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=text}}}</div>
+<div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-link}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text}}}</div>
+</div><hr>
+{{{end template}}}</div></div>
 
 <div class="container">
 <div class="saving-menu">{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}} {{{standard input|watch}}}</div>
