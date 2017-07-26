@@ -114,7 +114,9 @@ __NOTOC__<noinclude>
 </div>
 </div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-type}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown}}} {{#info:Rien de très engageant ici. Choisissez simplement le type qui vous décrit le mieux}}</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form custom-tooltip">
+{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown|mapping using translate=wf-propertyvalue-grouptype-}}} 
+{{#info:{{int:wf-formgroup-fieldinfo-type}}|}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-description}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Décrivez votre groupe en moins de 240 caractères.}}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-website}}</div>
@@ -125,7 +127,6 @@ __NOTOC__<noinclude>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-email|class=group-field|placeholder=contact@wikifab.org}}}</div>
 </div>
 {{{end template}}}
-{{{for template|Group Tabs}}}
 
 {{{for template|Group Tabs}}}
 <div class="Input-tabs group-tabs">

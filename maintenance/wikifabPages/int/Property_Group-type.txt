@@ -1,0 +1,9 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::Association]]
+* [[Allows value::Community]]
+* [[Allows value::Enterprise]]
+* [[Allows value::Fablab]]
+* [[Allows value::Hackerspace]]
+* [[Allows value::Makerspace]]
