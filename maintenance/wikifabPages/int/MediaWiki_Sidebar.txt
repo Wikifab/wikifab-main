@@ -1,0 +1,7 @@
+* navigation
+** Spécial:WfExplore|{{int:wf-explore-title}}
+** Contribute|{{int:wf-contribute-title}}
+** Groups|{{int:wf-group-title}}
+* SEARCH
+* TOOLBOX
+* LANGUAGES
