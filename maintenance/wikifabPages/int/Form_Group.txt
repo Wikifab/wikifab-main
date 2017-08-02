@@ -166,7 +166,9 @@ __NOTOC__<noinclude>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-address}}</div>
 <div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris}}}</div>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-date}}</div>
-<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=text}}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=datepicker
+|week start=1
+|date format=dd.mm.yy}}}</div>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-link}}</div>
 <div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text}}}</div>
 </div><hr>
