@@ -1,0 +1,1 @@
+{{#ifanon:|<div class="alert alert-warning" role="alert">{{int:wf-systemmessages-confirmedittext-message}} [[Special:Preferences|{{int:wf-systemmessages-confirmedittext-preferences}}]].</div>}}

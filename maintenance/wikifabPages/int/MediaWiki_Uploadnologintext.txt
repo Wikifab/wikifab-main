@@ -1,0 +1,1 @@
+{{wf-systemmessages-Uploadnologintext-message1}} [[Special:UserLogin/signup|{{wf-systemmessages-Uploadnologintext-message2}}]] {{int:wf-systemmessages-badaccess-or}} [[Special:UserLogin|{{int:wf-systemmessages-badaccess-signup}}]] {{wf-systemmessages-Uploadnologintext-message3}}.

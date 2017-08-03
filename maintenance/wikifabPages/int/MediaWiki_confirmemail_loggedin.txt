@@ -1,0 +1,6 @@
+{{int:wf-systemmessages-confirmemail-text08}}
+
+{{int:wf-systemmessages-confirmemail-text09}} [[Form:Tutorial|{{int:wf-mainpage-createtutorial}}]] {{int:wf-systemmessages-badaccess-or}} [[Special:UpdateProfile|{{int:wf-systemmessages-confirmemail-updateprofile}}]].
+
+
+[[Form:Tutorial|<span class="sign-up-button-hp">{{int:wf-mainpage-createtutorial}}</span>]] [[Special:UpdateProfile|<span class="edit-profile-btn-hp">{{int:wf-mainpage-editprofile}}</span>]]

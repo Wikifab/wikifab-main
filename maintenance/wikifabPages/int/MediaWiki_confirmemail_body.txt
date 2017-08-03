@@ -1,0 +1,17 @@
+{{int:wf-systemmessages-confirmemail-hello}},
+
+{{int:wf-systemmessages-confirmemail-text01}} {{SITENAME}}. {{int:wf-systemmessages-confirmemail-text02}} « $2 ».
+
+{{int:wf-systemmessages-confirmemail-text03}}
+
+$3
+
+{{int:wf-systemmessages-confirmemail-text04}}
+
+$5
+
+{{int:wf-systemmessages-confirmemail-text05}} $4.
+
+{{int:wf-systemmessages-confirmemail-text06}}
+
+{{int:wf-systemmessages-confirmemail-text07}} {{SITENAME}}

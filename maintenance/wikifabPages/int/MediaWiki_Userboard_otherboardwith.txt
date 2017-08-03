@@ -1,0 +1,1 @@
+{{int:wf-systemmessages-userboard-otherboardwith}} $1 {{int:wf-systemmessages-userboard-otherboardwithand}} $2
