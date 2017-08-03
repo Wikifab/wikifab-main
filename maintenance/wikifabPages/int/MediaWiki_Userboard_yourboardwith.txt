@@ -1,1 +1,1 @@
-{{int:wf-systemmessages-userboard-yourboardwith}} $1
+{{int:wf-systemmessages-userboard-yourboardwith}}

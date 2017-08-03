@@ -1,1 +1,1 @@
-$1 {{int:wf-systemmessages-receivedmessageemail-subject}} {{SITENAME}}
+{{int:wf-systemmessages-receivedmessageemail-subject}} {{SITENAME}}
