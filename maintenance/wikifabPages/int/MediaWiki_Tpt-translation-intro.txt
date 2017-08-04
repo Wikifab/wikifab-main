@@ -1,0 +1,1 @@
+{{int:wf-systemmessages-translation-intro}}. <span class="btn btn-default">[$1 {{int:wf-systemmessages-translation-introbtn}}]</span>
