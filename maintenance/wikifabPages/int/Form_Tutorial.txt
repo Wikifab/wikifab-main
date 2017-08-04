@@ -97,7 +97,7 @@ __NOTOC__<noinclude>
  {{int:wf-formtutorial-tools-materials-tabs-title}} =
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12">
-<div class="col-pic-step msuploadContainer">
+<div class="col-pic-materials msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
 <p class="upload-instructions">Votre image sera visible après l'enregistrement de la page.</p>
@@ -125,8 +125,6 @@ __NOTOC__<noinclude>
 <div class="col-md-6 col-sm-6 col-xs-12">
 <div class="edit-step-title">{{int:wf-formtutorial-materials-tabs-title}}</div>
 {{{field|Material|input type=textarea|class=form-textarea|translatable|rows=8}}}
-</div>
-<div class="col-md-6 col-sm-6 col-xs-12">
 <div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
 {{{field|Tools|input type=textarea|class=form-textarea|translatable|rows=8}}}
 </div>
