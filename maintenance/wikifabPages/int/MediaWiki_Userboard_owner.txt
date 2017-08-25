@@ -1,1 +1,1 @@
-{{int:wf-systemmessages-userboard-owner}}
+{{int:wf-systemmessages-userboard-owner|$1}}
