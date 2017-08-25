@@ -2,6 +2,10 @@
 	"repositories": [
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/AutoSetPageLang.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/skin-wikifab-style.git"
 		},
 		{
@@ -15,6 +19,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:Wikifab/extension-UserFollowList.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-SimpleLanguageSelector.git"
 		},
 		{
 			"type": "vcs",
@@ -128,34 +136,38 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"mediawiki/CategoryTree": "*",
+		"mediawiki/CategoryTree": "dev-master",
+		"mediawiki/semantic-media-wiki": "^2.4.1",
 		"mediawiki/user-functions": "~2.6",
 		"mediawiki/flow": "dev-REL1_28",
+		"mediawiki/scribunto":"dev-REL1_28",
+		"wikifab/AutoSetPageLang": "^1.0.0",
 		"wikifab/author-div": "^0.1.0",
 		"wikifab/carousel": "^0.1.1",
-		"wikifab/chameleon-skin": "^0.2.4",
+		"wikifab/chameleon-skin": "^1.0.0",
 		"wikifab/Drafts": "dev-master",
 		"wikifab/Echo":"^0.1.0",
-		"wikifab/explore": "^0.2.3",
+		"wikifab/explore": "^1.0.0",
 		"wikifab/GroupsPage":"^0.1.2",
 		"wikifab/googleAnalytics": "^0.1.0",
-		"wikifab/ImageAnnotator": "^1.0.0",
+		"wikifab/ImageAnnotator": "^1.0.2",
 		"wikifab/InputBox": "^128.0.0",
-		"wikifab/MmsUpload": "^0.3.0",
+		"wikifab/MmsUpload": "^0.3.2",
 		"wikifab/UsersWatchlist":"^0.3.0",
 		"wikifab/UsersWatchButton":"^0.1.0",
 		"wikifab/UsersPagesLinks":"^0.1.1",
 		"wikifab/MultimediaViewer":"^0.3.0",
-		"wikifab/page-forms": "^0.1.1",
-		"wikifab/PageMediaGallery":"^0.4.0",
+		"wikifab/page-forms": "^1.0.0",
+		"wikifab/PageMediaGallery":"^1.0.0",
 		"wikifab/PdfExportRequest": "^1.0.0",
 		"wikifab/sample-display": "^0.1.0",
+		"wikifab/SimpleLanguageSelector": "^1.0.0",
 		"wikifab/SocialProfile": "^0.1.0",
 		"wikifab/stepnumber": "^0.1.0",
-		"wikifab/VEForPageForm":"^0.1.0",
+		"wikifab/VEForPageForm":"^1.0.0",
 		"wikifab/Wf-search": "^0.1.0",
 		"wikifab/wfext-style": "^0.2.0",
-		"wikifab/wikifabStyleModule": "^0.4.0"
+		"wikifab/wikifabStyleModule": "^1.0.0"
 	},
 	"suggest": {
 		"ext-imagick": "*",
