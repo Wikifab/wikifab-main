@@ -69,6 +69,7 @@
 	"wf-formtutorial-step-btnaddstep": "+ Ajouter une étape",
 	"wf-formtutorial-step-title": "Titre de l'étape :",
 	"wf-formtutorial-step-title-placeholder": "Titre de l'étape",
+	"wf-formtutorial-note-title": "Notes et références",
 	"wf-group-title": "Groupes",
 	"wf-group-subtitle": "Créez ou rejoignez une communauté de makers",
 	"wf-formgroup-title": "Créer un groupe",
@@ -252,4 +253,5 @@
 	"wf-systemmessages-Uploadnologintext-message3":"pour importer des fichiers",
 	"wf-systemmessages-translation-intro":"Cette page est une version traduite de la page [[$2]] et la traduction est complétée à $3 %",
 	"wf-systemmessages-translation-introbtn":"Participer à la traduction"
+	"wf-systemmessages-Uploadnologintext-message2":"se connecter"
 }
