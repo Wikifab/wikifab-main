@@ -1,1 +1,0 @@
-{{int:wf-systemmessages-userboard-sendbutton}}

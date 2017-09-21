@@ -77,6 +77,7 @@
 	"wf-formgroup-alert": "<strong>Oops !</strong> You do not have permission to create a group because your are not log in. To create a group, $1 or $2",
 	"wf-formgroup-create-button-title": "Create group",
 	"wf-formgroup-create-button-placeholder": "Choose a name for your group",
+	"wf-formgroup-button-title": "Create a group",
 	"wf-formgroup-tab-about-tabtitle": "About",
 	"wf-formgroup-tab-about-title": "About this group",
 	"wf-formgroup-tab-about-description": "Description",
@@ -251,6 +252,5 @@
 	"wf-systemmessages-Uploadnologintext-message2":"be logged in",
 	"wf-systemmessages-Uploadnologintext-message3":"to upload files",
 	"wf-systemmessages-translation-intro":"This page is a translated version of the page [[$2]] and the translation is $3 % complete",
-	"wf-systemmessages-translation-introbtn":"Contribute to the translation",
-	"wf-systemmessages-Uploadnologintext-message2":"be logged in"
+	"wf-systemmessages-translation-introbtn":"Contribute to the translation"
 }
