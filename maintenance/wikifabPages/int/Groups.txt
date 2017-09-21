@@ -3,5 +3,4 @@
 <h1>{{int:wf-group-title}}</h1>
 <p class="marketing-section-hp-subtitle">{{int:wf-group-subtitle}}</p>
 [[Form:Group|<span class="sign-up-button-hp">{{int:wf-formgroup-title}}</span>]]</div></div>
-
-{{#displayExploreGroups:}}
+{{#ifanon: |}}{{#displayExplore:query=[[group-type::!none]] |nolang | layout=group| limit=24}}
