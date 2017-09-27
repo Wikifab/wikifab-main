@@ -34,6 +34,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/ext-simple-embed-video.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/ext-step-number.git"
 		},
 		{
@@ -161,6 +165,7 @@
 		"wikifab/PageMediaGallery":"^1.0.0",
 		"wikifab/PdfExportRequest": "^1.0.0",
 		"wikifab/sample-display": "^0.1.0",
+		"wikifab/SimpleEmbedVideo": "dev-master",
 		"wikifab/SimpleLanguageSelector": "^1.0.0",
 		"wikifab/SocialProfile": "^0.1.0",
 		"wikifab/stepnumber": "^0.1.0",
