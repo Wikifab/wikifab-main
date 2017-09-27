@@ -66,6 +66,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/mediawiki-embedvideo.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/mediawiki-extensions-CategoryTree.git"
 		},
 		{
@@ -151,6 +155,7 @@
 		"wikifab/chameleon-skin": "^1.0.0",
 		"wikifab/Drafts": "dev-master",
 		"wikifab/Echo":"^0.1.0",
+		"wikifab/embed-video":"dev-master",
 		"wikifab/explore": "^1.0.0",
 		"wikifab/GroupsPage":"^0.1.2",
 		"wikifab/googleAnalytics": "^0.1.0",
@@ -165,7 +170,7 @@
 		"wikifab/PageMediaGallery":"^1.0.0",
 		"wikifab/PdfExportRequest": "^1.0.0",
 		"wikifab/sample-display": "^0.1.0",
-		"wikifab/SimpleEmbedVideo": "dev-master",
+		"wikifab/simple-embed-video": "dev-master",
 		"wikifab/SimpleLanguageSelector": "^1.0.0",
 		"wikifab/SocialProfile": "^0.1.0",
 		"wikifab/stepnumber": "^0.1.0",
