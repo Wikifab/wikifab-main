@@ -252,6 +252,5 @@
 	"wf-systemmessages-Uploadnologintext-message1":"You must",
 	"wf-systemmessages-Uploadnologintext-message2":"be logged in",
 	"wf-systemmessages-Uploadnologintext-message3":"to upload files",
-	"wf-systemmessages-translation-intro":"This page is a translated version of the page [[$2]] and the translation is $3 % complete",
 	"wf-systemmessages-translation-introbtn":"Contribute to the translation"
 }
