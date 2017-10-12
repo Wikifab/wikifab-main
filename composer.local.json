@@ -177,7 +177,8 @@
 		"wikifab/VEForPageForm":"^1.0.0",
 		"wikifab/Wf-search": "^0.1.0",
 		"wikifab/wfext-style": "^0.2.0",
-		"wikifab/wikifabStyleModule": "^1.0.0"
+		"wikifab/widgets": "dev-master",
+		""wikifab/wikifabStyleModule": "^1.0.0"
 	},
 	"suggest": {
 		"ext-imagick": "*",
