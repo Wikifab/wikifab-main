@@ -80,6 +80,30 @@
 			<arg value="php composer.phar update"/>
 		</exec>
     </target>
+    
+    
+
+	<target name="get-ext-widgets">
+		<if>
+			<not>
+				<available file="build/wikifab/extensions/Widgets" type="dir" />
+			</not>
+			<then>
+				<exec executable="bash" dir="build/wikifab/extensions" checkreturn="true">
+					<arg value="-c"/>
+					<arg value="git clone https://github.com/Wikifab/mediawiki-extensions-Widgets.git Widgets"/>
+				</exec>
+				<exec executable="bash" dir="build/wikifab/extensions/Widgets" checkreturn="true">
+					<arg value="-c"/>
+					<arg value="git submodule init"/>
+				</exec>
+				<exec executable="bash" dir="build/wikifab/extensions/Widgets" checkreturn="true">
+					<arg value="-c"/>
+					<arg value="git submodule update"/>
+				</exec>
+			</then>
+		</if>
+	</target>
 	
 
 	 <target name="getVisualEditor">
@@ -154,7 +178,7 @@
    	 
     </target>
 
-    <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions">
+    <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,get-ext-widgets,download-extensions">
     </target>
 
     <target name="tarPackage"  >
