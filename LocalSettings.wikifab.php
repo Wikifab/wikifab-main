@@ -27,10 +27,14 @@ require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
 require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
+require_once "$IP/extensions/Widgets/Widgets.php";
+
+
 wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'ImageAnnotator' );
 wfLoadExtension("EmbedVideo");
 wfLoadExtension('SimpleEmbedVideo');
+
 
 
 $wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
