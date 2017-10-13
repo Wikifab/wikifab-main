@@ -36,7 +36,6 @@ wfLoadExtension("EmbedVideo");
 wfLoadExtension('SimpleEmbedVideo');
 
 
-
 $wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
 $wgNamespaceContentModels[NS_USER_TALK] = CONTENT_MODEL_FLOW_BOARD;
 
@@ -97,3 +96,6 @@ $wgPageFormsRenameEditTabs = true;
 $wgUsersWatchListAllowAll = true;
 
 $wgExploreUseThumbs = true;
+
+$wgUserProfileDisplay['userswatchlist'] = true;
+$wgUserProfileDisplay['userspageslinks'] = true;
