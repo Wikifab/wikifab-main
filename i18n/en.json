@@ -59,6 +59,8 @@
 	"wf-prerequisites-tabs-placeholder":"Search and add a prerequisite tutorial",
 	"wf-prerequisites-tabs-subtitle": "Add the prerequisites tutorials",
 	"wf-prerequisites-tabs-btnlink": "Add a prerequisite tutorial",
+	"wf-tuto-video-btnlink": "+ Add a video",
+	"wf-video-intro-title": "Video overview",
 	"wf-formtutorial-materials-tabs-title": "Materials",
 	"wf-formtutorial-tools-tabs-title": "Tools",
 	"wf-formtutorial-file-tabs-title": "Files",

@@ -59,6 +59,8 @@
 	"wf-prerequisites-tabs-placeholder":"Rechercher et ajoutez un tutoriel prérequis",
 	"wf-prerequisites-tabs-subtitle": "Ajoutez des tutoriels prérequis :",
 	"wf-prerequisites-tabs-btnlink": "Ajouter un tutoriel prérequis",
+	"wf-tuto-video-btnlink": "+ Ajouter une video",
+	"wf-video-intro-title": "Video d'introduction",
 	"wf-formtutorial-materials-tabs-title": "Matériaux",
 	"wf-formtutorial-tools-tabs-title": "Outils",
 	"wf-formtutorial-file-tabs-title": "Fichiers",
