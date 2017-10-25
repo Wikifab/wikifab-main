@@ -92,7 +92,7 @@ __NOTOC__<noinclude>
 {{{field|Introduction|input type=textarea|translatable|rows=5|maxlength=10000|class=form-textarea}}}
 {{{end template}}}
 <div class="multipleTemplateHideButton">
-{{{for template|TutoVideo|multiple|minimum=0|maximum instances=1|add button text={{int:wf-tuto-video-btnlink}}}}}
+{{{for template|TutoVideo|multiple|minimum=0|maximum instances=1|add button text={{int:wf-tuto-video-btnlink}} }}}
 {{#formLinkVideo:{{{field|TutoVideoService|dropdown|class=embedVideoDropdown}}} | {{{field|TutoVideoURL|class=embedVideoUrlInput}}}}} 
 {{{end template}}}
 </div>
@@ -188,6 +188,7 @@ __NOTOC__<noinclude>
 <div class="saving-menu">
 {{{standard input|save}}}
 {{{standard input|save and continue}}}
+<span class="display-none">{{{standard input|saveDraft}}}</span>
 {{{standard input|cancel}}}
 {{{standard input|watch}}}
 <span class="status-checkbox">
