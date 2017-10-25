@@ -1,0 +1,24 @@
+<div class="col-pic-materials msuploadContainer">
+{{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
+<p class="upload-instructions">Votre image sera visible après l'enregistrement de la page.</p>
+<div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Ajouter des photos </div>
+<div class="collapse" id="collapseExample">
+<div class="well add-more-pics">
+<span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_01_annotation|input type=editableImage|target=Step_Picture_01}}}
+
+<span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_02_annotation|input type=editableImage|target=Step_Picture_02}}}
+
+<span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_03_annotation|input type=editableImage|target=Step_Picture_03}}}
+
+<span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_04_annotation|input type=editableImage|target=Step_Picture_04}}}
+
+<span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_05_annotation|input type=editableImage|target=Step_Picture_05}}}
+</div>
+</div>
+</div>
