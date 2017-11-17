@@ -139,6 +139,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:Wikifab/UsersWatchButton.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Wikifab/SideSummary.git"
 		}
 	],
 	"minimum-stability": "dev",
@@ -170,6 +174,7 @@
 		"wikifab/PageMediaGallery":"dev-solene",
 		"wikifab/PdfExportRequest": "^1.0.0",
 		"wikifab/sample-display": "^0.1.0",
+		"wikifab/side-summary":"dev-master",
 		"wikifab/simple-embed-video": "dev-master",
 		"wikifab/SimpleLanguageSelector": "^1.0.0",
 		"wikifab/SocialProfile": "dev-solene",

@@ -34,6 +34,8 @@ wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'ImageAnnotator' );
 wfLoadExtension("EmbedVideo");
 wfLoadExtension('SimpleEmbedVideo');
+wfLoadExtension('CheckPageTitle');
+wfLoadExtension('SideSummary');
 
 
 $wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
@@ -99,3 +101,4 @@ $wgExploreUseThumbs = true;
 
 $wgUserProfileDisplay['userswatchlist'] = true;
 $wgUserProfileDisplay['userspageslinks'] = true;
+
