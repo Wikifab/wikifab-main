@@ -110,16 +110,20 @@
 	 <target name="getVisualEditor">
 	    <if>
 	      <not>
-	 		<available file="build/VisualEditor.tar.gz" />
+	 		<available file="build/VisualEditor-REL1_29.tar.gz" />
 	 	  </not>
 	      <then>
-	     	<exec executable="bash">
+	     	<!--<exec executable="bash">
 	        	<arg value="-c"/>
 	        	<arg value="wget http://wikifab.s3.amazonaws.com/package/VisualEditor.tar.gz -O build/VisualEditor.tar.gz"/>
+	      	</exec>-->
+	     	<exec executable="bash">
+	        	<arg value="-c"/>
+	        	<arg value="wget http://wikifab.s3.amazonaws.com/package/VisualEditor-REL1_29-b655946.tar.gz -O build/VisualEditor-REL1_29.tar.gz"/>
 	      	</exec>
 	      	<exec executable="bash">
 	        	<arg value="-c"/>
-	        	<arg value="tar -xzf build/VisualEditor.tar.gz -C build/"/>
+	        	<arg value="tar -xzf build/VisualEditor-REL1_29.tar.gz -C build/"/>
 	      	</exec>
 	      </then>
 	 	</if>
