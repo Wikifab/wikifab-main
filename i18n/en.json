@@ -248,8 +248,5 @@
 	"wf-systemmessages-userboard-boardtoboard":"All my messages with this user",
 	"wf-systemmessages-welcomeuser":"You're almost there!",
 	"wf-systemmessages-welcomecreation":"You will receive an email with an account creation confirmation link.",
-	"wf-systemmessages-userboardlogin-message1":"You must",
-	"wf-systemmessages-userboardlogin-message2":"be logged in",
-	"wf-systemmessages-userboardlogin-message3":"to send messages to others",
 	"wf-systemmessages-translation-introbtn":"Contribute to the translation"
 }

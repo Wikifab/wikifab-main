@@ -248,9 +248,6 @@
 	"wf-systemmessages-userboard-boardtoboard":"Toutes vos discussions avec cet utilisateur",
 	"wf-systemmessages-welcomeuser":"Vous y êtes presque !",
 	"wf-systemmessages-welcomecreation":"Vous allez recevoir dans quelques instants un mail qui contient un lien de confirmation. Pour activer votre compte, cliquez sur ce lien !",
-	"wf-systemmessages-userboardlogin-message1":"Vous devez être",
-	"wf-systemmessages-userboardlogin-message2":"connecté",
-	"wf-systemmessages-userboardlogin-message3":"pour envoyer des messages aux autres utilisateurs",
 	"wf-systemmessages-translation-intro":"Cette page est une version traduite de la page [[$2]] et la traduction est complétée à $3 %",
 	"wf-systemmessages-translation-introbtn":"Participer à la traduction"
 }
