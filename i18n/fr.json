@@ -251,9 +251,6 @@
 	"wf-systemmessages-userboardlogin-message1":"Vous devez être",
 	"wf-systemmessages-userboardlogin-message2":"connecté",
 	"wf-systemmessages-userboardlogin-message3":"pour envoyer des messages aux autres utilisateurs",
-	"wf-systemmessages-Uploadnologintext-message1":"Vous devez",
-	"wf-systemmessages-Uploadnologintext-message2":"vous identifiez",
-	"wf-systemmessages-Uploadnologintext-message3":"pour importer des fichiers",
 	"wf-systemmessages-translation-intro":"Cette page est une version traduite de la page [[$2]] et la traduction est complétée à $3 %",
 	"wf-systemmessages-translation-introbtn":"Participer à la traduction"
 }

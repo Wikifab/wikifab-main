@@ -251,8 +251,5 @@
 	"wf-systemmessages-userboardlogin-message1":"You must",
 	"wf-systemmessages-userboardlogin-message2":"be logged in",
 	"wf-systemmessages-userboardlogin-message3":"to send messages to others",
-	"wf-systemmessages-Uploadnologintext-message1":"You must",
-	"wf-systemmessages-Uploadnologintext-message2":"be logged in",
-	"wf-systemmessages-Uploadnologintext-message3":"to upload files",
 	"wf-systemmessages-translation-introbtn":"Contribute to the translation"
 }
