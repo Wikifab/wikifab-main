@@ -113,6 +113,14 @@ $wgRightsUrl = "";
 $wgRightsText = "";
 $wgRightsIcon = "";
 
+
+
+if(fileExists('LocalSettings.local.php')){
+    include('LocalSettings.local.php');
+}
+
+
+
 # Path to the GNU diff3 utility. Used for conflict resolution.
 $wgDiff3 = "/usr/bin/diff3";
 
