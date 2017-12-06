@@ -157,6 +157,7 @@
 		"wikifab/author-div": "^0.1.0",
 		"wikifab/carousel": "^0.1.1",
 		"wikifab/chameleon-skin": "dev-solene",
+		"wikifab/check-page-title" : "dev-solene",
 		"wikifab/Drafts": "dev-master",
 		"wikifab/Echo":"^0.1.0",
 		"wikifab/embed-video":"dev-master",
@@ -170,7 +171,7 @@
 		"wikifab/UsersWatchButton":"^0.1.0",
 		"wikifab/UsersPagesLinks":"dev-solene",
 		"wikifab/MultimediaViewer":"^0.3.0",
-		"wikifab/page-forms": "^1.0.0",
+		"wikifab/page-forms": "dev-master",
 		"wikifab/PageMediaGallery":"dev-solene",
 		"wikifab/PdfExportRequest": "^1.0.0",
 		"wikifab/sample-display": "^0.1.0",
@@ -182,6 +183,7 @@
 		"wikifab/VEForPageForm":"^1.0.0",
 		"wikifab/Wf-search": "^0.1.0",
 		"wikifab/wfext-style": "^0.2.0",
+		"wikifab/widgets":"dev-master",
 		"wikifab/wikifabStyleModule": "^1.0.0"
 	},
 	"suggest": {
