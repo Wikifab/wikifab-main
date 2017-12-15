@@ -59,6 +59,8 @@
 	"wf-prerequisites-tabs-placeholder":"Search and add a prerequisite tutorial",
 	"wf-prerequisites-tabs-subtitle": "Add the prerequisites tutorials",
 	"wf-prerequisites-tabs-btnlink": "Add a prerequisite tutorial",
+	"wf-tuto-video-btnlink": "+ Add a video",
+	"wf-video-intro-title": "Video overview",
 	"wf-formtutorial-materials-tabs-title": "Materials",
 	"wf-formtutorial-tools-tabs-title": "Tools",
 	"wf-formtutorial-file-tabs-title": "Files",
@@ -246,12 +248,5 @@
 	"wf-systemmessages-userboard-boardtoboard":"All my messages with this user",
 	"wf-systemmessages-welcomeuser":"You're almost there!",
 	"wf-systemmessages-welcomecreation":"You will receive an email with an account creation confirmation link.",
-	"wf-systemmessages-userboardlogin-message1":"You must",
-	"wf-systemmessages-userboardlogin-message2":"be logged in",
-	"wf-systemmessages-userboardlogin-message3":"to send messages to others",
-	"wf-systemmessages-Uploadnologintext-message1":"You must",
-	"wf-systemmessages-Uploadnologintext-message2":"be logged in",
-	"wf-systemmessages-Uploadnologintext-message3":"to upload files",
-	"wf-systemmessages-translation-intro":"This page is a translated version of the page [[$2]] and the translation is $3 % complete",
 	"wf-systemmessages-translation-introbtn":"Contribute to the translation"
 }

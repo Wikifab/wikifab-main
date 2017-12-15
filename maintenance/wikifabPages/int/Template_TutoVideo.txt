@@ -1,0 +1,23 @@
+<noinclude>
+Ceci est le modèle « TutoVideo ». Il devrait être appelé selon le format suivant :
+<pre>
+{{TutoVideo
+|TutoVideoService=
+|TutoVideoURL=
+}}
+</pre>
+Modifiez la page pour voir le texte du modèle.
+</noinclude><includeonly>
+<h3 class="VideoTitle">{{int:wf-video-intro-title}}</h3>
+<div class="allSizeScreenButton">
+<span class="resizeButton smallButton"></span>
+<span class="resizeButton mediumButton"></span>
+<span class="resizeButton largeButton"></span>
+</div>
+<div class="videoMainContainer">
+<div class="videoContainer">
+{{#ev:{{{TutoVideoService|}}} | {{{TutoVideoURL|}}} }}
+</div>
+</div>
+[[Category:Tutorials]]
+</includeonly>

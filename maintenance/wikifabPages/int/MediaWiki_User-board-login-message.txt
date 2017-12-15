@@ -1,1 +1,0 @@
-{{int:wf-systemmessages-userboardlogin-message1}} <a href="$1">{{int:wf-systemmessages-userboardlogin-message2}}</a> {{int:wf-systemmessages-userboardlogin-message3}}
