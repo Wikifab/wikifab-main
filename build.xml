@@ -157,10 +157,32 @@
 		  </fileset>
 		</copy>
 	 </target>
-	
+
+
+	<target name="get-ext-widgets">
+		<if>
+			<not>
+				<available file="build/wikifab/extensions/Widgets" type="dir" />
+			</not>
+			<then>
+				<exec executable="bash" dir="build/wikifab/extensions" checkreturn="true">
+					<arg value="-c"/>
+					<arg value="git clone https://github.com/Wikifab/mediawiki-extensions-Widgets.git Widgets"/>
+				</exec>
+				<exec executable="bash" dir="build/wikifab/extensions/Widgets" checkreturn="true">
+					<arg value="-c"/>
+					<arg value="git submodule init"/>
+				</exec>
+				<exec executable="bash" dir="build/wikifab/extensions/Widgets" checkreturn="true">
+					<arg value="-c"/>
+					<arg value="git submodule update"/>
+				</exec>
+			</then>
+		</if>
+	</target>
 	
 	 	
-    <target name="download-extensions"  depends="getMediawiki,setup-wikifab,getVisualEditor">
+    <target name="download-extensions"  depends="getMediawiki,setup-wikifab,get-ext-widgets,getVisualEditor">
 
         <echo msg="Download Tabber..." />
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
