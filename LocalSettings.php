@@ -115,7 +115,7 @@ $wgRightsIcon = "";
 
 
 
-if(fileExists('LocalSettings.local.php')){
+if(file_exists('LocalSettings.local.php')){
     include('LocalSettings.local.php');
 }
 
