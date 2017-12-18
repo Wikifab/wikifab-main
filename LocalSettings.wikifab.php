@@ -94,6 +94,7 @@ $wgGroupPermissions['user']['skipcaptcha'] = true;
 // */
 
 $wgGroupPermissions['*']['viewedittab'] = false;
+$wgGroupPermissions['user']['userboard-sendMessage'] = true;
 $wgPageFormsRenameEditTabs = true;
 $wgUsersWatchListAllowAll = true;
 
