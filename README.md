@@ -35,8 +35,10 @@ Edit the 'LocalSettings.php' file and add the following line at the end :
 Then execute those scripts to install wikifab extensions and pages :
 
 	php maintenance/update.php
+	php maintenance/update.php
 	php maintenance/initWikifab.php --setWikifabHomePage
 
+Note : In my case, the update.php script returned an error (in a part concerning Flow extension) at first execution, just run it a second time has solved the problem.
 
 ## METHOD #2 : Installation process using composer
 
