@@ -171,7 +171,7 @@
 		"wikifab/UsersWatchButton":"^0.1.0",
 		"wikifab/UsersPagesLinks":"dev-solene",
 		"wikifab/MultimediaViewer":"^0.3.0",
-		"wikifab/page-forms": "dev-master",
+		"wikifab/page-forms": "dev-solene",
 		"wikifab/PageMediaGallery":"dev-solene",
 		"wikifab/PdfExportRequest": "^1.0.0",
 		"wikifab/sample-display": "^0.1.0",
