@@ -12,7 +12,7 @@
 |}}
 
 <div class="col-xs-12 col-md-6 step-instructions {{#if:{{{5}}}|step-instructions-manyimage |step-instructions-oneimage}}">
-<h3> {{int:wf-steptemplate-step|{{#stepNumber: step }}}} - {{{1}}}</h3>
+<h2>{{int:wf-steptemplate-step|{{#stepNumber: step }}}} - {{{1}}}</h2>
 {{{2}}}
 </div>
 
