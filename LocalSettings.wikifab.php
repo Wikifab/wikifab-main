@@ -30,8 +30,8 @@ require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
 wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'ImageAnnotator' );
 
-$wgNamespaceContentModels[NS_TALK] = CONTENT_MODEL_FLOW_BOARD;
-$wgNamespaceContentModels[NS_USER_TALK] = CONTENT_MODEL_FLOW_BOARD;
+$wgNamespaceContentModels[NS_TALK] = 'flow-board';
+$wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
 
 $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab.xml';
 $egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result.html';
