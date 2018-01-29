@@ -33,6 +33,7 @@
 	"wf-formtutorial-type-popup-technique": "votre tutoriel concerne une technique à apprendre (ex : Utiliser une machine à coudre)",
 	"wf-formtutorial-area-field-title": "Catégories",
 	"wf-formtutorial-description-field-title": "Description",
+	"wf-formtutorial-summary-field-title": "Sommaire",
 	"wf-formtutorial-description-field-placeholder": "Décrivez l'objet du tutoriel en quelques lignes.",
 	"wf-formtutorial-difficulty-field-title": "Difficulté",
 	"wf-formtutorial-difficulty-popup-title1": "Très facile :",
