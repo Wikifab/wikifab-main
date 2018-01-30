@@ -90,3 +90,13 @@ $wgPageFormsRenameEditTabs = true;
 $wgUsersWatchListAllowAll = true;
 
 $wgExploreUseThumbs = true;
+
+
+$wgUserBoard = true;
+$wgGroupPermissions ['user'] ['userboard-sendMessage'] = true;
+$wgUserProfileDisplay['friends'] = true;
+$wgUserProfileDisplay['foes'] = true;
+$wgUserProfileDisplay['board'] = true;
+$wgUserProfileDisplay['stats'] = false;
+$wgUserProfileDisplay['userswatchlist'] = true;
+$wgUserProfileDisplay['userspageslinks'] = true;
