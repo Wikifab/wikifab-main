@@ -33,6 +33,7 @@
 	"wf-formtutorial-type-popup-technique": "your tutorial concerns a technique to learn (ie: to tile a floor)",
 	"wf-formtutorial-area-field-title": "Categories",
 	"wf-formtutorial-description-field-title": "Description",
+	"wf-formtutorial-summary-field-title": "Summary",
 	"wf-formtutorial-description-field-placeholder": "Describe your tutorial in a few sentences.",
 	"wf-formtutorial-difficulty-field-title": "Difficulty",
 	"wf-formtutorial-difficulty-popup-title1": "Very easy:",

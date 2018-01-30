@@ -30,7 +30,7 @@ par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{R
 </div>
 </div>
 <div class="col-md-7">
-<h2>Description</h2>
+<h2>{{int:wf-formtutorial-description-field-title}}</h2>
 <p>[[Description::{{{Description|}}}]]</p>
 </div>
 </div>
@@ -49,9 +49,9 @@ par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{R
 <div class="tuto-items-details-container-right">[[Duration::{{{Duration|}}}]] <span class="propertyKey" style="display:none">[[Duration-type::{{{Duration-type|}}}]]</span>  {{int:wf-propertyvalue-durationtype-{{{Duration-type|}}}|}}</div>
 </div>
 <div class="tuto-items-details-container noprint"><div class="tuto-items-details-container-left"><i class="fa fa-money" aria-hidden="true"></i>
- Coût</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>
+ {{int:wf-formtutorial-cost-field-title}}</div><div class="tuto-items-details-container-right">[[Cost::{{{Cost|}}}]] [[Currency::{{{Currency|}}}]]</div></div>
 <div class="tuto-items-languages noprint"><languages /></div>
-<h2 class="print-only">Sommaire</h2>
+<h2 class="print-only">{{int:wf-formtutorial-summary-field-title}}</h2>
 <div class="tuto-items-details-container printTOC"><div class="tuto-items-details-container-left"><i class="fa fa-list-ol" aria-hidden="true"></i></div>__TOC__</div>
 </div>
 <div class="licence-detail noprint"><i class="fa fa-creative-commons"></i><span class="licence-detail-title">{{int:wf-formtutorial-license-field-title}} :</span> [[Licences::{{{Licences|}}}]]</div>
