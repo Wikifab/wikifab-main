@@ -328,5 +328,14 @@
 	"help-creer-un-compte-07":"Vous allez recevoir un email afin de finaliser votre inscription et de confirmer votre adresse email.",
 	"help-creer-un-compte-08":"Vous devez confirmer votre email pour pouvoir créer ou modifier des tutoriels. (voir la section $1 pour le faire plus tard)",
 	"help-creer-un-compte-09":"Confirmer son adresse email",
-	"help-creer-un-compte-10":"Cliquez sur le premier lien pour valider votre adresse."
+	"help-creer-un-compte-10":"Cliquez sur le premier lien pour valider votre adresse.",
+	"help-confirmer-son-adresse-email-01":"Afin de créer ou de modifier des tutoriels, il est nécessaire de confirmer l’adresse email liée à votre compte.",
+	"help-confirmer-son-adresse-email-02":"Il vous a été proposé de confirmer votre adresse mail lors de la création de votre compte. Cette procédure vous permet de le faire depuis vos Préférences.",
+	"help-confirmer-son-adresse-email-03":"Cliquez sur Préférences.",
+	"help-confirmer-son-adresse-email-04":"Dans Informations Personnelles, rendez vous dans la partie Options des courriels.",
+	"help-confirmer-son-adresse-email-05":"Cliquez sur Définir une adresse de courriel.",
+	"help-confirmer-son-adresse-email-06":"Donnez à nouveau votre nom d‘utilisateur et mot de passe comme demandé.",
+	"help-confirmer-son-adresse-email-07":"Renseignez votre nouvelle adresse.",
+	"help-confirmer-son-adresse-email-08":"Vous allez recevoir un email afin de finaliser votre inscription et de confirmer votre adresse email. ",
+	"help-confirmer-son-adresse-email-09":"Cliquez sur le premier lien pour valider votre adresse."
 }
