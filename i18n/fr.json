@@ -318,5 +318,15 @@
 	"help-modifier-les-droits-d-un-utilisateur":"Modifier les droits d’un utilisateur",
 	"help-voir-les-tutoriels-et-contributions-d-un-utilisateur":"Voir les tutoriels et contributions d’un utilisateur",
 	"help-envoyer-un-message-a-un-utilisateur":"Envoyer un message à un utilisateur",
-	"help-suivre-les-contributions-d-un-utilisateur":"Suivre les contributions d’un utilisateur"
+	"help-suivre-les-contributions-d-un-utilisateur":"Suivre les contributions d’un utilisateur",
+	"help-creer-un-compte-01":"Créer un compte permet d’avoir accès à l’ensemble des fonctionnalités de la plateforme Dokit. Sans compte, vous pouvez simplement consulter les tutoriels, sans pouvoir les créer ni les modifier.",
+	"help-creer-un-compte-02":"Cliquez sur l'icône $1 en haut à droite de l’écran et sélectionnez Créer un compte.",
+	"help-creer-un-compte-03":"Remplissez les champs demandés.",
+	"help-creer-un-compte-04":"Les champs facultatifs peuvent être renseignés plus tard dans les sections Modifier le profil et Préférences.",
+	"help-creer-un-compte-05":"Si vous ne renseignez pas le champ Adresse mail, vous ne pourrez pas retrouver votre mot de passe oublié.",
+	"help-creer-un-compte-06":"Cliquez sur Créer un compte.",
+	"help-creer-un-compte-07":"Vous allez recevoir un email afin de finaliser votre inscription et de confirmer votre adresse email.",
+	"help-creer-un-compte-08":"Vous devez confirmer votre email pour pouvoir créer ou modifier des tutoriels. (voir la section $1 pour le faire plus tard)",
+	"help-creer-un-compte-09":"Confirmer son adresse email",
+	"help-creer-un-compte-10":"Cliquez sur le premier lien pour valider votre adresse."
 }
