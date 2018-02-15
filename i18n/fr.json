@@ -361,5 +361,25 @@
 	"help-modifier-son-profil-14":"Entrez votre nouvelle adresse email dans le champ courriel",
 	"help-modifier-son-profil-15":"Cliquez sur Mise à jour pour enregistrer les modifications",
 	"help-modifier-son-profil-16":"Vous allez recevoir un email afin de confirmer le changement de votre adresse email.",
-	"help-modifier-son-profil-17":"Vous devez confirmer votre nouvel email pour pouvoir créer ou modifier des tutoriels. (voir section Confirmer son adresse email)"
+	"help-modifier-son-profil-17":"Vous devez confirmer votre nouvel email pour pouvoir créer ou modifier des tutoriels. (voir section Confirmer son adresse email)",
+	"help-modifier-vos-preferences-01":"Modifier son mot-de-passe",
+	"help-modifier-vos-preferences-02":"Cliquez sur l'icône $1 et sélectionnez Préférences",
+	"help-modifier-vos-preferences-03":"Cliquez sur Changer de mot de passe",
+	"help-modifier-vos-preferences-04":"Inscrivez votre nouveau mot de passe dans le premier champ",
+	"help-modifier-vos-preferences-05":"Confirmez le mot de passe en l’inscrivant une seconde fois dans le champ inférieur",
+	"help-modifier-vos-preferences-06":"Cliquez sur Modifier les informations d’identification pour enregistrer les modifications",
+	"help-modifier-vos-preferences-07":"Réinitialiser son mot de passe en cas d’oubli",
+	"help-modifier-vos-preferences-08":"Si vous avez perdu votre mot de passe, vous devrez au préalable avoir renseigné une adresse email dans vos informations personnelles (voir la section Modifier ses informations personnelles).",
+	"help-modifier-vos-preferences-09":"Cliquez sur Mot de passe oublié ?",
+	"help-modifier-vos-preferences-010":"Remplissez un des champs proposés : votre nom d’utilisateur ou votre adresse email",
+	"help-modifier-vos-preferences-011":"Cliquez sur Réinitialiser le mot de passe",
+	"help-modifier-vos-preferences-012":"Un email contenant un mot de passe temporaire sera alors envoyé à l’adresse renseignée. Ce mot de passe temporaire expire 7 jours après la réception de l’email.",
+	"help-modifier-vos-preferences-013":"Retournez sur la page de connexion et entrez votre identifiant ainsi que le mot de passe temporaire",
+	"help-modifier-vos-preferences-014":"Cliquez sur Se connecter",
+	"help-modifier-vos-preferences-015":"Entrez le nouveau mot de passe et confirmez celui-ci une seconde fois dans le champ inférieur",
+	"help-modifier-vos-preferences-016":"Cliquez sur Continuer la connexion pour enregistrer les modifications",
+	"help-modifier-vos-preferences-017":"Restaurer tous les paramètres par défaut",
+	"help-modifier-vos-preferences-018":"Cliquez sur Restaurer tous les paramètres par défaut (dans toutes les sections) tout en bas de la page",
+	"help-modifier-vos-preferences-019":"Cliquez à nouveau sur Restaurer tous les paramètres par défaut (dans toutes les sections) pour confirmer votre choix"
+
 }
