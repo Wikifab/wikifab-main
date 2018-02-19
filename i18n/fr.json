@@ -380,6 +380,8 @@
 	"help-modifier-vos-preferences-016":"Cliquez sur Continuer la connexion pour enregistrer les modifications",
 	"help-modifier-vos-preferences-017":"Restaurer tous les paramètres par défaut",
 	"help-modifier-vos-preferences-018":"Cliquez sur Restaurer tous les paramètres par défaut (dans toutes les sections) tout en bas de la page",
-	"help-modifier-vos-preferences-019":"Cliquez à nouveau sur Restaurer tous les paramètres par défaut (dans toutes les sections) pour confirmer votre choix"
-
+	"help-modifier-vos-preferences-019":"Cliquez à nouveau sur Restaurer tous les paramètres par défaut (dans toutes les sections) pour confirmer votre choix",
+	"help-afficher-les-nouvelles-notifications-01":"Afficher les nouvelles notifications",
+	"help-afficher-les-nouvelles-notifications-02":"Cliquez sur l’icône $1 en haut à droite de la page afin d’afficher vos nouvelles notifications",
+	"help-afficher-les-nouvelles-notifications-03":"Cliquez sur Toutes les notifications dans la fenêtre pop-up qui vient de s’afficher afin d’avoir accès à toutes vos notifications"
 }
