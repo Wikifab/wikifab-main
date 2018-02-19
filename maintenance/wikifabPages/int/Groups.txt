@@ -2,5 +2,20 @@
 <div class="container">
 <h1>{{int:wf-group-title}}</h1>
 <p class="marketing-section-hp-subtitle">{{int:wf-group-subtitle}}</p>
-[[Form:Group|<span class="sign-up-button-hp">{{int:wf-formgroup-title}}</span>]]</div></div>
+<span data-toggle="modal" data-target="#CreateNewGroup" class="sign-up-developers">{{int:wf-formgroup-title}}</span> [[Wikifab:AboutGroups|<span class="sign-up-developers edit-profile-btn-hp">En savoir plus</span>]]</div></div>
 {{#ifanon: |}}{{#displayExplore:query=[[group-type::!none]] |nolang | layout=group| limit=24}}
+<div class="modal fade" id="CreateNewGroup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Créer un groupe</h4>
+</div>
+<div class="modal-body NewPageTabs">
+{{#ifanon:<div class="alert alert-warning" role="alert">
+{{int:wf-formgroup-alert|[[Special:UserLogin/signup|{{int:wf-formtutorial-alert-createaccount}}]]|[[Special:UserLogin|{{int:wf-formtutorial-alert-login}}]]}}
+</div>|
+{{#forminput:form=Group|placeholder=Entrez ici le nom de votre groupe|button text=Créer}} }}
+</div>
+</div>
+</div>
+</div>

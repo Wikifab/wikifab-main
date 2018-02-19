@@ -1,1 +1,1 @@
-{{int:wf-footer-1}} <span class="glyphicon glyphicon-heart" style="color:red" aria-hidden="true"></span> {{int:wf-footer-2}}
+© 2018 Wikifab

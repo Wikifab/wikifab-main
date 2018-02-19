@@ -7,5 +7,9 @@
 <h1>{{int:wf-mainpage-title}}</h1>
 <p class="marketing-section-hp-subtitle">{{int:wf-mainpage-subtitle}}</p>[[Form:Tutorial|<span class="sign-up-button-hp">{{int:wf-mainpage-createtutorial}}</span>]] [[Special:UpdateProfile|<span class="edit-profile-btn-hp">{{int:wf-mainpage-editprofile}}</span>]]</div></div>}}
 {{#displayExplore: Tuto,completeonly}}
-
-<div class="container"><mailchimpforms prefix="wikifab" account="845f275eba189755c03252f6a" list="2875a20e26" type="subscribe" bordercss="none" closelink="no" /></div>
+<div class="wikifab-newsletter">
+<div class="container">
+<h3>Abonnez-vous à notre newsletter</h3>
+<p class="wikifab-newsletter-subtitle">Notre actu et quelques projets choisis par notre équipe, de temps en temps.</p>
+<mailchimpforms prefix="wikifab" account="845f275eba189755c03252f6a" list="2875a20e26" type="subscribe" bordercss="none" closelink="no" /></div>
+</div>
