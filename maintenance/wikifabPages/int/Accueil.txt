@@ -1,14 +1,8 @@
-<div class="marketing-section-hp homepage-banner-01">
-<div class="marketing-section-hp-overlay">
-<div class="marketing-section-hp-content">
-<h1>{{int:wf-mainpage-title}}</h1>
-Que voulez fabriquez aujourd'hui ?
-</div>
-<div class="marketing-section-hp-btn">
-<div class="btn btn-default">Lampe en tasseau de bois <i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-</div>
-</div>
-</div>
+<choose uncached>
+<option>{{Marketing-HP-1}}</option>
+<option>{{Marketing-HP-2}}</option>
+<option>{{Marketing-HP-3}}</option>
+</choose>
 {{#displayExplore:  Tuto,completeonly}}
 <div class="wikifab-newsletter">
 <div class="container">
