@@ -1,6 +1,5 @@
 * navigation
-** Explore|{{int:wf-explore-title}}
-** Contribute|{{int:wf-contribute-title}}
+** Spécial:WfExplore|{{int:wf-explore-title}}
 ** Groups|{{int:wf-group-title}}
 * SEARCH
 * TOOLBOX
