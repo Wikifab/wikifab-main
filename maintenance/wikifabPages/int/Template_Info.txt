@@ -1,1 +1,1 @@
-<p><div class="icon-instructions-image">[[File:Info-icon.jpg]]</div><div class="icon-instructions-text">{{{1}}}</div></p>
+<p><div class="icon-instructions-image info-icon"></div><div class="icon-instructions-text">{{{1}}}</div></p>

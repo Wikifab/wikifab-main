@@ -28,6 +28,7 @@
 	"wf-formtutorial-main-subtitle": "Apprendre à bien choisir le nom de mon tutoriel.",
 	"wf-formtutorial-type-field-title": "Type",
 	"wf-formtutorial-type-creation": "Création",
+	"wf-formtutorial-type-by":"de",
 	"wf-formtutorial-type-technique": "Technique",
 	"wf-formtutorial-type-popup-creation": "votre tutoriel concerne un objet à créer (ex : Fabriquer un drone)",
 	"wf-formtutorial-type-popup-technique": "votre tutoriel concerne une technique à apprendre (ex : Utiliser une machine à coudre)",

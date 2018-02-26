@@ -1,10 +1,5 @@
 __NOTOC__
-<p class="tuto-details-autor-revision noprint">
-{{int:wf-tutotemplate-info-header| <span class="type-lowercase">[[Type::{{{Type|}}}]]</span>|{{#displayAuthorDiv:toto}}|{{#arraymap:{{{Area|}}}|,|x|[[Area::x|{{int:wf-propertyvalue-area-x}}]]}} }} 
-<!-- TODO : translate -->
-[{{fullurl:{{PAGENAME}}|action=history}} Dernière modification] le {{REVISIONDAY:  {{PAGENAME}} }}/{{REVISIONMONTH:  {{PAGENAME}} }}/{{REVISIONYEAR:  {{PAGENAME}} }} 
-par [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER: {{PAGENAME}} }} {{REVISIONUSER: {{PAGENAME}} }}].
-</p>
+<p class="tuto-details-autor-revision noprint">[[Type::{{{Type|}}}]] {{int:wf-formtutorial-type-by}} {{#displayAuthorDiv:toto}} | {{int:wf-formtutorial-area-field-title}} : {{#arraymap:{{{Area|}}}|,|x|[[Area::x|{{int:wf-propertyvalue-area-x}}]]}}</p>
 <p class="tuto-details-autor-revision print-only">{{#displayAuthorDiv:toto}}</p>
 <div class="row firstPage">
 <div class="col-md-5 col-sm-5 col-xs-12 fullWidthPrint">
