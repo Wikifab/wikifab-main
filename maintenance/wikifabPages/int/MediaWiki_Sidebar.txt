@@ -1,5 +1,5 @@
 * navigation
-** Spécial:WfExplore|{{int:wf-explore-title}}
+** Explore|{{int:wf-explore-title}}
 ** Groups|{{int:wf-group-title}}
 * SEARCH
 * TOOLBOX
