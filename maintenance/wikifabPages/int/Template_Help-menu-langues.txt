@@ -2,5 +2,5 @@
 * [[Help:Rechercher un tutoriel dans une autre langue|{{int:help-rechercher-un-tutoriel-dans-une-autre-langue}}]]
 * [[Help:Traduire un tutoriel|{{int:help-traduire-un-tutoriel}}]]
 * [[Help:Voir la liste des tutoriels non traduit|{{int:help-voir-la-liste-des-tutoriels-non-traduit}}]]
-* [[Help:Changer la langue de l’interface|{{int:help-changer-la-langue-de-l-interface}}]]
+* [[Help:Changer la langue de l-interface|{{int:help-changer-la-langue-de-l-interface}}]]
 * [[Help:Consulter un tutoriel dans une autre langue|{{int:help-consulter-un-tutoriel-dans-une-autre-langue}}]]
