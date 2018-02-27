@@ -1,0 +1,36 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-créer-un-nouveau-tutoriel}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:help-inserer-un-lien-01}}
+
+<h4>{{int:help-inserer-un-lien-07}}</h4>
+
+1. {{int:help-inserer-un-lien-02}}
+
+2. {{int:help-inserer-un-lien-03|[[File:wf-icon-help-link.jpg|link=]]}}
+
+3. {{int:help-inserer-un-lien-04}}
+
+4. {{int:help-inserer-un-lien-05}}
+<hr>
+<h4>{{int:help-inserer-un-lien-08}}</h4>
+
+1. {{int:help-inserer-un-lien-02}}
+
+2. {{int:help-inserer-un-lien-03|[[File:wf-icon-help-link.jpg|link=]]}}
+
+3. {{int:help-inserer-un-lien-06}}
+
+4. {{int:help-inserer-un-lien-05}}
+
+</div>
+</div>
+</div>

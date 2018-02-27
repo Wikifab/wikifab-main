@@ -1,0 +1,31 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+{{Help-menu-gerer-son-compte}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:help-creer-un-compte-01}}
+
+1. {{int:help-creer-un-compte-02|<span class="glyphicon glyphicon-user"></span>}}
+
+2. {{int:help-creer-un-compte-03}}
+
+{{Warning|{{int:help-creer-un-compte-04|[[Wikifab:Help/Modifier_son_profil|{{int:help-modifier-son-profil}}]]|[[Wikifab:Help/Modifier_ses_préférences|{{int:help-modifier-vos-preferences}}]] }} }}
+
+{{Info|{{int:help-creer-un-compte-05}} }}
+
+3. {{int:help-creer-un-compte-06}}
+
+{{int:help-creer-un-compte-07}}
+
+{{Warning| {{int:help-creer-un-compte-08|[[Wikifab:Help/Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}} }}
+
+4. {{int:help-creer-un-compte-10}}
+
+</div>
+</div>
+</div>

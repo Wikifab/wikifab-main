@@ -1,0 +1,12 @@
+<h4>{{int:help-title-gerer-son-compte}}</h4>
+* [[Help:Créer un compte|{{int:help-creer-un-compte}}]]
+* [[Help:Confirmer son adresse email|{{int:help-confirmer-son-adresse-email}}]]
+* [[Help:Se connecter et se déconnecter|{{int:help-se-connecter-se-deconnecter}}]]
+* [[Help:Modifier son profil|{{int:help-modifier-son-profil}}]]
+** [[Help:Modifier son profil#{{int:help-modifier-ses-informations-personnelles}}|{{int:help-modifier-ses-informations-personnelles}}]]
+** [[Help:Modifier son profil#{{int:help-ajouter-modifier-sa-photo-de-profil}}|{{int:help-ajouter-modifier-sa-photo-de-profil}}]]
+** [[Help:Modifier son profil#{{int:help-modifier-son-adresse-mail}}|{{int:help-modifier-son-adresse-mail}}]]
+* [[Help:Modifier ses préférences|{{int:help-modifier-vos-preferences}}]]
+** [[Help:Modifier ses préférences#{{int:help-modifier-son-mot-de-passe}}|{{int:help-modifier-son-mot-de-passe}}]]
+** [[Help:Modifier ses préférences#{{int:help-reinitialiser-son-mot-de-passe}}|{{int:help-reinitialiser-son-mot-de-passe}}]]
+** [[Help:Modifier ses préférences#{{int:help-restaurer-tous-les-parametres-par-defaut}}|{{int:help-restaurer-tous-les-parametres-par-defaut}}]]

@@ -1,0 +1,22 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-consulter-l-historique-d-une-page}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:help-brouillons-01}}
+
+{{int:help-brouillons-02}}
+
+{{int:help-brouillons-03}}
+
+{{info|{{int:help-brouillons-04|[[Special:Drafts]]}}}}
+
+</div>
+</div>
+</div>

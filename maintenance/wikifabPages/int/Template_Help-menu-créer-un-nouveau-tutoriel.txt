@@ -1,0 +1,9 @@
+* {{int:help-créer-un-nouveau-tutoriel}}
+** [[Help:Choisir le nom de son tutoriel|{{int:help-choisir-le-nom-de-son-tutoriel}}]]
+** [[Help:Renseigner les méta-données|{{int:help-renseigner-les-meta-donnees}}]]
+** [[Help:Mettre en forme|{{int:help-mettre-en-forme}}]]
+** [[Help:Insérer une image|{{int:help-inserer-une-image}}]]
+** [[Help:Insérer une vidéo|{{int:help-inserer-une-video}}]]
+** [[Help:Ajouter des annotations sur une image|{{int:help-ajouter-des-annotations-sur-une-image}}]]
+** [[Help:Insérer un lien|{{int:help-inserer-un-lien}}]]
+** [[Help:Importer un fichier|{{int:help-importer-un-fichier}}]]

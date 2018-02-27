@@ -1,0 +1,41 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-consulter-l-historique-d-une-page}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+<h4>{{int:help-acceder-a-l-historique-de-modification}}</h4>
+
+1. {{int:help-acceder-a-l-historique-de-modification-01}}
+
+2. {{int:help-acceder-a-l-historique-de-modification-02}}
+
+3. {{int:help-acceder-a-l-historique-de-modification-03}}
+<hr>
+<h4>{{int:help-comparer-deux-versions}}</h4>
+
+4. {{int:help-acceder-a-l-historique-de-modification-04}}
+
+5. {{int:help-acceder-a-l-historique-de-modification-05}}
+
+6. {{int:help-acceder-a-l-historique-de-modification-06}}
+
+<hr>
+<h4>{{int:help-restaurer-une-version-precedente}}</h4>
+
+7. {{int:help-acceder-a-l-historique-de-modification-07}}
+
+8. {{int:help-acceder-a-l-historique-de-modification-08}}
+
+9. {{int:help-acceder-a-l-historique-de-modification-09}}
+
+10. {{int:help-acceder-a-l-historique-de-modification-10}}
+
+</div>
+</div>
+</div>

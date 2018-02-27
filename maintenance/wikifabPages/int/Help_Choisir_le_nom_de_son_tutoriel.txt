@@ -1,0 +1,44 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-créer-un-nouveau-tutoriel}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:wf-formtutorial-popuptutoname-subtitle}}
+
+<h4>{{int:wf-formtutorial-popuptutoname-option1}}</h4>
+
+1. {{int:wf-formtutorial-popuptutoname-option1a}}
+
+* {{int:wf-formtutorial-popuptutoname-option1b}}
+* {{int:wf-formtutorial-popuptutoname-option1c}}
+
+2. {{int:wf-formtutorial-popuptutoname-option1d}}
+
+* {{int:wf-formtutorial-popuptutoname-option1b}}
+* {{int:wf-formtutorial-popuptutoname-option1e}}
+
+3. {{int:wf-formtutorial-popuptutoname-option1f}}
+
+* {{int:wf-formtutorial-popuptutoname-option1g}}
+* {{int:wf-formtutorial-popuptutoname-option1h}}
+<hr>
+<h4>{{int:wf-formtutorial-popuptutoname-option2}}</h4>
+
+1. {{int:wf-formtutorial-popuptutoname-option2a}}
+
+2. {{int:wf-formtutorial-popuptutoname-option2b}}
+ 
+* {{int:wf-formtutorial-popuptutoname-option2c}}
+* {{int:wf-formtutorial-popuptutoname-option2d}}
+
+{{Info|{{int:wf-formtutorial-popuptutoname-last}}}}
+
+</div>
+</div>
+</div>

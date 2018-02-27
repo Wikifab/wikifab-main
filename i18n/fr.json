@@ -490,10 +490,11 @@
 	"help-poser-une-question-06":"Lorsque vous posez une question, on peut alors y répondre dans le champ '''Répondre à votre question'''.",
 	"help-poser-une-question-07":"Cliquez sur '''une question'''",
 	"help-poser-une-question-08":"Tapez la réponse dans le champ '''Répondre''' prévu à cet effet",
+	"help-liste-de-suivi-01":"Suivre une page vous permet de recevoir une notification à chaque fois que celle-ci est modifiée.",
 	"help-liste-de-suivi-02":"Sélectionnez Suivre / Ne plus suivre",
-	"help-liste-de-suivi-03":"Vous pouvez aussi accéder à la liste de suivi en cliquant sur Liste de suivi dans la fenêtre qui vient de s’afficher temporairement.",
+	"help-liste-de-suivi-03":"Vous pouvez aussi accéder à votre liste de suivi en cliquant sur $1",
 	"help-liste-de-suivi-04":"Cliquez sur l’onglet Liste de suivi.",
-	"help-liste-de-suivi-05":"Sélectionnez Voir et retirer des titres de votre liste de suivie ou Modifier la liste de suivie en mode brut.",
+	"help-liste-de-suivi-05":"Sélectionnez '''Voir et retirer''' des titres de votre liste de suivie ou '''Modifier la liste de suivie''' en mode brut.",
 	"help-liste-de-suivi-06":"Le mode brut vous permet de modifier la liste sous forme d’un bloc de texte à éditer.",
 	"help-langues-01":"Seuls les tutoriels terminés peuvent être traduits.",
 	"help-langues-02":"Dans la barre des filtres, cliquez sur '''Afficher les résultats dans toutes les langues''' à droite",
@@ -531,5 +532,5 @@
 	"help-admin-rights-02":"Pour modifier les droits d'accès d'un utilisateur, rendez-vous sur la page $1, saisissez le '''Nom d’utilisateur''' de l'utilisateur concerné et choisissez le(s) groupe(s) au(x)quel(s) vous souhaitez le rattacher.",
 	"help-translate-01":"Sur le principe du wiki, n'importe quelle page peut être traduite par n'importe quel utilisateur. Si vous souhaitez participer à la traduction, rendez-vous sur la $1 pour consulter la liste des pages à traduire ou en cours de traduction.",
 	"help-recent-changes-01":"Pour consulter la liste des dernières modifications, rendez-vous sur la page $1.",
-	"help-recent-changes-02":"Pour consulter la liste des dernières modifications, rendez-vous sur la page $1 et selectionnez '''Sujet''' dans la liste déroulante '''Espace de noms'''."
+	"help-recent-changes-02":"Pour consulter la liste des dernières discussions, rendez-vous sur la page $1 et selectionnez '''Sujet''' dans la liste déroulante '''Espace de noms'''."
 }	

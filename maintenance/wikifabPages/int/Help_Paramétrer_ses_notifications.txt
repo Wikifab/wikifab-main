@@ -1,0 +1,39 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+{{Help-menu-gerer-ses-notifications}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:help-parametrer-ses-notifications-01}}
+
+<h4>{{int:help-parametrer-ses-notifications-02}}</h4>
+
+{{int:help-parametrer-ses-notifications-03}}
+
+1. {{int:help-modifier-son-profil-03|<span class="glyphicon glyphicon-user"></span>}}
+
+2. {{int:help-parametrer-ses-notifications-04}}
+
+3. {{int:help-parametrer-ses-notifications-05}}
+
+4. {{int:help-modifier-son-profil-06}}
+
+<h4>{{int:help-parametrer-ses-notifications-07}}</h4>
+
+{{int:help-parametrer-ses-notifications-08}}
+
+1. {{int:help-modifier-son-profil-03|<span class="glyphicon glyphicon-user"></span>}}
+
+2. {{int:help-parametrer-ses-notifications-09}}
+
+3. {{int:help-parametrer-ses-notifications-10}}
+
+4. {{int:help-parametrer-ses-notifications-11}}
+
+</div>
+</div>
+</div>

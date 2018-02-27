@@ -1,0 +1,4 @@
+* {{int:help-modifier-un-tutoriel}}
+** [[Help:Renommer un tutoriel|{{int:help-renommer-un-tutoriel}}]]
+** [[Help:Modifier le contenu du tutoriel|{{int:help-modifier-le-contenu-du-tutoriel}}]]
+** [[Help:Supprimer un tutoriel|{{int:help-supprimer-un-tutoriel}}]]

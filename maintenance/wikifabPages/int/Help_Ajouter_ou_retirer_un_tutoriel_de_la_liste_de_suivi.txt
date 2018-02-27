@@ -1,0 +1,27 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+{{Help-menu-explorer-les-tutoriels}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:help-liste-de-suivi-01}}
+
+1. {{int:help-poser-une-question-01}}
+
+2. {{int:help-liste-de-suivi-02}}
+
+{{int:help-liste-de-suivi-03|[[Special:Watchlist|{{int:help-explorer-parmi-tous-les-tutoriels-05}}]]}}
+
+1. {{int:help-liste-de-suivi-04}}
+
+2. {{int:help-liste-de-suivi-05}}
+
+{{info|{{int:help-liste-de-suivi-06}}}}
+
+</div>
+</div>
+</div>

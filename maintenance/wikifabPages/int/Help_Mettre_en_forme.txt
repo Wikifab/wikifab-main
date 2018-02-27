@@ -1,0 +1,36 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-créer-un-nouveau-tutoriel}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+{{int:help-mettre-en-forme-01}}
+
+* {{int:help-mettre-en-forme-02|[[File:wf-icon-help-paragraphes.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-03|[[File:wf-icon-help-bold.jpg|link=]]|[[File:wf-icon-help-italic.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-04|[[File:wf-icon-help-bullet.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-05|[[File:wf-icon-help-templates.jpg|link=]]}}
+
+{{int:help-mettre-en-forme-06}}
+
+* {{int:help-mettre-en-forme-07|[[File:idea-icon.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-08|[[File:pin-icon.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-09|[[File:dont-icon.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-10|[[File:caution-icon.jpg|link=]]}}
+
+* {{int:help-mettre-en-forme-11|[[File:info-icon.jpg|link=]]}}
+
+</div>
+</div>
+</div>

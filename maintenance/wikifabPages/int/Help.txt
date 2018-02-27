@@ -1,0 +1,27 @@
+__NOTOC__
+<div class="aide-section">
+<div class="container">
+<h1>{{int:help-maintitle}}</h1>
+<p>{{int:help-subtitle|[[Wikifab:Premiers_pas|{{int:help-subtitle-link}}]]}}</p>
+<div class="wf-inputbox">
+</div>
+</div>
+</div>
+<div class="container help-content">
+<div class="row">
+<div class="col-sm-5 col-sm-offset-1">
+{{Help-menu-gerer-son-compte}}
+{{Help-menu-gerer-ses-notifications}}
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-créer-un-nouveau-tutoriel}}
+{{Help-menu-modifier-un-tutoriel}}
+{{Help-menu-consulter-l-historique-d-une-page}}
+</div>
+<div class="col-md-5 col-sm-12 col-xs-12">
+{{Help-menu-explorer-les-tutoriels}}
+{{Help-menu-langues}}
+{{Help-menu-administration}}
+{{Help-menu-utilisateur}}
+</div>
+</div>
+</div>

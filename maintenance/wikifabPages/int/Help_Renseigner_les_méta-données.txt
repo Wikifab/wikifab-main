@@ -1,0 +1,28 @@
+__NOTOC__
+<div class="HelpContent container">
+[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
+<h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
+{{Help-menu-créer-un-nouveau-tutoriel}}
+</div>
+<div class="col-md-8 col-sm-12 col-xs-12">
+<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+
+1. {{int:help-choisir-le-nom-de-son-tutoriel-01}}
+
+2. {{int:help-choisir-le-nom-de-son-tutoriel-02}}
+
+3. {{int:help-choisir-le-nom-de-son-tutoriel-03|[[Wikifab:Help/Choisir le nom de son tutoriel|{{int:wf-formtutorial-popuptutoname-title}}]]}}
+
+4. {{int:help-choisir-le-nom-de-son-tutoriel-04|[[Lien|{{int:help-choisir-le-nom-de-son-tutoriel}}]]}}
+
+5. {{int:help-choisir-le-nom-de-son-tutoriel-05}}
+
+* {{int:help-choisir-le-nom-de-son-tutoriel-06}}
+* {{int:help-choisir-le-nom-de-son-tutoriel-07}}
+* {{int:help-choisir-le-nom-de-son-tutoriel-08}}
+
+</div>
+</div>
+</div>
