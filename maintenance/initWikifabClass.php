@@ -141,6 +141,7 @@ class InitWikifab extends Maintenance {
 		$page = str_replace ( 'Category_', 'Catégorie:', $page );
 		$page = str_replace ( 'MediaWiki_', 'Mediawiki:', $page );
 		$page = str_replace ( 'Widget_', 'Widget:', $page );
+		$page = str_replace ( 'Help_', 'Help:', $page );
 		$page = str_replace ( '_', ' ', $page );
 		$page = str_replace ( '.txt', '', $page );
 
