@@ -170,7 +170,7 @@ class InitWikifab extends Maintenance {
 		foreach ($dirs as $dir) {
 			$files = scandir ( $dir );
 			foreach ( $files as $file ) {
-				if (preg_match ( '/^([a-zA-Z_0-9\-])+\.txt$/', $file )) {
+				if (preg_match ( '/^([a-zA-Z_0-9\-àéèç])+\.txt$/', $file )) {
 					$result[$file] = $file;
 				}
 			}
