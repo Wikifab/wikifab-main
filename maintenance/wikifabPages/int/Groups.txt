@@ -2,7 +2,7 @@
 <div class="container">
 <h1>{{int:wf-group-title}}</h1>
 <p class="marketing-section-hp-subtitle">{{int:wf-group-subtitle}}</p>
-<span data-toggle="modal" data-target="#CreateNewGroup" class="sign-up-developers">{{int:wf-formgroup-title}}</span> [[Wikifab:AboutGroups|<span class="sign-up-developers edit-profile-btn-hp">En savoir plus</span>]]</div></div>
+<span data-toggle="modal" data-target="#CreateNewGroup" class="sign-up-button-hp wf-btn-lg">{{int:wf-formgroup-title}}</span> [[Wikifab:AboutGroups|<span class="wf-btn-dark wf-btn-lg">En savoir plus</span>]]</div></div>
 {{#ifanon: |}}{{#displayExplore:query=[[group-type::!none]] |nolang | layout=group| limit=24}}
 <div class="modal fade" id="CreateNewGroup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
