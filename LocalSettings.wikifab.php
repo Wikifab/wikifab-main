@@ -28,6 +28,7 @@ require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
 require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
 wfLoadExtension( 'PageMediaGallery' );
+wfLoadExtension( 'PageLoadingSpinner' );
 wfLoadExtension( 'ImageAnnotator' );
 
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';
