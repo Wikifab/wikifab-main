@@ -9,7 +9,7 @@ __NOTOC__
 <div class="col-md-8 col-sm-12 col-xs-12">
 <h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
 
-{{int:help-supprimer-un-tutoriel-01}}
+{{int:help-supprimer-un-tutoriel-01|[[Contact]]}}
 
 </div>
 </div>

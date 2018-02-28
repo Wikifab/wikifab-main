@@ -12,7 +12,7 @@ __NOTOC__
 
 {{Info|{{int:help-afficher-les-nouvelles-notifications-03}}}}
 
-3. {{int:help-afficher-les-nouvelles-notifications-04}}
+2. {{int:help-afficher-les-nouvelles-notifications-04}}
 
 </div>
 </div>

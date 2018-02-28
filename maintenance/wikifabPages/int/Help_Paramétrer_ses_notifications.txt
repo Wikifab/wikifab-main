@@ -21,7 +21,7 @@ __NOTOC__
 3. {{int:help-parametrer-ses-notifications-05}}
 
 4. {{int:help-modifier-son-profil-06}}
-
+<hr>
 <h4>{{int:help-parametrer-ses-notifications-07}}</h4>
 
 {{int:help-parametrer-ses-notifications-08}}
