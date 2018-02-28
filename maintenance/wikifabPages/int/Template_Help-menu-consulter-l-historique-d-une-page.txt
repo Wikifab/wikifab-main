@@ -1,5 +1,5 @@
 * {{int:help-consulter-l-historique-d-une-page}}
-** [[Help:Accéder à l’historique de modification#{{int:help-acceder-a-l-historique-de-modification}}|{{int:help-acceder-a-l-historique-de-modification}}]]
-** [[Help:Accéder à l’historique de modification#{{int:help-comparer-deux-versions}}|{{int:help-comparer-deux-versions}}]]
-** [[Help:Accéder à l’historique de modification#{{int:help-restaurer-une-version-precedente}}|{{int:help-restaurer-une-version-precedente}}]]
+** [[Help:Accéder à l-historique de modification#{{int:help-acceder-a-l-historique-de-modification}}|{{int:help-acceder-a-l-historique-de-modification}}]]
+** [[Help:Accéder à l-historique de modification#{{int:help-comparer-deux-versions}}|{{int:help-comparer-deux-versions}}]]
+** [[Help:Accéder à l-historique de modification#{{int:help-restaurer-une-version-precedente}}|{{int:help-restaurer-une-version-precedente}}]]
 ** [[Help:Brouillons|{{int:help-brouillons}}]]

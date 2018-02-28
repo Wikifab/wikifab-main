@@ -1,6 +1,6 @@
 __NOTOC__
 <div class="HelpContent container">
-[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+[[Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
 <div class="row">
 <div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
 {{Help-menu-gerer-ses-notifications}}
@@ -12,7 +12,7 @@ __NOTOC__
 
 {{Info|{{int:help-afficher-les-nouvelles-notifications-03}}}}
 
-3. {{int:help-afficher-les-nouvelles-notifications-04}}
+2. {{int:help-afficher-les-nouvelles-notifications-04}}
 
 </div>
 </div>

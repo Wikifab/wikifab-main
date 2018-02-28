@@ -426,7 +426,7 @@
 	"help-ajouter-des-annotations-sur-une-image-01":"Cliquez sur $1 dans le cadre d’images pour ajouter des annotations sur votre image",
 	"help-ajouter-des-annotations-sur-une-image-02":"Choisissez la couleur de votre choix en cliquant sur $1",
 	"help-ajouter-des-annotations-sur-une-image-03":"Sélectionnez les outils $1 pour encadrer, entourer ou montrer un objet à l’aide d’une flèche dans l’image",
-	"help-ajouter-des-annotations-sur-une-image-04":"Utilisez l’outil $1 pour ajouter une description à l’objet",
+	"help-ajouter-des-annotations-sur-une-image-04":"Utilisez l’outil $1 pour supprimer une annotation",
 	"help-ajouter-des-annotations-sur-une-image-05":"Cliquez sur '''Valider''' pour effectuer les annotations sur votre image ou sur '''Annuler''' pour retourner à l’interface de création",
 	"help-inserer-un-lien-01":"Sur le formulaire d'édition, vous pouvez insérer un lien interne (vers une autre page de la plateforme) ou externe (vers un autre site).",
 	"help-inserer-un-lien-02":"Selectionnez d'abord le texte ou l'image sur lequel ou laquel vous souhaitez insérer le lien",

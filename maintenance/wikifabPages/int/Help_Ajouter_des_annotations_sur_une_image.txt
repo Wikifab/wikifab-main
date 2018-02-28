@@ -1,6 +1,6 @@
 __NOTOC__
 <div class="HelpContent container">
-[[Wikifab:Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
+[[Help|<span type="button" class="btn btn-default"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{int:back-to-help}}</span>]]
 <div class="row">
 <div class="col-md-4 col-sm-12 col-xs-12 static-pages-menu">
 <h4>{{int:help-title-creer-modifier-un-tutoriel}}</h4>
@@ -9,13 +9,13 @@ __NOTOC__
 <div class="col-md-8 col-sm-12 col-xs-12">
 <h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
 
-{{int:help-ajouter-des-annotations-sur-une-image-01}}
+{{int:help-ajouter-des-annotations-sur-une-image-01|[[File:wf-icon-help-editimage.jpg|link=]]}}
 
-{{int:help-ajouter-des-annotations-sur-une-image-02}}
+{{int:help-ajouter-des-annotations-sur-une-image-02|[[File:wf-icon-help-colors.jpg|link=]]}}
 
-{{int:help-ajouter-des-annotations-sur-une-image-03}}
+{{int:help-ajouter-des-annotations-sur-une-image-03|[[File:wf-icon-help-tools.jpg|link=]]}}
 
-{{int:help-ajouter-des-annotations-sur-une-image-04}}
+{{int:help-ajouter-des-annotations-sur-une-image-04|[[File:wf-icon-help-delete.jpg|link=]]}}
 
 {{int:help-ajouter-des-annotations-sur-une-image-05}}
 

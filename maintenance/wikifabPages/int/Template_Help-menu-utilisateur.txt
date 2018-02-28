@@ -1,4 +1,4 @@
 <h4>{{int:help-title-utilisateurs}}</h4>
-* [[Help:Voir les tutoriels et contributions d’un utilisateur|{{int:help-voir-les-tutoriels-et-contributions-d-un-utilisateur}}]]
+* [[Help:Voir les tutoriels et contributions d-un utilisateur|{{int:help-voir-les-tutoriels-et-contributions-d-un-utilisateur}}]]
 * [[Help:Envoyer un message à un utilisateur|{{int:help-envoyer-un-message-a-un-utilisateur}}]]
-* [[Help:Suivre les contributions d’un utilisateur|{{int:help-suivre-les-contributions-d-un-utilisateur}}]]
+* [[Help:Suivre les contributions d-un utilisateur|{{int:help-suivre-les-contributions-d-un-utilisateur}}]]
