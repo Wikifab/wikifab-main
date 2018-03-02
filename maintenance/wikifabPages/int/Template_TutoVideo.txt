@@ -1,6 +1,6 @@
 <div class="row">
 <div class="col-xs-12">
-<h3 class="VideoTitle">{{int:wf-video-intro-title}}</h3>
+<h2 class="VideoTitle">{{int:wf-video-intro-title}}</h2>
 <div class="allSizeScreenButton">
 <span class="resizeButton smallButton"></span>
 <span class="resizeButton mediumButton"></span>
