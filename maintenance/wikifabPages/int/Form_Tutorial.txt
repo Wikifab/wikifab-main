@@ -186,14 +186,14 @@ __NOTOC__<noinclude>
 {{{end template}}}
 </div>
 <div class="saving-menu">
-{{{standard input|save}}}
-{{{standard input|save and continue}}}
-<span class="display-none">{{{standard input|saveDraft}}}</span>
-{{{standard input|cancel}}}
-{{{standard input|watch}}}
 <span class="status-checkbox">
 {{{for template|Tuto_Status}}}{{{field|Complete|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}
 </span>
+{{{standard input|watch}}}
+<span class="display-none">{{{standard input|saveDraft}}}</span>
+{{{standard input|cancel}}}
+{{{standard input|save and continue}}}
+{{{standard input|save}}}
 </div>
 </includeonly>
 
