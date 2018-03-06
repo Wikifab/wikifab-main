@@ -66,9 +66,9 @@ __NOTOC__<noinclude>
 </div>
 <div class="col-md-6 col-xs-12">
 <p class="WfFormLabel">{{int:wf-formtutorial-duration-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-duration-popup}}|}}</span></p>
-{{{field|Duration|mandatory|class=WfFormText}}} {{{field|Duration-type|mandatory|input type=dropdown|class=WfFormDropdown|mapping using translate=wf-propertyvalue-durationtype-}}} 
+{{{field|Duration|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Duration-type|mandatory|input type=dropdown|class=WfFormDropdown WfFormDropdownCombine|mapping using translate=wf-propertyvalue-durationtype-}}} 
 <p class="WfFormLabel">{{int:wf-formtutorial-cost-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-cost-popup}}|}}</span></p>
-{{{field|Cost|mandatory|class=WfFormText}}} {{{field|Currency|mandatory|input type=dropdown|class=WfFormDropdown}}}
+{{{field|Cost|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Currency|mandatory|input type=dropdown|class=WfFormDropdownCombine}}}
 </div>
 </div>
 <p class="WfFormLabel">{{int:wf-formtutorial-tags-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></p>
