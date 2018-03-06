@@ -46,7 +46,7 @@ __NOTOC__<noinclude>
 <div class="row">
 <div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail">
 <p class="WfFormLabel">Image principale <span class="custom-tooltip">{{#info:Cette image sert à illustrer votre tutoriel sur toute la plateforme. Privilégiez le format paysage (idéalement 800 x 600 px).}}</span></p>
-<div class="msuploadContainer">
+<div class="msuploadContainer msuploadContainerTall">
 {{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
 {{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
 </div>
