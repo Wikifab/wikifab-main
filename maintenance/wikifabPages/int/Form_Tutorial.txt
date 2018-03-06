@@ -44,48 +44,38 @@ __NOTOC__<noinclude>
 <div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
 {{{for template|Tuto Details}}}
 <div class="row">
-<div class="col-md-8 col-sm-8 col-xs-12">
-<div class="row table-edit-form">
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formtutorial-type-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9 custom-tooltip">{{{field|Type|mandatory|class=form-dropdown}}} 
-{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p>
-<p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}
-</div>
-</div>
-<div class="row table-edit-form">
-<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-area-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Area|mandatory|class=form-checkbox|mapping using translate=wf-propertyvalue-area-}}}</div>
-</div>
-<div class="row table-edit-form">
-<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-tags-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-12 custom-tooltip">{{{field|Tags|class=form-tokens|input type=tokens|size=}}} {{#info:{{int:wf-formtutorial-tags-popup}}|}}</div>
-</div>
-<div class="row table-edit-form">
-<div class="col-md-2 col-sm-2 col-xs-12 edit-form-title">{{int:wf-formtutorial-description-field-title}}</div>
-<div class="col-md-10 col-sm-10 col-xs-12">{{{field|Description|input type=textarea|mandatory|translatable|rows=3|maxlength=4000|class=form-textarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
-</div>
-</div>
-<div class="row licence-section">
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-difficulty-field-title}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Difficulty|input type=dropdown|mandatory|class=form-dropdown|mapping using translate=wf-propertyvalue-difficulty-}}} {{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-cost-field-title}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|Cost|mandatory|class=form-duration}}} {{{field|Currency|mandatory|input type=dropdown|class=form-dropdown-2}}} {{#info:{{int:wf-formtutorial-cost-popup}}|}}</div>
-</div>
-<div class="row">
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-duration-field-title}}</div>
-<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form custom-tooltip licence-section">{{{field|Duration|mandatory|class=form-duration}}} {{{field|Duration-type|mandatory|input type=dropdown|class=form-dropdown-2|mapping using translate=wf-propertyvalue-durationtype-}}} {{#info:{{int:wf-formtutorial-duration-popup}}|}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title table-edit-form">{{int:wf-formtutorial-license-field-title}}</div>
-<div class="col-md-4 col-sm-10 col-xs-9 table-edit-form">{{{field|Licences|input type=dropdown|class=form-dropdown-3}}}<span class="style-instructions-text" data-toggle="modal" data-target="#ModalCreativeCommons"><span class="glyphicon glyphicon-question-sign tuto-question-icon"></span></span></div>
-</div>
-</div>
 <div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail">
+<p class="WfFormLabel">Image principale <span class="custom-tooltip">{{#info:Cette image sert à illustrer votre tutoriel sur toute la plateforme. Privilégiez le format paysage (idéalement 800 x 600 px).}}</span></p>
 <div class="msuploadContainer">
 {{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
 {{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
+</div>
+{{int:wf-formtutorial-license-field-title}} {{{field|Licences|input type=dropdown|class=WfFormDropdown}}}
+</div>
+<div class="col-md-8 col-sm-8 col-xs-12">
+<p class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</p>
+{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
+<p class="WfFormLabel">{{int:wf-formtutorial-area-field-title}}</p>
+{{{field|Area|mandatory|class=WfFormCheckbox|hide select all|mapping using translate=wf-propertyvalue-area-}}}
+<div class="row">
+<div class="col-md-6 col-xs-12">
+<p class="WfFormLabel">{{int:wf-formtutorial-type-field-title}} <span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p> <p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}</span></p>
+{{{field|Type|mandatory|class=WfFormDropdown}}}
+<p class="WfFormLabel">{{int:wf-formtutorial-difficulty-field-title}} <span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</span></p>
+{{{field|Difficulty|input type=dropdown|mandatory|class=WfFormDropdown|mapping using translate=wf-propertyvalue-difficulty-}}} 
+</div>
+<div class="col-md-6 col-xs-12">
+<p class="WfFormLabel">{{int:wf-formtutorial-duration-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-duration-popup}}|}}</span></p>
+{{{field|Duration|mandatory|class=WfFormText}}} {{{field|Duration-type|mandatory|input type=dropdown|class=WfFormDropdown|mapping using translate=wf-propertyvalue-durationtype-}}} 
+<p class="WfFormLabel">{{int:wf-formtutorial-cost-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-cost-popup}}|}}</span></p>
+{{{field|Cost|mandatory|class=WfFormText}}} {{{field|Currency|mandatory|input type=dropdown|class=WfFormDropdown}}}
+</div>
+</div>
+<p class="WfFormLabel">{{int:wf-formtutorial-tags-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></p>
+<div class="WfFormTokensParent">{{{field|Tags|placeholder=Séparez chaque mot-clé par une virgule (ex: Bois, Métal, Impression 3D, etc.)|class=WfFormTokens|input type=tokens|size=}}}</div>
+</div>
+</div>
 {{{end template}}}
-</div>
-</div>
-</div>
 <div class="hrContentMinor-2"></div>
 {{{for template|Introduction}}}
 <div class="edit-step-title">{{int:wf-formtutorial-introduction-field-title}} <span>{{int:wf-formtutorial-introduction-field-info}}</span></div>
