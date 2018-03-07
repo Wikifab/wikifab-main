@@ -14,7 +14,6 @@ require_once "$IP/extensions/Explore/WfExplore.php";
 require_once "$IP/extensions/AuthorDiv/WfAuthorDiv.php";
 require_once "$IP/extensions/Carousel/Carousel.php";
 require_once "$IP/extensions/Cite/Cite.php";
-require_once "$IP/extensions/Tabber/Tabber.php";
 require_once "$IP/extensions/UserFunctions/UserFunctions.php";
 require_once "$IP/extensions/SocialProfile/SocialProfile.php";
 require_once "$IP/extensions/Echo/Echo.php";
@@ -30,6 +29,7 @@ require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
 wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'PageLoadingSpinner' );
 wfLoadExtension( 'ImageAnnotator' );
+wfLoadExtension( 'Tabber' );
 
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
