@@ -1,0 +1,13 @@
+<div data-toggle="modal" data-target="#CreateNewPage" class="wf-top-button askButton"><span class="btn webfonts-changed"><span class="glyphicon glyphicon-pencil"></span> {{int:wf-mainpage-createtutorial}}</span></div>
+<div class="modal fade" id="CreateNewPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">{{int:wf-formtutorial-main-title}}</h4><span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+</div>
+<div class="modal-body NewPageTabs">
+<div class="NewPageField">{{#forminput:form=Tutorial|placeholder={{int:wf-formtutorial-main-placeholder}}|button text={{int:wf-formtutorial-main-btn}}}}</div>
+</div>
+</div>
+</div>
+</div>
