@@ -56,9 +56,9 @@ download it and extract to your website
 
 in bash : 
 
-	wget https://releases.wikimedia.org/mediawiki/1.28/mediawiki-1.28.0.tar.gz
-	tar -xzf mediawiki-1.28.0.tar.gz
-	mv mediawiki-1.28.0 /var/www/yourwebsite
+	wget https://releases.wikimedia.org/mediawiki/1.28/mediawiki-1.29.0.tar.gz
+	tar -xzf mediawiki-1.29.0.tar.gz
+	mv mediawiki-1.29.0 /var/www/yourwebsite
 
 ### 2. install your wiki
 
@@ -120,6 +120,10 @@ In your "LocalSettings.php" file, add a line to include  file 'LocalSettings.wik
 
 	include('LocalSettings.wikifab.php');
 
+To enable internationalization support, add the following line 
+
+	include('LocalSettings.i18n.php');
+
 and run the php update script 
 
 
@@ -135,7 +139,7 @@ You need to create all pages and forms to finish installation and have a wikifab
 
 You can do id with this script (only available for french for now) :
 
-	php maintenance/initWikifab.php --setWikifabHomePage
+	php maintenance/initWikifab.php --setWikifabHomePage --int
 
 Warning : this will change the home page of your wiki, if you do not want this, simply execute the command without param "--setWikifabHomePage"
 
