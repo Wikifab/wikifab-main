@@ -50,7 +50,18 @@ __NOTOC__<noinclude>
 {{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
 {{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
 </div>
-{{int:wf-formtutorial-license-field-title}} {{{field|Licences|input type=dropdown|class=WfFormDropdown}}}
+<div class="Licences-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="Licences">
+<div class="Licences-heading" role="tab" id="headingOne">
+<p class="Licences-title" data-toggle="collapse" data-target="#Licences">{{int:wf-formtutorial-license-field-title}}</p>
+</div>
+<div id="Licences" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+<div class="Licences-body">
+{{{field|Licences|input type=dropdown|class=WfFormDropdown}}}
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="col-md-8 col-sm-8 col-xs-12">
 <p class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</p>
@@ -68,7 +79,7 @@ __NOTOC__<noinclude>
 <p class="WfFormLabel">{{int:wf-formtutorial-duration-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-duration-popup}}|}}</span></p>
 {{{field|Duration|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Duration-type|mandatory|input type=dropdown|class=WfFormDropdown WfFormDropdownCombine|mapping using translate=wf-propertyvalue-durationtype-}}} 
 <p class="WfFormLabel">{{int:wf-formtutorial-cost-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-cost-popup}}|}}</span></p>
-{{{field|Cost|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Currency|mandatory|input type=dropdown|class=WfFormDropdownCombine}}}
+{{{field|Cost|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Currency|mandatory|input type=dropdown|class=WfFormDropdown WfFormDropdownCombine}}}
 </div>
 </div>
 <p class="WfFormLabel">{{int:wf-formtutorial-tags-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></p>
