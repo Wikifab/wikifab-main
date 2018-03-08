@@ -53,7 +53,7 @@
 	"wf-formtutorial-cost-popup": "Coût approximatif pour acheter le materiel (hors outils), en supposant qu'il faille tout acheter.",
 	"wf-formtutorial-duration-field-title": "Durée",
 	"wf-formtutorial-duration-popup": "Durée totale pour réaliser le tutoriel (temps de repos, séchage, cuisson... inclus).",
-	"wf-formtutorial-license-field-title": "License",
+	"wf-formtutorial-license-field-title": "Modifier la licence du tutoriel",
 	"wf-formtutorial-introduction-field-title": "Introduction",
 	"wf-formtutorial-introduction-field-info": "(facultatif)",
 	"wf-formtutorial-tools-materials-tabs-title": "Outils & Matériaux",
