@@ -64,10 +64,9 @@ __NOTOC__<noinclude>
 </div>
 </div>
 <div class="col-md-8 col-sm-8 col-xs-12">
-<p class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</p>
-{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
+<div class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</div><div>{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}</div>
 <p class="WfFormLabel">{{int:wf-formtutorial-area-field-title}}</p>
-{{{field|Area|mandatory|class=WfFormCheckbox|hide select all|mapping using translate=wf-propertyvalue-area-}}}
+{{{field|Area|mandatory|input type=checkboxes|class=WfFormCheckbox|hide select all|mapping using translate=wf-propertyvalue-area-}}}
 <div class="row">
 <div class="col-md-6 col-xs-12">
 <div class="WfFormLabel"><span>{{int:wf-formtutorial-type-field-title}}</span><span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p> <p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}</span></div>
