@@ -45,7 +45,7 @@ __NOTOC__<noinclude>
 {{{for template|Tuto Details}}}
 <div class="row">
 <div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail">
-<div class="WfFormLabel"><span>Image principale</span><span class="custom-tooltip">{{#info:Cette image sert à illustrer votre tutoriel sur toute la plateforme. Privilégiez le format paysage (idéalement 800 x 600 px).}}</span></div>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-main-picture-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-main-picture-tooltip}}}}</span></div>
 <div class="msuploadContainer msuploadContainerTall">
 {{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
 {{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
@@ -82,7 +82,7 @@ __NOTOC__<noinclude>
 </div>
 </div>
 <div class="WfFormLabel"><span>{{int:wf-formtutorial-tags-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></div>
-<div class="WfFormTokensParent">{{{field|Tags|placeholder=Séparez chaque mot-clé par une virgule (ex: Bois, Métal, Impression 3D, etc.)|class=WfFormTokens|input type=tokens|size=}}}</div>
+<div class="WfFormTokensParent">{{{field|Tags|placeholder={{int:wf-formtutorial-tag-field-tooltip}}|class=WfFormTokens|input type=tokens|size=}}}</div>
 </div>
 </div>
 {{{end template}}}
