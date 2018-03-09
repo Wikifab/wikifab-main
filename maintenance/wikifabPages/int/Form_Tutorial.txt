@@ -45,7 +45,7 @@ __NOTOC__<noinclude>
 {{{for template|Tuto Details}}}
 <div class="row">
 <div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail">
-<p class="WfFormLabel">Image principale <span class="custom-tooltip">{{#info:Cette image sert à illustrer votre tutoriel sur toute la plateforme. Privilégiez le format paysage (idéalement 800 x 600 px).}}</span></p>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-main-picture-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-main-picture-tooltip}}}}</span></div>
 <div class="msuploadContainer msuploadContainerTall">
 {{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
 {{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
@@ -57,33 +57,32 @@ __NOTOC__<noinclude>
 </div>
 <div id="Licences" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 <div class="Licences-body">
-{{{field|Licences|input type=dropdown|class=WfFormDropdown}}}
+{{{field|Licences|input type=dropdown|class=WfFormDropdown|default=Attribution (CC BY)}}}
 </div>
 </div>
 </div>
 </div>
 </div>
 <div class="col-md-8 col-sm-8 col-xs-12">
-<p class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</p>
-{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}
+<div class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</div><div>{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}</div>
 <p class="WfFormLabel">{{int:wf-formtutorial-area-field-title}}</p>
-{{{field|Area|mandatory|class=WfFormCheckbox|hide select all|mapping using translate=wf-propertyvalue-area-}}}
+{{{field|Area|mandatory|input type=checkboxes|class=WfFormCheckbox|hide select all|mapping using translate=wf-propertyvalue-area-}}}
 <div class="row">
 <div class="col-md-6 col-xs-12">
-<p class="WfFormLabel">{{int:wf-formtutorial-type-field-title}} <span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p> <p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}</span></p>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-type-field-title}}</span><span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p> <p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}</span></div>
 {{{field|Type|mandatory|class=WfFormDropdown}}}
-<p class="WfFormLabel">{{int:wf-formtutorial-difficulty-field-title}} <span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</span></p>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-difficulty-field-title}}</span><span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-difficulty-popup-title1}}''' {{int:wf-formtutorial-difficulty-popup-text1}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title2}}''' {{int:wf-formtutorial-difficulty-popup-text2}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title3}}''' {{int:wf-formtutorial-difficulty-popup-text3}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title4}}''' {{int:wf-formtutorial-difficulty-popup-text4}}</p><p>'''{{int:wf-formtutorial-difficulty-popup-title5}}''' {{int:wf-formtutorial-difficulty-popup-text5}}</p>}}</span></div>
 {{{field|Difficulty|input type=dropdown|mandatory|class=WfFormDropdown|mapping using translate=wf-propertyvalue-difficulty-}}} 
 </div>
 <div class="col-md-6 col-xs-12">
-<p class="WfFormLabel">{{int:wf-formtutorial-duration-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-duration-popup}}|}}</span></p>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-duration-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-duration-popup}}|}}</span></div>
 {{{field|Duration|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Duration-type|mandatory|input type=dropdown|class=WfFormDropdown WfFormDropdownCombine|mapping using translate=wf-propertyvalue-durationtype-}}} 
-<p class="WfFormLabel">{{int:wf-formtutorial-cost-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-cost-popup}}|}}</span></p>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-cost-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-cost-popup}}|}}</span></div>
 {{{field|Cost|mandatory|class=WfFormText WfFormTextCombine}}} {{{field|Currency|mandatory|input type=dropdown|class=WfFormDropdown WfFormDropdownCombine}}}
 </div>
 </div>
-<p class="WfFormLabel">{{int:wf-formtutorial-tags-field-title}} <span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></p>
-<div class="WfFormTokensParent">{{{field|Tags|placeholder=Séparez chaque mot-clé par une virgule (ex: Bois, Métal, Impression 3D, etc.)|class=WfFormTokens|input type=tokens|size=}}}</div>
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-tags-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></div>
+<div class="WfFormTokensParent">{{{field|Tags|placeholder={{int:wf-formtutorial-tag-field-tooltip}}|class=WfFormTokens|input type=tokens|size=}}}</div>
 </div>
 </div>
 {{{end template}}}
@@ -94,7 +93,7 @@ __NOTOC__<noinclude>
 {{{end template}}}
 <div class="multipleTemplateHideButton">
 {{{for template|TutoVideo|multiple|minimum=0|maximum instances=1|add button text={{int:wf-tuto-video-btnlink}} }}}
-{{#formLinkVideo:{{{field|TutoVideoService|dropdown|mandatory|class=embedVideoDropdown}}} | {{{field|TutoVideoURL|mandatory|class=embedVideoUrlInput}}}}} 
+{{#formLinkVideo:{{{field|TutoVideoService|dropdown|mandatory|class=embedVideoDropdown}}} | {{{field|TutoVideoURL|mandatory|class=embedVideoUrlInput WfFormText}}}}} 
 {{{end template}}}
 </div>
 {{{for template|Materials}}}
@@ -150,8 +149,8 @@ __NOTOC__<noinclude>
 </div>
 {{{end template}}}
 {{{for template|Prerequisites|multiple|maximum instances=20|add button text={{int:wf-prerequisites-tabs-btnlink}}|embed in field=Materials[Prerequisites]}}}{{{field|Prerequisites|input type=combobox|existing values only|placeholder={{int:wf-prerequisites-tabs-placeholder}}|values from category=Tutorials}}}{{{end template}}}
-{{{for template|ExternalAttachmentsLinks|multiple|maximum instances=10|add button text={{int:wf-formtutorial-file-tabs-btnlink}}|embed in field=Materials[ExternalAttachmentsLinks]}}}{{{field|ExternalAttachmentsLinks|input type=text}}}{{{end template}}}
-{{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text={{int:wf-formtutorial-file-tabs-btnfile}}|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|default=|uploadable}}}{{{end template}}}
+{{{for template|ExternalAttachmentsLinks|multiple|maximum instances=10|add button text={{int:wf-formtutorial-file-tabs-btnlink}}|embed in field=Materials[ExternalAttachmentsLinks]}}}{{{field|ExternalAttachmentsLinks|input type=text|class=WfFormText}}}{{{end template}}}
+{{{for template|Tuto_Attachments|multiple|maximum instances=30|add button text={{int:wf-formtutorial-file-tabs-btnfile}}|embed in field=Materials[Tuto_Attachments]}}}{{{field|Attachment|class=WfFormText|default=|uploadable}}}{{{end template}}}
 <div class="bg-halfsquare-separator-2"></div>
 {{{for template|Separator}}}<br>{{{end template}}}
 <h2>{{int:wf-formtutorial-steps}}</h2>
@@ -186,6 +185,7 @@ __NOTOC__<noinclude>
 {{{field|Notes|input type=textarea|class=form-textarea|translatable|rows=5|maxlength=5000}}}
 {{{end template}}}
 </div>
+<hr class="WfEndForm">
 <div class="saving-menu">
 <span class="status-checkbox">
 {{{for template|Tuto_Status}}}{{{field|Complete|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}
