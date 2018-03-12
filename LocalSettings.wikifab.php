@@ -14,6 +14,7 @@ require_once "$IP/extensions/Explore/WfExplore.php";
 require_once "$IP/extensions/AuthorDiv/WfAuthorDiv.php";
 require_once "$IP/extensions/Carousel/Carousel.php";
 require_once "$IP/extensions/Cite/Cite.php";
+require_once "$IP/extensions/Drafts/Drafts.php";
 require_once "$IP/extensions/UserFunctions/UserFunctions.php";
 require_once "$IP/extensions/SocialProfile/SocialProfile.php";
 require_once "$IP/extensions/Echo/Echo.php";
@@ -39,6 +40,9 @@ wfLoadExtension( 'MultimediaViewer' );
 wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
 
+
+$egDraftsAutoSaveWait = 10;
+$egDraftsAutoSaveTimeout = 30;
 
 
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';

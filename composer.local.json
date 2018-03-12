@@ -177,6 +177,7 @@
 		"wikifab/page-loading-spinner": "dev-master",
 		"wikifab/PageMediaGallery":"^1.1.2",
 		"wikifab/PdfExportRequest": "^1.0.1",
+		"wikifab/random-selection": "^2.2.2",
 		"wikifab/sample-display": "^0.1.0",
 		"wikifab/simple-embed-video":"^1.0.0",
 		"wikifab/SimpleLanguageSelector": "^1.0.1",
