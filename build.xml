@@ -221,9 +221,17 @@
 		</exec>
 		<mkdir dir="./build/wikifab/lib" />
 		<echo msg="Installing 3d2png..."/>
-		<exec executable="bash" dir="build/wikifab/lib" checkreturn="true" logoutput="true">
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
-			<arg value="git clone https://gerrit.wikimedia.org/r/p/3d2png"/>
+			<arg value="wget -O 3d2png.zip  https://gerrit.wikimedia.org/r/p/3d2png"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="unzip 3d2png.zip"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="mv 3d2png wikifab/lib/3d2png"/>
 		</exec>
 		<exec executable="bash" dir="build/wikifab/lib/3d2png" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
