@@ -205,6 +205,31 @@
    	 
     </target>
 
+    <target name="download-3D"  depends="getMediawiki,setup-wikifab,get-ext-widgets,getVisualEditor">
+        <echo msg="Downloading 3D..." />
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="wget -O 3D.tar.gz  https://extdist.wmflabs.org/dist/extensions/3D-REL1_29-05199c3.tar.gz"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="tar -xvf 3D.tar.gz"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="mv 3D wikifab/extensions/3D"/>
+		</exec>
+		<echo msg="Installing 3d2png..."/>
+		<exec executable="bash" dir="build/lib" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="git clone https://gerrit.wikimedia.org/r/p/3d2png"/>
+		</exec>
+		<exec executable="bash" dir="build/lib/3d2png" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="npm install "/>
+		</exec>
+    </target>
+
     <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions">
     </target>
 
