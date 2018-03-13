@@ -187,7 +187,7 @@ __NOTOC__<noinclude>
 </div>
 <hr class="WfEndForm">
 <div class="saving-menu">
-<label class="switch">{{{standard input|watch}}}<span class="slider round"></span></label>
+{{{standard input|watch}}}
 <span class="status-checkbox">Statut : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|input type=dropdown|class=WfFormDropdown|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}
 </span>
 <span class="display-none">{{{standard input|saveDraft}}}</span>
