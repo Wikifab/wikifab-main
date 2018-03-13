@@ -219,12 +219,13 @@
 			<arg value="-c"/>
 			<arg value="mv 3D wikifab/extensions/3D"/>
 		</exec>
+		<mkdir dir="./build/wikifab/lib" />
 		<echo msg="Installing 3d2png..."/>
-		<exec executable="bash" dir="build/lib" checkreturn="true" logoutput="true">
+		<exec executable="bash" dir="build/wikifab/lib" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
 			<arg value="git clone https://gerrit.wikimedia.org/r/p/3d2png"/>
 		</exec>
-		<exec executable="bash" dir="build/lib/3d2png" checkreturn="true" logoutput="true">
+		<exec executable="bash" dir="build/wikifab/lib/3d2png" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
 			<arg value="npm install "/>
 		</exec>
@@ -250,7 +251,7 @@
     </target>
 
 
-    <target name="build" depends="prepare,download,cleanPackage, tarPackage, zipPackage" >
+    <target name="build" depends="prepare,download,cleanPackage, tarPackage, zipPackage, download-3D" >
     </target>
 </project>
     
