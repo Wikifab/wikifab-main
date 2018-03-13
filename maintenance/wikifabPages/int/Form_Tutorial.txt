@@ -188,7 +188,7 @@ __NOTOC__<noinclude>
 <hr class="WfEndForm">
 <div class="saving-menu">
 {{{standard input|watch}}}
-<span class="status-checkbox custom-tooltip">Statut : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span>
+<span class="status-checkbox custom-tooltip">Statut : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span>
 <span class="display-none">{{{standard input|saveDraft}}}</span>
 {{{standard input|cancel}}}
 {{{standard input|save and continue}}}
