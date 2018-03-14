@@ -259,7 +259,7 @@
     </target>
 
 
-    <target name="build" depends="prepare,download,cleanPackage, tarPackage, zipPackage, download-3D" >
+    <target name="build" depends="prepare,download, download-3D,cleanPackage, tarPackage, zipPackage" >
     </target>
 </project>
     
