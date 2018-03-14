@@ -193,6 +193,8 @@
 	"wf-propertycomplete-check ": "Check this box when the tutorial is complete",
 	"wf-propertyexternallink-externallink":"External link",
 	"wf-steptemplate-step":"Step $1",
+	"wf-completetooltip-published-description":"The page appears in the search results",
+	"wf-completetooltip-draft-description":"La page appears only on the author's profile",
 	"wf-formtutorial-steps":"Steps",
 	"wf-attachmenttemplate-file":"File",
 	"wf-tutotemplate-info-header": " A $1 by $2 in categories $3",

@@ -197,6 +197,8 @@
 	"wf-propertycomplete-check ": "Cochez cette case si vous considérez ce tutoriel terminé",
 	"wf-propertyexternallink-externallink":"Lien externe",
 	"wf-steptemplate-step":"Étape $1",
+	"wf-completetooltip-published-description":"La page apparait dans les résultats de la recherche",
+	"wf-completetooltip-draft-description":"La page n'apparait que sur le profil de l'auteur",
 	"wf-formtutorial-steps":"Étapes",
 	"wf-attachmenttemplate-file":"Fichier",
 	"wf-tutotemplate-info-header": "Une $1 de $2 dans les catégories $3",
