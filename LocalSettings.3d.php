@@ -9,6 +9,10 @@ $wgFileExtensions[] = 'stl';
 
 wfLoadExtension( '3D' );
 
+# requires MultimediaViewer
+
+require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
+
 # associating the STL file type with the correct viewer extension
 
 $wgMediaViewerExtensions['stl'] = 'mmv.3d';
