@@ -30,6 +30,7 @@ wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'PageLoadingSpinner' );
 wfLoadExtension( 'ImageAnnotator' );
 wfLoadExtension( 'Tabber' );
+wfLoadExtension( 'RandomSelection' ); 
 
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
