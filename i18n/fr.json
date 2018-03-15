@@ -19,6 +19,7 @@
 	"wf-contribute-takingpictures-title": "Prendre des photos",
 	"wf-contribute-takingpictures-subtitle1": "Découvrez notre tutoriel pour apprendre à prendre de belles photos.",
 	"wf-contribute-joincommunity": "Rejoignez la communauté Wikifab !",
+	"wf-formtutorial-alert-title": "Vous n'avez pas la permission",
 	"wf-formtutorial-alert": "<strong>Oups !</strong> Vous n'avez pas la permission de créer un tutoriel car vous n'êtes pas connecté. $1 ou $2",
 	"wf-formtutorial-alert-createaccount": "Créez un compte",
 	"wf-formtutorial-alert-login": "connectez vous",

@@ -3,7 +3,7 @@
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<h4 class="modal-title" id="myModalLabel">Vous n'avez pas la permission</h4>
+<h4 class="modal-title" id="myModalLabel">{{int:wf-formtutorial-alert-title}}</h4>
 </div>
 <div class="modal-body NewPageTabs">
 <div class="alert alert-warning" role="alert">{{int:wf-systemmessages-badaccess-message}} [[Special:UserLogin/signup|{{int:wf-systemmessages-badaccess-signup}}]] {{int:wf-systemmessages-badaccess-or}} [[Special:UserLogin|{{int:wf-systemmessages-badaccess-login}}]].</div>
