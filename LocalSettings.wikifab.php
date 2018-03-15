@@ -101,4 +101,12 @@ $wgUserProfileDisplay['foes'] = true;
 $wgUserProfileDisplay['board'] = true;
 $wgUserProfileDisplay['stats'] = false;
 $wgUserProfileDisplay['userswatchlist'] = true;
-$wgUserProfileDisplay['userspageslinks'] = true;
+$wgUserProfileDisplay['userspageslinks'] = true
+
+// ajoute certains type MIME manquant pour permettre l'upload de ces fichiers
+$wgHooks['MimeMagicInit'][] = 'wfAddMimeTypes';
+function wfAddMimeTypes( $mimeMagic ) {
+$mimeMagic->addExtraTypes( "text/plain dxf" );
+$mimeMagic->addExtraTypes( "text/plain stl" );
+$mimeMagic->addExtraTypes( "application/pdf ai" );
+}
