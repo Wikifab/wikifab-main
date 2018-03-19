@@ -64,7 +64,9 @@ $wgFileExtensions = array(
 	'3dc','3ds','ac','asc','bvh','blend','geo','dae','dwf','dw','x','fbx',
 	'gta','mu','kmz','lwo','lws','flt','iv','osg','osgt','osgb','ive',
 	'ply','shp','stl','vpk','wrl','wrz','obj',
-    '3dm','dxf','stl','sldprt'
+    '3dm','dxf','stl','sldprt',
+    //fichier video
+    'mp4'
 );
 
 $smwgLinksInValues = true;
