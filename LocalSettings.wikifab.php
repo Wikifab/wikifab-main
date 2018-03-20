@@ -31,6 +31,7 @@ wfLoadExtension( 'PageLoadingSpinner' );
 wfLoadExtension( 'ImageAnnotator' );
 wfLoadExtension( 'Tabber' );
 wfLoadExtension( 'RandomSelection' ); 
+wfLoadExtension( 'EmbedVideo'); 
 
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
