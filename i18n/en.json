@@ -57,6 +57,7 @@
 	"wf-formtutorial-duration-field-title": "Duration",
 	"wf-formtutorial-duration-popup": "Total duration to complete the tutorial (resting, drying times etc. included).",
 	"wf-formtutorial-license-field-title": "License",
+	"wf-formtutorial-edit-license-field": "Modify the license",
 	"wf-formtutorial-introduction-field-title": "Introduction",
 	"wf-formtutorial-introduction-field-info": "(optional)",
 	"wf-formtutorial-tools-materials-tabs-title": "Tools & Materials",

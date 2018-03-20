@@ -53,7 +53,7 @@ __NOTOC__<noinclude>
 <div class="Licences-group" id="accordion" role="tablist" aria-multiselectable="true">
 <div class="Licences">
 <div class="Licences-heading" role="tab" id="headingOne">
-<p class="Licences-title" data-toggle="collapse" data-target="#Licences">{{int:wf-formtutorial-license-field-title}}</p>
+<p class="Licences-title" data-toggle="collapse" data-target="#Licences">{{int:wf-formtutorial-edit-license-field}}</p>
 </div>
 <div id="Licences" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 <div class="Licences-body">

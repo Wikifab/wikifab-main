@@ -1,2 +1,1 @@
 <div class="attach-link-table"><i class="fa fa-external-link"></i> [[ExternalAttachmentsLinks::{{{ExternalAttachmentsLinks|}}}]]</div>
-[[Category:Tutorials]]
