@@ -30,7 +30,7 @@ require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
 require_once "$IP/extensions/Scribunto/Scribunto.php";
 wfLoadExtension( 'CheckPageTitle' );
 wfLoadExtension( 'EmbedVideo' );
-wfLoadExtension( 'FlowCounterTalks' );
+//wfLoadExtension( 'FlowCounterTalks' );
 wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'PageLoadingSpinner' );
 wfLoadExtension( 'PdfExportRequest' );
