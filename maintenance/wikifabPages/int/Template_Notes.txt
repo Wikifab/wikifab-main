@@ -1,4 +1,4 @@
 {{#if:{{{Notes|}}}|<h2>{{int:wf-formtutorial-note-title}}</h2>
 [[Notes::{{{Notes|}}}]] | }}
 
-[[{{fullurl:{{PAGENAME}}|action=history}} {{int:wf-last-edit-on}}]] {{REVISIONDAY:{{PAGENAME}}}}/{{REVISIONMONTH:{{PAGENAME}}}}/{{REVISIONYEAR:{{PAGENAME}}}} {{int:wf-last-edit-by}} [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER:{{PAGENAME}}}}{{REVISIONUSER:{{PAGENAME}}}}].
+[{{fullurl:{{PAGENAME}}|action=history}} {{int:wf-last-edit-on}}] {{REVISIONDAY:{{PAGENAME}}}}/{{REVISIONMONTH:{{PAGENAME}}}}/{{REVISIONYEAR:{{PAGENAME}}}} {{int:wf-last-edit-by}} [{{SERVER}}{{SCRIPTPATH}}/index.php/user:{{REVISIONUSER:{{PAGENAME}}}} {{REVISIONUSER:{{PAGENAME}}}}].
