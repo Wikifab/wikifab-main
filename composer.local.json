@@ -167,6 +167,7 @@
 		"wikifab/Echo":"dev-REL1_29",
 		"wikifab/embed-video":"^2.5.3",
 		"wikifab/explore": "^2.1.0",
+		"wikifab/flow-counter-talks": "dev-master",
 		"wikifab/GroupsPage":"^0.1.7",
 		"wikifab/googleAnalytics": "^0.1.0",
 		"wikifab/ImageAnnotator": "^1.2.1",
