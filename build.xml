@@ -202,6 +202,7 @@
 			<arg value="-c"/>
 			<arg value="mv vendor/mediawiki/flow extensions/Flow"/>
 		</exec>
+	</target>
 
     <target name="download-3D"  depends="getMediawiki,setup-wikifab,get-ext-widgets,getVisualEditor">
         <echo msg="Downloading 3D..." />
