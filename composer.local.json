@@ -150,7 +150,7 @@
 	"require": {
 		"mediawiki/babel":"dev-master",
 		"mediawiki/CategoryTree": "*",
-		"mediawiki/cleanchanges":"*",
+		"mediawiki/clean-changes":"*",
 		"mediawiki/cldr": "*",
 		"mediawiki/localisation-update": "*",
 		"mediawiki/translate":"dev-REL1_29",
@@ -159,7 +159,7 @@
 		"mediawiki/semantic-media-wiki": "2.5.5",
 		"mediawiki/user-functions": "~2.6",
 		"wikifab/author-div": "^0.1.0",
-		"wikifab/AutoSetPageLang": "^1.0.1",
+		"wikifab/auto-set-page-lang": "^1.0.1",
 		"wikifab/carousel": "^0.1.1",
 		"wikifab/chameleon-skin": "^1.2.0",
 		"wikifab/check-page-title": "^1.0.0",

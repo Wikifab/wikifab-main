@@ -14,6 +14,7 @@ require_once "$IP/extensions/Explore/WfExplore.php";
 require_once "$IP/extensions/AuthorDiv/WfAuthorDiv.php";
 require_once "$IP/extensions/Carousel/Carousel.php";
 require_once "$IP/extensions/Cite/Cite.php";
+require_once "$IP/extensions/Drafts/Drafts.php";
 require_once "$IP/extensions/UserFunctions/UserFunctions.php";
 require_once "$IP/extensions/SocialProfile/SocialProfile.php";
 require_once "$IP/extensions/Echo/Echo.php";
@@ -26,12 +27,26 @@ require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
 require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
+require_once "$IP/extensions/Scribunto/Scribunto.php";
+wfLoadExtension( 'CheckPageTitle' );
+wfLoadExtension( 'EmbedVideo' );
+wfLoadExtension( 'FlowCounterTalks' );
 wfLoadExtension( 'PageMediaGallery' );
 wfLoadExtension( 'PageLoadingSpinner' );
+wfLoadExtension( 'PdfExportRequest' );
 wfLoadExtension( 'ImageAnnotator' );
-wfLoadExtension( 'Tabber' );
-wfLoadExtension( 'RandomSelection' ); 
-wfLoadExtension( 'EmbedVideo'); 
+wfLoadExtension( 'InputBox' );
+wfLoadExtension( 'RandomSelection' );
+wfLoadExtension( 'MultimediaViewer' );
+wfLoadExtension( 'SimpleEmbedVideo' );
+wfLoadExtension( 'Tabber');
+
+
+$wgScribuntoDefaultEngine = 'luastandalone';
+
+
+$egDraftsAutoSaveWait = 10;
+$egDraftsAutoSaveTimeout = 30;
 
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
