@@ -67,7 +67,7 @@ $wgMessagesDirs['WikifabOrg'] = __DIR__ . "/i18n"; # Location of localisation fi
 
 $wgFooterIcons['poweredby']['wikifab']['src'] = "http://files.wikifab.org/logo/poweredby_wikifab_88x31.png";
 $wgFooterIcons['poweredby']['wikifab']['alt'] = "Powered by wikifab";
-$wgFooterIcons['poweredby']['wikifab']['url'] = "http://beta.wikifab.org/index.php/Développeurs";
+$wgFooterIcons['poweredby']['wikifab']['url'] = "http://wikifab.org/w/index.php/Wikifab:Developers";
 
 
 $wgUploadSizeWarning = '2097152';
