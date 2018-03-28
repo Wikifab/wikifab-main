@@ -76,7 +76,9 @@ $wgFileExtensions = array(
     //image
     'png', 'gif', 'jpg', 'jpeg', 'doc',
     'xls', 'mpp', 'pdf', 'ppt', 'tiff', 'bmp', 'docx', 'xlsx',
-    'pptx', 'ps', 'odt', 'ods', 'odp', 'odg',
+    'pptx', 'ps', 'odt', 'ods', 'odp', 'odg', 'svg',
+	// CAO
+	'dxf',
     // fichier 3D
 	'3dc','3ds','ac','asc','bvh','blend','geo','dae','dwf','dw','x','fbx',
 	'gta','mu','kmz','lwo','lws','flt','iv','osg','osgt','osgb','ive',
