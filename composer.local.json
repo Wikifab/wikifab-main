@@ -161,7 +161,7 @@
 		"wikifab/author-div": "^0.1.0",
 		"wikifab/auto-set-page-lang": "^1.0.1",
 		"wikifab/carousel": "^0.1.1",
-		"wikifab/chameleon-skin": "^1.2.0",
+		"wikifab/chameleon-skin": "dev-embed",
 		"wikifab/check-page-title": "^1.0.0",
 		"wikifab/Drafts": "^1.0.2",
 		"wikifab/Echo":"dev-REL1_29",
