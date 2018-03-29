@@ -155,6 +155,7 @@
 		"mediawiki/localisation-update": "*",
 		"mediawiki/translate":"dev-REL1_29",
 		"mediawiki/flow": "dev-REL1_29",
+		"wikifab/flow-counter-talks": "^1.0.2",
 		"mediawiki/scribunto":"dev-REL1_29",
 		"mediawiki/semantic-media-wiki": "2.5.5",
 		"mediawiki/user-functions": "~2.6",
