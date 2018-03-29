@@ -188,7 +188,7 @@
 		"wikifab/stepnumber": "^0.1.0",
 		"wikifab/ve-templates": "dev-master",
 		"wikifab/translate-tags-in-ve":"^0.1.0",
-		"wikifab/UsersPagesLinks":"^0.2.4",
+		"wikifab/UsersPagesLinks":"dev-julien",
 		"wikifab/UsersWatchButton":"^0.1.1",
 		"wikifab/UsersWatchlist":"^1.0.1",
 		"wikifab/Wf-search": "^0.1.3",
