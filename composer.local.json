@@ -158,6 +158,7 @@
 		"wikifab/flow-counter-talks": "^1.0.2",
 		"mediawiki/scribunto":"dev-REL1_29",
 		"mediawiki/semantic-media-wiki": "2.5.5",
+		"mediawiki/semantic-extra-special-properties": "~2.0",
 		"mediawiki/user-functions": "~2.6",
 		"wikifab/author-div": "^0.1.0",
 		"wikifab/auto-set-page-lang": "^1.0.1",
