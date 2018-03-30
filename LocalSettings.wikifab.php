@@ -26,7 +26,6 @@ require_once "$IP/extensions/UsersWatchButton/UsersWatchButton.php";
 require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
-require_once("$IP/extensions/UsersPagesLinks/UsersPagesLinks.php");
 require_once "$IP/extensions/Scribunto/Scribunto.php";
 wfLoadExtension( 'CheckPageTitle' );
 wfLoadExtension( 'EmbedVideo' );
@@ -40,6 +39,7 @@ wfLoadExtension( 'RandomSelection' );
 wfLoadExtension( 'MultimediaViewer' );
 wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
+wfLoadExtension( 'UsersPagesLinks' );
 
 
 $wgScribuntoDefaultEngine = 'luastandalone';
