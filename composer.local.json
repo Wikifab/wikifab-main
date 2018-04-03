@@ -172,6 +172,7 @@
 		"wikifab/GroupsPage":"^0.1.7",
 		"wikifab/googleAnalytics": "^0.1.0",
 		"wikifab/google-analytics-metrics": "dev-master",
+		"wikifab/flow-counter-talks": "dev-julien",
 		"wikifab/ImageAnnotator": "^1.2.1",
 		"wikifab/InputBox": "^128.0.0",
 		"wikifab/MmsUpload": "dev-julien",
