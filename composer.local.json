@@ -166,7 +166,7 @@
 		"wikifab/embed-video":"^2.5.4",
 		"wikifab/explore": "^2.2.2",
 		"wikifab/flow-counter-talks": "^1.0.2",
-		"wikifab/GroupsPage":"^1.0.0",
+		"wikifab/GroupsPage":"dev-julien",
 		"wikifab/googleAnalytics": "^0.1.0",
 		"wikifab/google-analytics-metrics": "dev-master",
 		"wikifab/flow-counter-talks": "dev-julien",
