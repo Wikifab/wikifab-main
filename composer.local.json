@@ -194,7 +194,7 @@
 		"wikifab/UsersWatchlist":"^1.0.1",
 		"wikifab/Wf-search": "^0.1.3",
 		"wikifab/wfext-style": "dev-julien",
-		"wikifab/wikifabStyleModule": "^1.2.2"
+		"wikifab/wikifabStyleModule": "dev-julien"
 	},
 	"suggest": {
 		"ext-imagick": "*",
