@@ -3,7 +3,8 @@
 {{#if:{{{Group_Machines|}}}|{{#if:{{{Group_Event|}}}|
 {{#tag:tabber|
 {{int:wf-formgroup-tab-tutorials-tabtitle}} =
-<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}</div>
+<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}
+{{#ifanon:|[{{SERVER}}/w/index.php/Spécial:ReordonnerGroupe?groupName=group:{{PAGENAMEE}} {{int:wf-reorder-tutorials}}]}}</div>
 {{!}}-{{!}}
  {{int:wf-formgroup-tab-members-tabtitle}}=<div class="container"><h2>{{int:wf-formgroup-tab-members-title}}</h2>{{#usersPagesLinksUsersList:member}}</div>
 {{!}}-{{!}}
@@ -24,7 +25,8 @@
 |
 {{#tag:tabber|
  {{int:wf-formgroup-tab-tutorials-tabtitle}} =
-<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}</div>
+<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}
+{{#ifanon:|[{{SERVER}}/w/index.php/Spécial:ReordonnerGroupe?groupName=group:{{PAGENAMEE}} {{int:wf-reorder-tutorials}}]}}</div>
 {{!}}-{{!}}
  {{int:wf-formgroup-tab-members-tabtitle}}=<div class="container"><h2>{{int:wf-formgroup-tab-members-title}}</h2>{{#usersPagesLinksUsersList:member}}</div>
 {{!}}-{{!}}
@@ -41,7 +43,8 @@
 |
 {{#tag:tabber|
  {{int:wf-formgroup-tab-tutorials-tabtitle}} =
-<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}</div>
+<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}
+{{#ifanon:|[{{SERVER}}/w/index.php/Spécial:ReordonnerGroupe?groupName=group:{{PAGENAMEE}} {{int:wf-reorder-tutorials}}]}}</div>
 {{!}}-{{!}}
  {{int:wf-formgroup-tab-members-tabtitle}}=<div class="container"><h2>{{int:wf-formgroup-tab-members-title}}</h2>{{#usersPagesLinksUsersList:member}}</div>
 {{!}}-{{!}}
@@ -58,7 +61,8 @@
 |
 {{#tag:tabber|
  {{int:wf-formgroup-tab-tutorials-tabtitle}} =
-<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}</div>
+<div class="container"><h2>{{int:wf-formgroup-tab-tutorials-title}}</h2>{{#displayMemberTutorials:this}}
+{{#ifanon:|[{{SERVER}}/w/index.php/Spécial:ReordonnerGroupe?groupName=group:{{PAGENAMEE}} {{int:wf-reorder-tutorials}}]}}</div>
 {{!}}-{{!}}
  {{int:wf-formgroup-tab-members-tabtitle}}=<div class="container"><h2>{{int:wf-formgroup-tab-members-title}}</h2>{{#usersPagesLinksUsersList:member}}</div>
 {{!}}-{{!}}

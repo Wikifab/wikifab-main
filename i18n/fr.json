@@ -551,5 +551,6 @@
 	"help-admin-rights-02":"Pour modifier les droits d'accès d'un utilisateur, rendez-vous sur la page $1, saisissez le '''Nom d’utilisateur''' de l'utilisateur concerné et choisissez le(s) groupe(s) au(x)quel(s) vous souhaitez le rattacher.",
 	"help-translate-01":"Sur le principe du wiki, n'importe quelle page peut être traduite par n'importe quel utilisateur. Si vous souhaitez participer à la traduction, rendez-vous sur la $1 pour consulter la liste des pages à traduire ou en cours de traduction.",
 	"help-recent-changes-01":"Pour consulter la liste des dernières modifications, rendez-vous sur la page $1.",
-	"help-recent-changes-02":"Pour consulter la liste des dernières discussions, rendez-vous sur la page $1 et selectionnez '''Sujet''' dans la liste déroulante '''Espace de noms'''."
+	"help-recent-changes-02":"Pour consulter la liste des dernières discussions, rendez-vous sur la page $1 et selectionnez '''Sujet''' dans la liste déroulante '''Espace de noms'''.",
+	"wf-reorder-tutorials":"Réordonner les tutoriels"
 }	

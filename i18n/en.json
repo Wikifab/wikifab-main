@@ -548,5 +548,6 @@
 	"help-admin-rights-02":"To modify the access rights of a user, go to the page $1, type the '''username''' of the user in question and choose the relevent group(s) you want to add to this user.",
 	"help-translate-01":"Like the Wiki model, any page can be translated by any user. If you want to participate to the translation, go to $1 to see the list of pages to translate or in progress.",
 	"help-recent-changes-01":"To see the list of recent modifications, go to $1.",
-	"help-recent-changes-02":"To see the list of last discussions, go to $1 and select '''Topic''' in the drop-down list '''Name space'''."
+	"help-recent-changes-02":"To see the list of last discussions, go to $1 and select '''Topic''' in the drop-down list '''Name space'''.",
+	"wf-reorder-tutorials":"Reorder tutorials"
 }
