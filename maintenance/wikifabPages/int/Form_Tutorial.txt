@@ -53,7 +53,7 @@ __NOTOC__<noinclude>
 <div class="Licences-group" id="accordion" role="tablist" aria-multiselectable="true">
 <div class="Licences">
 <div class="Licences-heading" role="tab" id="headingOne">
-<p class="Licences-title" data-toggle="collapse" data-target="#Licences">{{int:wf-formtutorial-license-field-title}}</p>
+<p class="Licences-title" data-toggle="collapse" data-target="#Licences">{{int:wf-formtutorial-edit-license-field}}</p>
 </div>
 <div id="Licences" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 <div class="Licences-body">
@@ -64,9 +64,13 @@ __NOTOC__<noinclude>
 </div>
 </div>
 <div class="col-md-8 col-sm-8 col-xs-12">
+<div class="row">
+<div class="col-md-12">
 <div class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</div><div>{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}</div>
 <p class="WfFormLabel">{{int:wf-formtutorial-area-field-title}}</p>
 {{{field|Area|mandatory|input type=checkboxes|class=WfFormCheckbox|hide select all|mapping using translate=wf-propertyvalue-area-}}}
+</div>
+</div>
 <div class="row">
 <div class="col-md-6 col-xs-12">
 <div class="WfFormLabel"><span>{{int:wf-formtutorial-type-field-title}}</span><span class="custom-tooltip">{{#info:<p>'''{{int:wf-formtutorial-type-creation}}''' : {{int:wf-formtutorial-type-popup-creation}}</p> <p>'''{{int:wf-formtutorial-type-technique}}''' : {{int:wf-formtutorial-type-popup-technique}}</p>}}</span></div>
@@ -187,7 +191,7 @@ __NOTOC__<noinclude>
 </div>
 <hr class="WfEndForm">
 <div class="saving-menu">
-{{{standard input|watch}}}<span class="status-checkbox">Statut : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}
+{{{standard input|watch}}}<span class="status-checkbox">{{int:wf-completetooltip-label}} : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}
 </div>
 </includeonly>
 
