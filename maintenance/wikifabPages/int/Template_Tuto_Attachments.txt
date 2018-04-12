@@ -1,2 +1,1 @@
 <div class="attach-link-table"><i class="fa fa-file"></i> [[:File:{{{Attachment|}}}]]</div>
-[[Category:Tutorials]]

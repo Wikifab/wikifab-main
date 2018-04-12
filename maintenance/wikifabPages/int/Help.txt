@@ -2,7 +2,7 @@ __NOTOC__
 <div class="aide-section">
 <div class="container">
 <h1>{{int:help-maintitle}}</h1>
-<p>{{int:help-subtitle|[[Wikifab:Premiers_pas|{{int:help-subtitle-link}}]]}}</p>
+<p>{{int:help-subtitle}}</p>
 <div class="wf-inputbox">
 </div>
 </div>

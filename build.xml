@@ -205,6 +205,7 @@
 	</target>
 
     <target name="download-3D"  depends="getMediawiki,setup-wikifab,get-ext-widgets,getVisualEditor">
+    <target name="download-3D"  depends="getMediawiki">
         <echo msg="Downloading 3D..." />
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
