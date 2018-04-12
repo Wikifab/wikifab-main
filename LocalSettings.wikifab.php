@@ -52,7 +52,7 @@ $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
 
 $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab.xml';
-$egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result.html';
+$egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result-int.php';
 $egChameleonLayoutFileSearchResultUserPage = __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result-userpage.html';
 
 $egChameleonExternalStyleModules = array(
@@ -66,7 +66,7 @@ $wgMessagesDirs['WikifabOrg'] = __DIR__ . "/i18n"; # Location of localisation fi
 
 $wgFooterIcons['poweredby']['wikifab']['src'] = "http://files.wikifab.org/logo/poweredby_wikifab_88x31.png";
 $wgFooterIcons['poweredby']['wikifab']['alt'] = "Powered by wikifab";
-$wgFooterIcons['poweredby']['wikifab']['url'] = "http://beta.wikifab.org/index.php/Développeurs";
+$wgFooterIcons['poweredby']['wikifab']['url'] = "http://wikifab.org/w/index.php/Wikifab:Developers";
 
 
 $wgUploadSizeWarning = '2097152';
@@ -75,7 +75,9 @@ $wgFileExtensions = array(
     //image
     'png', 'gif', 'jpg', 'jpeg', 'doc',
     'xls', 'mpp', 'pdf', 'ppt', 'tiff', 'bmp', 'docx', 'xlsx',
-    'pptx', 'ps', 'odt', 'ods', 'odp', 'odg',
+    'pptx', 'ps', 'odt', 'ods', 'odp', 'odg', 'svg',
+	// CAO
+	'dxf',
     // fichier 3D
 	'3dc','3ds','ac','asc','bvh','blend','geo','dae','dwf','dw','x','fbx',
 	'gta','mu','kmz','lwo','lws','flt','iv','osg','osgt','osgb','ive',
