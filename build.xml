@@ -238,7 +238,7 @@
 		</exec>
     </target>
 
-    <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions">
+    <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions,download-3D">
     </target>
 
 	<target name="tarPackage"  >
