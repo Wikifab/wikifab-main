@@ -60,3 +60,7 @@ __NOTOC__
 <div class="noprint">[[Category:Tutorials]]</div>
 {{#stepNumber: step| init}}
 <hr class="print-only printPageBreakAfter"/>
+{{#seo:
+|keywords={{{Tags|}}}
+|description={{{Description|}}}
+}}
