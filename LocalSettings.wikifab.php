@@ -13,7 +13,7 @@ require_once "$IP/extensions/WfSearch/WfSearch.php";
 require_once "$IP/extensions/Explore/WfExplore.php";
 require_once "$IP/extensions/AuthorDiv/WfAuthorDiv.php";
 require_once "$IP/extensions/Carousel/Carousel.php";
-require_once "$IP/extensions/Cite/Cite.php";
+//require_once "$IP/extensions/Cite/Cite.php";
 require_once "$IP/extensions/Drafts/Drafts.php";
 require_once "$IP/extensions/UserFunctions/UserFunctions.php";
 require_once "$IP/extensions/SocialProfile/SocialProfile.php";
@@ -21,7 +21,6 @@ require_once "$IP/extensions/Echo/Echo.php";
 require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
 require_once "$IP/extensions/WfextStyle/wikifabstyle.php";
 require_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
-require_once "$IP/extensions/UsersWatchlist/UsersWatchList.php";
 require_once "$IP/extensions/UsersWatchButton/UsersWatchButton.php";
 require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
@@ -41,9 +40,7 @@ wfLoadExtension( 'MultimediaViewer' );
 wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
 
-
 $wgScribuntoDefaultEngine = 'luastandalone';
-
 
 $egDraftsAutoSaveWait = 10;
 $egDraftsAutoSaveTimeout = 30;
@@ -53,8 +50,8 @@ $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
 
 $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab.xml';
-$egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result.html';
-$egChameleonLayoutFileSearchResultUserPage = __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result-userpage.html';
+$egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result-int.html';
+$egChameleonLayoutFileSearchResultUserPage = __DIR__ . '/skins/wikifabStyleModule/layout-wikifab-search-result-userpage-int.html';
 
 $egChameleonExternalStyleModules = array(
     __DIR__ . '/skins/wikifabStyleModule/chameleon-wikifab.less' => $wgScriptPath . '/skins/wikifabStyleModule',
@@ -67,7 +64,7 @@ $wgMessagesDirs['WikifabOrg'] = __DIR__ . "/i18n"; # Location of localisation fi
 
 $wgFooterIcons['poweredby']['wikifab']['src'] = "http://files.wikifab.org/logo/poweredby_wikifab_88x31.png";
 $wgFooterIcons['poweredby']['wikifab']['alt'] = "Powered by wikifab";
-$wgFooterIcons['poweredby']['wikifab']['url'] = "http://wikifab.org/w/index.php/Wikifab:Developers";
+$wgFooterIcons['poweredby']['wikifab']['url'] = "http://wikifab.org/wiki/Wikifab:Developers";
 
 
 $wgUploadSizeWarning = '2097152';
@@ -76,7 +73,7 @@ $wgFileExtensions = array(
     //image
     'png', 'gif', 'jpg', 'jpeg', 'doc',
     'xls', 'mpp', 'pdf', 'ppt', 'tiff', 'bmp', 'docx', 'xlsx',
-    'pptx', 'ps', 'odt', 'ods', 'odp', 'odg', 'svg',
+    'pptx', 'ps', 'odt', 'ods', 'odp', 'odg', 'svg','dxf','ai',
 	// CAO
 	'dxf',
     // fichier 3D
