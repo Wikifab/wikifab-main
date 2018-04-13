@@ -27,6 +27,7 @@ require_once "$IP/extensions/MmsUpload/MsUpload.php";
 require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
 require_once "$IP/extensions/Scribunto/Scribunto.php";
+require_once("$IP/extensions/SemanticExtraSpecialProperties/SemanticExtraSpecialProperties.php");
 wfLoadExtension( 'CheckPageTitle' );
 wfLoadExtension( 'EmbedVideo' );
 wfLoadExtension( 'FlowCounterTalks' );
