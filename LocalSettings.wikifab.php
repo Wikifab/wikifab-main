@@ -109,6 +109,20 @@ $wgUsersWatchListAllowAll = true;
 
 $wgExploreUseThumbs = true;
 
+$wgThumbLimits = [
+		150,
+		300,
+		400,
+		600,
+		800
+];
+$wgDefaultUserOptions['thumbsize'] = 3;
+
+$wgUploadThumbnailRenderMap[] = 150;
+$wgUploadThumbnailRenderMap[] = 300;
+$wgUploadThumbnailRenderMap[] = 400;
+$wgUploadThumbnailRenderMap[] = 600;
+$wgUploadThumbnailRenderMap[] = 800;
 
 $wgUserBoard = true;
 $wgGroupPermissions ['user'] ['userboard-sendMessage'] = true;
