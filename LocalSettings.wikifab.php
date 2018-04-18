@@ -1,5 +1,9 @@
 <?php
 
+if(! isset($wgUploadPath) || ! $wgUploadPath ) {
+	$wgUploadPath = $wgScriptPath . '/images';
+}
+
 $wgEnableUploads = true;
 
 $wgDefaultSkin = "chameleon";
