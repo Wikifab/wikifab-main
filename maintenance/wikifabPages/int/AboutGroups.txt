@@ -1,5 +1,5 @@
 __NOTOC__
-<div class="group-explore-hp">
+<div class="about-groups">
 <div class="container">
 <h1>{{int:wf-formgroup-welcome-title}}</h1>
 <p>Rassemblez vos tutoriels, vos membres et vos équipements dans un groupe à vos couleurs.</p>
@@ -67,7 +67,6 @@ __NOTOC__
 {{int:wf-formgroup-alert|[[Special:UserLogin/signup|{{int:wf-formtutorial-alert-createaccount}}]]|[[Special:UserLogin|{{int:wf-formtutorial-alert-login}}]]}}
 </div>|
 <div class="NewPageField">{{#forminput:form=Group|namespace=Group|placeholder=Entrez ici le nom de votre groupe|button text=Créer}} }}</div>
-</div>
 </div>
 </div>
 </div>
