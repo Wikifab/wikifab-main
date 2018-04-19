@@ -1,1 +1,4 @@
-<p><div class="icon-instructions-image dont-icon"></div><div class="icon-instructions-text">{{{1}}}</div></p>
+<div class="icon-instructions dont-icon">
+<div class="icon-instructions-icon"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></div>
+<div class="icon-instructions-text">{{{1}}}</div>
+</div>
