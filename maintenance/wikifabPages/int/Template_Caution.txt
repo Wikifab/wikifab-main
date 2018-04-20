@@ -1,4 +1,0 @@
-<div class="icon-instructions caution-icon">
-<div class="icon-instructions-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
-<div class="icon-instructions-text">{{{1}}}</div>
-</div>
