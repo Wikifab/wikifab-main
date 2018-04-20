@@ -1,4 +1,4 @@
-<div data-toggle="modal" data-target="#CreateNewPage" class="wf-top-button askButton"><span class="btn webfonts-changed"><span class="glyphicon glyphicon-pencil"></span> Créer une page</span></div>
+<div data-toggle="modal" data-target="#CreateNewPage" class="wf-top-button askButton"><span class="btn webfonts-changed"><span class="glyphicon glyphicon-pencil"></span> {{int:dokit-newpage-button}}</span></div>
 <div class="modal fade" id="CreateNewPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
