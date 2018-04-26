@@ -1,5 +1,5 @@
 <div class="Input-tabs group-tabs">
-<div class="tabGroupsButton"><div class="container">{{#joinGroupButton:}}</div></div>
+<div class="tabGroupsButton"><div class="container">{{#joinGroupButton:}} <div class="tabGroupsButton">[{{SERVER}}/w/index.php/group:{{PAGENAMEE}}?action=formedit <span class="glyphicon glyphicon-pencil"></span>]</div></div></div>
 {{#if:{{{Group_Machines|}}}|{{#if:{{{Group_Event|}}}|
 {{#tag:tabber|
 {{int:wf-formgroup-tab-tutorials-tabtitle}} =
