@@ -238,6 +238,22 @@
 		</exec>
     </target>
 
+    <target name="download-CommentStreams"  depends="getMediawiki">
+        <echo msg="Downloading CommentStreams extension..." />
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="wget -O commentStreams.zip  https://github.com/wikimedia/mediawiki-extensions-CommentStreams/archive/master.zip"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="unzip commentStreams.zip"/>
+		</exec>
+		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
+			<arg value="-c"/>
+			<arg value="mv mediawiki-extensions-CommentStreams-master wikifab/extensions/CommentStreams"/>
+		</exec>
+    </target>
+
     <target name="download"  depends="getMediawiki,setup-wikifab,getSemanticMediaWiki,composer,download-extensions">
     </target>
 
