@@ -274,7 +274,7 @@
 	</target>
 
 
-	<target name="build" depends="prepare,download, download-3D, download-CommentStreams, dowloadcleanPackage, tarPackage, zipPackage" >
+	<target name="build" depends="prepare,download, download-3D, download-CommentStreams, cleanPackage, tarPackage, zipPackage" >
 	</target>
 </project>
 
