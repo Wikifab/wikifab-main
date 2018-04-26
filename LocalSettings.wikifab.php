@@ -130,3 +130,5 @@ function wfAddMimeTypes( $mimeMagic ) {
 	$mimeMagic->addExtraTypes( "text/plain stl" );
 	$mimeMagic->addExtraTypes( "application/pdf ai" );
 }
+
+$wgDefaultUserOptions['multimediaviewer-enable'] = 1;
