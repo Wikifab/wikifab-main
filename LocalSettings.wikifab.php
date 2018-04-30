@@ -121,6 +121,7 @@ $wgThumbLimits = [
 		800
 ];
 $wgDefaultUserOptions['thumbsize'] = 3;
+$wgDefaultUserOptions['multimediaviewer-enable'] = 1;
 
 $wgUploadThumbnailRenderMap[] = 150;
 $wgUploadThumbnailRenderMap[] = 300;
