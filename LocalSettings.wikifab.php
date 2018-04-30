@@ -131,3 +131,6 @@ function wfAddMimeTypes( $mimeMagic ) {
 	$mimeMagic->addExtraTypes( "text/plain stl" );
 	$mimeMagic->addExtraTypes( "application/pdf ai" );
 }
+
+//allow voting on comments
+$wgCommentStreamsEnableVoting = true;
