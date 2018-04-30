@@ -96,34 +96,40 @@ __NOTOC__<noinclude>
 </noinclude><includeonly>
 <div class="container">
 <div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
-<div class="GroupFormHeader">
-<h1 id="firstHeading" class="firstHeading">{{FULLPAGENAME}}</h1>
-</div>
 {{{for template|Group Details}}}
 <div class="row">
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-logo}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9">
-<div class="group-logo-upload msuploadContainer">
+<div class="col-md-3 col-sm-4 col-xs-12">
+<div class="WfFormLabel">{{int:wf-formgroup-fieldname-logo}}</div>
+<div class="group-logo-upload msuploadContainer msuploadContainerMedium">
 {{{field|group-logo|size=32|class=form-picture|default=|uploadable|image preview}}}
 </div>
 </div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-banner}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9">
-<div class="group-banner-upload msuploadContainer">
+<div class="col-md-9 col-sm-8 col-xs-12">
+<div class="WfFormLabel">{{int:wf-formgroup-fieldname-banner}}</div>
+<div class="group-banner-upload msuploadContainer msuploadContainerMedium">
 {{{field|group-banner|size=32|class=form-picture|default=|uploadable|image preview}}}
 </div>
 </div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-description}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-description|input type=textarea|rows=2|maxlength=240|class=form-textarea|placeholder=Décrivez votre groupe en moins de 240 caractères.}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-type}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">
-{{{field|group-type|input type=dropdown|mandatory|class=form-dropdown|mapping using translate=wf-propertyvalue-grouptype-}}} {{#info:{{int:wf-formgroup-fieldinfo-type}}|}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-website}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form custom-tooltip">{{{field|group-url|class=group-field|placeholder=wikifab.org}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-address}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form">{{{field|group-address|class=group-field|placeholder=42 Place de la Bastille, Paris}}}</div>
-<div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-email}}</div>
-<div class="col-md-4 col-sm-4 col-xs-9 table-edit-form">{{{field|group-email|class=group-field|placeholder=contact@wikifab.org}}}</div>
+</div>
+<div class="WfFormLabel">{{int:wf-formgroup-fieldname-description}}</div>
+<div>{{{field|group-description|input type=textarea|rows=2|maxlength=1500|class=WfFormTextarea|placeholder=Décrivez votre groupe en moins de 240 caractères.}}}</div>
+<div class="row">
+<div class="col-md-3">
+<div class="WfFormLabel"><span>{{int:wf-formgroup-fieldname-type}}</span> <span class="custom-tooltip">{{#info:{{int:wf-formgroup-fieldinfo-type}}|}}</span></div>
+{{{field|group-type|input type=dropdown|mandatory|class=WfFormDropdown|mapping using translate=wf-propertyvalue-grouptype-}}}
+</div>
+<div class="col-md-3">
+<div class="WfFormLabel">{{int:wf-formgroup-fieldname-website}}</div>
+{{{field|group-url|class=WfFormTextFullWidth|placeholder=wikifab.org}}}
+</div>
+<div class="col-md-3">
+<div class="WfFormLabel">{{int:wf-formgroup-fieldname-address}}</div>
+{{{field|group-address|class=WfFormTextFullWidth|placeholder=42 Place de la Bastille, Paris}}}
+</div>
+<div class="col-md-3">
+<div class="WfFormLabel">{{int:wf-formgroup-fieldname-email}}</div>
+{{{field|group-email|class=WfFormTextFullWidth|placeholder=contact@wikifab.org}}}
+</div>
 </div>
 {{{end template}}}
 
@@ -173,7 +179,8 @@ __NOTOC__<noinclude>
 </div><hr>
 {{{end template}}}</div></div>
 
-<div class="container">
-<div class="saving-menu">{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}} {{{standard input|watch}}}</div>
+<hr class="WfEndForm">
+<div class="saving-menu">
+{{{standard input|watch}}}<span class="status-checkbox">{{int:wf-completetooltip-label}} : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
 </div>
 </includeonly>
