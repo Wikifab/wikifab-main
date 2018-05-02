@@ -163,7 +163,7 @@
 		"wikifab/carousel": "^0.1.2",
 		"wikifab/chameleon-skin": "^1.3.0",
 		"wikifab/check-page-title": "^1.1.0",
-		"wikifab/CommentsProperty": "dev-master",
+		"wikifab/comments-property": "dev-master",
 		"wikifab/Drafts": "^1.0.4",
 		"wikifab/Echo":"dev-REL1_29",
 		"wikifab/embed-video":"^2.5.4",
