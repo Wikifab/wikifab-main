@@ -18,6 +18,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:Wikifab/CommentsProperty.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:Wikifab/Echo.git"
 		},
 		{
