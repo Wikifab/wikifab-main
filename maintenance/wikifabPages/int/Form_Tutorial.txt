@@ -191,7 +191,7 @@ __NOTOC__<noinclude>
 </div>
 <hr class="WfEndForm">
 <div class="saving-menu">
-{{{standard input|watch}}}<span class="status-checkbox">{{int:wf-completetooltip-label}} : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
+<span class="status-checkbox">{{int:wf-completetooltip-label}} : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|watch}}} {{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
 </div>
 </includeonly>
 

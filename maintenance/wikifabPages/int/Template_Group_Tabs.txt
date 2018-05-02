@@ -2,9 +2,9 @@
 <div class="tabGroupsButton"><div class="container">{{#joinGroupButton:}} <div class="tabGroupsOptionButton">
 {{#ifanon:|<div class="dropdown"><span class="edit-btn btn dropdown-toggle" type="button" data-toggle="dropdown">...</span>
 <ul class="dropdown-menu">
-<li>[{{fullurl:group:{{PAGENAME}}|action=formedit}} Modifier]</li>
+<li>[{{fullurl:group:{{PAGENAME}}|action=formedit}} {{int:edit}}]</li>
 <li>[{{SERVER}}/w/index.php/Spécial:ReordonnerGroupe?groupName=group:{{PAGENAMEE}} {{int:wf-reorder-tutorials}}]</li>
-<li>[{{SERVER}}/w/index.php/Spécial:Renommer_une_page/group:{{PAGENAMEE}} Renommer]</li>
+<li>[{{SERVER}}/w/index.php/Spécial:Renommer_une_page/group:{{PAGENAMEE}} {{int:move}}]</li>
 </ul>
 </div>}}
 </div></div></div>
