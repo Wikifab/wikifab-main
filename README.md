@@ -13,8 +13,11 @@ There are 2 methods to install Wikifab:
 
 ### 1. Download package and upload it to you website
 
-Download it here : http://releases.wikifab.org/wikifab/wikifabFullPackage-0.2.1.zip
+Download it here : https://github.com/Wikifab/wikifab-main/releases/download/1.1.0-rc10/wikifab-1.1.0-rc10.zip
 Unzip and upload directory on your server.
+
+
+(check https://github.com/Wikifab/wikifab-main/releases for latest versions)
 
 ### 2. Set Up your wiki
 
