@@ -111,6 +111,7 @@ $wgGroupPermissions['user']['skipcaptcha'] = true;
 $wgGroupPermissions['*']['viewedittab'] = false;
 $wgPageFormsRenameEditTabs = true;
 $wgUsersWatchListAllowAll = true;
+$sfgRenameEditTabs = true;
 
 $wgExploreUseThumbs = true;
 
