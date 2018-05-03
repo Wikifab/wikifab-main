@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-administration}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-modifier-les-droits-d-un-utilisateur}}</h2>
 
 {{info|{{int:Help-admin-rights-01}}}}
 

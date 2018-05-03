@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-langues}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-voir-la-liste-des-tutoriels-non-traduit}}</h2>
 
 {{int:Help-translate-01|[[Special:PageTranslation]]}}
 
