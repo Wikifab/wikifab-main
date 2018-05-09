@@ -1,55 +1,95 @@
-{{#if:{{{Tuto_Attachments|}}}{{{ExternalAttachmentsLinks|}}}|
-{{#if:{{{Prerequisites|}}}|
-<div class="Input-tabs">
-{{#tag:tabber|
- {{int:wf-formtutorial-tools-materials-tabs-title}} =
-{{#if:{{{Step_Picture_00|}}}| 
+{{#if: {{{Material|}}} {{{Tools|}}}|
+{{#if: {{{Prerequisites|}}}|
+{{#if: {{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}|
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#ItemList" aria-controls="ItemList" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-tag" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-tools-materials-tabs-title}}</span></span></li>
+<li role="presentation"><span data-target="#Prerequisites" aria-controls="Prerequisites" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-link" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-prerequisites-tabs-title}}</span></span></li>
+<li role="presentation"><span data-target="#ExternalAttachmentsLinks" aria-controls="ExternalAttachmentsLinks" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-file" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-file-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="ItemList">{{#if:{{{Step_Picture_00|}}}| 
    {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
  {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
- }}
-{{!}}-{{!}}
- {{int:wf-prerequisites-tabs-title}}={{{Prerequisites|}}}
-{{!}}-{{!}}
- {{int:wf-formtutorial-file-tabs-title}}={{{ExternalAttachmentsLinks|}}}
-{{{Tuto_Attachments|}}}
-}}
+ }}</div>
+<div role="tabpanel" class="tab-pane" id="Prerequisites">{{{Prerequisites|}}}</div>
+<div role="tabpanel" class="tab-pane" id="ExternalAttachmentsLinks">{{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}</div>
+</div>
 </div>
 |
-<div class="Input-tabs">
-{{#tag:tabber|
- {{int:wf-formtutorial-tools-materials-tabs-title}} =
-{{#if:{{{Step_Picture_00|}}}| 
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#ItemList" aria-controls="ItemList" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-tag" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-tools-materials-tabs-title}}</span></span></li>
+<li role="presentation"><span data-target="#Prerequisites" aria-controls="Prerequisites" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-link" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-prerequisites-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="ItemList">{{#if:{{{Step_Picture_00|}}}| 
    {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
  {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
- }}
-{{!}}-{{!}}
- {{int:wf-formtutorial-file-tabs-title}}={{{ExternalAttachmentsLinks|}}}
-{{{Tuto_Attachments|}}}
-}}
+ }}</div>
+<div role="tabpanel" class="tab-pane" id="Prerequisites">{{{Prerequisites|}}}</div>
 </div>
+</div>}}
+|
+{{#if: {{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}|
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#ItemList" aria-controls="ItemList" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-tag" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-tools-materials-tabs-title}}</span></span></li>
+<li role="presentation"><span data-target="#ExternalAttachmentsLinks" aria-controls="ExternalAttachmentsLinks" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-file" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-file-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="ItemList">{{#if:{{{Step_Picture_00|}}}| 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+ {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
+ }}</div>
+<div role="tabpanel" class="tab-pane" id="ExternalAttachmentsLinks">{{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}</div>
+</div>
+</div>
+|
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#ItemList" aria-controls="ItemList" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-tag" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-tools-materials-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="ItemList">{{#if:{{{Step_Picture_00|}}}| 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
+ {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
+ }}</div>
+</div>
+</div>}}
 }}
 |
-{{#if:{{{Prerequisites|}}}|
-<div class="Input-tabs">
-{{#tag:tabber|
- {{int:wf-formtutorial-tools-materials-tabs-title}}=
-{{#if:{{{Step_Picture_00|}}}| 
-   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
- {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
- }}
-{{!}}-{{!}}
- {{int:wf-prerequisites-tabs-title}}={{{Prerequisites|}}}
-}}
+{{#if: {{{Prerequisites|}}}|
+{{#if: {{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}|
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#Prerequisites" aria-controls="Prerequisites" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-link" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-prerequisites-tabs-title}}</span></span></li>
+<li role="presentation"><span data-target="#ExternalAttachmentsLinks" aria-controls="ExternalAttachmentsLinks" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-file" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-file-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="Prerequisites">{{{Prerequisites|}}}</div>
+<div role="tabpanel" class="tab-pane" id="ExternalAttachmentsLinks">{{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}</div>
+</div>
 </div>
 |
-<div class="Input-tabs">
-{{#tag:tabber|
- {{int:wf-formtutorial-tools-materials-tabs-title}}=
-{{#if:{{{Step_Picture_00|}}}| 
-   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}]] | [[File:{{{Step_Picture_01}}}]] | [[File:{{{Step_Picture_02}}}]] | [[File:{{{Step_Picture_03}}}]] | [[File:{{{Step_Picture_04}}}]] | [[File:{{{Step_Picture_05}}}]] }} }} | 
- {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
- }}
-}}
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#Prerequisites" aria-controls="Prerequisites" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-link" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-prerequisites-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="Prerequisites">{{{Prerequisites|}}}</div>
 </div>
+</div>}}
 }}
+|
+{{#if: {{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}|
+<div class="wf-nav">
+<ul class="wf-nav-tabs" role="tablist">
+<li role="presentation" class="active"><span data-target="#ExternalAttachmentsLinks" aria-controls="ExternalAttachmentsLinks" role="tab" class="wf-nav-tabs-switch" data-toggle="tab"><i class="fa fa-file" aria-hidden="true"></i> <span class="wf-nav-tabs-text">{{int:wf-formtutorial-file-tabs-title}}</span></span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="ExternalAttachmentsLinks">{{{ExternalAttachmentsLinks|}}} {{{Tuto_Attachments|}}}</div>
+</div>
+</div>
+|}}
 }}
