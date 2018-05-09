@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-explorer-les-tutoriels}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-ajouter-retirer-une-page-de-la-liste-de-suivi}}</h2>
 
 {{int:help-liste-de-suivi-01}}
 

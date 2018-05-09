@@ -1,15 +1,12 @@
 <div class="row">
-<div class="col-md-6 step-instructions {{#if:{{{5}}}|step-instructions-manyimage |step-instructions-oneimage}}">
-<h3>Etape n°{{#stepNumber: step }} - {{{1}}}</h3>
+<div class="col-xs-12 col-md-6 step-instructions col-md-push-6 {{#if:{{{5}}}|step-instructions-manyimage |step-instructions-oneimage}}">
+<h2>{{int:wf-steptemplate-step|{{#stepNumber: step }}}} - {{{1}}}</h2>
 {{{2}}}
 </div>
-<div class="noprint"><!-- open noprint for carousel view-->
-<div class="col-md-6">
-<div class="tuto-step-image">
+
+<div class="col-xs-12 col-md-6 tuto-step-image noprint col-md-pull-6"><!-- open noprint for carousel view-->
 {{ #carousel: {{#annotatedImage:[[File:{{{3}}}|frameless]]|{{{4}}}}} | {{#annotatedImage:[[File:{{{5}}}|frameless]]|{{{6}}}}} | {{#annotatedImage:[[File:{{{7}}}|frameless]]|{{{8}}}}} | {{#annotatedImage:[[File:{{{9}}}|frameless]]|{{{10}}}}} | {{#annotatedImage:[[File:{{{11}}}|frameless]]|{{{12}}}}} | {{#annotatedImage:[[File:{{{13}}}|frameless]]|{{{14}}}}} }}
-</div>
-</div>
-<!-- close noprint--></div> 
+<!-- close noprint--></div>
 
 {{#if:{{{3}}}| 
 <div class="col-md-6 step-image-print print-only">
@@ -18,6 +15,7 @@
 </div>
 </div>
 |}}
+
 {{#if:{{{5}}}| 
 <div class="col-md-6 step-image-print print-only">
 <div class="tuto-step-image">
@@ -46,6 +44,5 @@
 </div>
 </div>
 |}}
-
 <!-- close row --> </div>
-[[Catégorie:Tutoriels]]
+[[Category:Tutorials]]

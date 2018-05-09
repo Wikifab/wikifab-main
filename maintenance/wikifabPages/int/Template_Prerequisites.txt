@@ -1,1 +1,1 @@
-<div class="attach-link-table">[[Prerequisites::{{{Prerequisites|}}}]]</div>
+<div class="attach-link-table"><i class="fa fa-link"></i> [[Prerequisites::{{{Prerequisites|}}}]]</div>

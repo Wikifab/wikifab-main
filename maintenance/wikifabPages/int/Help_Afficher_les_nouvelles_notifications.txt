@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-gerer-ses-notifications}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-afficher-les-nouvelles-notifications}}</h2>
 
 1. {{int:help-afficher-les-nouvelles-notifications-02|<span class="glyphicon glyphicon-user"></span>}}
 

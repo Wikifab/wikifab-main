@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-gerer-son-compte}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-creer-un-compte}}</h2>
 
 {{int:help-creer-un-compte-01}}
 

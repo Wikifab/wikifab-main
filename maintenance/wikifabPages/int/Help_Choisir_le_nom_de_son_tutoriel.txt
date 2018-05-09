@@ -7,7 +7,7 @@ __NOTOC__
 {{Help-menu-créer-un-nouveau-tutoriel}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-choisir-le-nom-de-son-tutoriel}}</h2>
 
 {{int:wf-formtutorial-popuptutoname-subtitle}}
 

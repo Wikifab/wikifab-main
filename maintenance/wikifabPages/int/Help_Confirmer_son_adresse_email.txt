@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-gerer-son-compte}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-confirmer-son-adresse-email}}</h2>
 
 {{Info| {{int:help-confirmer-son-adresse-email-01}} }}
 

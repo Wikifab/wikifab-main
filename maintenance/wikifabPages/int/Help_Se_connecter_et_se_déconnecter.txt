@@ -6,7 +6,7 @@ __NOTOC__
 {{Help-menu-gerer-son-compte}}
 </div>
 <div class="col-md-8 col-sm-12 col-xs-12">
-<h2 class="contribuer-subtitle-first">{{SUBPAGENAME}}</h2>
+<h2 class="contribuer-subtitle-first">{{int:help-se-connecter-se-deconnecter}}</h2>
 
 <h4>{{int:help-se-connecter-se-deconnecter-01}}</h4>
 
