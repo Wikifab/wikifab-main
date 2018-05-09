@@ -102,7 +102,7 @@
 		</exec>
 		<exec executable="bash" dir="build/wikifab" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
-			<arg value="php composer.phar update"/>
+			<arg value="php composer.phar update --no-dev"/>
 		</exec>
 	</target>
 
