@@ -160,7 +160,11 @@ __NOTOC__<noinclude>
 <h2>{{int:wf-formtutorial-steps}}</h2>
 <div class="multipleTemplate-tutostep">{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=400|add button text={{int:wf-formtutorial-step-btnaddstep}} }}}
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="col-sm-6 col-xs-12 col-sm-push-6 WfFormTutoStepInstructions">
+<div>{{{field|Step_Title|input type=text|translatable|class=form-text form-step-title|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
+<div>{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea}}}</div>
+</div>
+<div class="col-sm-6 col-xs-12 col-sm-pull-6">
 <div class="col-pic-step msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
@@ -175,10 +179,6 @@ __NOTOC__<noinclude>
 {{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_05_annotation|input type=editableImage|target=Step_Picture_05}}}
 </div>
-</div>
-<div class="col-md-6 col-sm-6 col-xs-12">
-<div>{{{field|Step_Title|input type=text|translatable|class=form-text form-step-title|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
-<div>{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea}}}</div>
 </div>
 </div>
 <div class="hrContentMinor"></div>{{{end template}}}</div>
@@ -215,48 +215,6 @@ __NOTOC__<noinclude>
 <p>{{int:wf-formtutorial-popuplicense-question}} [http://feedback.wikifab.org/t/under-which-open-license-can-i-publish-my-tutorial-on-wikifab/30 {{int:wf-formtutorial-popuplicense-question-link}}].</p>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade wfform-2" id="ModalNom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="myModalLabel">{{int:wf-formtutorial-popuptutoname-title}}</h4>
-</div>
-<div class="modal-body">
-{{int:wf-formtutorial-popuptutoname-subtitle}}
-
-<h4>1. {{int:wf-formtutorial-popuptutoname-option1}}</h4>
-
-1.1 {{int:wf-formtutorial-popuptutoname-option1a}}
-
-* {{int:wf-formtutorial-popuptutoname-option1b}}
-* {{int:wf-formtutorial-popuptutoname-option1c}}
-
-1.2 {{int:wf-formtutorial-popuptutoname-option1d}}
-
-* {{int:wf-formtutorial-popuptutoname-option1b}}
-* {{int:wf-formtutorial-popuptutoname-option1e}}
-
-1.3 {{int:wf-formtutorial-popuptutoname-option1f}}
-
-* {{int:wf-formtutorial-popuptutoname-option1g}}
-* {{int:wf-formtutorial-popuptutoname-option1h}}
-
-
-<h4>2. {{int:wf-formtutorial-popuptutoname-option2}}</h4>
-
-2.1 {{int:wf-formtutorial-popuptutoname-option2a}}
-
-2.2 {{int:wf-formtutorial-popuptutoname-option2b}}
- 
-* {{int:wf-formtutorial-popuptutoname-option2c}}
-* {{int:wf-formtutorial-popuptutoname-option2d}}
-
-{{Info|Text={{int:wf-formtutorial-popuptutoname-last}}|}}
 </div>
 </div>
 </div>

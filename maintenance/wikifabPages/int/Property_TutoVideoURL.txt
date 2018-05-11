@@ -1,1 +1,1 @@
-Cette propriété est de type [[A le type::Texte]].
+This is a property of type [[Has type::Text]].

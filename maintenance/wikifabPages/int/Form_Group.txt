@@ -117,7 +117,7 @@ __NOTOC__<noinclude>
 <div class="row">
 <div class="col-md-3">
 <div class="WfFormLabel"><span>{{int:wf-formgroup-fieldname-type}}</span> <span class="custom-tooltip">{{#info:{{int:wf-formgroup-fieldinfo-type}}|}}</span></div>
-{{{field|group-type|input type=dropdown|mandatory|class=WfFormDropdown|mapping using translate=wf-propertyvalue-grouptype-}}}
+{{{field|group-type|input type=dropdown|class=WfFormDropdown|mapping using translate=wf-propertyvalue-grouptype-}}}
 </div>
 <div class="col-md-3">
 <div class="WfFormLabel">{{int:wf-formgroup-fieldname-website}}</div>
