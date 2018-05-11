@@ -1,3 +1,4 @@
+<div class="wf-nav-tabs-inner">
 <div class="row">
 <div class="col-xs-12 col-md-6">
 <div class="tuto-step-image">
@@ -10,5 +11,6 @@
 <div class="hrContentMinor-2"></div>
 <h3>{{int:wf-formtutorial-tools-tabs-title}}</h3>
 {{{2}}}
+</div>
 </div>
 </div>
