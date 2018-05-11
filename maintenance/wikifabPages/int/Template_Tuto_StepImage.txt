@@ -1,5 +1,10 @@
 <div class="row">
-<div class="col-xs-12 col-md-6 tuto-step-image noprint"><!-- open noprint for carousel view-->
+<div class="col-xs-12 col-md-6 step-instructions col-md-push-6 {{#if:{{{5}}}|step-instructions-manyimage |step-instructions-oneimage}}">
+<h2>{{int:wf-steptemplate-step|{{#stepNumber: step }}}} - {{{1}}}</h2>
+{{{2}}}
+</div>
+
+<div class="col-xs-12 col-md-6 tuto-step-image noprint col-md-pull-6"><!-- open noprint for carousel view-->
 {{ #carousel: {{#annotatedImage:[[File:{{{3}}}|frameless]]|{{{4}}}}} | {{#annotatedImage:[[File:{{{5}}}|frameless]]|{{{6}}}}} | {{#annotatedImage:[[File:{{{7}}}|frameless]]|{{{8}}}}} | {{#annotatedImage:[[File:{{{9}}}|frameless]]|{{{10}}}}} | {{#annotatedImage:[[File:{{{11}}}|frameless]]|{{{12}}}}} | {{#annotatedImage:[[File:{{{13}}}|frameless]]|{{{14}}}}} }}
 <!-- close noprint--></div>
 
@@ -10,11 +15,6 @@
 </div>
 </div>
 |}}
-
-<div class="col-xs-12 col-md-6 step-instructions {{#if:{{{5}}}|step-instructions-manyimage |step-instructions-oneimage}}">
-<h2>{{int:wf-steptemplate-step|{{#stepNumber: step }}}} - {{{1}}}</h2>
-{{{2}}}
-</div>
 
 {{#if:{{{5}}}| 
 <div class="col-md-6 step-image-print print-only">
