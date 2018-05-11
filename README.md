@@ -94,7 +94,7 @@ in bash:
 	cd /var/www/yourwebsite
 	curl http://getcomposer.org/installer | php
 	php composer.phar config minimum-stability dev
-	php composer.phar update
+	php composer.phar update --no-dev
 
 ### 5. download other needed extensions
 

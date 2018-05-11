@@ -58,6 +58,8 @@ Changing the categories isn't 100% customizable. In the future, we will make thi
 ###1. Change the categories in Wikifab
 * 1a. Edit your /Property:Area page and modify the category
 
+Note : to edit the page, in your browser got to the url (change it for your website) :  yourwebsite.com/index.php/Property:Area?action=edit 
+
 ###2. Edit the dropdown menu links of the Explore's sorting bar
 * 2a. On your server, open the file /extensions/Explore/includes/WfExploreCore.php
 * 2b. Search for the terms '$categories = array(' and change 'wfexplore-category-name-something' to 'wfexplore-category-name-somethingelse'
