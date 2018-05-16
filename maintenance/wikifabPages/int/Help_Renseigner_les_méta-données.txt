@@ -13,7 +13,7 @@ __NOTOC__
 
 2. {{int:help-choisir-le-nom-de-son-tutoriel-02}}
 
-3. {{int:help-choisir-le-nom-de-son-tutoriel-03|[[Wikifab:Help/Choisir le nom de son tutoriel|{{int:wf-formtutorial-popuptutoname-title}}]]}}
+3. {{int:help-choisir-le-nom-de-son-tutoriel-03|[[Help:Choisir le nom de son tutoriel|{{int:wf-formtutorial-popuptutoname-title}}]]}}
 
 4. {{int:help-choisir-le-nom-de-son-tutoriel-04|[[Lien|{{int:help-choisir-le-nom-de-son-tutoriel}}]]}}
 

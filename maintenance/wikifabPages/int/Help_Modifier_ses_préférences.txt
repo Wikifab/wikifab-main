@@ -22,7 +22,7 @@ __NOTOC__
 <hr>
 <h4>{{int:help-reinitialiser-son-mot-de-passe}}</h4>
 
-{{info|{{int:help-modifier-vos-preferences-08|[[Wikifab:Help/Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}}}}
+{{info|{{int:help-modifier-vos-preferences-08|[[Help:Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}}}}
 
 1. {{int:help-modifier-vos-preferences-02|<span class="glyphicon glyphicon-user"></span>}}
 

@@ -36,7 +36,7 @@ __NOTOC__
 <hr>
 <h4>{{int:help-modifier-son-profil-12}}</h4>
 
-{{int:help-modifier-son-profil-13|[[Wikifab:Help/Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}}
+{{int:help-modifier-son-profil-13|[[Help:Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}}
 
 1. {{int:help-modifier-son-profil-03|<span class="glyphicon glyphicon-user"></span>}}
 
@@ -48,7 +48,7 @@ __NOTOC__
 
 {{int:help-modifier-son-profil-16}}
 
-{{Warning | {{int:help-modifier-son-profil-17|[[Wikifab:Help/Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}} }}
+{{Warning | {{int:help-modifier-son-profil-17|[[Help:Confirmer_son_adresse_email|{{int:help-creer-un-compte-09}}]]}} }}
 
 </div>
 </div>
