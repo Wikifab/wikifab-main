@@ -31,6 +31,7 @@ require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
 require_once "$IP/extensions/Scribunto/Scribunto.php";
 wfLoadExtension( 'CheckPageTitle' );
+wfLoadExtension( 'CommentsProperty' );
 wfLoadExtension( 'EmbedVideo' );
 wfLoadExtension( 'FlowCounterTalks' );
 wfLoadExtension( 'PageMediaGallery' );
@@ -44,6 +45,7 @@ wfLoadExtension( 'SemanticExtraSpecialProperties' );
 wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
 wfLoadExtension( 'UsersPagesLinks');
+
 
 $wgScribuntoDefaultEngine = 'luastandalone';
 
