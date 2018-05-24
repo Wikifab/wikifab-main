@@ -40,7 +40,7 @@ wfLoadExtension( 'RandomSelection' );
 wfLoadExtension( 'MultimediaViewer' );
 wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
-
+wfLoadExtension( 'CustomProperties' );
 
 $wgScribuntoDefaultEngine = 'luastandalone';
 
