@@ -14,7 +14,7 @@ __NOTOC__
 
 2. {{int:help-creer-un-compte-03}}
 
-{{Warning|{{int:help-creer-un-compte-04|[[Help:Modifier_son_profil|{{int:help-modifier-son-profil}}]]|[[Wikifab:Help/Modifier_ses_préférences|{{int:help-modifier-vos-preferences}}]] }} }}
+{{Warning|{{int:help-creer-un-compte-04|[[Help:Modifier_son_profil|{{int:help-modifier-son-profil}}]]|[[Help:Modifier_ses_préférences|{{int:help-modifier-vos-preferences}}]] }} }}
 
 {{Info|{{int:help-creer-un-compte-05}} }}
 
