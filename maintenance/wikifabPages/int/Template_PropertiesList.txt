@@ -1,4 +1,9 @@
-* [[PropertyTitle::{{{PropertyTitle|}}}]]
+* [[PropertyTitleDE::{{{PropertyTitleDE|}}}]]
+* [[PropertyTitleEN::{{{PropertyTitleEN|}}}]]
+* [[PropertyTitleES::{{{PropertyTitleES|}}}]]
+* [[PropertyTitleFR::{{{PropertyTitleFR|}}}]]
+* [[PropertyTitleIT::{{{PropertyTitleIT|}}}]]
+* [[PropertyTitlePT::{{{PropertyTitlePT|}}}]]
 * [[PropertyType::{{{PropertyType|}}}]]
 * [[PropertyIcon::{{{PropertyIcon|}}}]]
 * {{#arraymap:{{{PropertyMandatory|}}}|,|x|[[PropertyMandatory::x]]}}
