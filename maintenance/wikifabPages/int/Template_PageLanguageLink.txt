@@ -1,0 +1,1 @@
+<span class="languageLink"> [[ {{{1}}} | {{#language:{{{2}}}|{{PAGELANGUAGE}}|}} ]] </span>

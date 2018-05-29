@@ -1,0 +1,50 @@
+<div class="Items-page-title">
+<div class="container">
+<div class="row">
+<div class="col-md-5 col-sm-5 col-xs-12">
+<h1><i class="fa fa-tag" aria-hidden="true"></i> {{int:dokit-items-title}}</h1>
+</div>
+<div class="col-md-7 col-sm-7 col-xs-12">
+<div data-toggle="modal" data-target="#CreateNewPage" class="askButton"><p class="sign-up-button-hp"><i class="fa fa-plus" aria-hidden="true"></i> {{int:dokit-items-page-btn}}</p></div>
+<inputbox>
+type=search
+namespaces=Item
+placeholder={{int:dokit-items-search-placeholder}}
+searchbuttonlabel={{int:search}}
+</inputbox>
+</div>
+</div>
+</div>
+</div>
+<div class="Items-page-list">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<h2>{{int:dokit-items-title-tools}}</h2>
+{{#ask: [[Item:+]] [[Category:Tools]]
+ |?Cost
+ |?Currency
+ |?ItemSku
+ |format=broadtable
+ |link=all
+ |headers=show
+ |searchlabel=&hellip; autres résultats
+ |class=sortable wikitable smwtable
+}}
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<h2>{{int:dokit-items-title-parts}}</h2>
+{{#ask: [[Item:+]] [[Category:Parts]]
+ |?Cost
+ |?Currency
+ |?ItemSku
+ |format=broadtable
+ |link=all
+ |headers=show
+ |searchlabel=&hellip; autres résultats
+ |class=sortable wikitable smwtable
+}}
+</div>
+</div>
+</div>
+</div>

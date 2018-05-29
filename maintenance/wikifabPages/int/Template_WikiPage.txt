@@ -1,0 +1,66 @@
+<div class="row WikiPageContainer">
+<div class="col-md-3 col-sm-3 col-xs-12 fullWidthPrint WikiPageInfoBlock">
+<div class="WikiPageImage">{{#if:{{{Main_Picture|}}}|{{#annotatedImage:[[File:{{{Main_Picture}}}|frameless|border]]|{{{Main_Picture_annotation}}}}}| }}</div>
+<div class="WikiPageMetadatas noprint">
+<p class="autor-title">{{int:wf-author-title}}</p>
+<div class="WikiPageAutor">{{#displayAuthorDiv:toto}}</div>
+<div class="tuto-items-container">
+<div class="tuto-items-details-container">
+<div class="tuto-items-details-container-left"><i class="fa fa-folder-open" aria-hidden="true"></i> {{int:wf-formtutorial-area-field-title}}</div>
+<div class="tuto-items-details-container-right">{{#arraymap:{{{Area|}}}|,|x|[[Area::x]]}}</div>
+</div>
+<div class="tuto-items-details-container">
+<div class="tuto-items-details-container-left"><i class="fa fa-building-o" aria-hidden="true"></i> {{int:wf-categoryname-business}}</div>
+<div class="tuto-items-details-container-right"><span class="propertyKey" style="display:none">[[Business::{{{Business|}}}]]</span> {{int:wf-propertyvalue-business-{{{Business|}}}|}}</div>
+</div>
+</div>
+</div>
+<div class="WikiPageTOC">
+<hr class="print-only printPageBreakAfter"/>
+<div class="fullWidthPrint">
+<div class="printTOC fixedSideSummary">{{#forceShowToc:}}__TOC__</div>
+</div></div></div>
+<div class="col-md-9">
+<div class="WikiPageContent">
+<p class="WikiPageName">{{PAGENAME}}</p>
+[{{fullurl:{{PAGENAME}}|action=history}} {{int:wf-last-edit-on}}] {{REVISIONDAY:{{PAGENAME}}}}/{{REVISIONMONTH:{{PAGENAME}}}}/{{REVISIONYEAR:{{PAGENAME}}}} {{int:wf-last-edit-by}} [[user:{{REVISIONUSER:{{PAGENAME}}}}]].
+{{#if:{{{PageSource|}}}|<div class="WikiPageTags"><i class="fa fa-tags" aria-hidden="true"></i> {{#arraymap:{{{Tags|}}}|,|x|[[Tags::x]]}}</div>|}}
+<hr>
+[[WikiPageContent::{{{WikiPageContent|}}}]]
+<hr>
+<div class="display-none">
+[[Description::{{{Description|}}}]]
+[[isTranslation::0]]
+[[PageSource::{{{PageSource|}}}]]
+[[Language::{{{Language|}}}]]
+{{#arraymap:{{{Categories|}}}|,|x|[[Category:x]]}}
+</div>
+{{#if:{{{PageSource|}}}|
+<div class="othersLanguageSelector">
+<span class="othersLanguageSelector-title">{{int:tpt-languages-legend}}</span>
+{{#ask:
+[[PageSource:={{{PageSource|}}}]][[!{{FULLPAGENAME}}]] OR [[{{{PageSource|}}}]]
+|?Language
+|format=ul
+|link=none
+|template=PageLanguageLink
+}}
+</div>
+|
+<div class="othersLanguageSelector">
+<span class="othersLanguageSelector-title">{{int:tpt-languages-legend}}</span>
+{{#ask:
+[[PageSource:={{FULLPAGENAME}}]]
+|?Language
+|format=ul
+|link=none
+|template=PageLanguageLink
+}}
+</div>
+}}
+<div class="noprint">[[Category:WikiPage]]</div>
+</div></div>
+{{#seo:
+|keywords={{{Tags|}}}
+|description={{{Description|}}}
+}}

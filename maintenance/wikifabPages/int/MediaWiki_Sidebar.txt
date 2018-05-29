@@ -1,6 +1,7 @@
 * navigation
-** Explore|{{int:wf-explore-title}}
-** Groups|{{int:wf-group-title}}
+** :Explore|{{int:wf-explore-title}}
+** :Items|{{int:dokit-items-title}}
+** :Help|Help
 * SEARCH
 * TOOLBOX
 * LANGUAGES

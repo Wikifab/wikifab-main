@@ -1,0 +1,3 @@
+.mw-special-FormEdit div.mw-warning-with-logexcerpt {
+display:none;
+}

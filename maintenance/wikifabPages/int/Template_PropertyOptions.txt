@@ -1,0 +1,1 @@
+{{#arraymap:{{{PropertyOptions|}}}|,|x|[[PropertyOptions::x]]}}

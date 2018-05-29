@@ -1,0 +1,52 @@
+__NOTOC__<noinclude>
+<div class="tutorial-page">
+<div class="container">
+<div class="new-tutorial-page">
+{{#ifanon:<div class="alert alert-warning" role="alert"><strong>Oups !</strong> Vous n'avez pas la permission de créer une page car vous n'êtes pas connecté. [[Special:UserLogin/signup|Créer un compte]] ou [[Special:UserLogin|connectez-vous]].</div>
+</div>
+</div>
+</div>|
+<h1>Créer une page</h1>
+{{#forminput:form=WikiPage|button text=Créer ou modifier|placeholder=Entrez ici le nom de la page que vous souhaitez créer}}
+<p data-toggle="modal" data-target="#ModalNom"><span class="glyphicon glyphicon-info-sign"></span> Apprendre à bien choisir le nom d'une page.</p>
+</div>
+</div>
+</div>
+}}
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|WikiPage}}}
+<div class="row">
+<div class="col-md-3">
+<div class="msuploadContainer">
+{{{field|Main_Picture|uploadable|size=25|class=form-picture|image preview}}}
+{{{field|Main_Picture_annotation|input type=editableImage|target=Main_Picture}}}
+</div>
+<div class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</div>
+<div>{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=3000|class=WfFormTextarea}}}</div>
+<div class="WfFormLabel">{{int:wf-formtutorial-area-field-title}}</div>
+<div class="WikiPageEditList">{{{field|Area|mandatory|hide select all|class=WikiPageCheckbox|mapping using translate=wf-propertyvalue-area-}}}</div>
+<div class="WfFormLabel">{{int:wf-categoryname-business}}</div>
+<div class="WikiPageEditList">{{{field|Business|input type=dropdown|mandatory|class=WfFormDropdown|mapping using translate=wf-propertyvalue-business-}}}</div>
+<div class="WikiPageEditPageSource">
+<div class="WfFormLabel">{{int:wf-formtutorial-pagesource-title}}<span class="custom-tooltip">{{#info:{{int:wf-formtutorial-pagesource-popup}}}}</span></div>
+{{{field|PageSource|input type=text with autocomplete|values from namespace=Main|class=PageSourceInput WfFormTextFullWidth}}}
+</div>
+<div class="WikiPageEditPageLang">
+<div class="WfFormLabel">{{int:wf-formtutorial-language-title}}<span class="custom-tooltip">{{#info:{{int:wf-formtutorial-language-popup}}}}</span></div>
+{{{field|Language|input type=dropdownmandatory|class=WfFormDropdown|default={{PAGELANGUAGE}}|}}}
+</div>
+</div>
+<div class="col-md-9 col-sm-9 col-xs-12 WikiPageEditContent">
+{{{field|WikiPageContent|input type=textarea|class=form-textarea toolbarOnTop}}}
+<div class="WikiPageEditTags">
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-tags-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-tags-popup}}|}}</span></div>
+<div class="WfFormTokensParent">{{{field|Tags|placeholder={{int:wf-formtutorial-tag-field-tooltip}}|class=WfFormTokens|input type=tokens|size=}}}</div>
+</div>
+</div>
+</div>
+{{{end template}}}
+<hr class="WfEndForm">
+<div class="saving-menu">
+<span class="status-checkbox">{{int:wf-completetooltip-label}} : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|watch}}} {{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
+</div>

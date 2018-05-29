@@ -1,0 +1,54 @@
+<noinclude>
+{{#ifanon:<div class="alert alert-warning" role="alert"><strong>Oups !</strong> Vous n'avez pas la permission de créer une page car vous n'êtes pas connecté. [[Special:UserLogin/signup|Créer un compte]] ou [[Special:UserLogin|connectez-vous]].</div>|
+<h1>Ajouter un article</h1>
+{{#forminput:form=Item|button text=Créer l'article|namespace=Item|placeholder=Entrez ici le nom de l'article que vous souhaitez créer}}
+}}
+</noinclude><includeonly>
+{{{for template|Item}}}
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12 col-pic-detail">
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-main-picture-field-title}}</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-main-picture-tooltip}}}}</span></div>
+<div class="msuploadContainer msuploadContainerMedium">
+{{{field|Main_Picture|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Main_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Main_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
+</div>
+</div>
+<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="WfFormLabel">{{int:wf-formtutorial-description-field-title}}</div>
+<div>{{{field|Description|input type=textarea|mandatory|translatable|rows=2|maxlength=4000|class=WfFormTextarea|placeholder={{int:wf-formtutorial-description-field-placeholder}}|}}}</div>
+<div class="row">
+<div class="col-md-4 col-xs-12">
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-type-field-title}}</span></div>
+<div class="WfFormTree">{{{field|Categories|input type=tree|top category=Item|height=117|width=100%|hideroot|list}}}</div>
+</div>
+<div class="col-md-8 col-xs-12">
+<div class="row">
+<div class="col-md-12">
+<div class="WfFormLabel"><span>SKU</span></div>
+{{{field|ItemSku|input type=text|class=WfFormTextFullWidth}}}
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-xs-12">
+<div class="WfFormLabel"><span>{{int:wf-formtutorial-cost-field-title}}</span></div>
+{{{field|Cost|class=WfFormText WfFormTextCombine}}} {{{field|Currency|input type=dropdown|class=WfFormDropdown WfFormDropdownCombine}}}
+</div>
+<div class="col-md-6 col-xs-12">
+<div class="WfFormLabel"><span>URL</span><span class="custom-tooltip">{{#info:{{int:wf-formtutorial-URL-tooltip}}}}</span></div>
+{{{field|ItemURL|input type=text|class=WfFormTextFullWidth}}}
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h2>{{int:wf-item-longdescription}}</h2>
+{{{field|ItemLongDescription|input type=textarea|translatable|rows=10|maxlength=10000|class=form-textarea}}}
+</div>
+{{{end template}}}
+<hr class="WfEndForm">
+<div class="saving-menu">
+<span class="status-checkbox">{{int:wf-completetooltip-label}} : {{{for template|Tuto_Status}}}{{{field|Complete|default=Draft|mandatory|input type=dropdown|class=WfFormDropdownLight|mapping using translate=wf-propertyvalue-complete-}}}{{{end template}}}</span><span class="custom-tooltip-light">{{#info:<p>'''{{int:wf-propertyvalue-complete-Published}} :''' {{int:wf-completetooltip-published-description}}</p><p>'''{{int:wf-propertyvalue-complete-Draft}} :''' {{int:wf-completetooltip-draft-description}}</p>}}</span><span class="display-none">{{{standard input|watch}}} {{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
+</div>

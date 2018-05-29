@@ -1,0 +1,7 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::Tool]]
+* [[Allows value::Part]]
+* [[Allows value::Material]]
+* [[Allows value::Other]]

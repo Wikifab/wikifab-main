@@ -1,0 +1,6 @@
+This is a property of type [[Has type::Text]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Allows value::Enable difficulty]]
+* [[Allows value::Enable cost]]
+* [[Allows value::Enable duration]]

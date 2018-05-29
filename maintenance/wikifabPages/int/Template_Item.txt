@@ -1,0 +1,33 @@
+<hr class="item-top">
+<div class="row">
+<div class="col-md-5 col-sm-4 col-xs-12">
+<div class="tuto-step-image ">
+{{#if:{{{Main_Picture|}}}|{{#carousel:[[File:{{{Main_Picture|}}}|frameless]]|[[File:{{{Main_Picture_02|}}}|frameless]]|[[File:{{{Main_Picture_03|}}}|frameless]]}}|[[File:No-image-yet.jpg|link=]]}}
+</div>
+</div>
+<div class="col-md-7 col-sm-8 col-xs-12">
+<div class="item-container">
+<h1>{{PAGENAME}}</h1>
+<p>{{#if:{{{ItemSku|}}}|<span class="item-sku"><i class="fa fa-barcode" aria-hidden="true"></i> SKU: {{{ItemSku|}}}</span>|}}<span class="label label-default">[[ItemType::{{{ItemType|}}}]]</span></p>
+<p class="item-description">[[Description::{{{Description|}}}]]</p>
+{{#if:{{{Cost|}}}|<p class="item-price"><span class="item-price-cost">[[Cost::{{{Cost|}}}]]</span><span class="item-price-currency">[[Currency::{{{Currency|}}}]]</span></p>|}}
+{{#if:{{{ItemURL|}}}|<p class="item-button">[{{{ItemURL|}}} <span><i class="fa fa-shopping-cart" aria-hidden="true"></i> {{int:dokit-add-to-cart}}</span>]</p>|}}
+</div>
+</div>
+</div>
+<div class="row">
+{{#if:{{{ItemLongDescription|}}}|
+<div class="col-md-6 col-sm-6 col-xs-12">
+<h2>{{int:wf-item-longdescription}}</h2>
+[[ItemLongDescription::{{{ItemLongDescription|}}}]]
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<h2>{{int:wf-item-usedonpages}}</h2>
+{{Special:Whatlinkshere/{{PAGENAME}}}}
+</div>|
+<div class="col-md-12">
+<h2>{{int:wf-item-usedonpages}}</h2>
+{{Special:Whatlinkshere/{{PAGENAME}}}}
+</div>}}
+</div>
+<div class="noprint">[[Category:Item]] {{#arraymap:{{{Categories|}}}|,|x|[[Category:x]]|&#32;}}</div>

@@ -1,0 +1,8 @@
+This is a property of type [[Has type::Page]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Allows value::Training]]
+* [[Allows value::Manufacturer]]
+* [[Allows value::Industrial]]
+* [[Allows value::Field service]]
+* [[Allows value::Repair business]]

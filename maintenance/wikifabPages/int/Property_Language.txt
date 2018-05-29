@@ -1,1 +1,5 @@
 [[Has type::Text]]
+
+The allowed values for this property are:
+* [[Allows value::en]]
+* [[Allows value::fr]]

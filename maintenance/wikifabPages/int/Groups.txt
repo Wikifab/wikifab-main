@@ -1,20 +1,33 @@
-<div class="group-explore-hp">
+<div class="Items-page-title">
 <div class="container">
-<h1>{{int:wf-group-title}}</h1>
-<p class="marketing-section-hp-subtitle">{{int:wf-group-subtitle}}</p>
-<span data-toggle="modal" data-target="#CreateNewGroup" class="sign-up-button-hp wf-btn-lg">{{int:wf-formgroup-title}}</span> [[AboutGroups|<span class="wf-btn-dark wf-btn-lg">En savoir plus</span>]]</div></div>
+<div class="row">
+<div class="col-md-5 col-sm-5 col-xs-12">
+<h1><i class="fa fa-users" aria-hidden="true"></i> {{int:wf-group-title}}</h1>
+</div>
+<div class="col-md-7 col-sm-7 col-xs-12">
+<div data-toggle="modal" data-target="#CreateNewGroup" class="askButton"><p class="sign-up-button-hp"><i class="fa fa-plus" aria-hidden="true"></i> {{int:dokit-group-create-btn}}</p></div>
+<inputbox>
+type=search
+namespaces=Group
+placeholder={{int:dokit-group-search-placeholder}}
+searchbuttonlabel=Search
+</inputbox>
+</div>
+</div>
+</div>
+</div>
 {{#ifanon: |}}{{#displayExplore:query=[[group-type::!none]] |nolang | layout=group| limit=24}}
 <div class="modal fade" id="CreateNewGroup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<h4 class="modal-title" id="myModalLabel">Créer un groupe</h4>
+<h4 class="modal-title" id="myModalLabel">{{int:dokit-group-create-btn}}</h4> <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
 </div>
 <div class="modal-body NewPageTabs">
 {{#ifanon:<div class="alert alert-warning" role="alert">
 {{int:wf-formgroup-alert|[[Special:UserLogin/signup|{{int:wf-formtutorial-alert-createaccount}}]]|[[Special:UserLogin|{{int:wf-formtutorial-alert-login}}]]}}
 </div>|
-<div class="NewPageField">{{#forminput:form=Group|namespace=Group|placeholder=Entrez ici le nom de votre groupe|button text=Créer}} }}</div>
+<div class="NewPageField">{{#forminput:form=Group|namespace=Group|placeholder={{int:dokit-group-create-placeholder}}|button text={{int:dokit-group-create-shortbtn}}}} }}</div>
 </div>
 </div>
 </div>

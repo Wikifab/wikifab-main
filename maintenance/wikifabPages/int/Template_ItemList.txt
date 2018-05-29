@@ -1,0 +1,1 @@
+<div class="attach-link-table"><i class="fa fa-shopping-cart" aria-hidden="true"></i> [[Item:{{{Item|}}}|{{{Item|}}}]]</div><span class="propertyKey" style="display:none">[[Item::{{{Item|}}}]]</span>

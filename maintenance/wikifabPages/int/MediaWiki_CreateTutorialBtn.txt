@@ -1,12 +1,30 @@
-<div data-toggle="modal" data-target="#CreateNewPage" class="wf-top-button askButton"><span class="btn webfonts-changed"><span class="glyphicon glyphicon-pencil"></span> {{int:wf-mainpage-createtutorial}}</span></div>
+<div data-toggle="modal" data-target="#CreateNewPage" class="wf-top-button askButton"><span class="btn webfonts-changed"><span class="glyphicon glyphicon-pencil"></span> {{int:dokit-newpage-button}}</span></div>
 <div class="modal fade" id="CreateNewPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="myModalLabel">{{int:wf-formtutorial-main-title}}</h4><span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-</div>
+<div class="modal-header"><h4 class="modal-title" id="myModalLabel">{{int:dokit-newpage-button}}</h4><span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span></div>
 <div class="modal-body NewPageTabs">
-<div class="NewPageField">{{#forminput:form=Tutorial|placeholder={{int:wf-formtutorial-main-placeholder}}|button text={{int:wf-formtutorial-main-btn}}}}</div>
+<div>
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation"><span data-target="#guide" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-list-ol" aria-hidden="true"></i>
+ {{int:dokit-newpage-tutorial}}</span></li>
+<li role="presentation"><span data-target="#wikipage" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{int:dokit-newpage-wikipage}}</span></li>
+<li role="presentation"><span data-target="#item" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-tag" aria-hidden="true"></i> {{int:dokit-newpage-item}}</span></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane" id="guide">
+<p class="NewPageTabsLabel"><span class="glyphicon glyphicon-info-sign"></span> {{int:dokit-newpage-tutorial-description}}</p>
+<div class="NewPageField">{{#forminput:form=Tutorial|placeholder={{int:dokit-newpage-tutorial-placeholder}}|button text={{int:wf-formtutorial-main-btn}}}}</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="wikipage">
+<p class="NewPageTabsLabel"><span class="glyphicon glyphicon-info-sign"></span> {{int:dokit-newpage-wikipage-description}}</p>
+<div class="NewPageField">{{#forminput:form=WikiPage|placeholder={{int:dokit-newpage-wikipage-placeholder}}|button text={{int:wf-formtutorial-main-btn}}}}</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="item">
+<p class="NewPageTabsLabel"><span class="glyphicon glyphicon-info-sign"></span> {{int:dokit-newpage-item-description}}</p>
+<div class="NewPageField">{{#forminput:form=Item|namespace=Item|placeholder={{int:dokit-newpage-item-placeholder}}|button text={{int:wf-formtutorial-main-btn}}}}</div>
+</div>
+</div>
 </div>
 </div>
 </div>
