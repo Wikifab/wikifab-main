@@ -130,3 +130,6 @@ function wfAddMimeTypes( $mimeMagic ) {
 	$mimeMagic->addExtraTypes( "text/plain stl" );
 	$mimeMagic->addExtraTypes( "application/pdf ai" );
 }
+
+//Set languages using :
+$wgSimpleLangageSelectionLangList = ['fr', 'en', 'de', 'es', 'it', 'pt'];
