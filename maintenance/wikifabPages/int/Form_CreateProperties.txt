@@ -13,12 +13,12 @@ __NOTOC__<noinclude>
 <div class="col-md-2">PT</div>
 </div>
 <div class="row">
-<div class="col-md-2">{{{field|PropertyValues01EN|input type=text|mandatory|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues01FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues01DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues01ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues01IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues01PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyTitleEN|input type=text|mandatory|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyTitleFR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyTitleDE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyTitleES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyTitleIT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyTitlePT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
 <div class="WfFormLabel">Type</div>
 <div>{{{field|PropertyType|input type=dropdown|mandatory}}}</div>
