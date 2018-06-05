@@ -37,7 +37,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues01EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues01FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues01DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues01FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues01ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues01IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues01PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -45,7 +45,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues02EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues02FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues02DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues02FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues02ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues02IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues02PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -53,7 +53,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues03EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues03FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues03DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues03FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues03ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues03IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues03PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -61,7 +61,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues04EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues04FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues04DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues04FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues04ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues04IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues04PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -69,7 +69,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues05EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues05FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues05DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues05FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues05ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues05IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues05PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -77,7 +77,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues06EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues06FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues06DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues06FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues06ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues06IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues06PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -85,7 +85,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues07EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues07FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues07DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues07FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues07ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues07IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues07PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -93,7 +93,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues08EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues08FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues08DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues08FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues08ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues08IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues08PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -101,7 +101,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues09EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues09FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues09DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues09FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues09ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues09IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues09PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -109,7 +109,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues10EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues10FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues10DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues10FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues10ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues10IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues10PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -117,7 +117,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues11EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues11FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues11DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues11FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues11ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues11IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues11PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -125,7 +125,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues12EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues12FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues12DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues12FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues12ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues12IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues12PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -133,7 +133,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues13EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues13FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues13DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues13FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues13ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues13IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues13PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -141,7 +141,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues14EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues14FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues14DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues14FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues14ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues14IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues14PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -149,7 +149,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues15EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues15FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues15DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues15FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues15ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues15IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues15PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -157,7 +157,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues16EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues16FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues16DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues16FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues16ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues16IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues16PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -165,7 +165,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues17EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues17FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues17DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues17FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues17ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues17IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues17PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -173,7 +173,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues18EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues18FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues18DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues18FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues18ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues18IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues18PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -181,7 +181,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues19EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues19FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues19DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues19FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues19ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues19IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues19PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
@@ -189,7 +189,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues20EN|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues20FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues20DE|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
-<div class="col-md-2">{{{field|PropertyValues20FR|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
+<div class="col-md-2">{{{field|PropertyValues20ES|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues20IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues20PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>

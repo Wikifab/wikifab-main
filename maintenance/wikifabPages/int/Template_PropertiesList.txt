@@ -1,3 +1,5 @@
+<div class="alert alert-success" role="alert"><strong>Well done!</strong> Your properties has been changed!</div>
+<div style="display:none">
 * [[PropertyTitleDE::{{{PropertyTitleDE|}}}]]
 * [[PropertyTitleEN::{{{PropertyTitleEN|}}}]]
 * [[PropertyTitleES::{{{PropertyTitleES|}}}]]
@@ -128,5 +130,5 @@
 * [[PropertyValues20FR::{{{PropertyValues20FR|}}}]]
 * [[PropertyValues20IT::{{{PropertyValues20IT|}}}]]
 * [[PropertyValues20PT::{{{PropertyValues20PT|}}}]]
-
+</div>
 [[Category:PropertiesList]]
