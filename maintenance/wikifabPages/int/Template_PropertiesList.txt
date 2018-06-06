@@ -1,4 +1,3 @@
-<div class="alert alert-success" role="alert"><strong>Well done!</strong> Your properties has been changed!</div>
 <div style="display:none">
 * [[PropertyTitleDE::{{{PropertyTitleDE|}}}]]
 * [[PropertyTitleEN::{{{PropertyTitleEN|}}}]]

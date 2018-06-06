@@ -193,13 +193,14 @@ __NOTOC__<noinclude>
 <div class="col-md-2">{{{field|PropertyValues20IT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 <div class="col-md-2">{{{field|PropertyValues20PT|input type=text|class=WfFormText WfFormTextFullWidth}}}</div>
 </div>
-<div>{{{field|PropertyMandatory|mapping using translate=wf-propertyvalue-propertymandatory-}}}</div>
-<div>{{{field|PropertyFilter|mapping using translate=wf-propertyvalue-propertyfilter-}}}</div>
+<div>{{{field|PropertyMandatory|input type=checkboxes|mapping using translate=wf-propertyvalue-propertymandatory-}}}</div>
+<div>{{{field|PropertyFilter|input type=checkboxes|mapping using translate=wf-propertyvalue-propertyfilter-}}}</div>
 <hr>
 {{{end template}}}
 <h2>Options</h2>
 {{{for template|PropertyOptions}}}
-{{{field|PropertyOptions|input type=checkboxes|class=WfFormCheckbox WfFormCheckbox100}}}
+<div>{{{field|PropertyDifficulty|input type=checkboxes|mapping using translate=wf-propertyvalue-propertydifficulty-}}}</div>
+<div>{{{field|PropertyDuration|input type=checkboxes|mapping using translate=wf-propertyvalue-propertyduration-}}}</div>
 {{{end template}}}
 <hr class="WfEndForm">
 <div class="saving-menu">

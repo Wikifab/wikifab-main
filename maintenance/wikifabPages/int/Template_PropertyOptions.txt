@@ -1,1 +1,4 @@
-{{#arraymap:{{{PropertyOptions|}}}|,|x|[[PropertyOptions::x]]}}
+<div class="alert alert-success" role="alert"><strong>Well done!</strong> Your properties has been changed!</div>
+<div style="display:none">[[PropertyDifficulty::{{{PropertyDifficulty|}}}]]
+[[PropertyDuration::{{{PropertyDuration|}}}]]</div>
+[[Category:PropertiesList]]

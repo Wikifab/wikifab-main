@@ -1,0 +1,4 @@
+This is a property of type [[Has type::Text]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Allows value::yes]]
