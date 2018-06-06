@@ -83,6 +83,8 @@ $wgFileExtensions = array(
     'pptx', 'ps', 'odt', 'ods', 'odp', 'odg', 'svg','dxf','ai',
 	// CAO
 	'dxf',
+	// Arduino
+	'ino',
     // fichier 3D
 	'3dc','3ds','ac','asc','bvh','blend','geo','dae','dwf','dw','x','fbx',
 	'gta','mu','kmz','lwo','lws','flt','iv','osg','osgt','osgb','ive',
@@ -147,6 +149,7 @@ $wgUserProfileDisplay['userspageslinks'] = true;
 $wgHooks['MimeMagicInit'][] = 'wfAddMimeTypes';
 function wfAddMimeTypes( $mimeMagic ) {
 	$mimeMagic->addExtraTypes( "text/plain dxf" );
+	$mimeMagic->addExtraTypes( "text/plain ino" );
 	$mimeMagic->addExtraTypes( "text/plain stl" );
 	$mimeMagic->addExtraTypes( "application/pdf ai" );
 }
