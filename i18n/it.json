@@ -256,5 +256,6 @@
 	"wf-systemmessages-Uploadnologintext-message2":"identificarvi",
 	"wf-systemmessages-Uploadnologintext-message3":"per importare dei file",
 	"wf-systemmessages-translation-intro":"Questa pagina è una versione tradotta della pagina [[$2]] e la traduzione è completa al $3 %",
-	"wf-systemmessages-translation-introbtn":"Partecipare alla traduzione"
+	"wf-systemmessages-translation-introbtn":"Partecipare alla traduzione",
+	"wf-cs-title":"Commenti"
 }

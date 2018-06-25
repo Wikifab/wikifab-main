@@ -537,5 +537,6 @@
 	"help-admin-rights-02":"Um die Zugriffsrechte eines Benutzers zu ändern, gehen Sie auf die Seite $1, geben Sie den '''Benutzernamen''' des betreffenden Benutzers ein und wählen Sie die relevante Gruppe aus, die Sie diesem Benutzer hinzufügen möchten.",
 	"help-translate-01":"Wie das Wiki-Modell kann jede Seite von jedem Benutzer übersetzt werden. Wenn Sie an der Übersetzung teilnehmen möchten, gehen Sie zu $1, um die Liste der zu übersetzenden oder in Bearbeitung befindlichen Seiten anzuzeigen.",
 	"help-recent-changes-01":"Um die Liste der letzten Änderungen zu sehen, gehen Sie zu $1.",
-	"help-recent-changes-02":"Um die Liste der letzten Diskussionen anzuzeigen, gehen Sie zu $1 und wählen Sie '''Thema''' in der Dropdown-Liste '''Namensraum'''"
+	"help-recent-changes-02":"Um die Liste der letzten Diskussionen anzuzeigen, gehen Sie zu $1 und wählen Sie '''Thema''' in der Dropdown-Liste '''Namensraum'''",
+	"wf-cs-title":"Kommentare"
 }
