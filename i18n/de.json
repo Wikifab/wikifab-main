@@ -8,7 +8,10 @@
     "wf-explore-title": "Entdecken",
     "wf-footer-1": "Wikifab - eine Vereinigung ohne Gewinnerzielungsabsicht, verwaltet mit",
     "wf-footer-2": "durch Liebhaber",
+    "wf-creator-manual-title":"Maker-Handbuch",
+    "wf-creator-manual-subtitle":"Alle Ressourcen, die Ihnen helfen, das perfekte Tutorial zu erstellen!",
     "wf-contribute-title": "Beitragen",
+	"wf-ga-views":"Ansichten :",
     "wf-contribute-subtitle": "Unser Auftrag ist, der Welt beizubringen, alles selber herzustellen - und wir brauchen Ihre Hilfe!",
 	"wf-contribute-createtuto-title": "Ein Tutorial erstellen",
 	"wf-contribute-createtuto-subtitle1": "Ein neues Tutorial erstellen und Ihr Wissen teilen",
@@ -146,7 +149,8 @@
 	"wf-formgroup-fieldname-event-address": "Adresse",
 	"wf-formgroup-fieldname-event-date": "Datum",
 	"wf-formgroup-fieldname-event-link": "Link",
-	"wf-mainpage-title": "Tutorials um alles herzustellen, geschrieben von allen",
+	"wf-mainpage-title": "Erforschen, Herstellen, Teilen",
+	"wf-mainpage-univers": "Themen entdecken",
 	"wf-mainpage-subtitle": "Kostenlose Schritt-für-Schritt und Open Source Anleitungen, die jeder erstellen und verbessern kann.",
 	"wf-mainpage-signup": "Einen Account erstellen",
 	"wf-mainpage-login": "Verbinden",
@@ -537,5 +541,8 @@
 	"help-admin-rights-02":"Um die Zugriffsrechte eines Benutzers zu ändern, gehen Sie auf die Seite $1, geben Sie den '''Benutzernamen''' des betreffenden Benutzers ein und wählen Sie die relevante Gruppe aus, die Sie diesem Benutzer hinzufügen möchten.",
 	"help-translate-01":"Wie das Wiki-Modell kann jede Seite von jedem Benutzer übersetzt werden. Wenn Sie an der Übersetzung teilnehmen möchten, gehen Sie zu $1, um die Liste der zu übersetzenden oder in Bearbeitung befindlichen Seiten anzuzeigen.",
 	"help-recent-changes-01":"Um die Liste der letzten Änderungen zu sehen, gehen Sie zu $1.",
-	"help-recent-changes-02":"Um die Liste der letzten Diskussionen anzuzeigen, gehen Sie zu $1 und wählen Sie '''Thema''' in der Dropdown-Liste '''Namensraum'''"
+	"help-recent-changes-02":"Um die Liste der letzten Diskussionen anzuzeigen, gehen Sie zu $1 und wählen Sie '''Thema''' in der Dropdown-Liste '''Namensraum'''",
+	"wf-cs-title":"Kommentare",
+    "wf-mainpage-nl-title":"Abonnieren Sie unseren Newsletter",
+    "wf-mainpage-nl-subtitle":"Unsere Neuigkeiten und einige von unserem Team ausgewählte Projekte, von Zeit zu Zeit."
 }

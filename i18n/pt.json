@@ -9,6 +9,7 @@
     "wf-footer-1": "Wikifab - uma associação sem fins lucrativos administrada ",
     "wf-footer-2": "por entusiastas.",
     "wf-contribute-title": "Contribuir ",
+    "wf-ga-views":"Visualizações:",
     "wf-contribute-subtitle": "A nossa missão consiste em ensinar todos a fazer tudo, pelo que precisamos da sua ajuda!",
 	"wf-contribute-createtuto-title": "Criar um tutorial ",
 	"wf-contribute-createtuto-subtitle1": "Crie um novo tutorial e partilhe os seus conhecimentos",
@@ -146,7 +147,8 @@
 	"wf-formgroup-fieldname-event-address": "Endereço",
 	"wf-formgroup-fieldname-event-date": "Data",
 	"wf-formgroup-fieldname-event-link": "Link ",
-	"wf-mainpage-title": "Tutoriais de tudo, escritos por todos ",
+	"wf-mainpage-title": "Explorar, Hacer, Compartir",
+	"wf-mainpage-univers": "Descubra os tópicos",
 	"wf-mainpage-subtitle": "Passo a passo grátis e de open-source para que todos possam criar e melhorar. ",
 	"wf-mainpage-signup": "Criar uma conta ",
 	"wf-mainpage-login": "Login ",
@@ -256,5 +258,8 @@
 	"wf-systemmessages-Uploadnologintext-message2":"identificar-se",
 	"wf-systemmessages-Uploadnologintext-message3":"para importar arquivos",
 	"wf-systemmessages-translation-intro":"Esta página é uma versão traduzida da página [[$2]] e a tradução está $3 % concluída ",
-	"wf-systemmessages-translation-introbtn":"Participar na tradução "
+	"wf-systemmessages-translation-introbtn":"Participar na tradução ",
+	"wf-cs-title":"Comentários",
+	"wf-mainpage-nl-title":"Assine a nossa newsletter",
+    "wf-mainpage-nl-subtitle":"Nossas novidades e alguns projetos escolhidos pela nossa equipe, de tempos em tempos."
 }

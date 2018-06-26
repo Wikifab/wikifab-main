@@ -2,3 +2,6 @@
 [[Notes::{{{Notes|}}}]] | }}
 
 [{{fullurl:{{PAGENAME}}|action=history}} {{int:wf-last-edit-on}}] {{REVISIONDAY:{{PAGENAME}}}}/{{REVISIONMONTH:{{PAGENAME}}}}/{{REVISIONYEAR:{{PAGENAME}}}} {{int:wf-last-edit-by}} [[user:{{REVISIONUSER:{{PAGENAME}}}}]].
+
+<h2 class="cs-title">{{int:wf-cs-title}}</h2>
+<comment-streams/>

@@ -1,12 +1,44 @@
-<choose uncached>
+__NOTOC__{{#ifanon:<choose uncached>
 <option>{{Marketing-HP-1}}</option>
 <option>{{Marketing-HP-2}}</option>
 <option>{{Marketing-HP-3}}</option>
-</choose>
+</choose>|{{HP-Loggedin}}}}
 {{#displayExplore:  Tuto,completeonly}}
+<div class="wikifab-univers">
+<div class="container">
+<h3>{{int:wf-mainpage-univers}}</h3>
+<div class="row">
+<div class="col-md-4">
+<div class="wf-univers-box wf-univers-electronic">
+<h4>[[Electronics|{{int:wf-propertyvalue-area-Electronics}}]]</h4>
+</div>
+</div>
+<div class="col-md-2">
+<div class="wf-univers-box wf-univers-wood">
+<h4>[[Wood|{{int:wf-propertyvalue-area-wood}}]]</h4>
+</div>
+</div>
+<div class="col-md-2">
+<div class="wf-univers-box wf-univers-craft">
+<h4>[[Craft|{{int:wf-propertyvalue-area-craft}}]]</h4>
+</div>
+</div>
+<div class="col-md-2">
+<div class="wf-univers-box wf-univers-deco">
+<h4>[[Decoration|{{int:wf-propertyvalue-area-Decoration}}]]</h4>
+</div>
+</div>
+<div class="col-md-2">
+<div class="wf-univers-box wf-univers-robotics">
+<h4>[[Robotics|{{int:wf-propertyvalue-area-Robotics}}]]</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="wikifab-newsletter">
 <div class="container">
-<h3>Abonnez-vous à notre newsletter</h3>
-<p class="wikifab-newsletter-subtitle">Notre actu et quelques projets choisis par notre équipe, de temps en temps.</p>
+<h3>{{int:wf-mainpage-nl-title}}</h3>
+<p class="wikifab-newsletter-subtitle">{{int:wf-mainpage-nl-subtitle}}</p>
 <mailchimpforms prefix="wikifab" account="845f275eba189755c03252f6a" list="2875a20e26" type="subscribe" bordercss="none" closelink="no" /></div>
 </div>
