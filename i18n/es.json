@@ -146,7 +146,8 @@
 	"wf-formgroup-fieldname-event-address": "Dirección",
 	"wf-formgroup-fieldname-event-date": "Fecha",
 	"wf-formgroup-fieldname-event-link": "Enlace",
-	"wf-mainpage-title": "Tutoriales para fabricar cualquier cosa, creados por todo el mundo",
+	"wf-mainpage-title": "Explorar, Hacer, Compartir",
+	"wf-mainpage-univers": "Descubrir temas",
 	"wf-mainpage-subtitle": "Tutoriales paso a paso gratuitos y de código abierto que cualquiera puede crear y mejorar.",
 	"wf-mainpage-signup": "Crear una cuenta",
 	"wf-mainpage-login": "Conectarse",
@@ -257,5 +258,7 @@
 	"wf-systemmessages-Uploadnologintext-message3":"para importar archivos",
 	"wf-systemmessages-translation-intro":"Esta página es una versión traducida de la página [[$2]] y la traducción está completa al $3 %",
 	"wf-systemmessages-translation-introbtn":"Participar en la traducción",
-	"wf-cs-title":"Comentarios"
+	"wf-cs-title":"Comentarios",
+    "wf-mainpage-nl-title":"Suscríbase a nuestro boletín de noticias",
+    "wf-mainpage-nl-subtitle":"Nuestras noticias y algunos proyectos elegidos por nuestro equipo, de vez en cuando."
 }

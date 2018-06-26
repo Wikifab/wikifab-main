@@ -146,7 +146,8 @@
 	"wf-formgroup-fieldname-event-address": "Indirizzo",
 	"wf-formgroup-fieldname-event-date": "Data",
 	"wf-formgroup-fieldname-event-link": "Link",
-	"wf-mainpage-title": "Tutorial per fabbricare tutto, scritti da tutti",
+	"wf-mainpage-title": "Esplora, crea, condividi",
+	"wf-mainpage-univers": "Scopri gli argomenti",
 	"wf-mainpage-subtitle": "Con un passo dopo l'altro gratuito e open source, tutti possono creare e migliorare.",
 	"wf-mainpage-signup": "Creare un account",
 	"wf-mainpage-login": "Connettersi",
@@ -257,5 +258,7 @@
 	"wf-systemmessages-Uploadnologintext-message3":"per importare dei file",
 	"wf-systemmessages-translation-intro":"Questa pagina è una versione tradotta della pagina [[$2]] e la traduzione è completa al $3 %",
 	"wf-systemmessages-translation-introbtn":"Partecipare alla traduzione",
-	"wf-cs-title":"Commenti"
+	"wf-cs-title":"Commenti",
+    "wf-mainpage-nl-title":"Iscriviti alla nostra newsletter",
+    "wf-mainpage-nl-subtitle":"Le nostre notizie e alcuni progetti scelti dal nostro team, di volta in volta."
 }

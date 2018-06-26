@@ -146,7 +146,8 @@
 	"wf-formgroup-fieldname-event-address": "Adresse",
 	"wf-formgroup-fieldname-event-date": "Datum",
 	"wf-formgroup-fieldname-event-link": "Link",
-	"wf-mainpage-title": "Tutorials um alles herzustellen, geschrieben von allen",
+	"wf-mainpage-title": "Erforschen, Herstellen, Teilen",
+	"wf-mainpage-univers": "Themen entdecken",
 	"wf-mainpage-subtitle": "Kostenlose Schritt-für-Schritt und Open Source Anleitungen, die jeder erstellen und verbessern kann.",
 	"wf-mainpage-signup": "Einen Account erstellen",
 	"wf-mainpage-login": "Verbinden",
@@ -538,5 +539,7 @@
 	"help-translate-01":"Wie das Wiki-Modell kann jede Seite von jedem Benutzer übersetzt werden. Wenn Sie an der Übersetzung teilnehmen möchten, gehen Sie zu $1, um die Liste der zu übersetzenden oder in Bearbeitung befindlichen Seiten anzuzeigen.",
 	"help-recent-changes-01":"Um die Liste der letzten Änderungen zu sehen, gehen Sie zu $1.",
 	"help-recent-changes-02":"Um die Liste der letzten Diskussionen anzuzeigen, gehen Sie zu $1 und wählen Sie '''Thema''' in der Dropdown-Liste '''Namensraum'''",
-	"wf-cs-title":"Kommentare"
+	"wf-cs-title":"Kommentare",
+    "wf-mainpage-nl-title":"Abonnieren Sie unseren Newsletter",
+    "wf-mainpage-nl-subtitle":"Unsere Neuigkeiten und einige von unserem Team ausgewählte Projekte, von Zeit zu Zeit."
 }

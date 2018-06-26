@@ -162,7 +162,8 @@
 	"wf-formgroup-fieldname-event-address": "Address",
 	"wf-formgroup-fieldname-event-date": "Date",
 	"wf-formgroup-fieldname-event-link": "Link",
-	"wf-mainpage-title": "Tutorials to make anything, written by everyone",
+	"wf-mainpage-title": "Explore, Make, Share",
+	"wf-mainpage-univers": "Discover topics",
 	"wf-mainpage-subtitle": "Wikifab empowers individuals to share their creative skills with the rest of the world.",
 	"wf-mainpage-signup": "Sign up",
 	"wf-mainpage-login": "Log in",
@@ -176,6 +177,8 @@
 	"wf-propertyvalue-area-Decoration": "Decoration",
 	"wf-propertyvalue-area-Electronics": "Electronics",
 	"wf-propertyvalue-area-Energy": "Energy",
+	"wf-propertyvalue-area-wood": "Wood",
+	"wf-propertyvalue-area-craft": "Craft",
 	"wf-propertyvalue-area-Furniture": "Furniture",
 	"wf-propertyvalue-area-House": "House",
 	"wf-propertyvalue-area-Robotics": "Robotics",
@@ -551,5 +554,7 @@
 	"help-recent-changes-01":"To see the list of recent modifications, go to $1.",
 	"help-recent-changes-02":"To see the list of last discussions, go to $1 and select '''Topic''' in the drop-down list '''Name space'''.",
 	"wf-reorder-tutorials":"Reorder tutorials",
-    "wf-cs-title":"Comments"
+    "wf-cs-title":"Comments",
+    "wf-mainpage-nl-title":"Subscribe to our newsletter",
+    "wf-mainpage-nl-subtitle":"Our news and some projects chosen by our team, from time to time."
 }
