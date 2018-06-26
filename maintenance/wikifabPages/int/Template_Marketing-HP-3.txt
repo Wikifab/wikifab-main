@@ -1,7 +1,7 @@
 <div class="marketing-section-hp homepage-banner-03">
 <div class="marketing-section-hp-overlay">
 <div class="marketing-section-hp-content">
-<h1>Tutoriels pour tout fabriquer, écrits par tous</h1>
+<h1>{{int:wf-mainpage-title}}</h1>
 <div class="marketing-section-hp-loginbuttons">
 [[Special:UserLogin/signup|<span class="sign-up-button-hp">{{int:wf-mainpage-signup}}</span>]] <span class="sign-up-or">{{int:wf-mainpage-or}}</span> [[Special:UserLogin|<span class="log-in-link">{{int:wf-mainpage-login}}</span>]]</div>
 </div>

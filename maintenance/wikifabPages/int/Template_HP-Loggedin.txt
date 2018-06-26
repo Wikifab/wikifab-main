@@ -1,0 +1,13 @@
+<div class="wf-hp-userprogress">
+<div class="container">
+<div class="row">
+{{#userInfo:}}{{#userInfoChecked:}}
+<div class="col-md-4">
+<div class="wf-hp-userprogress-start">
+<p class="wf-hp-userprogress-start-title">{{int:wf-mainpage-goforit}}</p>
+<p><span class="btn" data-toggle="modal" data-target="#CreateNewPage">{{int:wf-formtutorial-main-title}}</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
