@@ -5,7 +5,8 @@ __NOTOC__
 <div class="col-md-5 col-sm-5 col-xs-12 fullWidthPrint">
 <div class="tuto-main-image">{{#if:{{{Main_Picture|}}}|{{#annotatedImage:[[File:{{{Main_Picture}}}|frameless|border]]|{{{Main_Picture_annotation}}}}}|<div class="no-image-yet"><div><i class="fa fa-image" aria-hidden="true"></i></div><p>{{{int:wf-noimageyet}}}</p></div>}}
 <div class="print-only pageurl">{{fullurl:{{FULLPAGENAME}}}}</div>
-<div class="print-only lasteditdateinfo">Dernière modification le {{REVISIONDAY2}}/{{REVISIONMONTH}}/{{REVISIONYEAR}} </div>
+<div class="print-only lasteditdateinfo">Dernière modification le {{REVISIONDAY2}}/{{REVISIONMONTH}}/{{REVISIONYEAR}}</div>
+<p class="tuto-details-ga-views">{{int:wf-ga-views}} {{#googleanalyticsmetrics:pageviews}}</p>
 </div>
 <div class="row tuto-details-box print-only">
 <br>
