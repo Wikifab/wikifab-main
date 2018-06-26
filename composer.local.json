@@ -6,6 +6,10 @@
         },
         {
 			"type": "vcs",
+			"url": "git@github.com:wikimedia/mediawiki-extensions-CommentStreams"
+        },
+        {
+			"type": "vcs",
 			"url": "git@github.com:wikimedia/mediawiki-extensions-LocalisationUpdate.git"
         },
 		{
@@ -15,10 +19,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:Wikifab/skin-chameleon-wikifab.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:Wikifab/CommentsProperty.git"
 		},
 		{
 			"type": "vcs",
@@ -152,6 +152,7 @@
 		"mediawiki/CategoryTree": "*",
 		"mediawiki/clean-changes":"*",
 		"mediawiki/cldr": "*",
+		"mediawiki/comment-streams": "dev-REL1_31",
 		"mediawiki/localisation-update": "*",
 		"mediawiki/translate":"dev-REL1_29",
 		"mediawiki/flow": "dev-REL1_29",
@@ -163,43 +164,43 @@
 		"wikifab/author-div": "^0.1.1",
 		"wikifab/auto-set-page-lang": "^1.1.3",
 		"wikifab/carousel": "^0.1.2",
-		"wikifab/chameleon-skin": "^1.3.0",
+		"wikifab/chameleon-skin": "dev-master",
 		"wikifab/check-page-title": "^1.1.0",
-		"wikifab/comments-property": "dev-master",
-		"wikifab/Drafts": "^1.0.4",
+		"wikifab/comments-property": "^1.0.0",
+		"wikifab/Drafts": "^1.0.3",
 		"wikifab/Echo":"dev-REL1_29",
 		"wikifab/embed-video":"^2.5.4",
-		"wikifab/explore": "^2.4.0",
+		"wikifab/explore": "^2.6.1",
 		"wikifab/flow-counter-talks": "^1.0.2",
-		"wikifab/GroupsPage":"^1.0.0",
+		"wikifab/GroupsPage":"^1.2.0",
 		"wikifab/googleAnalytics": "^0.1.0",
-		"wikifab/ImageAnnotator": "^1.3.0",
+		"wikifab/ImageAnnotator": "^1.4.0",
 		"wikifab/InputBox": "^128.1.0",
-		"wikifab/MmsUpload": "^0.4.3",
+		"wikifab/MmsUpload": "^0.5.0",
 		"wikifab/MultimediaViewer":"^0.3.0",
-		"wikifab/page-forms": "dev-master",
-		"wikifab/page-loading-spinner": "^1.0.0",
-		"wikifab/PageMediaGallery":"dev-master",
+		"wikifab/page-forms": "^2.4.0",
+		"wikifab/page-loading-spinner": "^1.1.0",
+		"wikifab/PageMediaGallery":"^1.5.0",
 		"wikifab/PdfExportRequest": "^1.0.2",
 		"wikifab/random-selection": "^2.2.2",
 		"wikifab/sample-display": "^0.1.0",
 		"wikifab/side-summary":"^1.0.1",
 		"wikifab/simple-embed-video":"^1.0.2",
 		"wikifab/SimpleLanguageSelector": "^1.0.6",
-		"wikifab/SocialProfile": "^1.2.0",
+		"wikifab/SocialProfile": "^1.3.0",
 		"wikifab/stepnumber": "^0.1.0",
 		"wikifab/tabber": "^2.4.1",
 		"wikifab/tables-in-semantic": "^1.0.0",
 		"wikifab/translate-tags-in-ve":"^0.1.0",
-		"wikifab/UsersPagesLinks":"dev-master",
+		"wikifab/UsersPagesLinks":"^1.2.1",
 		"wikifab/UsersWatchButton":"^1.0.0",
 		"wikifab/UsersWatchlist":"^1.0.2",
 		"wikifab/ve-force-reload": "^1.0.0",
 		"wikifab/ve-templates": "^0.1.1",
 		"wikifab/Wf-search": "^0.1.4",
-		"wikifab/wfext-style": "^1.0.0",
+		"wikifab/wfext-style": "^1.2.0",
 		"wikifab/widgets": "^1.3.1",
-		"wikifab/wikifabStyleModule": "^2.0.0"
+		"wikifab/wikifabStyleModule": "^2.3.0"
 	},
 	"suggest": {
 		"ext-imagick": "*",
