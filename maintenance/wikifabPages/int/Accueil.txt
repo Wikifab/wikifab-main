@@ -1,8 +1,8 @@
-<choose uncached>
+__NOTOC__{{#ifanon:<choose uncached>
 <option>{{Marketing-HP-1}}</option>
 <option>{{Marketing-HP-2}}</option>
 <option>{{Marketing-HP-3}}</option>
-</choose>
+</choose>|{{HP-Loggedin}}}}
 {{#displayExplore:  Tuto,completeonly}}
 <div class="wikifab-univers">
 <div class="container">
