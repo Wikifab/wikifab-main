@@ -3,7 +3,7 @@ __NOTOC__
 <div class="col-md-2 col-sm-3 col-xs-4">
 <div class="group-machine-image">
 {{#if:{{{group-machine-image|}}}|<div class="tuto-main-image">[[File:{{{group-machine-image}}}|link=]]</div> |
-<div class="tuto-main-image"><div class="no-image-yet"><div><i class="fa fa-image" aria-hidden="true"></i></div><p>{{{int:wf-noimageyet}}}</p></div></div> }}
+<div class="tuto-main-image"><div class="no-image-yet"><div><i class="fa fa-image" aria-hidden="true"></i></div><p>{{int:wf-noimageyet}}</p></div></div> }}
 </div>
 </div>
 <div class="col-md-10 col-sm-9 col-xs-8">
