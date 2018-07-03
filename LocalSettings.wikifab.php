@@ -150,6 +150,7 @@ $wgHooks['MimeMagicInit'][] = 'wfAddMimeTypes';
 function wfAddMimeTypes( $mimeMagic ) {
 	$mimeMagic->addExtraTypes( "text/plain dxf" );
 	$mimeMagic->addExtraTypes( "text/plain ino" );
+	$mimeMagic->addExtraTypes( "text/x-c ino" );
 	$mimeMagic->addExtraTypes( "text/plain stl" );
 	$mimeMagic->addExtraTypes( "application/pdf ai" );
 }
