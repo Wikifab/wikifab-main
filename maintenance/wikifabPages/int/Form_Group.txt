@@ -181,6 +181,6 @@ __NOTOC__<noinclude>
 {{{end template}}}</div></div>
 
 <hr class="WfEndForm">
-<div class="saving-menu"><span class="display-none">{{{standard input|watch}}} {{{standard input|saveDraft}}}</span>{{{standard input|cancel}}}{{{standard input|save and continue}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
+<div class="saving-menu">{{{standard input|saveDraft}}}<span class="display-none">{{{standard input|watch}}}</span>{{{standard input|cancel}}}{{{standard input|save}}}<span id="loaderSave"><i class="fa fa-spinner fa-pulse fa-2x fa-fw "></i></span>
 </div>
 </includeonly>
