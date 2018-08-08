@@ -233,7 +233,10 @@
         <echo msg="Downloading 3D..." />
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
-			<arg value="wget -O 3D.tar.gz  https://extdist.wmflabs.org/dist/extensions/3D-REL1_29-05199c3.tar.gz"/>
+			<!-- https://extdist.wmflabs.org/dist/extensions/3D-REL1_29-05199c3.tar.gz -->
+			<!-- https://extdist.wmflabs.org/dist/extensions/3D-REL1_31-84bb175.tar.gz -->
+						
+			<arg value="wget -O 3D.tar.gz  https://extdist.wmflabs.org/dist/extensions/3D-REL1_31-84bb175.tar.gz"/>
 		</exec>
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
 			<arg value="-c"/>
