@@ -13,7 +13,6 @@ require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
 enableSemantics( $wgServer );
 require_once "$IP/extensions/PageForms/PageForms.php";
 require_once "$IP/extensions/Stepnumber/StepNumber.php";
-require_once "$IP/extensions/WfSearch/WfSearch.php";
 require_once "$IP/extensions/Explore/WfExplore.php";
 require_once "$IP/extensions/AuthorDiv/WfAuthorDiv.php";
 require_once "$IP/extensions/Carousel/Carousel.php";
