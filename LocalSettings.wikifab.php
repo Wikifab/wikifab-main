@@ -29,7 +29,6 @@ require_once "$IP/extensions/Flow/Flow.php";
 require_once("$IP/extensions/GroupsPage/GroupsPage.php");
 require_once "$IP/extensions/Scribunto/Scribunto.php";
 wfLoadExtension( 'CheckPageTitle' );
-wfLoadExtension( 'CommentsProperty' );
 wfLoadExtension( 'Echo' );
 wfLoadExtension( 'EmbedVideo' );
 wfLoadExtension( 'FlowCounterTalks' );
