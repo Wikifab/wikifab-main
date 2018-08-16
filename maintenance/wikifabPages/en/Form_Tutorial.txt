@@ -179,7 +179,7 @@ Never mention commercial brands unless the object of your tutorial can't be made
 </div>
 <div class="saving-menu">
 <div class="container">
-{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
+{{{standard input|save}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span>
 </div>
 </div>
 </includeonly>

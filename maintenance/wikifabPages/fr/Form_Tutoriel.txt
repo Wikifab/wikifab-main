@@ -195,7 +195,7 @@ L'utilisation de nom commerciaux (marques, etc.) est interdite.}}}</div>
 {{{end template}}}
 [[Catégorie:Tutoriels]]
 </div>
-<div class="saving-menu">{{{standard input|save}}} {{{standard input|save and continue}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span></div>
+<div class="saving-menu">{{{standard input|save}}} {{{standard input|cancel}}}  {{{standard input|watch}}} <span class="status-checkbox">{{{for template|Tuto_Status}}}{{{field|Complete}}}{{{end template}}}</span></div>
 </includeonly>
 
 <div class="modal fade wfform" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
