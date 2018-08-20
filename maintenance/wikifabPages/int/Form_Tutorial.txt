@@ -161,7 +161,7 @@ __NOTOC__<noinclude>
 <div class="multipleTemplate-tutostep">{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=400|add button text={{int:wf-formtutorial-step-btnaddstep}} }}}
 <div class="row">
 <div class="col-sm-6 col-xs-12 col-sm-push-6 WfFormTutoStepInstructions">
-<div>{{{field|Step_Title|input type=text|translatable|class=form-text form-step-title|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
+<div class="step-title-numeroted">{{{field|Step_Title|input type=text|translatable|class=form-text form-step-title|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
 <div>{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea}}}</div>
 </div>
 <div class="col-sm-6 col-xs-12 col-sm-pull-6">
