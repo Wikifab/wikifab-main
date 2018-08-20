@@ -21,9 +21,9 @@ For esthetic reasons, some pages of Wikifab (like the homepage) are full-width.
 
 You might want to disable or enable the full-width layout to make your pages fit your own design. To do that, you need to over-write and edit the Wikifab Layout. Here is how to do this:
 
-1. Download the file skins/wikifabStyleModule/layout-wikifab.xml and rename it (ie. layout-something.xml)
+1. Download the file skins/wikifab-style-module/layout-wikifab.xml and rename it (ie. layout-something.xml)
 
-2. Upload it to the same folder (so you now have skins/wikifabStyleModule/layout-something.xml)
+2. Upload it to the same folder (so you now have skins/wikifab-style-module/layout-something.xml)
 
 3. Add this line to your Localsetting.php:
 
@@ -81,8 +81,8 @@ Upload your CSS file onto your server. Let's say it ends up as /skins/Custom/css
 Adding the following lines to LocalSettings.php:
 
 	$egChameleonExternalStyleModules = array(
-		__DIR__ . '/skins/wikifabStyleModule/chameleon-wikifab.less' => $wgScriptPath . '/skins/wikifabStyleModule',
-		__DIR__ . '/skins/wikifabStyleModule/font-awesome-4.4.0/less/font-awesome.less' => $wgScriptPath . 	'/skins/wikifabStyleModule/font-awesome-4.4.0/less/font-awesome.less',
+		__DIR__ . '/skins/wikifab-style-module/chameleon-wikifab.less' => $wgScriptPath . '/skins/wikifab-style-module',
+		__DIR__ . '/skins/wikifab-style-module/font-awesome-4.4.0/less/font-awesome.less' => $wgScriptPath . 	'/skins/wikifab-style-module/font-awesome-4.4.0/less/font-awesome.less',
  	   __DIR__ . '/skins/Custom/css/style.css' => $wgScriptPath . '/skins/Custom',
 	   );
 
