@@ -158,7 +158,7 @@
 			</then>
 		</if>
 		<copy todir="build/wikifab/extensions/VisualEditor" >
-			<fileset dir="build/mediawiki-extensions-VisualEditor-REL1_31">
+			<fileset dir="build/VisualEditor">
 				<include name="**/*" />
 			</fileset>
 		</copy>
