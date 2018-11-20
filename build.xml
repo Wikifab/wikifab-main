@@ -148,7 +148,7 @@
 				</exec>-->
 				<exec executable="bash">
 					<arg value="-c"/>
-					<arg value="wget https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_31-13a585a.tar.gz -O build/VisualEditor-REL1_31.tar.gz"/>
+					<arg value="wget https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_31-6854ea0.tar.gz -O build/VisualEditor-REL1_31.tar.gz"/>
 				</exec>
 				
 				<exec executable="bash">
