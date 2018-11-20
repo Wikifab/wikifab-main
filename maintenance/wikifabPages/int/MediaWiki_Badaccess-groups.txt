@@ -1,1 +1,2 @@
-{{#ifanon:<div class="alert alert-warning" role="alert">{{int:wf-systemmessages-badaccess-message}} [[Special:UserLogin/signup|{{int:wf-systemmessages-badaccess-signup}}]] {{int:wf-systemmessages-badaccess-or}} [[Special:UserLogin|{{int:wf-systemmessages-badaccess-login}}]].</div>|}}
+{{#ifanon:<div class="alert alert-warning" role="alert">{{int:wf-systemmessages-badaccess-message}} 
+[{{fullurl:Special:UserLogin/signup|returnto={{FULLPAGENAMEE}}}} {{int:wf-systemmessages-badaccess-signup}}] {{int:wf-systemmessages-badaccess-or}} [{{fullurl:Special:UserLogin|returnto={{FULLPAGENAMEE}}}} {{int:wf-systemmessages-badaccess-login}}].</div>|}}
