@@ -104,7 +104,7 @@
 		"wikifab/googleAnalytics": "^0.1.0",
 		"wikifab/image-annotator": "^1.6.2",
 		"wikifab/InputBox": "^128.1.0",
-		"wikifab/mms-upload": "^2.0.0",
+		"wikifab/mms-upload": "dev-master",
 		"wikifab/multimedia-viewer":"^1.0.0",
 		"wikifab/page-forms": "dev-REL1_32",
 		"wikifab/page-loading-spinner": "^1.2.0",
