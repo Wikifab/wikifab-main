@@ -125,7 +125,7 @@ class InitWikifab extends Maintenance {
 		$namespace = $wikipage->getTitle()->getNamespace();
 		$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
-		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == 106 ) { // 106 : Form
+		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == PF_NS_FORM ) { // 106 : Form
 
 			$types = ['CHECKBOXES', 'DROPDOWN', 'TEXT'];
 
@@ -142,7 +142,7 @@ class InitWikifab extends Maintenance {
 				$text = preg_replace($search_pattern, $replace, $text);
 			}
 
-		} elseif ( $title == 'Tuto Details' && $namespace == 10 ) { // 10 : Template
+		} elseif ( $title == 'Tuto Details' && $namespace == NS_TEMPLATE ) { // 10 : Template
 
 			$types = ['WEB', 'PRINT'];
 
