@@ -10,32 +10,6 @@ __NOTOC__<noinclude>
 </div>|
 <h1>{{int:wf-formtutorial-main-title}}</h1>
 {{#forminput:form=Tutorial|button text={{int:wf-formtutorial-main-btn}}|placeholder={{int:wf-formtutorial-main-placeholder}}|}}
-<p data-toggle="modal" data-target="#ModalNom"><span class="glyphicon glyphicon-info-sign"></span> {{int:wf-formtutorial-main-subtitle}}</p>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-4 col-sm-4 col-xs-12">
-[[Wikifab:Get_started|<span class="contribute-block">
-<span class="glyphicon glyphicon-thumbs-up icon-contribute" aria-hidden="true"></span>
-<span class="contribute-block-title">{{int:wf-contribute-getstart-title}}</span>
-<span>{{int:wf-contribute-getstart-subtitle1}}</span>
-</span>]]
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12">
-[[Wikifab:Taking_pictures|<span class="contribute-block">
-<span class="glyphicon glyphicon-camera icon-contribute" aria-hidden="true"></span>
-<span class="contribute-block-title">{{int:wf-contribute-takingpictures-title}}</span>
-<span>{{int:wf-contribute-takingpictures-subtitle1}}</span>
-</span>]]
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12">
-[[Wikifab:Help|<span class="contribute-block">
-<span class="glyphicon glyphicon-book icon-contribute" aria-hidden="true"></span>
-<span class="contribute-block-title">{{int:wf-contribute-help-title}}</span>
-<span>{{int:wf-contribute-help-subtitle1}}</span>
-</span>]]
 </div>
 </div>
 </div>
@@ -91,13 +65,27 @@ __NOTOC__<noinclude>
 </div>
 {{{end template}}}
 <div class="hrContentMinor-2"></div>
+<div class="IntroductionFormTemplate hide-mobile-view">
 {{{for template|Introduction}}}
 <div class="edit-step-title">{{int:wf-formtutorial-introduction-field-title}} <span>{{int:wf-formtutorial-introduction-field-info}}</span></div>
 {{{field|Introduction|input type=textarea|translatable|rows=5|maxlength=10000|class=form-textarea}}}
 {{{end template}}}
-<div class="multipleTemplateHideButton">
+</div>
+<div class="hide-mobile-view multipleTemplateHideButton multipleTemplateSingleEntry">
 {{{for template|TutoVideo|multiple|minimum=0|maximum instances=1|add button text={{int:wf-tuto-video-btnlink}} }}}
-{{#formLinkVideo:{{{field|TutoVideoService|dropdown|mandatory|class=embedVideoDropdown}}} | {{{field|TutoVideoURL|mandatory|class=embedVideoUrlInput WfFormText}}}}} 
+<div class="dokit-video-radio">{{{field|VideoType|input type=dropdown|default=Youtube|mandatory|class=WfFormDropdown WfFormDropdownAutoWidth WfFormTextCombine|show on select=Youtube=>dokit-video-youtube;Vimeo=>dokit-video-vimeo;Dailymotion=>dokit-video-dailymotion;Mp4=>dokit-video-mp4}}}</div>
+<div class="dokit-video-url" id="dokit-video-youtube">
+{{{field|VideoURLYoutube|mandatory|placeholder={{int:dokit-video-youtube-placeholder}}|class=dokit-video-url-field}}}
+</div>
+<div class="dokit-video-url" id="dokit-video-vimeo">
+{{{field|VideoURLVimeo|mandatory|placeholder={{int:dokit-video-vimeo-placeholder}}|class=dokit-video-url-field}}}
+</div>
+<div class="dokit-video-url" id="dokit-video-dailymotion">
+{{{field|VideoURLDailymotion|placeholder={{int:dokit-video-dailymotion-placeholder}}|mandatory|class=dokit-video-url-field}}}
+</div>
+<div class="dokit-video-url" id="dokit-video-mp4">
+{{{field|mp4video|uploadable|size=25|class=form-picture}}}
+</div>
 {{{end template}}}
 </div>
 {{{for template|Materials}}}
@@ -109,26 +97,16 @@ __NOTOC__<noinclude>
 <div class="col-pic-materials msuploadContainer">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
-<p class="upload-instructions">Votre image sera visible après l'enregistrement de la page.</p>
-<div class="btn btn-primary" type="button" data-toggle="collapse-next"  aria-expanded="false" >+ Ajouter des photos </div>
-<div class="collapse" id="collapseExample">
-<div class="well add-more-pics">
-<span>2ème photo : </span>{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_01_annotation|input type=editableImage|target=Step_Picture_01}}}
-
-<span>3ème photo : </span>{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_02|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_02_annotation|input type=editableImage|target=Step_Picture_02}}}
-
-<span>4ème photo : </span>{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_03|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_03_annotation|input type=editableImage|target=Step_Picture_03}}}
-
-<span>5ème photo : </span>{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_04|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_04_annotation|input type=editableImage|target=Step_Picture_04}}}
-
-<span>6ème photo : </span>{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
+{{{field|Step_Picture_05|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_05_annotation|input type=editableImage|target=Step_Picture_05}}}
-</div>
-</div>
 </div>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -136,6 +114,7 @@ __NOTOC__<noinclude>
 {{{field|Material|input type=textarea|class=form-textarea|translatable|rows=8}}}
 <div class="edit-step-title">{{int:wf-formtutorial-tools-tabs-title}}</div>
 {{{field|Tools|input type=textarea|class=form-textarea|translatable|rows=8}}}
+</div>
 </div>
 {{!}}-{{!}}
  {{int:wf-prerequisites-tabs-title}} =<h4>{{int:wf-prerequisites-tabs-subtitle}}</h4><div class="prerequisites-selection">{{{field|Prerequisites|holds template}}}</div>
@@ -159,7 +138,7 @@ __NOTOC__<noinclude>
 {{{for template|Separator}}}<br>{{{end template}}}
 <h2>{{int:wf-formtutorial-steps}}</h2>
 <div class="multipleTemplate-tutostep">{{{for template|Tuto Step|multiple|minimum instances=1|maximum instances=400|add button text={{int:wf-formtutorial-step-btnaddstep}} }}}
-<div class="row">
+<div class="WfFormTutoStep">
 <div class="col-sm-6 col-xs-12 col-sm-push-6 WfFormTutoStepInstructions">
 <div class="step-title-numeroted">{{{field|Step_Title|input type=text|translatable|class=form-text form-step-title|placeholder={{int:wf-formtutorial-step-title-placeholder}}|size=50}}}</div>
 <div>{{{field|Step_Content|input type=textarea|translatable|rows=16|class=form-textarea}}}</div>
@@ -181,7 +160,7 @@ __NOTOC__<noinclude>
 </div>
 </div>
 </div>
-<div class="hrContentMinor"></div>{{{end template}}}</div>
+{{{end template}}}</div>
 <div class="bg-halfsquare-separator-3"></div>
 <div class="notes-ref">
 <h2>{{int:wf-formtutorial-note-title}}</h2>
