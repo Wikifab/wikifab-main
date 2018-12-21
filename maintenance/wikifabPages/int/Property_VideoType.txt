@@ -1,0 +1,7 @@
+This is a property of type [[Has type::Text]].
+
+Les valeurs autorisées pour cette propriété sont :
+* [[Allows value::Youtube]]
+* [[Allows value::Vimeo]]
+* [[Allows value::Dailymotion]]
+* [[Allows value::Mp4]]

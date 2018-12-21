@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row noprint">
 <div class="col-xs-12">
 <h2 class="VideoTitle">{{int:wf-video-intro-title}}</h2>
 <div class="allSizeScreenButton">
@@ -7,9 +7,17 @@
 <span class="resizeButton largeButton"></span>
 </div>
 <div class="videoMainContainer">
-<div class="videoContainer">
-{{#ev:{{{TutoVideoService|}}} | {{{TutoVideoURL|}}} }}
+<div class="videoContainer">{{#switch:{{{VideoType}}}|Youtube={{#ev:youtube|{{{VideoURLYoutube}}}}}|Vimeo={{#ev:vimeo|{{{VideoURLVimeo}}}}}|Dailymotion={{#ev:dailymotion|{{{VideoURLDailymotion}}}}}|Mp4=[[File:{{{mp4video}}}]]}}</div>
 </div>
 </div>
 </div>
+<div class="display-none">
+[[VideoType::{{{VideoType|}}}]]
+[[TutoVideoServiceYoutube::{{{TutoVideoServiceYoutube|}}}]]
+[[TutoVideoURLYoutube::{{{TutoVideoURLYoutube|}}}]]
+[[TutoVideoServiceVimeo::{{{TutoVideoServiceVimeo|}}}]]
+[[TutoVideoURLVimeo::{{{TutoVideoURLVimeo|}}}]]
+[[TutoVideoServiceDailymotion::{{{TutoVideoServiceDailymotion|}}}]]
+[[TutoVideoURLDailymotion::{{{TutoVideoURLDailymotion|}}}]]
+[[mp4video::{{{mp4video|}}}]]
 </div>
