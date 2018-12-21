@@ -94,7 +94,7 @@ __NOTOC__<noinclude>
  {{int:wf-formtutorial-tools-materials-tabs-title}} =
 <div class="material-tool-list row">
 <div class="col-md-6 col-sm-6 col-xs-12">
-<div class="col-pic-materials msuploadContainer">
+<div class="col-pic-materials msuploadContainer msuploadmultiplewhitebg">
 {{{field|Step_Picture_00|size=32|class=form-picture|default=|uploadable|image preview}}}
 {{{field|Step_Picture_00_annotation|input type=editableImage|target=Step_Picture_00}}}
 {{{field|Step_Picture_01|size=32|class=form-picture|default=|uploadable|image preview}}}
