@@ -123,9 +123,9 @@ class InitWikifab extends Maintenance {
 
 		$title = $wikipage->getTitle()->getText();
 		$namespace = $wikipage->getTitle()->getNamespace();
-		$nativeData = $wikipage->getContent()->getNativeData(); // the original text
+		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == PF_NS_FORM ) {
 
-		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == PF_NS_FORM ) { // 106 : Form
+			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
 			$types = ['CHECKBOXES', 'DROPDOWN', 'TEXT'];
 
@@ -133,16 +133,20 @@ class InitWikifab extends Maintenance {
 
 				$search_pattern = '/<!-- START ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->(.*)<!--END ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->/s';
 
-				preg_match( $search_pattern, $nativeData, $matches );
+				$ret = preg_match( $search_pattern, $nativeData, $matches );
 
-				$replace = '<!-- START ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->';
-				$replace .= $matches[1];
-				$replace .= '<!--END ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->';
+				if ($ret) {
+					$replace = '<!-- START ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->';
+					$replace .= $matches[1];
+					$replace .= '<!--END ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->';
 
-				$text = preg_replace($search_pattern, $replace, $text);
+					$text = preg_replace($search_pattern, $replace, $text);
+				}
 			}
 
-		} elseif ( $title == 'Tuto Details' && $namespace == NS_TEMPLATE ) { // 10 : Template
+		} elseif ( $title == 'Tuto Details' && $namespace == NS_TEMPLATE ) {
+
+			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
 			$types = ['WEB', 'PRINT'];
 
@@ -150,13 +154,15 @@ class InitWikifab extends Maintenance {
 
 				$search_pattern = '/<!-- START ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->(.*)<!--END ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->/s';
 
-				preg_match( $search_pattern, $nativeData, $matches );
+				$ret = preg_match( $search_pattern, $nativeData, $matches );
 
-				$replace = '/<!-- START ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->';
-				$replace .= $matches[1];
-				$replace .= '<!--END ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->';
+				if ($ret) {
+					$replace = '/<!-- START ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->';
+					$replace .= $matches[1];
+					$replace .= '<!--END ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->';
 
-				$text = preg_replace($search_pattern, $replace, $text);
+					$text = preg_replace($search_pattern, $replace, $text);
+				}
 			}
 
 		}
