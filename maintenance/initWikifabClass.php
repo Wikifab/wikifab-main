@@ -111,7 +111,7 @@ class InitWikifab extends Maintenance {
 	}
 	protected function createPage($pageName, $text, $force = false) {
 
-		global $wgmaintenanceNotOverwrite;
+		global $wginitPagesNotOverwrite;
 
 		$wikipage = $this->getPage ( $pageName );
 
@@ -120,7 +120,7 @@ class InitWikifab extends Maintenance {
 			return false;
 		}
 
-		if ( in_array( $wikipage->getTitle()->getPrefixedDBKey(), $wgmaintenanceNotOverwrite) ) {
+		if ( !is_null($wginitPagesNotOverwrite) && in_array( $wikipage->getTitle()->getPrefixedDBKey(), $wginitPagesNotOverwrite) ) {
 			return false;
 		}
 
