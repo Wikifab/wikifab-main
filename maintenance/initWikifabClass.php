@@ -110,10 +110,17 @@ class InitWikifab extends Maintenance {
 		return $user;
 	}
 	protected function createPage($pageName, $text, $force = false) {
+
+		global $wginitPagesNotOverwrite;
+
 		$wikipage = $this->getPage ( $pageName );
 
 		if ($wikipage->exists () && ! $force) {
 			echo "page $pageName allready exists.\n";
+			return false;
+		}
+
+		if ( !is_null($wginitPagesNotOverwrite) && in_array( $wikipage->getTitle()->getPrefixedDBKey(), $wginitPagesNotOverwrite) ) {
 			return false;
 		}
 
