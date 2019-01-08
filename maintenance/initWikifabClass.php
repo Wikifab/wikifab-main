@@ -119,6 +119,56 @@ class InitWikifab extends Maintenance {
 
 		$user = $this->getAdminUser ();
 
+		// ---- Custom Properties BEGIN
+
+		$title = $wikipage->getTitle()->getText();
+		$namespace = $wikipage->getTitle()->getNamespace();
+		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == PF_NS_FORM ) {
+
+			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
+
+			$types = ['CHECKBOXES', 'DROPDOWN', 'TEXT'];
+
+			foreach ($types as $type) {
+
+				$search_pattern = '/<!-- START ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->(.*)<!--END ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->/s';
+
+				$ret = preg_match( $search_pattern, $nativeData, $matches );
+
+				if ($ret) {
+					$replace = '<!-- START ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->';
+					$replace .= $matches[1];
+					$replace .= '<!--END ' . strtoupper($type) . ' ADMIN PROPERTY LIST -->';
+
+					$text = preg_replace($search_pattern, $replace, $text);
+				}
+			}
+
+		} elseif ( $title == 'Tuto Details' && $namespace == NS_TEMPLATE ) {
+
+			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
+
+			$types = ['WEB', 'PRINT'];
+
+			foreach ($types as $type) {
+
+				$search_pattern = '/<!-- START ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->(.*)<!--END ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->/s';
+
+				$ret = preg_match( $search_pattern, $nativeData, $matches );
+
+				if ($ret) {
+					$replace = '<!-- START ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->';
+					$replace .= $matches[1];
+					$replace .= '<!--END ADMIN ' . strtoupper($type) . ' PROPERTY LIST -->';
+
+					$text = preg_replace($search_pattern, $replace, $text);
+				}
+			}
+
+		}
+
+		// ---- Custom Properties END
+
 		$content = ContentHandler::makeContent( $text, $wikipage->getTitle() );
 		$result = $wikipage->doEditContent( $content, 'init wikifab pages', $flags = 0, $baseRevId = false, $user );
 
