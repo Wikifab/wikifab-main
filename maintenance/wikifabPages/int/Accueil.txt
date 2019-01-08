@@ -3,7 +3,7 @@ __NOTOC__{{#ifanon:<choose uncached>
 <option>{{Marketing-HP-2}}</option>
 <option>{{Marketing-HP-3}}</option>
 </choose>|{{HP-Loggedin}}}}
-{{#displayExplore:  Tuto,completeonly}}
+{{#displayExplore:query=[[Category::Tutorials]] [[Complete::Published]]}}
 <div class="wikifab-univers">
 <div class="container">
 <h3>{{int:wf-mainpage-univers}}</h3>
@@ -19,8 +19,8 @@ __NOTOC__{{#ifanon:<choose uncached>
 </div>
 </div>
 <div class="col-md-2">
-<div class="wf-univers-box wf-univers-lasercut">
-<h4>[[Laser cut|{{int:wf-propertyvalue-area-lasercut}}]]</h4>
+<div class="wf-univers-box wf-univers-craft">
+<h4>[[Craft|{{int:wf-propertyvalue-area-craft}}]]</h4>
 </div>
 </div>
 <div class="col-md-2">
