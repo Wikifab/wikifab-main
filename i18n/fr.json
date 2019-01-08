@@ -566,5 +566,8 @@
 	"wf-reorder-tutorials":"Réordonner les tutoriels",
     "wf-cs-title":"Commentaires",
     "wf-mainpage-nl-title":"Abonnez-vous à notre newsletter",
-    "wf-mainpage-nl-subtitle":"Notre actu et quelques projets choisis par notre équipe, de temps en temps."
+    "wf-mainpage-nl-subtitle":"Notre actu et quelques projets choisis par notre équipe, de temps en temps.",
+    "dokit-video-youtube-placeholder":"Entrez ici l'URL d'une vidéo Youtube",
+    "dokit-video-vimeo-placeholder":"Entrez ici l'URL d'une vidéo Vimeo",
+    "dokit-video-dailymotion-placeholder":"Entrez ici l'URL d'une vidéo Dailymotion"
 }	

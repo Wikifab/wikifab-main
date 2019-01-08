@@ -563,5 +563,8 @@
 	"wf-reorder-tutorials":"Reorder tutorials",
     "wf-cs-title":"Comments",
     "wf-mainpage-nl-title":"Subscribe to our newsletter",
-    "wf-mainpage-nl-subtitle":"Our news and some projects chosen by our team, from time to time."
+    "wf-mainpage-nl-subtitle":"Our news and some projects chosen by our team, from time to time.",
+    "dokit-video-youtube-placeholder":"Enter here the URL of a Youtube video",
+    "dokit-video-vimeo-placeholder":"Enter here the URL of a Vimeo video",
+    "dokit-video-dailymotion-placeholder":"Enter here the URL of a Dailymotion video"
 }
