@@ -151,7 +151,7 @@ __NOTOC__<noinclude>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-description}}</div>
 <div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-long-description|input type=textarea|rows=3|maxlength=3000|class=form-textarea|placeholder=Rédigez une description longue pour votre groupe.}}}</div>
 <div class="col-md-2 col-sm-2 col-xs-3 edit-form-title">{{int:wf-formgroup-fieldname-phone}}</div>
-<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-phone|class=group-field|placeholder=+33 1 22 33 44 55}}}</div>
+<div class="col-md-10 col-sm-10 col-xs-9 table-edit-form">{{{field|group-phone|class=group-field WfFormText|placeholder=+33 1 22 33 44 55}}}</div>
 </div>
 }}
 {{{end template}}}
@@ -166,17 +166,17 @@ __NOTOC__<noinclude>
 {{{for template|Group_Event|multiple|maximum instances=100|add button text=+ {{int:wf-formgroup-button-addevent}}|embed in field=Group Tabs[Group_Event]}}}
 <div class="row">
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-name}}</div>
-<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-title|input type=text}}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-title|input type=text|class=WfFormText}}}</div>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-description}}</div>
-<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-description|input type=text}}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-description|input type=text|class=WfFormText}}}</div>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-address}}</div>
-<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris}}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-address|input type=text|placeholder=Place de la république. 75011 Paris|class=WfFormText}}}</div>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-date}}</div>
 <div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-date|input type=datepicker
 |week start=1
 |date format=dd.mm.yy}}}</div>
 <div class="col-md-3 col-sm-3 col-xs-4 edit-form-title">{{int:wf-formgroup-fieldname-event-link}}</div>
-<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text}}}</div>
+<div class="col-md-9 col-sm-9 col-xs-8 table-edit-form">{{{field|group-event-url|input type=text|class=WfFormText}}}</div>
 </div><hr>
 {{{end template}}}</div></div>
 
