@@ -1,6 +1,7 @@
 * navigation
 ** Explore|{{int:wf-explore-title}}
 ** Groups|{{int:wf-group-title}}
+** Spécial:AllDiscussions|{{int:wf-propertyvalue-grouptype-Community}}
 * SEARCH
 * TOOLBOX
 * LANGUAGES

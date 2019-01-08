@@ -52,7 +52,7 @@ __NOTOC__
 <hr>
 <div class="group-bottom-links">
 <p class="group-ready">{{int:wf-formgroup-create-today}}</p>
-[[#create-a-group|<span class="create-group-btn">{{int:wf-formgroup-title}}</span>]]
+<span data-toggle="modal" data-target="#CreateNewGroup" class="sign-up-button-hp wf-btn-lg">{{int:wf-formgroup-title}}</span>
 <p class="download-subbutton">{{int:wf-formgroup-its-free}}</p>
 </div>
 </div>
@@ -60,7 +60,7 @@ __NOTOC__
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<h4 class="modal-title" id="myModalLabel">Créer un groupe</h4>
+<h4 class="modal-title" id="myModalLabel">{{int:wf-formgroup-title}}</h4>
 </div>
 <div class="modal-body NewPageTabs">
 {{#ifanon:<div class="alert alert-warning" role="alert">
