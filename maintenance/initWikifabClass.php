@@ -120,17 +120,32 @@ class InitWikifab extends Maintenance {
 			return false;
 		}
 
-		if ( !is_null($wginitPagesNotOverwrite) && in_array( $wikipage->getTitle()->getPrefixedDBKey(), $wginitPagesNotOverwrite) ) {
+		if ( !is_null($wginitPagesNotOverwrite) && in_array( $wikipage->getTitle()->getPrefixedDBKey(), $wginitPagesNotOverwrite) && $wikipage->exists () ) {
 			return false;
 		}
 
 		$user = $this->getAdminUser ();
 
-		// ---- Custom Properties BEGIN
+		$this->customPropertiesFetchData($wikipage);
+
+		$content = ContentHandler::makeContent( $text, $wikipage->getTitle() );
+		$result = $wikipage->doEditContent( $content, 'init wikifab pages', $flags = 0, $baseRevId = false, $user );
+
+		if ($result->isOK ()) {
+			echo "page $pageName successfully created.\n";
+			return true;
+		} else {
+			echo $result->getWikiText ();
+		}
+
+		return false;
+	}
+
+	private function customPropertiesFetchData($wikipage) {
 
 		$title = $wikipage->getTitle()->getText();
 		$namespace = $wikipage->getTitle()->getNamespace();
-		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == PF_NS_FORM ) {
+		if ( ( $title == 'DokitPage' || $title == 'Tutorial' ) && $namespace == PF_NS_FORM && $wikipage->exists () ) {
 
 			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
@@ -151,7 +166,7 @@ class InitWikifab extends Maintenance {
 				}
 			}
 
-		} elseif ( $title == 'Tuto Details' && $namespace == NS_TEMPLATE ) {
+		} elseif ( $title == 'Tuto Details' && $namespace == NS_TEMPLATE && $wikipage->exists ()) {
 
 			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
@@ -173,21 +188,8 @@ class InitWikifab extends Maintenance {
 			}
 
 		}
-
-		// ---- Custom Properties END
-
-		$content = ContentHandler::makeContent( $text, $wikipage->getTitle() );
-		$result = $wikipage->doEditContent( $content, 'init wikifab pages', $flags = 0, $baseRevId = false, $user );
-
-		if ($result->isOK ()) {
-			echo "page $pageName successfully created.\n";
-			return true;
-		} else {
-			echo $result->getWikiText ();
-		}
-
-		return false;
 	}
+
 	protected function getPageName($page) {
 		$page = str_replace ( 'Form_', 'Form:', $page );
 		$page = str_replace ( 'Property_', 'Property:', $page );
