@@ -128,6 +128,8 @@ class InitWikifab extends Maintenance {
 
 		$this->customPropertiesFetchData($wikipage);
 
+		$this->removeLanguageTagIfTranslateNotLoaded($wikipage, $text);
+
 		$content = ContentHandler::makeContent( $text, $wikipage->getTitle() );
 		$result = $wikipage->doEditContent( $content, 'init wikifab pages', $flags = 0, $baseRevId = false, $user );
 
@@ -139,6 +141,38 @@ class InitWikifab extends Maintenance {
 		}
 
 		return false;
+	}
+
+	// remove <languages /> if Translate module is not loaded
+	private function removeLanguageTagIfTranslateNotLoaded($wikipage, &$text) {
+
+		$title = $wikipage->getTitle()->getText();
+		$namespace = $wikipage->getTitle()->getNamespace();
+
+		if ( ( $title == 'Tuto details' || $title == 'Item' || $title == 'Group details' ) && $namespace == NS_TEMPLATE && $wikipage->exists () ) {
+
+			$nativeData = '';
+
+			if ($wikipage->exists()) {
+				$nativeData = $wikipage->getContent()->getNativeData(); // the original text
+			} else {
+				$nativeData = $text;
+			}
+
+			if ( !defined( 'TRANSLATE_VERSION' ) ) {
+
+				$search_pattern = '/<languages />/s';
+
+				$ret = preg_match( $search_pattern, $nativeData, $matches );
+
+				if ($ret) {
+
+					$replace = '';
+
+					$text = preg_replace($search_pattern, $replace, $text);
+				}
+			}
+		}
 	}
 
 	private function customPropertiesFetchData($wikipage) {
