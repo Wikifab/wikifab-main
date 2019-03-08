@@ -146,6 +146,10 @@ class InitWikifab extends Maintenance {
 	// remove <languages /> if Translate module is not loaded
 	private function removeLanguageTagIfTranslateNotLoaded($wikipage, &$text) {
 
+		if ( defined( 'TRANSLATE_VERSION' ) ) { 
+			return;
+		}
+
 		$title = $wikipage->getTitle()->getText();
 		$namespace = $wikipage->getTitle()->getNamespace();
 
@@ -153,24 +157,17 @@ class InitWikifab extends Maintenance {
 
 			$nativeData = '';
 
-			if ($wikipage->exists()) {
-				$nativeData = $wikipage->getContent()->getNativeData(); // the original text
-			} else {
-				$nativeData = $text;
-			}
+			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
-			if ( !defined( 'TRANSLATE_VERSION' ) ) {
+			$search_pattern = '/<languages />/s';
 
-				$search_pattern = '/<languages />/s';
+			$ret = preg_match( $search_pattern, $nativeData, $matches );
 
-				$ret = preg_match( $search_pattern, $nativeData, $matches );
+			if ($ret) {
 
-				if ($ret) {
+				$replace = '';
 
-					$replace = '';
-
-					$text = preg_replace($search_pattern, $replace, $text);
-				}
+				$text = preg_replace($search_pattern, $replace, $text);
 			}
 		}
 	}
