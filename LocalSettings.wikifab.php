@@ -58,7 +58,6 @@ $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
 
 $egChameleonLayoutFile= __DIR__ . '/skins/wikifab-style-module/layout-wikifab.xml';
 $egChameleonLayoutFileSearchResult= __DIR__ . '/skins/wikifab-style-module/layout-wikifab-search-result-int.php';
-$egChameleonLayoutFileSearchResultUserPage = __DIR__ . '/skins/wikifab-style-module/layout-wikifab-search-result-userpage-int.php';
 
 $egChameleonExternalStyleModules = array(
     __DIR__ . '/skins/wikifab-style-module/chameleon-wikifab.less' => $wgScriptPath . '/skins/wikifab-style-module',
