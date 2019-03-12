@@ -201,6 +201,8 @@
 	"wf-propertyvalue-area-lasercut":"Laser cut",
 	"wf-propertyvalue-complete-Draft": "Draft",
 	"wf-propertyvalue-complete-Published": "Published",
+	"wf-propertyvalue-complete-norev-Draft": "Draft",
+	"wf-propertyvalue-complete-norev-Published": "Published",
 	"wf-propertyvalue-difficulty-Very_easy": "Very easy",
 	"wf-propertyvalue-difficulty-Easy": "Easy",
 	"wf-propertyvalue-difficulty-Medium": "Medium",
