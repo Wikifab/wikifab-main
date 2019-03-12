@@ -203,6 +203,8 @@
 	"wf-propertyvalue-area-lasercut":"Découpe laser",
 	"wf-propertyvalue-complete-Draft": "Brouillon",
 	"wf-propertyvalue-complete-Published": "Publié",
+	"wf-propertyvalue-complete-norev-Draft": "Brouillon",
+	"wf-propertyvalue-complete-norev-Published": "Publié",
 	"wf-propertyvalue-difficulty-Very_easy": "Très facile",
 	"wf-propertyvalue-difficulty-Easy": "Facile",
 	"wf-propertyvalue-difficulty-Medium": "Moyen",
