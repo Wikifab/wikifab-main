@@ -126,7 +126,7 @@ class InitWikifab extends Maintenance {
 
 		$user = $this->getAdminUser ();
 
-		$this->customPropertiesFetchData($wikipage);
+		$this->customPropertiesFetchData($wikipage, $text);
 
 		$this->removeLanguageTagIfTranslateNotLoaded($wikipage, $text);
 
@@ -172,7 +172,7 @@ class InitWikifab extends Maintenance {
 		}
 	}
 
-	private function customPropertiesFetchData($wikipage) {
+	private function customPropertiesFetchData($wikipage, &$text) {
 
 		$title = $wikipage->getTitle()->getText();
 		$namespace = $wikipage->getTitle()->getNamespace();
