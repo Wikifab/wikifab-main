@@ -155,20 +155,15 @@ class InitWikifab extends Maintenance {
 
 		if ( ( $title == 'Tuto details' || $title == 'Item' || $title == 'Group details' ) && $namespace == NS_TEMPLATE && $wikipage->exists () ) {
 
-			$nativeData = '';
-
 			$nativeData = $wikipage->getContent()->getNativeData(); // the original text
 
-			$search_pattern = '/<languages />/s';
+			$search_pattern = '/<languages \/>/s';
 
-			$ret = preg_match( $search_pattern, $nativeData, $matches );
+			$replace = '';
 
-			if ($ret) {
+			$res = preg_replace($search_pattern, $replace, $text);
 
-				$replace = '';
-
-				$text = preg_replace($search_pattern, $replace, $text);
-			}
+			if ($res) $text = $res;
 		}
 	}
 
