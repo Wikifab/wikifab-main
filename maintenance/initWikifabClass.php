@@ -128,7 +128,7 @@ class InitWikifab extends Maintenance {
 
 		$this->customPropertiesFetchData($wikipage, $text);
 
-		$this->removeLanguageTagIfTranslateNotLoaded($wikipage, $text);
+		//$this->removeLanguageTagIfTranslateNotLoaded($wikipage, $text);
 
 		$content = ContentHandler::makeContent( $text, $wikipage->getTitle() );
 		$result = $wikipage->doEditContent( $content, 'init wikifab pages', $flags = 0, $baseRevId = false, $user );
