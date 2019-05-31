@@ -1,3 +1,2 @@
-{{#if:{{{Introduction|}}}| <div class="hrContentMinor-2"></div>
-<h2>{{int:wf-formtutorial-introduction-field-title}}</h2>
+{{#if:{{{Introduction|}}}| <h2>{{int:wf-formtutorial-introduction-field-title}}</h2>
 <div class="wf-intro">[[Introduction::{{{Introduction|}}}]] | }}</div>
