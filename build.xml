@@ -237,7 +237,7 @@
 	</target>
 
 
-	<target name="download-extensions"  depends="getMediawiki,setup-wikifab,get-ext-widgets,getVisualEditor">
+	<target name="download-extensions"  depends="getMediawiki,setup-wikifab,get-ext-widgets">
 
 		<echo msg="Download Tabber..." />
 		<exec executable="bash" dir="build" checkreturn="true" logoutput="true">
