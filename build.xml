@@ -47,6 +47,31 @@
 		</copy>
 	</target>
 
+	<target name="getMediawiki-1-32">
+		<if>
+			<not>
+				<available file="build/mediawiki-1.32.0" type="dir" />
+			</not>
+			<then>
+				<exec executable="bash">
+					<arg value="-c"/>
+					<arg value="wget https://releases.wikimedia.org/mediawiki/1.32/mediawiki-1.32.0.tar.gz -O build/mediawiki-1.32.0.tar.gz"/>
+				</exec>
+				<untar file="build/mediawiki-1.32.0.tar.gz" todir="build">
+					<fileset dir=".">
+						<include name="*.tar.gz"/>
+						<include name="*.tar"/>
+					</fileset>
+				</untar>
+			</then>
+		</if>
+		<copy todir="build/wikifab" >
+			<fileset dir="build/mediawiki-1.32.0">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+
 	<target name="getMediawiki-1-29">
 		<if>
 			<not>

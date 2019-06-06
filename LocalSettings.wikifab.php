@@ -94,7 +94,15 @@ $wgFileExtensions = array(
 $smwgLinksInValues = true;
 
 $wgUFAllowedNamespaces[NS_MAIN] = true;
-$wgUFAllowedNamespaces[SF_NS_FORM] = true;
+if (defined('SF_NS_FORM')) {
+	// for olds version of pageForms
+	$wgUFAllowedNamespaces[SF_NS_FORM] = true;
+}
+if (defined('PF_NS_FORM')) {
+	// recent version of page forms use this constant :
+	$wgUFAllowedNamespaces[PF_NS_FORM] = true;
+}
+
 
 
 // Use this line ONLY if your MediaWiki version is 1.25 or newer:
