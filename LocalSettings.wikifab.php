@@ -88,7 +88,8 @@ $wgFileExtensions = array(
 	'3dc','3ds','ac','asc','bvh','blend','geo','dae','dwf','dw','x','fbx',
 	'gta','mu','kmz','lwo','lws','flt','iv','osg','osgt','osgb','ive',
 	'ply','shp','stl','vpk','wrl','wrz','obj',
-    '3dm','dxf','stl','sldprt'
+    '3dm','dxf','stl','sldprt',
+	'txt','sbp'
 );
 
 $smwgLinksInValues = true;
@@ -159,6 +160,7 @@ function wfAddMimeTypes( $mimeMagic ) {
 	$mimeMagic->addExtraTypes( "text/plain ino" );
 	$mimeMagic->addExtraTypes( "text/x-c ino" );
 	$mimeMagic->addExtraTypes( "text/plain stl" );
+	$mimeMagic->addExtraTypes( "text/plain sbp" );
 	$mimeMagic->addExtraTypes( "application/pdf ai" );
 }
 
