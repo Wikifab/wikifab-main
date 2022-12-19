@@ -5,7 +5,7 @@
 </div>
 <div class="col-md-6">
 <div class="tuto-step-image">
-{{{3}}}
+{{#annotatedImage:[[File:{{{3}}}|frameless]]|{{{4}}}}}
 </div>
 </div>
 </div>
