@@ -3,7 +3,7 @@
 <tabber>
  Tools & Materials=
 {{#if:{{{Step_Picture_00|}}}| 
-   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}|frameless]] | [[File:{{{Step_Picture_01}}}|frameless]] | [[File:{{{Step_Picture_02}}}|frameless]] | [[File:{{{Step_Picture_03}}}|frameless]] | [[File:{{{Step_Picture_04}}}|frameless]] | [[File:{{{Step_Picture_05}}}|frameless]] }} }} | 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: {{#annotatedImage:[[File:{{{Step_Picture_00}}}|frameless|border]]|{{{Step_Picture_00_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_01}}}|frameless|border]]|{{{Step_Picture_01_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_02}}}|frameless|border]]|{{{Step_Picture_02_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_03}}}|frameless|border]]|{{{Step_Picture_03_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_04}}}|frameless|border]]|{{{Step_Picture_04_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_05}}}|frameless|border]]|{{{Step_Picture_05_annotation}}}}} }} }} | 
  {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
  }}
 |-|
@@ -16,7 +16,7 @@
 <tabber>
  Tools & Materials=
 {{#if:{{{Step_Picture_00|}}}| 
-   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: [[File:{{{Step_Picture_00}}}|frameless]] | [[File:{{{Step_Picture_01}}}|frameless]] | [[File:{{{Step_Picture_02}}}|frameless]] | [[File:{{{Step_Picture_03}}}|frameless]] | [[File:{{{Step_Picture_04}}}|frameless]] | [[File:{{{Step_Picture_05}}}|frameless]] }} }} | 
+   {{MaterialsImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]]|{{ #carousel: {{#annotatedImage:[[File:{{{Step_Picture_00}}}|frameless|border]]|{{{Step_Picture_00_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_01}}}|frameless|border]]|{{{Step_Picture_01_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_02}}}|frameless|border]]|{{{Step_Picture_02_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_03}}}|frameless|border]]|{{{Step_Picture_03_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_04}}}|frameless|border]]|{{{Step_Picture_04_annotation}}}}} | {{#annotatedImage:[[File:{{{Step_Picture_05}}}|frameless|border]]|{{{Step_Picture_05_annotation}}}}} }} }} | 
  {{MaterialsNoImage|[[Material::{{{Material|}}}]]|[[Tools::{{{Tools|}}}]] }}
  }}
 </tabber>
